@@ -248,27 +248,38 @@ const platforms = {
   },
 
   async workday(company) {
-    const { tenant, site, shard } = company.workday ?? {};
+    const { tenant, site, shard, searchTexts } = company.workday ?? {};
     if (!tenant || !site || !shard) return { jobs: [], notFound: true };
     const baseUrl = `https://${tenant}.${shard}.myworkdayjobs.com/wday/cxs/${tenant}/${site}`;
     const PAGE_SIZE = 20;
     const MAX_JOBS = 500;
-    const postings = [];
-    let offset = 0;
-    let total = Infinity;
-    while (offset < total && postings.length < MAX_JOBS) {
-      const limit = Math.min(PAGE_SIZE, MAX_JOBS - postings.length);
-      const { data, notFound } = await postJson(`${baseUrl}/jobs`, { limit, offset, searchText: '' });
-      if (notFound) {
-        if (offset === 0) return { jobs: [], notFound: true };
-        break;
+    // Large tenants list thousands of jobs and the 500 cap cuts most of them off.
+    // An optional searchTexts array runs one keyword search per term (each capped
+    // at 500) and merges the results, so the roles we care about stay in range.
+    const searches = Array.isArray(searchTexts) && searchTexts.length ? searchTexts : [''];
+    const byPath = new Map();
+    let anyFound = false;
+    for (const searchText of searches) {
+      let offset = 0;
+      let total = Infinity;
+      let fetched = 0;
+      while (offset < total && fetched < MAX_JOBS) {
+        const limit = Math.min(PAGE_SIZE, MAX_JOBS - fetched);
+        const { data, notFound } = await postJson(`${baseUrl}/jobs`, { appliedFacets: {}, limit, offset, searchText });
+        if (notFound) break;
+        anyFound = true;
+        if (offset === 0) total = data.total ?? 0;
+        if (!data.jobPostings || data.jobPostings.length === 0) break;
+        for (const p of data.jobPostings) {
+          if (p.externalPath && !byPath.has(p.externalPath)) byPath.set(p.externalPath, p);
+        }
+        fetched += data.jobPostings.length;
+        offset += data.jobPostings.length;
+        await sleep(REQUEST_DELAY_MS);
       }
-      if (offset === 0) total = data.total ?? 0;
-      if (!data.jobPostings || data.jobPostings.length === 0) break;
-      postings.push(...data.jobPostings);
-      offset += data.jobPostings.length;
-      await sleep(REQUEST_DELAY_MS);
     }
+    if (!anyFound) return { jobs: [], notFound: true };
+    const postings = [...byPath.values()];
     return {
       jobs: postings.map((posting) => {
         const locations = posting.locationsText ? [posting.locationsText] : [];
@@ -294,23 +305,30 @@ const platforms = {
     const slug = company.slug;
     const PAGE_SIZE = 100;
     const MAX_JOBS = 500;
-    const jobs = [];
-    let offset = 0;
-    let totalFound = Infinity;
-    while (offset < totalFound && jobs.length < MAX_JOBS) {
-      const limit = Math.min(PAGE_SIZE, MAX_JOBS - jobs.length);
-      const url = `https://api.smartrecruiters.com/v1/companies/${encodeURIComponent(slug)}/postings?limit=${limit}&offset=${offset}`;
-      const { data, notFound } = await getJson(url);
-      if (notFound) {
-        if (offset === 0) return { jobs: [], notFound: true };
-        break;
+    const searches = Array.isArray(company.searchTexts) && company.searchTexts.length ? company.searchTexts : [''];
+    const byId = new Map();
+    let anyFound = false;
+    for (const q of searches) {
+      let offset = 0;
+      let totalFound = Infinity;
+      let fetched = 0;
+      while (offset < totalFound && fetched < MAX_JOBS) {
+        const limit = Math.min(PAGE_SIZE, MAX_JOBS - fetched);
+        const qs = q ? `&q=${encodeURIComponent(q)}` : '';
+        const url = `https://api.smartrecruiters.com/v1/companies/${encodeURIComponent(slug)}/postings?limit=${limit}&offset=${offset}${qs}`;
+        const { data, notFound } = await getJson(url);
+        if (notFound) break;
+        anyFound = true;
+        totalFound = data.totalFound ?? 0;
+        if (!data.content || data.content.length === 0) break;
+        for (const j of data.content) if (!byId.has(j.id)) byId.set(j.id, j);
+        fetched += data.content.length;
+        offset += data.content.length;
+        await sleep(REQUEST_DELAY_MS);
       }
-      totalFound = data.totalFound ?? 0;
-      if (!data.content || data.content.length === 0) break;
-      jobs.push(...data.content);
-      offset += data.content.length;
-      await sleep(REQUEST_DELAY_MS);
     }
+    if (!anyFound) return { jobs: [], notFound: true };
+    const jobs = [...byId.values()];
     return {
       jobs: jobs.map((job) => {
         const locations = job.location?.fullLocation ? [job.location.fullLocation] : [];
