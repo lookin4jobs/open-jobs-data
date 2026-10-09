@@ -2388,11 +2388,6 @@
     }
   },
   {
-    "name": "CloudBees",
-    "platform": "greenhouse",
-    "slug": "cloudbees"
-  },
-  {
     "name": "Sentry",
     "platform": "ashby",
     "slug": "sentry"
@@ -2409,7 +2404,7 @@
   },
   {
     "name": "Snyk",
-    "platform": "greenhouse",
+    "platform": "ashby",
     "slug": "snyk"
   },
   {
@@ -2428,11 +2423,6 @@
     "slug": "digitalocean98"
   },
   {
-    "name": "HashiCorp",
-    "platform": "greenhouse",
-    "slug": "hashicorp"
-  },
-  {
     "name": "Fivetran",
     "platform": "greenhouse",
     "slug": "fivetran"
@@ -2445,17 +2435,7 @@
   {
     "name": "Sourcegraph",
     "platform": "greenhouse",
-    "slug": "sourcegraph"
-  },
-  {
-    "name": "Dynatrace",
-    "platform": "lever",
-    "slug": "dynatrace"
-  },
-  {
-    "name": "Teleport",
-    "platform": "lever",
-    "slug": "teleport"
+    "slug": "sourcegraph91"
   },
   {
     "name": "Cockroach Labs",
@@ -2464,7 +2444,7 @@
   },
   {
     "name": "Redis",
-    "platform": "greenhouse",
+    "platform": "ashby",
     "slug": "redis"
   },
   {
