@@ -235,19 +235,9 @@
     "slug": "toast"
   },
   {
-    "name": "Postman",
-    "platform": "greenhouse",
-    "slug": "postman"
-  },
-  {
     "name": "LaunchDarkly",
     "platform": "greenhouse",
     "slug": "launchdarkly"
-  },
-  {
-    "name": "Amplitude",
-    "platform": "greenhouse",
-    "slug": "amplitude"
   },
   {
     "name": "Justworks",
@@ -310,11 +300,6 @@
     "slug": "blend"
   },
   {
-    "name": "Marqeta",
-    "platform": "greenhouse",
-    "slug": "marqeta"
-  },
-  {
     "name": "Bill.com",
     "platform": "greenhouse",
     "slug": "billcom"
@@ -363,11 +348,6 @@
     "name": "PlanetScale",
     "platform": "greenhouse",
     "slug": "planetscale"
-  },
-  {
-    "name": "Temporal",
-    "platform": "greenhouse",
-    "slug": "temporaltechnologies"
   },
   {
     "name": "Together AI",
@@ -705,11 +685,6 @@
     "slug": "osano"
   },
   {
-    "name": "Hightouch",
-    "platform": "greenhouse",
-    "slug": "hightouch"
-  },
-  {
     "name": "Starburst",
     "platform": "greenhouse",
     "slug": "starburst"
@@ -920,11 +895,6 @@
     "slug": "talkspace"
   },
   {
-    "name": "Cerebral",
-    "platform": "greenhouse",
-    "slug": "cerebral"
-  },
-  {
     "name": "Modern Health",
     "platform": "greenhouse",
     "slug": "modernhealth"
@@ -980,11 +950,6 @@
     "slug": "masterclass"
   },
   {
-    "name": "Outschool",
-    "platform": "greenhouse",
-    "slug": "outschool"
-  },
-  {
     "name": "Springboard",
     "platform": "greenhouse",
     "slug": "springboard"
@@ -1018,11 +983,6 @@
     "name": "Stability AI",
     "platform": "greenhouse",
     "slug": "stabilityai"
-  },
-  {
-    "name": "Black Forest Labs",
-    "platform": "greenhouse",
-    "slug": "blackforestlabs"
   },
   {
     "name": "Relativity",
@@ -1193,11 +1153,6 @@
     "name": "Bitpanda",
     "platform": "greenhouse",
     "slug": "bitpanda"
-  },
-  {
-    "name": "Binance",
-    "platform": "greenhouse",
-    "slug": "binance"
   },
   {
     "name": "OKX",
@@ -1545,16 +1500,6 @@
     "slug": "orb"
   },
   {
-    "name": "Common Room",
-    "platform": "ashby",
-    "slug": "commonroom"
-  },
-  {
-    "name": "Vellum",
-    "platform": "ashby",
-    "slug": "vellum"
-  },
-  {
     "name": "LangChain",
     "platform": "ashby",
     "slug": "langchain"
@@ -1815,11 +1760,6 @@
     "slug": "orderbird"
   },
   {
-    "name": "Smava",
-    "platform": "personio",
-    "slug": "smava"
-  },
-  {
     "name": "Ratepay",
     "platform": "personio",
     "slug": "ratepay"
@@ -1845,7 +1785,19 @@
     "workday": {
       "tenant": "intel",
       "site": "External",
-      "shard": "wd1"
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -1854,7 +1806,19 @@
     "workday": {
       "tenant": "salesforce",
       "site": "External_Career_Site",
-      "shard": "wd12"
+      "shard": "wd12",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -1863,7 +1827,19 @@
     "workday": {
       "tenant": "adobe",
       "site": "external_experienced",
-      "shard": "wd5"
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -1872,7 +1848,19 @@
     "workday": {
       "tenant": "cvshealth",
       "site": "CVS_Health_Careers",
-      "shard": "wd1"
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -1881,7 +1869,19 @@
     "workday": {
       "tenant": "vanguard",
       "site": "Vanguard_External",
-      "shard": "wd5"
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -1890,7 +1890,19 @@
     "workday": {
       "tenant": "autodesk",
       "site": "Ext",
-      "shard": "wd1"
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -1899,7 +1911,19 @@
     "workday": {
       "tenant": "target",
       "site": "targetcareers",
-      "shard": "wd5"
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -1908,7 +1932,19 @@
     "workday": {
       "tenant": "paypal",
       "site": "jobs",
-      "shard": "wd1"
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -1917,7 +1953,19 @@
     "workday": {
       "tenant": "nvidia",
       "site": "NVIDIAExternalCareerSite",
-      "shard": "wd5"
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -1926,7 +1974,19 @@
     "workday": {
       "tenant": "workday",
       "site": "Workday",
-      "shard": "wd5"
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -1995,11 +2055,6 @@
     "slug": "skylighthq"
   },
   {
-    "name": "Spring Health",
-    "platform": "greenhouse",
-    "slug": "springhealth66"
-  },
-  {
     "name": "Datavant",
     "platform": "greenhouse",
     "slug": "datavant2"
@@ -2046,7 +2101,7 @@
   },
   {
     "name": "Lyra Health",
-    "platform": "greenhouse",
+    "platform": "lever",
     "slug": "lyrahealth"
   },
   {
@@ -2065,19 +2120,9 @@
     "slug": "smartbear"
   },
   {
-    "name": "Modus Create",
-    "platform": "greenhouse",
-    "slug": "moduscreate"
-  },
-  {
     "name": "Lucid",
     "platform": "greenhouse",
     "slug": "lucidsoftware"
-  },
-  {
-    "name": "Appnovation",
-    "platform": "greenhouse",
-    "slug": "appnovation"
   },
   {
     "name": "Wavelo",
@@ -2097,7 +2142,7 @@
   {
     "name": "Kard",
     "platform": "greenhouse",
-    "slug": "kard"
+    "slug": "kardfinancialinc"
   },
   {
     "name": "Sprout Social",
@@ -2106,7 +2151,7 @@
   },
   {
     "name": "Turnkey",
-    "platform": "greenhouse",
+    "platform": "ashby",
     "slug": "turnkey"
   },
   {
@@ -2195,44 +2240,14 @@
     "slug": "metabase"
   },
   {
-    "name": "Valiantys",
-    "platform": "lever",
-    "slug": "valiantys"
-  },
-  {
-    "name": "ServiceRocket",
-    "platform": "lever",
-    "slug": "servicerocket"
-  },
-  {
-    "name": "Cprime",
-    "platform": "lever",
-    "slug": "cprime"
-  },
-  {
-    "name": "Swiftly",
-    "platform": "lever",
-    "slug": "swiftly"
-  },
-  {
     "name": "Zencore",
     "platform": "lever",
     "slug": "zencore"
   },
   {
-    "name": "The Adaptavist Group",
-    "platform": "smartrecruiters",
-    "slug": "TheAdaptavistGroup"
-  },
-  {
     "name": "Mirantis",
     "platform": "smartrecruiters",
     "slug": "mirantis"
-  },
-  {
-    "name": "Devoteam",
-    "platform": "smartrecruiters",
-    "slug": "Devoteam"
   },
   {
     "name": "Alteryx",
@@ -2258,7 +2273,19 @@
     "workday": {
       "tenant": "crowdstrike",
       "site": "crowdstrikecareers",
-      "shard": "wd5"
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -2267,7 +2294,19 @@
     "workday": {
       "tenant": "deckers",
       "site": "Deckers",
-      "shard": "wd5"
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -2285,7 +2324,19 @@
     "workday": {
       "tenant": "ferguson",
       "site": "Ferguson_Experienced",
-      "shard": "wd1"
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -2294,7 +2345,19 @@
     "workday": {
       "tenant": "mastercard",
       "site": "CorporateCareers",
-      "shard": "wd1"
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
     }
   },
   {
@@ -2323,5 +2386,100 @@
       "site": "teladochealth_is_hiring",
       "shard": "wd503"
     }
+  },
+  {
+    "name": "CloudBees",
+    "platform": "greenhouse",
+    "slug": "cloudbees"
+  },
+  {
+    "name": "Sentry",
+    "platform": "ashby",
+    "slug": "sentry"
+  },
+  {
+    "name": "Confluent",
+    "platform": "ashby",
+    "slug": "confluent"
+  },
+  {
+    "name": "Harness",
+    "platform": "greenhouse",
+    "slug": "harnessinc"
+  },
+  {
+    "name": "Snyk",
+    "platform": "greenhouse",
+    "slug": "snyk"
+  },
+  {
+    "name": "Docker",
+    "platform": "ashby",
+    "slug": "docker"
+  },
+  {
+    "name": "Kong",
+    "platform": "ashby",
+    "slug": "kong"
+  },
+  {
+    "name": "DigitalOcean",
+    "platform": "greenhouse",
+    "slug": "digitalocean98"
+  },
+  {
+    "name": "HashiCorp",
+    "platform": "greenhouse",
+    "slug": "hashicorp"
+  },
+  {
+    "name": "Fivetran",
+    "platform": "greenhouse",
+    "slug": "fivetran"
+  },
+  {
+    "name": "Buildkite",
+    "platform": "greenhouse",
+    "slug": "buildkite"
+  },
+  {
+    "name": "Sourcegraph",
+    "platform": "greenhouse",
+    "slug": "sourcegraph"
+  },
+  {
+    "name": "Dynatrace",
+    "platform": "lever",
+    "slug": "dynatrace"
+  },
+  {
+    "name": "Teleport",
+    "platform": "lever",
+    "slug": "teleport"
+  },
+  {
+    "name": "Cockroach Labs",
+    "platform": "greenhouse",
+    "slug": "cockroachlabs"
+  },
+  {
+    "name": "Redis",
+    "platform": "greenhouse",
+    "slug": "redis"
+  },
+  {
+    "name": "Supabase",
+    "platform": "ashby",
+    "slug": "supabase"
+  },
+  {
+    "name": "Pulumi",
+    "platform": "greenhouse",
+    "slug": "pulumicorporation"
+  },
+  {
+    "name": "Railway",
+    "platform": "ashby",
+    "slug": "railway"
   }
 ]
