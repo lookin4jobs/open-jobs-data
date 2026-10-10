@@ -1,1249 +1,200 @@
 [
   {
-    "company": "Coinbase",
+    "company": "Samsara",
     "platform": "greenhouse",
-    "jobId": "7993006",
-    "title": "Senior Finance & Strategy Analyst, Consumer",
+    "jobId": "8103806",
+    "title": "Account Executive - EMEA Specialist ",
     "department": null,
     "locations": [
-      "Remote - USA"
+      "United Kingdom"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.samsara.com/company/careers/roles/8103806?gh_jid=8103806",
+    "postedAt": "2026-08-11T05:37:12-04:00",
+    "scrapedAt": "2026-10-10T19:49:31.111Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Samsara",
+    "platform": "greenhouse",
+    "jobId": "8125426",
+    "title": "Enterprise Core Customer Success Manager",
+    "department": null,
+    "locations": [
+      "Remote - Canada"
     ],
     "isRemote": true,
     "employmentType": null,
-    "applyUrl": "https://www.coinbase.com/careers/positions/7993006?gh_jid=7993006",
-    "postedAt": "2026-06-09T11:43:31-04:00",
-    "scrapedAt": "2026-10-10T06:22:36.438Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://www.samsara.com/company/careers/roles/8125426?gh_jid=8125426",
+    "postedAt": "2026-08-26T11:34:40-04:00",
+    "scrapedAt": "2026-10-10T19:49:31.111Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
-    "company": "Coinbase",
+    "company": "Samsara",
     "platform": "greenhouse",
-    "jobId": "8269081",
-    "title": "Senior Software Engineer, Certificate Management",
+    "jobId": "8042387",
+    "title": "Sr. Software Engineer, Cloud Platform ",
     "department": null,
     "locations": [
-      "Remote - USA"
+      "Remote - London; United Kingdom"
     ],
     "isRemote": true,
     "employmentType": null,
-    "applyUrl": "https://www.coinbase.com/careers/positions/8269081?gh_jid=8269081",
-    "postedAt": "2026-10-09T20:06:06-04:00",
-    "scrapedAt": "2026-10-10T06:22:36.438Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Robinhood",
-    "platform": "greenhouse",
-    "jobId": "8268261",
-    "title": "Customer Experience Associate, Resolutions Desk",
-    "department": null,
-    "locations": [
-      "Denver, CO; Westlake, TX"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8268261?t=gh_src=&gh_jid=8268261",
-    "postedAt": "2026-10-09T18:30:31-04:00",
-    "scrapedAt": "2026-10-10T06:22:36.430Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Robinhood",
-    "platform": "greenhouse",
-    "jobId": "8011599",
-    "title": "Customer Experience Representative, Active Trader",
-    "department": null,
-    "locations": [
-      "Chicago, IL; Denver, CO; Westlake, TX"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8011599?t=gh_src=&gh_jid=8011599",
-    "postedAt": "2026-06-16T19:04:57-04:00",
-    "scrapedAt": "2026-10-10T06:22:36.430Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Robinhood",
-    "platform": "greenhouse",
-    "jobId": "7580272",
-    "title": "Customer Experience Representative, Advanced Services",
-    "department": null,
-    "locations": [
-      "Chicago, IL; Denver, CO; Westlake, TX"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/7580272?t=gh_src=&gh_jid=7580272",
-    "postedAt": "2026-02-02T12:08:34-05:00",
-    "scrapedAt": "2026-10-10T06:22:36.430Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Robinhood",
-    "platform": "greenhouse",
-    "jobId": "7958750",
-    "title": "Customer Experience Representative, Brokerage Services",
-    "department": null,
-    "locations": [
-      "Denver, CO; Westlake, TX"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/7958750?t=gh_src=&gh_jid=7958750",
-    "postedAt": "2026-05-26T17:18:42-04:00",
-    "scrapedAt": "2026-10-10T06:22:36.430Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Robinhood",
-    "platform": "greenhouse",
-    "jobId": "8268415",
-    "title": "Investor Relations Manager",
-    "department": null,
-    "locations": [
-      "New York, NY"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8268415?t=gh_src=&gh_jid=8268415",
-    "postedAt": "2026-10-09T19:51:55-04:00",
-    "scrapedAt": "2026-10-10T06:22:36.430Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Robinhood",
-    "platform": "greenhouse",
-    "jobId": "8224751",
-    "title": "Overnight Customer Experience Representative, Active Trader ",
-    "department": null,
-    "locations": [
-      "Chicago, IL; Denver, CO; Westlake, TX"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8224751?t=gh_src=&gh_jid=8224751",
-    "postedAt": "2026-09-22T19:06:41-04:00",
-    "scrapedAt": "2026-10-10T06:22:36.430Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Robinhood",
-    "platform": "greenhouse",
-    "jobId": "8224813",
-    "title": "Overnight Customer Experience Representative, Advanced Services",
-    "department": null,
-    "locations": [
-      "Chicago, IL; Denver, CO; Westlake, TX"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8224813?t=gh_src=&gh_jid=8224813",
-    "postedAt": "2026-09-22T19:20:25-04:00",
-    "scrapedAt": "2026-10-10T06:22:36.430Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Robinhood",
-    "platform": "greenhouse",
-    "jobId": "8224764",
-    "title": "Overnight Customer Experience Representative, Brokerage Services",
-    "department": null,
-    "locations": [
-      "Denver, CO; Westlake, TX"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8224764?t=gh_src=&gh_jid=8224764",
-    "postedAt": "2026-09-22T19:13:04-04:00",
-    "scrapedAt": "2026-10-10T06:22:36.430Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "GitLab",
-    "platform": "greenhouse",
-    "jobId": "8882059002",
-    "title": "Senior Revenue Operations Manager",
-    "department": null,
-    "locations": [
-      "Remote, Canada; Remote, United States"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8882059002",
-    "postedAt": "2026-10-09T19:40:28-04:00",
-    "scrapedAt": "2026-10-10T06:22:36.851Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "GitLab",
-    "platform": "greenhouse",
-    "jobId": "8738179002",
-    "title": "Senior Software Engineer, Security Factory: Code Security",
-    "department": null,
-    "locations": [
-      "Remote, Canada; Remote, United States"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8738179002",
-    "postedAt": "2026-10-09T20:31:32-04:00",
-    "scrapedAt": "2026-10-10T06:22:36.851Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "GitLab",
-    "platform": "greenhouse",
-    "jobId": "8693563002",
-    "title": "Staff Software Engineer, Security Factory: Static Analysis",
-    "department": null,
-    "locations": [
-      "Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8693563002",
-    "postedAt": "2026-10-09T20:28:56-04:00",
-    "scrapedAt": "2026-10-10T06:22:36.851Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Anthropic",
-    "platform": "greenhouse",
-    "jobId": "5447080008",
-    "title": "Conceptual Reasoning Fellow",
-    "department": null,
-    "locations": [
-      "Remote-Friendly, United States; San Francisco, CA"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5447080008",
-    "postedAt": "2026-10-09T15:56:05-04:00",
-    "scrapedAt": "2026-10-10T06:22:37.056Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Databricks",
-    "platform": "greenhouse",
-    "jobId": "8787352002",
-    "title": "Product Design Intern (2027 Start)",
-    "department": null,
-    "locations": [
-      "San Francisco, California; Seattle, Washington"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8787352002",
-    "postedAt": "2026-10-09T19:07:09-04:00",
-    "scrapedAt": "2026-10-10T06:22:37.070Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Databricks",
-    "platform": "greenhouse",
-    "jobId": "8843577002",
-    "title": "Product Design New Grad (2027 Start)",
-    "department": null,
-    "locations": [
-      "San Francisco, California; Seattle, Washington"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8843577002",
-    "postedAt": "2026-10-09T19:14:46-04:00",
-    "scrapedAt": "2026-10-10T06:22:37.071Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Brex",
-    "platform": "greenhouse",
-    "jobId": "8882434002",
-    "title": "Senior Field Marketing Manager",
-    "department": null,
-    "locations": [
-      "Seattle, Washington, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://www.brex.com/careers/8882434002?gh_jid=8882434002",
-    "postedAt": "2026-10-09T18:32:30-04:00",
-    "scrapedAt": "2026-10-10T06:22:37.215Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Brex",
-    "platform": "greenhouse",
-    "jobId": "8882431002",
-    "title": "Senior Field Marketing Manager",
-    "department": null,
-    "locations": [
-      "New York, New York, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://www.brex.com/careers/8882431002?gh_jid=8882431002",
-    "postedAt": "2026-10-09T18:32:28-04:00",
-    "scrapedAt": "2026-10-10T06:22:37.215Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://www.samsara.com/company/careers/roles/8042387?gh_jid=8042387",
+    "postedAt": "2026-07-09T06:54:48-04:00",
+    "scrapedAt": "2026-10-10T19:49:31.111Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
     "company": "Flexport",
     "platform": "greenhouse",
-    "jobId": "8265974",
-    "title": "Manager, Freight Audit Services ",
+    "jobId": "8214366",
+    "title": "Associate Program Manager",
     "department": null,
     "locations": [
-      "Atlanta, Georgia, United States"
+      "New York City, New York, United States"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8265974",
-    "postedAt": "2026-10-09T18:37:00-04:00",
-    "scrapedAt": "2026-10-10T06:22:37.221Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Flexport",
-    "platform": "greenhouse",
-    "jobId": "8269181",
-    "title": "Payroll Manager, APAC",
-    "department": null,
-    "locations": [
-      "Shenzhen, China"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8269181",
-    "postedAt": "2026-10-09T22:46:35-04:00",
-    "scrapedAt": "2026-10-10T06:22:37.221Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Flexport",
-    "platform": "greenhouse",
-    "jobId": "8266024",
-    "title": "Senior Manager, Procurement & Procure-to-Pay",
-    "department": null,
-    "locations": [
-      "Atlanta, Georgia, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8266024",
-    "postedAt": "2026-10-09T18:38:01-04:00",
-    "scrapedAt": "2026-10-10T06:22:37.221Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Roblox",
-    "platform": "greenhouse",
-    "jobId": "8209006",
-    "title": "Software Engineer, Account Security ",
-    "department": null,
-    "locations": [
-      "San Mateo, CA, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://careers.roblox.com/jobs/8209006?gh_jid=8209006",
-    "postedAt": "2026-10-09T19:51:45-04:00",
-    "scrapedAt": "2026-10-10T06:22:37.426Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Roblox",
-    "platform": "greenhouse",
-    "jobId": "8262223",
-    "title": "Software Engineer, ROS",
-    "department": null,
-    "locations": [
-      "San Mateo, CA, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://careers.roblox.com/jobs/8262223?gh_jid=8262223",
-    "postedAt": "2026-10-09T18:30:13-04:00",
-    "scrapedAt": "2026-10-10T06:22:37.426Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8214366",
+    "postedAt": "2026-10-10T12:13:10-04:00",
+    "scrapedAt": "2026-10-10T19:49:31.291Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
     "company": "Okta",
     "platform": "greenhouse",
-    "jobId": "8265281",
-    "title": "GTM Strategy & Activation",
+    "jobId": "8159014",
+    "title": "Senior Java Engineer (Design & DSA)",
     "department": null,
     "locations": [
-      "Bellevue, Washington; Chicago, Illinois; San Francisco, California"
+      "Bengaluru, India"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://www.okta.com/company/careers/opportunity/8265281?gh_jid=8265281",
-    "postedAt": "2026-10-09T19:26:20-04:00",
-    "scrapedAt": "2026-10-10T06:22:38.837Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://www.okta.com/company/careers/opportunity/8159014?gh_jid=8159014",
+    "postedAt": "2026-08-27T04:35:31-04:00",
+    "scrapedAt": "2026-10-10T19:49:31.511Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
-    "company": "MongoDB",
+    "company": "Tailscale",
     "platform": "greenhouse",
-    "jobId": "7194933",
-    "title": "Enterprise Account Executive, Growth",
+    "jobId": "4733404005",
+    "title": "Infrastructure Engineer",
     "department": null,
     "locations": [
-      "Minneapolis"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=7194933",
-    "postedAt": "2026-10-09T19:10:27-04:00",
-    "scrapedAt": "2026-10-10T06:22:37.494Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "MongoDB",
-    "platform": "greenhouse",
-    "jobId": "8046751",
-    "title": "Senior IT Specialist, Executive Technology",
-    "department": null,
-    "locations": [
-      "Palo Alto"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8046751",
-    "postedAt": "2026-07-16T14:35:14-04:00",
-    "scrapedAt": "2026-10-10T06:22:37.495Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Mixpanel",
-    "platform": "greenhouse",
-    "jobId": "8269024",
-    "title": "Digital Adoption & Lifecycle Manager",
-    "department": null,
-    "locations": [
-      "New York City, US (Remote)"
+      "Remote (United States)"
     ],
     "isRemote": true,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/mixpanel/jobs/8269024",
-    "postedAt": "2026-10-09T19:24:38-04:00",
-    "scrapedAt": "2026-10-10T06:22:38.001Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://job-boards.greenhouse.io/tailscale/jobs/4733404005",
+    "postedAt": "2026-10-10T11:36:31-04:00",
+    "scrapedAt": "2026-10-10T19:49:33.869Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
-    "company": "Scale AI",
+    "company": "Tailscale",
     "platform": "greenhouse",
-    "jobId": "4711898005",
-    "title": "Senior Software Engineer, Identity",
+    "jobId": "4733403005",
+    "title": "Infrastructure Engineer",
     "department": null,
     "locations": [
-      "San Francisco, CA; New York, NY; Washington, DC"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/scaleai/jobs/4711898005",
-    "postedAt": "2026-07-08T14:08:31-04:00",
-    "scrapedAt": "2026-10-10T06:22:38.045Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Anduril",
-    "platform": "greenhouse",
-    "jobId": "5262870007",
-    "title": "Power Controls Engineer",
-    "department": null,
-    "locations": [
-      "Costa Mesa, California, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5262870007?gh_jid=5262870007",
-    "postedAt": "2026-10-09T19:46:58-04:00",
-    "scrapedAt": "2026-10-10T06:22:39.068Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Anduril",
-    "platform": "greenhouse",
-    "jobId": "5262868007",
-    "title": "Senior Controls Engineer",
-    "department": null,
-    "locations": [
-      "Costa Mesa, California, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5262868007?gh_jid=5262868007",
-    "postedAt": "2026-10-09T19:51:12-04:00",
-    "scrapedAt": "2026-10-10T06:22:39.069Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Anduril",
-    "platform": "greenhouse",
-    "jobId": "5262877007",
-    "title": "Senior Power Controls Engineer",
-    "department": null,
-    "locations": [
-      "Costa Mesa, California, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5262877007?gh_jid=5262877007",
-    "postedAt": "2026-10-09T19:46:56-04:00",
-    "scrapedAt": "2026-10-10T06:22:39.069Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Anduril",
-    "platform": "greenhouse",
-    "jobId": "5178591007",
-    "title": "Senior Quality Engineer, Rocket Motor Systems ",
-    "department": null,
-    "locations": [
-      "McHenry, Mississippi, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5178591007?gh_jid=5178591007",
-    "postedAt": "2026-07-01T17:59:09-04:00",
-    "scrapedAt": "2026-10-10T06:22:39.069Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Anduril",
-    "platform": "greenhouse",
-    "jobId": "5262876007",
-    "title": "Staff Controls Engineer",
-    "department": null,
-    "locations": [
-      "Costa Mesa, California, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5262876007?gh_jid=5262876007",
-    "postedAt": "2026-10-09T19:51:15-04:00",
-    "scrapedAt": "2026-10-10T06:22:39.070Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Oura",
-    "platform": "greenhouse",
-    "jobId": "4438120009",
-    "title": "Staff Technical Product Manager",
-    "department": null,
-    "locations": [
-      "Remote - United States"
+      "Remote (Canada)"
     ],
     "isRemote": true,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/oura/jobs/4438120009",
-    "postedAt": "2026-10-09T19:29:33-04:00",
-    "scrapedAt": "2026-10-10T06:22:40.054Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://job-boards.greenhouse.io/tailscale/jobs/4733403005",
+    "postedAt": "2026-10-10T11:36:28-04:00",
+    "scrapedAt": "2026-10-10T19:49:33.869Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
-    "company": "Rubrik",
+    "company": "Varda Space",
     "platform": "greenhouse",
-    "jobId": "8265180",
-    "title": "Senior Sales Engineer, Chicago ",
+    "jobId": "8015199003",
+    "title": "Senior Environmental Test Engineer",
     "department": null,
     "locations": [
-      "Chicago, IL"
+      "El Segundo, California, United States"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8265180?gh_jid=8265180",
-    "postedAt": "2026-10-09T18:42:30-04:00",
-    "scrapedAt": "2026-10-10T06:22:40.250Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://job-boards.greenhouse.io/vardaspace/jobs/8015199003",
+    "postedAt": "2026-10-06T19:31:35-04:00",
+    "scrapedAt": "2026-10-10T19:49:34.301Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
-    "company": "Rocket Lab",
+    "company": "TripActions",
     "platform": "greenhouse",
-    "jobId": "7818218003",
-    "title": "Assembly Integration & Test Technician II - A Shift ",
+    "jobId": "8173823",
+    "title": "Software Engineer - 2",
     "department": null,
     "locations": [
-      "Long Beach, CA"
+      "Bengaluru, IN"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/rocketlab/jobs/7818218003",
-    "postedAt": "2026-10-09T18:45:23-04:00",
-    "scrapedAt": "2026-10-10T06:22:40.408Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://navan.com/careers/openings?gh_jid=8173823",
+    "postedAt": "2026-09-09T05:43:43-04:00",
+    "scrapedAt": "2026-10-10T19:49:34.652Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
-    "company": "Rocket Lab",
+    "company": "HackerRank",
     "platform": "greenhouse",
-    "jobId": "8020929003",
-    "title": "Assembly Integration & Test Technician III - A Shift ",
+    "jobId": "6993983",
+    "title": "Customer Experience Engineer, L2",
     "department": null,
     "locations": [
-      "Long Beach, CA"
+      "Hybrid in Bangalore, India"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/rocketlab/jobs/8020929003",
-    "postedAt": "2026-10-09T18:45:50-04:00",
-    "scrapedAt": "2026-10-10T06:22:40.408Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://job-boards.greenhouse.io/hackerrank/jobs/6993983",
+    "postedAt": "2025-07-09T00:46:52-04:00",
+    "scrapedAt": "2026-10-10T19:49:35.484Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
-    "company": "Rocket Lab",
+    "company": "HackerRank",
     "platform": "greenhouse",
-    "jobId": "8020899003",
-    "title": "Senior Systems Engineer II - Mission Architecture",
+    "jobId": "8155938",
+    "title": "Software Development Engineer in Test II",
     "department": null,
     "locations": [
-      "Long Beach, CA"
+      "Hybrid in Bangalore, India"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/rocketlab/jobs/8020899003",
-    "postedAt": "2026-10-09T18:32:07-04:00",
-    "scrapedAt": "2026-10-10T06:22:40.409Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Rocket Lab",
-    "platform": "greenhouse",
-    "jobId": "8020832003",
-    "title": "Senior Systems Engineer I - Mission Architecture",
-    "department": null,
-    "locations": [
-      "Long Beach, CA"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/rocketlab/jobs/8020832003",
-    "postedAt": "2026-10-09T18:32:05-04:00",
-    "scrapedAt": "2026-10-10T06:22:40.409Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Carvana",
-    "platform": "greenhouse",
-    "jobId": "8268996",
-    "title": "Automotive Upholstery/Interior Repair (2nd Shift)",
-    "department": null,
-    "locations": [
-      "Chandler, AZ"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://www.carvana.com/careers/apply?gh_jid=8268996",
-    "postedAt": "2026-10-09T19:10:41-04:00",
-    "scrapedAt": "2026-10-10T06:22:40.730Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Carvana",
-    "platform": "greenhouse",
-    "jobId": "8097040",
-    "title": "Experienced Auto Body Technician - $4,000 Bonus",
-    "department": null,
-    "locations": [
-      "Tracy, CA"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://www.carvana.com/careers/apply?gh_jid=8097040",
-    "postedAt": "2026-10-09T19:05:30-04:00",
-    "scrapedAt": "2026-10-10T06:22:40.731Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Carvana",
-    "platform": "greenhouse",
-    "jobId": "8269026",
-    "title": "Experienced Heavy Body Technician (2nd Shift)",
-    "department": null,
-    "locations": [
-      "Chandler, AZ"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://www.carvana.com/careers/apply?gh_jid=8269026",
-    "postedAt": "2026-10-09T19:27:31-04:00",
-    "scrapedAt": "2026-10-10T06:22:40.731Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Greenhouse Software",
-    "platform": "greenhouse",
-    "jobId": "8126988",
-    "title": "Commercial Counsel",
-    "department": null,
-    "locations": [
-      "Eastern Timezone"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/greenhouse/jobs/8126988?gh_jid=8126988",
-    "postedAt": "2026-08-24T13:52:04-04:00",
-    "scrapedAt": "2026-10-10T06:22:41.440Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "DoorDash",
-    "platform": "greenhouse",
-    "jobId": "8269068",
-    "title": "Senior Customer Success Manager",
-    "department": null,
-    "locations": [
-      "San Francisco, CA; Los Angeles, CA"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/doordashusa/jobs/8269068",
-    "postedAt": "2026-10-09T19:39:55-04:00",
-    "scrapedAt": "2026-10-10T06:22:41.754Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Abnormal Security",
-    "platform": "greenhouse",
-    "jobId": "8015189003",
-    "title": "Software Engineer 2 - Development Infrastructure ",
-    "department": null,
-    "locations": [
-      "Remote - USA"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://abnormal.ai/careers/jobs/8015189003?gh_jid=8015189003",
-    "postedAt": "2026-10-09T19:40:56-04:00",
-    "scrapedAt": "2026-10-10T06:22:41.832Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "BitGo",
-    "platform": "greenhouse",
-    "jobId": "8882456002",
-    "title": "Senior Software Engineer - Mobile Backend",
-    "department": null,
-    "locations": [
-      "Toronto, Ontario, Canada"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/bitgo/jobs/8882456002",
-    "postedAt": "2026-10-09T18:36:35-04:00",
-    "scrapedAt": "2026-10-10T06:22:42.775Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "BitGo",
-    "platform": "greenhouse",
-    "jobId": "8882325002",
-    "title": "Senior Software Engineer - Mobile (React Native/iOS/Android)",
-    "department": null,
-    "locations": [
-      "Toronto, Ontario, Canada"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/bitgo/jobs/8882325002",
-    "postedAt": "2026-10-09T18:36:53-04:00",
-    "scrapedAt": "2026-10-10T06:22:42.775Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Knock",
-    "platform": "greenhouse",
-    "jobId": "6221182004",
-    "title": "Loan Assistant - Remote",
-    "department": null,
-    "locations": [
-      "Remote"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/knock/jobs/6221182004",
-    "postedAt": "2026-10-09T19:19:55-04:00",
-    "scrapedAt": "2026-10-10T06:22:43.075Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Knock",
-    "platform": "greenhouse",
-    "jobId": "6221013004",
-    "title": "Loan Officer Assistant - Remote ",
-    "department": null,
-    "locations": [
-      "Remote"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/knock/jobs/6221013004",
-    "postedAt": "2026-10-09T19:24:18-04:00",
-    "scrapedAt": "2026-10-10T06:22:43.075Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Knock",
-    "platform": "greenhouse",
-    "jobId": "6221177004",
-    "title": "Mortgage Closer/Funder - Remote",
-    "department": null,
-    "locations": [
-      "Remote"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/knock/jobs/6221177004",
-    "postedAt": "2026-10-09T19:29:04-04:00",
-    "scrapedAt": "2026-10-10T06:22:43.075Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Cleo",
-    "platform": "greenhouse",
-    "jobId": "4742841005",
-    "title": "Product Manager ",
-    "department": null,
-    "locations": [
-      "Remote - USA"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/cleo/jobs/4742841005",
-    "postedAt": "2026-10-09T19:42:55-04:00",
-    "scrapedAt": "2026-10-10T06:22:43.244Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Natera",
-    "platform": "greenhouse",
-    "jobId": "6220040004",
-    "title": "Associate CQV Engineer",
-    "department": null,
-    "locations": [
-      "San Carlos, CA"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/natera/jobs/6220040004",
-    "postedAt": "2026-10-09T18:40:30-04:00",
-    "scrapedAt": "2026-10-10T06:22:43.395Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Natera",
-    "platform": "greenhouse",
-    "jobId": "6208665004",
-    "title": "Histology Lab Operator I",
-    "department": null,
-    "locations": [
-      "San Carlos, CA"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/natera/jobs/6208665004",
-    "postedAt": "2026-10-09T18:47:43-04:00",
-    "scrapedAt": "2026-10-10T06:22:43.395Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://job-boards.greenhouse.io/hackerrank/jobs/8155938",
+    "postedAt": "2026-09-01T04:18:36-04:00",
+    "scrapedAt": "2026-10-10T19:49:35.484Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
     "company": "One Medical",
     "platform": "greenhouse",
-    "jobId": "8093190",
-    "title": "Administrative Assistant/Front Desk Coordinator (Bellevue) ",
+    "jobId": "8233379",
+    "title": "Practice Coordinator",
     "department": null,
     "locations": [
-      "Bellevue, WA"
+      "Dallas, TX"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "http://www.onemedical.com/careers/all-departments/8093190?gh_jid=8093190",
-    "postedAt": "2026-07-28T18:57:23-04:00",
-    "scrapedAt": "2026-10-10T06:22:43.677Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "One Medical",
-    "platform": "greenhouse",
-    "jobId": "7603846",
-    "title": "Phlebotomist / Administrative Assistant - Capital Hill ",
-    "department": null,
-    "locations": [
-      "Capital Hill, WA "
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "http://www.onemedical.com/careers/all-departments/7603846?gh_jid=7603846",
-    "postedAt": "2026-02-10T15:02:25-05:00",
-    "scrapedAt": "2026-10-10T06:22:43.677Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Coursera",
-    "platform": "greenhouse",
-    "jobId": "6220312004",
-    "title": "Accounts Payable Specialist",
-    "department": null,
-    "locations": [
-      "India"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/coursera/jobs/6220312004",
-    "postedAt": "2026-10-09T22:06:47-04:00",
-    "scrapedAt": "2026-10-10T06:22:44.125Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Relativity",
-    "platform": "greenhouse",
-    "jobId": "8882415002",
-    "title": "Senior Build Reliability Engineer, Weekend Shift",
-    "department": null,
-    "locations": [
-      "Long Beach, California, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/relativity/jobs/8882415002?gh_jid=8882415002",
-    "postedAt": "2026-10-09T19:41:36-04:00",
-    "scrapedAt": "2026-10-10T06:22:44.557Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Relativity",
-    "platform": "greenhouse",
-    "jobId": "8873946002",
-    "title": "Senior Weld Engineer",
-    "department": null,
-    "locations": [
-      "Long Beach, California, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/relativity/jobs/8873946002?gh_jid=8873946002",
-    "postedAt": "2026-10-09T21:01:51-04:00",
-    "scrapedAt": "2026-10-10T06:22:44.557Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Mercury",
-    "platform": "greenhouse",
-    "jobId": "6222117004",
-    "title": "Model Risk Manager",
-    "department": null,
-    "locations": [
-      "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/mercury/jobs/6222117004",
-    "postedAt": "2026-10-09T18:55:05-04:00",
-    "scrapedAt": "2026-10-10T06:22:45.667Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Bybit",
-    "platform": "greenhouse",
-    "jobId": "4943346101",
-    "title": "Senior Data Engineer",
-    "department": null,
-    "locations": [
-      "Abu Dhabi, UAE"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.eu.greenhouse.io/bybit/jobs/4943346101",
-    "postedAt": "2026-10-10T01:23:11-04:00",
-    "scrapedAt": "2026-10-10T06:22:45.897Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Zoox",
-    "platform": "lever",
-    "jobId": "fc12408e-d0e0-4838-adba-f9fccb67442d",
-    "title": "Director, Go-To-Market Strategy",
-    "department": "Experience, Communications & Marketing",
-    "locations": [
-      "Foster City, CA"
-    ],
-    "isRemote": null,
-    "employmentType": "Full-time",
-    "applyUrl": "https://jobs.lever.co/zoox/fc12408e-d0e0-4838-adba-f9fccb67442d/apply",
-    "postedAt": "2026-05-22T21:11:08.854Z",
-    "scrapedAt": "2026-10-10T06:22:47.974Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Outreach",
-    "platform": "lever",
-    "jobId": "18210dbb-a2ad-49a8-9ee9-c31ad14da0f6",
-    "title": "Director of Product Strategy",
-    "department": "Product",
-    "locations": [
-      "Atlanta, GA",
-      "Seattle, WA"
-    ],
-    "isRemote": true,
-    "employmentType": "Full-Time",
-    "applyUrl": "https://jobs.lever.co/outreach/18210dbb-a2ad-49a8-9ee9-c31ad14da0f6/apply",
-    "postedAt": "2026-04-08T19:31:36.000Z",
-    "scrapedAt": "2026-10-10T06:22:48.084Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Ramp",
-    "platform": "ashby",
-    "jobId": "440606b5-1923-4f9d-a0ed-c126445b9477",
-    "title": "Channel Partner Manager, Accounting",
-    "department": "Sales",
-    "locations": [
-      "New York, NY (HQ)",
-      "San Francisco, CA",
-      "Remote (US)",
-      "Miami, FL"
-    ],
-    "isRemote": true,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/ramp/440606b5-1923-4f9d-a0ed-c126445b9477/application",
-    "postedAt": "2026-10-09T23:32:30.531+00:00",
-    "scrapedAt": "2026-10-10T06:22:48.211Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Crusoe",
-    "platform": "ashby",
-    "jobId": "d6586bd6-4382-4e6e-a1e0-7b60acb9c942",
-    "title": "Recruiter, GTM (Contract)",
-    "department": "People",
-    "locations": [
-      "San Francisco, CA - US",
-      "Sunnyvale, CA - US"
-    ],
-    "isRemote": false,
-    "employmentType": "Contract",
-    "applyUrl": "https://jobs.ashbyhq.com/crusoe/d6586bd6-4382-4e6e-a1e0-7b60acb9c942/application",
-    "postedAt": "2026-10-09T23:27:02.773+00:00",
-    "scrapedAt": "2026-10-10T06:22:49.226Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Crusoe",
-    "platform": "ashby",
-    "jobId": "5cda3a9b-cd8d-4bf5-8a25-81f1dafbd711",
-    "title": "Recruiter, GTM (Contract)",
-    "department": "People",
-    "locations": [
-      "Denver, CO - US"
-    ],
-    "isRemote": false,
-    "employmentType": "Contract",
-    "applyUrl": "https://jobs.ashbyhq.com/crusoe/5cda3a9b-cd8d-4bf5-8a25-81f1dafbd711/application",
-    "postedAt": "2026-10-09T23:28:04.101+00:00",
-    "scrapedAt": "2026-10-10T06:22:49.226Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Crusoe",
-    "platform": "ashby",
-    "jobId": "56852412-28e0-4d5a-b62c-dcc616d3c99f",
-    "title": "Senior Staff Program Lead, Cloud Engineering Operations",
-    "department": "Cloud Engineering",
-    "locations": [
-      "San Francisco, CA - US",
-      "Sunnyvale, CA - US"
-    ],
-    "isRemote": false,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/crusoe/56852412-28e0-4d5a-b62c-dcc616d3c99f/application",
-    "postedAt": "2026-10-09T23:05:30.621+00:00",
-    "scrapedAt": "2026-10-10T06:22:49.226Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Crusoe",
-    "platform": "ashby",
-    "jobId": "0a5a9851-7502-474a-b87c-fc4c6d3f8eb3",
-    "title": "Staff Product Manager, AI Infrastructure (Fleet Management)",
-    "department": "Product and Design",
-    "locations": [
-      "San Francisco, CA - US"
-    ],
-    "isRemote": false,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/crusoe/0a5a9851-7502-474a-b87c-fc4c6d3f8eb3/application",
-    "postedAt": "2026-10-09T23:14:18.868+00:00",
-    "scrapedAt": "2026-10-10T06:22:49.226Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Suno",
-    "platform": "ashby",
-    "jobId": "f19de1aa-0965-43db-acbe-b6917e268ff0",
-    "title": "Software Engineer, Internal Tools",
-    "department": "Platform",
-    "locations": [
-      "Boston"
-    ],
-    "isRemote": null,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/suno/f19de1aa-0965-43db-acbe-b6917e268ff0/application",
-    "postedAt": "2026-10-09T22:27:27.506+00:00",
-    "scrapedAt": "2026-10-10T06:22:49.270Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "ElevenLabs",
-    "platform": "ashby",
-    "jobId": "98f8ca46-95d1-40ad-8b41-f6d9c6860840",
-    "title": "Enterprise Account Executive - Financial Services",
-    "department": "Revenue",
-    "locations": [
-      "Remote",
-      "United States",
-      "New York",
-      "San Francisco"
-    ],
-    "isRemote": true,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/elevenlabs/98f8ca46-95d1-40ad-8b41-f6d9c6860840/application",
-    "postedAt": "2026-10-10T00:36:39.020+00:00",
-    "scrapedAt": "2026-10-10T06:22:49.257Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Nango",
-    "platform": "ashby",
-    "jobId": "aa3e86d1-5040-40bf-a75d-f011ed17a571",
-    "title": "Enterprise Account Executive (Founding)",
-    "department": "GTM",
-    "locations": [
-      "San Francisco"
-    ],
-    "isRemote": false,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/nango/aa3e86d1-5040-40bf-a75d-f011ed17a571/application",
-    "postedAt": "2026-10-09T22:57:30.667+00:00",
-    "scrapedAt": "2026-10-10T06:22:49.914Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Headway",
-    "platform": "ashby",
-    "jobId": "1b6e27fe-8035-4eb5-9e7e-ca5efaa7bb01",
-    "title": "Senior Product Manager, Supervisory Billing",
-    "department": "All Cost Centers",
-    "locations": [
-      "Remote"
-    ],
-    "isRemote": true,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/headway/1b6e27fe-8035-4eb5-9e7e-ca5efaa7bb01/application",
-    "postedAt": "2026-10-10T01:01:14.348+00:00",
-    "scrapedAt": "2026-10-10T06:22:50.093Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Snowflake",
-    "platform": "ashby",
-    "jobId": "4d33c57c-655c-4784-b0f0-d37a07ad68a0",
-    "title": "Account Engineer",
-    "department": "Solution Engineering",
-    "locations": [
-      "US-IL-Chicago-MSO"
-    ],
-    "isRemote": null,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/snowflake/4d33c57c-655c-4784-b0f0-d37a07ad68a0/application",
-    "postedAt": "2026-10-10T00:16:42.796+00:00",
-    "scrapedAt": "2026-10-10T06:22:51.086Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "http://www.onemedical.com/careers/all-departments/8233379?gh_jid=8233379",
+    "postedAt": "2026-09-25T12:09:52-04:00",
+    "scrapedAt": "2026-10-10T19:49:38.014Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
     "company": "Equinox",
     "platform": "smartrecruiters",
-    "jobId": "744000154818280",
-    "title": "Key Holder,  Chestnut Hill",
-    "department": "SoulCycle - Studio Crew",
-    "locations": [
-      "Newton, MA, United States"
-    ],
-    "isRemote": false,
-    "employmentType": "Part-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000154818280",
-    "postedAt": "2026-10-10T01:54:53.918Z",
-    "scrapedAt": "2026-10-10T06:22:53.849Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Equinox",
-    "platform": "smartrecruiters",
-    "jobId": "744000154815621",
-    "title": "Key Holder, Rittenhouse Square",
-    "department": "SoulCycle - Studio Crew",
-    "locations": [
-      "Philadelphia, PA, United States"
-    ],
-    "isRemote": false,
-    "employmentType": "Part-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000154815621",
-    "postedAt": "2026-10-10T01:47:43.864Z",
-    "scrapedAt": "2026-10-10T06:22:53.849Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Equinox",
-    "platform": "smartrecruiters",
-    "jobId": "744000154819114",
-    "title": "Studio Crew, Rittenhouse Square",
-    "department": "SoulCycle - Studio Crew",
-    "locations": [
-      "Philadelphia, PA, United States"
-    ],
-    "isRemote": false,
-    "employmentType": "Part-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000154819114",
-    "postedAt": "2026-10-10T01:46:45.615Z",
-    "scrapedAt": "2026-10-10T06:22:53.850Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Equinox",
-    "platform": "smartrecruiters",
-    "jobId": "744000154819159",
-    "title": "Key Holder, Ardmore",
-    "department": "SoulCycle - Studio Crew",
-    "locations": [
-      "Ardmore, PA, United States"
-    ],
-    "isRemote": false,
-    "employmentType": "Part-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000154819159",
-    "postedAt": "2026-10-10T01:45:20.120Z",
-    "scrapedAt": "2026-10-10T06:22:53.850Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Equinox",
-    "platform": "smartrecruiters",
-    "jobId": "744000154819119",
-    "title": "Studio Crew, Ardmore - SoulCycle",
-    "department": "SoulCycle - Studio Crew",
-    "locations": [
-      "Ardmore, PA, United States"
-    ],
-    "isRemote": false,
-    "employmentType": "Part-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000154819119",
-    "postedAt": "2026-10-10T01:44:28.964Z",
-    "scrapedAt": "2026-10-10T06:22:53.850Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Equinox",
-    "platform": "smartrecruiters",
-    "jobId": "744000154817976",
+    "jobId": "744000154834614",
     "title": "Lifeguards, Bethesda",
     "department": "Club - Staff",
     "locations": [
@@ -1251,217 +202,313 @@
     ],
     "isRemote": false,
     "employmentType": "Part-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000154817976",
-    "postedAt": "2026-10-10T01:41:42.596Z",
-    "scrapedAt": "2026-10-10T06:22:53.850Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000154834614",
+    "postedAt": "2026-10-10T16:46:01.127Z",
+    "scrapedAt": "2026-10-10T19:49:49.963Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
     "company": "Equinox",
     "platform": "smartrecruiters",
-    "jobId": "744000154792159",
-    "title": "Assistant Studio Manager, DC - SoulCycle",
-    "department": "SoulCycle - ASM / SM",
+    "jobId": "744000152416745",
+    "title": "Personal Trainer, Westwood",
+    "department": "Club - Personal Training",
     "locations": [
-      "Washington, DC, United States"
+      "Westwood, CA, United States"
     ],
     "isRemote": false,
     "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000154792159",
-    "postedAt": "2026-10-10T00:58:24.144Z",
-    "scrapedAt": "2026-10-10T06:22:53.850Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000152416745",
+    "postedAt": "2026-09-29T13:00:55.035Z",
+    "scrapedAt": "2026-10-10T19:49:49.964Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "The Wonderful Company",
+    "platform": "smartrecruiters",
+    "jobId": "744000154836739",
+    "title": "Restaurant Captain (Server)",
+    "department": "Hospitality/Tasting Room",
+    "locations": [
+      "Paso Robles, CA, United States"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/TheWonderfulCompany/744000154836739",
+    "postedAt": "2026-10-10T18:13:27.121Z",
+    "scrapedAt": "2026-10-10T19:49:49.065Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
     "company": "Bosch Group",
     "platform": "smartrecruiters",
-    "jobId": "744000154820678",
-    "title": "Sr. Embedded SW developer ORC2-EDC3",
-    "department": "Engineering",
+    "jobId": "744000154830680",
+    "title": "APONTADOR DE PRODUÇÃO (36158)",
+    "department": "Production",
     "locations": [
-      "bangalore, , India"
+      "Curitiba, PR, Brazil"
     ],
     "isRemote": false,
     "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154820678",
-    "postedAt": "2026-10-10T05:03:53.783Z",
-    "scrapedAt": "2026-10-10T06:22:54.056Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154830680",
+    "postedAt": "2026-10-10T14:19:07.559Z",
+    "scrapedAt": "2026-10-10T19:49:50.413Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
     "company": "Bosch Group",
     "platform": "smartrecruiters",
-    "jobId": "744000154820588",
-    "title": "Sr. Embedded SW developer ORC2-EDC3",
-    "department": "Engineering",
+    "jobId": "744000154830479",
+    "title": "OPERADOR (Prazo determinado)",
+    "department": "Production",
     "locations": [
-      "bangalore, , India"
+      "Curitiba, PR, Brazil"
     ],
     "isRemote": false,
     "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154820588",
-    "postedAt": "2026-10-10T05:00:31.057Z",
-    "scrapedAt": "2026-10-10T06:22:54.056Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154830479",
+    "postedAt": "2026-10-10T13:57:54.203Z",
+    "scrapedAt": "2026-10-10T19:49:50.413Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
     "company": "Bosch Group",
     "platform": "smartrecruiters",
-    "jobId": "744000154788619",
-    "title": "Semiconductor Power Component Architect",
+    "jobId": "744000154822859",
+    "title": "ADAS系统及软件测试工程师_BCSC",
     "department": "Engineering",
     "locations": [
-      "Roseville, CA, United States"
+      "Wuxi, Jiangsu, China"
     ],
     "isRemote": false,
     "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154788619",
-    "postedAt": "2026-10-09T22:33:07.361Z",
-    "scrapedAt": "2026-10-10T06:22:54.056Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154822859",
+    "postedAt": "2026-10-10T08:30:00.568Z",
+    "scrapedAt": "2026-10-10T19:49:50.413Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000154822809",
+    "title": "高级车载OTA/刷写测试工程师_BCSC",
+    "department": "Engineering",
+    "locations": [
+      "Wuxi, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154822809",
+    "postedAt": "2026-10-10T08:25:06.265Z",
+    "scrapedAt": "2026-10-10T19:49:50.413Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000154822739",
+    "title": "JMP-大客户销售(ETAS)",
+    "department": "Engineering",
+    "locations": [
+      "Shanghai, Shanghai, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154822739",
+    "postedAt": "2026-10-10T08:24:11.222Z",
+    "scrapedAt": "2026-10-10T19:49:50.413Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000154822629",
+    "title": "JMP-AI工程师（PS）",
+    "department": "Engineering",
+    "locations": [
+      "Wuxi, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154822629",
+    "postedAt": "2026-10-10T08:20:41.485Z",
+    "scrapedAt": "2026-10-10T19:49:50.413Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000154822499",
+    "title": "JMP-数据AI工程师(BD)",
+    "department": "Engineering",
+    "locations": [
+      "Suzhou, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154822499",
+    "postedAt": "2026-10-10T08:05:49.456Z",
+    "scrapedAt": "2026-10-10T19:49:50.413Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000154822389",
+    "title": "JMP-AI架构师(BD)",
+    "department": "Engineering",
+    "locations": [
+      "Shanghai, Shanghai, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154822389",
+    "postedAt": "2026-10-10T08:00:51.344Z",
+    "scrapedAt": "2026-10-10T19:49:50.413Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000154822209",
+    "title": "JMP-成本管理业务伙伴（ME）",
+    "department": "Engineering",
+    "locations": [
+      "Suzhou, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000154822209",
+    "postedAt": "2026-10-10T07:47:10.422Z",
+    "scrapedAt": "2026-10-10T19:49:50.413Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000154831929",
+    "title": "Growth Lead - Romania",
+    "department": "Marketing",
+    "locations": [
+      "Bucharest, , Romania"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000154831929",
+    "postedAt": "2026-10-10T15:08:22.117Z",
+    "scrapedAt": "2026-10-10T19:49:50.530Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000154829249",
+    "title": "Account Executive",
+    "department": "Distribution",
+    "locations": [
+      "Mosul, Nineveh Governorate, Iraq"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000154829249",
+    "postedAt": "2026-10-10T12:57:21.287Z",
+    "scrapedAt": "2026-10-10T19:49:50.530Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000154828928",
+    "title": "Business Development Representative SMB Italy - Milano",
+    "department": "Sales",
+    "locations": [
+      "Milan, Lombardy, Italy"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000154828928",
+    "postedAt": "2026-10-10T12:41:21.299Z",
+    "scrapedAt": "2026-10-10T19:49:50.530Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000154828878",
+    "title": "Sales Executive SMB Italy - Milano",
+    "department": "Sales",
+    "locations": [
+      "Milan, Lombardy, Italy"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000154828878",
+    "postedAt": "2026-10-10T12:39:31.732Z",
+    "scrapedAt": "2026-10-10T19:49:50.530Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000154821939",
+    "title": "Chief Accountant (They/She/He)",
+    "department": "Finance",
+    "locations": [
+      "Warsaw, , Poland"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000154821939",
+    "postedAt": "2026-10-10T07:22:00.650Z",
+    "scrapedAt": "2026-10-10T19:49:50.530Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000154821899",
+    "title": "Accounting Lead",
+    "department": "Finance",
+    "locations": [
+      "Warsaw, , Poland"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000154821899",
+    "postedAt": "2026-10-10T07:20:12.834Z",
+    "scrapedAt": "2026-10-10T19:49:50.530Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
     "company": "Salesforce",
     "platform": "workday",
-    "jobId": "/job/South-Africa---Remote/Prime-Named-Account-Executive--Mulesoft--Cape-Town-_JR358712",
-    "title": "Prime Named Account Executive- Mulesoft (Cape Town)",
+    "jobId": "/job/Georgia---Atlanta/Executive-Operations---Leadership-Engagement-DirectorDirector_JR363410",
+    "title": "Executive Operations & Leadership Engagement DirectorDirector",
     "department": null,
     "locations": [
-      "South Africa - Remote"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/South-Africa---Remote/Prime-Named-Account-Executive--Mulesoft--Cape-Town-_JR358712",
-    "postedAt": null,
-    "scrapedAt": "2026-10-10T06:24:32.224Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Salesforce",
-    "platform": "workday",
-    "jobId": "/job/United-Kingdom---London/Contracts-Manager_JR360251",
-    "title": "Contracts Manager",
-    "department": null,
-    "locations": [
-      "United Kingdom - London"
+      "5 Locations"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/United-Kingdom---London/Contracts-Manager_JR360251",
+    "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Georgia---Atlanta/Executive-Operations---Leadership-Engagement-DirectorDirector_JR363410",
     "postedAt": null,
-    "scrapedAt": "2026-10-10T06:24:32.224Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "scrapedAt": "2026-10-10T19:51:29.423Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   },
   {
-    "company": "1Password",
-    "platform": "ashby",
-    "jobId": "afebc4c1-b5ea-4ffa-b486-df77782d9874",
-    "title": "Staff Technical Account Manager",
-    "department": "GTM",
-    "locations": [
-      "United States"
-    ],
-    "isRemote": true,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/1password/afebc4c1-b5ea-4ffa-b486-df77782d9874/application",
-    "postedAt": "2026-10-09T22:28:16.074+00:00",
-    "scrapedAt": "2026-10-10T06:23:00.749Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Horizon3.ai",
-    "platform": "ashby",
-    "jobId": "f8875a3b-f728-418f-a93c-4cfb4aa65d80",
-    "title": "Senior Marketing Campaign Manager, Federal",
-    "department": "Marketing",
-    "locations": [
-      "Washington, DC"
-    ],
-    "isRemote": null,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/horizon3ai/f8875a3b-f728-418f-a93c-4cfb4aa65d80/application",
-    "postedAt": "2026-10-09T22:31:39.947+00:00",
-    "scrapedAt": "2026-10-10T06:23:00.785Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Horizon3.ai",
-    "platform": "ashby",
-    "jobId": "a47e6de0-946b-4a5f-b58b-b7a87f5ce3ad",
-    "title": "Senior Marketing Campaigns Manager, ABM",
-    "department": "Marketing",
-    "locations": [
-      "US, Remote"
-    ],
-    "isRemote": true,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/horizon3ai/a47e6de0-946b-4a5f-b58b-b7a87f5ce3ad/application",
-    "postedAt": "2026-10-09T22:34:44.439+00:00",
-    "scrapedAt": "2026-10-10T06:23:00.785Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Horizon3.ai",
-    "platform": "ashby",
-    "jobId": "982bd05e-335e-4a87-83b2-43b67c9d55ac",
-    "title": "Senior Digital Paid Ad Manager",
-    "department": "Marketing",
-    "locations": [
-      "US, Remote"
-    ],
-    "isRemote": true,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/horizon3ai/982bd05e-335e-4a87-83b2-43b67c9d55ac/application",
-    "postedAt": "2026-10-09T22:39:04.858+00:00",
-    "scrapedAt": "2026-10-10T06:23:00.785Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Teladoc Health",
-    "platform": "workday",
-    "jobId": "/job/USA---Any-Location-Remote/Principal-Data---AI-Platform-Engineer--DataOps_JR21143",
-    "title": "Principal Data & AI Platform Engineer, DataOps",
+    "company": "Accela",
+    "platform": "greenhouse",
+    "jobId": "8267331",
+    "title": "Head of AI Strategy & Operations",
     "department": null,
     "locations": [
-      "USA - Any Location (Remote)"
+      "Remote Based - US"
     ],
     "isRemote": true,
     "employmentType": null,
-    "applyUrl": "https://teladoc.wd503.myworkdayjobs.com/teladochealth_is_hiring/job/USA---Any-Location-Remote/Principal-Data---AI-Platform-Engineer--DataOps_JR21143",
-    "postedAt": null,
-    "scrapedAt": "2026-10-10T06:23:05.231Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Teladoc Health",
-    "platform": "workday",
-    "jobId": "/job/USA---Any-Location-Remote/Nurse--Care-Coordinator_JR21200",
-    "title": "Nurse, Care Coordinator",
-    "department": null,
-    "locations": [
-      "USA - Any Location (Remote)"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://teladoc.wd503.myworkdayjobs.com/teladochealth_is_hiring/job/USA---Any-Location-Remote/Nurse--Care-Coordinator_JR21200",
-    "postedAt": null,
-    "scrapedAt": "2026-10-10T06:23:05.231Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
-  },
-  {
-    "company": "Kong",
-    "platform": "ashby",
-    "jobId": "72375328-ae8e-4090-9fd3-3580878751e2",
-    "title": "Staff Product Manager, AI Management",
-    "department": "All Cost Center",
-    "locations": [
-      "San Francisco, California, United States"
-    ],
-    "isRemote": false,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/kong/72375328-ae8e-4090-9fd3-3580878751e2/application",
-    "postedAt": "2026-10-09T23:11:15.238+00:00",
-    "scrapedAt": "2026-10-10T06:23:04.292Z",
-    "firstSeenAt": "2026-10-10T06:24:32.393Z"
+    "applyUrl": "https://job-boards.greenhouse.io/accela/jobs/8267331",
+    "postedAt": "2026-10-10T13:09:02-04:00",
+    "scrapedAt": "2026-10-10T19:51:33.254Z",
+    "firstSeenAt": "2026-10-10T19:54:32.932Z"
   }
 ]
