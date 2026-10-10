@@ -24,6 +24,13 @@ const MAX_RETRIES = 3;
 const RETRY_BASE_MS = 500;
 const FETCH_TIMEOUT_MS = 20000;
 const USER_AGENT = 'open-jobs-data/1.0 (+https://github.com/) polite-bot';
+// Workday tenants all sit on the same Workday infrastructure, so they are
+// fetched one tenant at a time with a longer pause, and a 403 is retried after
+// a few seconds instead of being treated as a missing board.
+const WORKDAY_DELAY_MS = 400;
+const WORKDAY_403_BACKOFF_MS = 5000;
+// Companies that fail on the first pass get one more try at the end of the run.
+const RETRY_PASS_WAIT_MS = 60000;
 
 // ---------------------------------------------------------------------------
 // HTTP helpers
@@ -38,15 +45,17 @@ const USER_AGENT = 'open-jobs-data/1.0 (+https://github.com/) polite-bot';
 // only clear the timeout once that's done (success or failure).
 async function fetchWithRetryText(url, options = {}) {
   let lastErr;
+  let lastStatus = null;
+  const { retry403, ...fetchOptions } = options;
   for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
     try {
       const res = await fetch(url, {
-        ...options,
+        ...fetchOptions,
         redirect: 'manual',
         signal: controller.signal,
-        headers: { 'User-Agent': USER_AGENT, Accept: 'application/json,text/xml,*/*', ...(options.headers || {}) },
+        headers: { 'User-Agent': USER_AGENT, Accept: 'application/json,text/xml,*/*', ...(fetchOptions.headers || {}) },
       });
       // Some platforms (Personio, BambooHR) 302 to a marketing page for an
       // unknown/inactive slug instead of returning a real 404.
@@ -58,7 +67,8 @@ async function fetchWithRetryText(url, options = {}) {
         clearTimeout(timeout);
         return { notFound: true, status: res.status };
       }
-      if (res.status === 429 || res.status >= 500) {
+      if (res.status === 429 || res.status >= 500 || (options.retry403 && res.status === 403)) {
+        lastStatus = res.status;
         throw new Error(`HTTP ${res.status}`);
       }
       if (!res.ok) {
@@ -72,12 +82,16 @@ async function fetchWithRetryText(url, options = {}) {
       clearTimeout(timeout);
       lastErr = err;
       if (attempt < MAX_RETRIES) {
-        const backoff = RETRY_BASE_MS * 2 ** attempt + Math.random() * 200;
+        const base = lastStatus === 403 ? WORKDAY_403_BACKOFF_MS : RETRY_BASE_MS;
+        const backoff = base * 2 ** attempt + Math.random() * 200;
         await sleep(backoff);
         continue;
       }
     }
   }
+  // A 403 that never cleared is reported as not-found with its status, so the
+  // summary shows that the board refused us rather than that it is gone.
+  if (lastStatus === 403) return { notFound: true, status: 403 };
   throw lastErr ?? new Error('fetch failed');
 }
 
@@ -97,11 +111,13 @@ async function getText(url) {
   return { data: text };
 }
 
-async function postJson(url, body) {
+async function postJson(url, body, extra = {}) {
+  const { headers: extraHeaders, ...rest } = extra;
   const { text, notFound, status } = await fetchWithRetryText(url, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...(extraHeaders || {}) },
     body: JSON.stringify(body),
+    ...rest,
   });
   if (notFound) return { notFound: true, status };
   try {
@@ -109,6 +125,16 @@ async function postJson(url, body) {
   } catch {
     return { notFound: true, status: 'bad-json' };
   }
+}
+
+// Lets only one Workday tenant fetch at a time while other platforms run in parallel.
+let workdayQueue = Promise.resolve();
+function workdayGate() {
+  let release;
+  const next = new Promise((r) => (release = r));
+  const wait = workdayQueue;
+  workdayQueue = workdayQueue.then(() => next);
+  return wait.then(() => release);
 }
 
 function sleep(ms) {
@@ -249,7 +275,14 @@ const platforms = {
 
   async workday(company) {
     const { tenant, site, shard, searchTexts } = company.workday ?? {};
-    if (!tenant || !site || !shard) return { jobs: [], notFound: true };
+    if (!tenant || !site || !shard) return { jobs: [], notFound: true, status: 'bad-config' };
+    const release = await workdayGate();
+    try {
+    const origin = `https://${tenant}.${shard}.myworkdayjobs.com`;
+    const reqOpts = {
+      retry403: true,
+      headers: { Accept: 'application/json', 'Accept-Language': 'en-US', Origin: origin, Referer: `${origin}/${site}` },
+    };
     const baseUrl = `https://${tenant}.${shard}.myworkdayjobs.com/wday/cxs/${tenant}/${site}`;
     const PAGE_SIZE = 20;
     const MAX_JOBS = 500;
@@ -259,14 +292,20 @@ const platforms = {
     const searches = Array.isArray(searchTexts) && searchTexts.length ? searchTexts : [''];
     const byPath = new Map();
     let anyFound = false;
+    let lastStatus = null;
+    const failedSearches = [];
     for (const searchText of searches) {
       let offset = 0;
       let total = Infinity;
       let fetched = 0;
       while (offset < total && fetched < MAX_JOBS) {
         const limit = Math.min(PAGE_SIZE, MAX_JOBS - fetched);
-        const { data, notFound } = await postJson(`${baseUrl}/jobs`, { appliedFacets: {}, limit, offset, searchText });
-        if (notFound) break;
+        const { data, notFound, status } = await postJson(`${baseUrl}/jobs`, { appliedFacets: {}, limit, offset, searchText }, reqOpts);
+        if (notFound) {
+          lastStatus = status;
+          failedSearches.push({ searchText, offset, status });
+          break;
+        }
         anyFound = true;
         if (offset === 0) total = data.total ?? 0;
         if (!data.jobPostings || data.jobPostings.length === 0) break;
@@ -275,12 +314,15 @@ const platforms = {
         }
         fetched += data.jobPostings.length;
         offset += data.jobPostings.length;
-        await sleep(REQUEST_DELAY_MS);
+        await sleep(WORKDAY_DELAY_MS);
       }
     }
-    if (!anyFound) return { jobs: [], notFound: true };
+    if (!anyFound) return { jobs: [], notFound: true, status: lastStatus };
     const postings = [...byPath.values()];
     return {
+      // Non-empty when some searches or pages failed after others worked. The
+      // company is then incomplete, so a missing job is not evidence it closed.
+      failedSearches,
       jobs: postings.map((posting) => {
         const locations = posting.locationsText ? [posting.locationsText] : [];
         const explicitRemote =
@@ -299,6 +341,9 @@ const platforms = {
         });
       }),
     };
+    } finally {
+      release();
+    }
   },
 
   async smartrecruiters(company) {
@@ -620,25 +665,48 @@ async function main() {
   const startedAt = Date.now();
   const perCompanyStatus = [];
 
-  const results = await mapWithConcurrency(companies, CONCURRENCY, async (company) => {
+  async function runOne(company, attempt) {
     const fetcher = platforms[company.platform];
-    if (!fetcher) {
-      perCompanyStatus.push({ company: company.name, platform: company.platform, status: 'unsupported-platform', jobs: 0 });
-      return [];
-    }
+    const entry = { company: company.name, platform: company.platform, attempt };
+    if (!fetcher) return { entry: { ...entry, status: 'unsupported-platform', jobs: 0 }, jobs: [] };
     try {
-      const { jobs, notFound } = await fetcher(company);
-      if (notFound) {
-        perCompanyStatus.push({ company: company.name, platform: company.platform, status: 'not-found', jobs: 0 });
-        return [];
+      const { jobs, notFound, status, failedSearches } = await fetcher(company);
+      if (notFound) return { entry: { ...entry, status: 'not-found', httpStatus: status ?? null, jobs: 0 }, jobs: [] };
+      const ok = { ...entry, status: 'ok', jobs: jobs.length };
+      if (failedSearches && failedSearches.length) {
+        ok.status = 'partial';
+        ok.failedSearches = failedSearches;
       }
-      perCompanyStatus.push({ company: company.name, platform: company.platform, status: 'ok', jobs: jobs.length });
-      return jobs;
+      return { entry: ok, jobs };
     } catch (err) {
-      perCompanyStatus.push({ company: company.name, platform: company.platform, status: `error: ${err.message}`, jobs: 0 });
-      return [];
+      return { entry: { ...entry, status: `error: ${err.message}`, jobs: 0 }, jobs: [] };
     }
+  }
+
+  const firstPass = await mapWithConcurrency(companies, CONCURRENCY, (company) => runOne(company, 1));
+  const outcome = new Map(companies.map((c, i) => [c, firstPass[i]]));
+
+  // One retry pass for anything that failed or came back partial, after a pause.
+  const retry = companies.filter((c) => {
+    const st = outcome.get(c).entry.status;
+    return st !== 'ok' && st !== 'unsupported-platform';
   });
+  if (retry.length) {
+    console.log(`Retrying ${retry.length} companies after ${RETRY_PASS_WAIT_MS / 1000}s: ${retry.map((c) => c.name).join(', ')}`);
+    await sleep(RETRY_PASS_WAIT_MS);
+    const second = await mapWithConcurrency(retry, 2, (company) => runOne(company, 2));
+    retry.forEach((c, i) => {
+      const before = outcome.get(c);
+      const after = second[i];
+      // Keep whichever attempt got further.
+      const rank = (r) => (r.entry.status === 'ok' ? 2 : r.entry.status === 'partial' ? 1 : 0);
+      if (rank(after) > rank(before) || (rank(after) === rank(before) && after.jobs.length >= before.jobs.length)) {
+        outcome.set(c, after);
+      }
+    });
+  }
+  for (const c of companies) perCompanyStatus.push(outcome.get(c).entry);
+  const results = companies.map((c) => outcome.get(c).jobs);
 
   const allJobs = results.flat();
   const elapsedMs = Date.now() - startedAt;
@@ -700,7 +768,8 @@ async function main() {
     byCompany,
     companiesAttempted: companies.length,
     companiesOk: perCompanyStatus.filter((s) => s.status === 'ok').length,
-    companiesFailed: perCompanyStatus.filter((s) => s.status !== 'ok').length,
+    companiesPartial: perCompanyStatus.filter((s) => s.status === 'partial').length,
+    companiesFailed: perCompanyStatus.filter((s) => s.status !== 'ok' && s.status !== 'partial').length,
     elapsedMs,
     // "new since last snapshot" — see data/README.md for exact semantics
     // (appeared-in-data, not necessarily posted-today; excludes jobs whose
