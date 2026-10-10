@@ -2,8 +2,9 @@ name: Update jobs dataset
 
 on:
   schedule:
-    # Daily at 06:00 UTC
-    - cron: '0 6 * * *'
+    # Daily at 09:17 UTC (4:17am CDT, 3:17am CST). Off the top of the hour,
+    # when GitHub's scheduled runs are busiest, and still well before the 7am CT check.
+    - cron: '17 9 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -12,7 +13,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - name: Check out repo
         uses: actions/checkout@v6
