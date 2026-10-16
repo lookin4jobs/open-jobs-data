@@ -2461,5 +2461,167 @@
     "name": "Railway",
     "platform": "ashby",
     "slug": "railway"
+  },
+  {
+    "name": "Centene",
+    "platform": "workday",
+    "workday": {
+      "tenant": "centene",
+      "site": "Centene_External",
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Elevance Health",
+    "platform": "workday",
+    "workday": {
+      "tenant": "elevancehealth",
+      "site": "ANT",
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Humana",
+    "platform": "workday",
+    "workday": {
+      "tenant": "humana",
+      "site": "Humana_External_Career_Site",
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "The Cigna Group",
+    "platform": "workday",
+    "workday": {
+      "tenant": "cigna",
+      "site": "cignacareers",
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Abbott",
+    "platform": "workday",
+    "workday": {
+      "tenant": "abbott",
+      "site": "abbottcareers",
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Medtronic",
+    "platform": "workday",
+    "workday": {
+      "tenant": "medtronic",
+      "site": "MedtronicCareers",
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Stryker",
+    "platform": "workday",
+    "workday": {
+      "tenant": "stryker",
+      "site": "StrykerCareers",
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Oscar Health",
+    "platform": "greenhouse",
+    "slug": "oscar"
+  },
+  {
+    "name": "Pearl Health",
+    "platform": "ashby",
+    "slug": "pearlhealth"
+  },
+  {
+    "name": "Arcadia",
+    "platform": "lever",
+    "slug": "arcadia"
   }
 ]
