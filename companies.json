@@ -570,11 +570,6 @@
     "slug": "bringg"
   },
   {
-    "name": "Remote.com",
-    "platform": "greenhouse",
-    "slug": "remotecom"
-  },
-  {
     "name": "Lattice",
     "platform": "greenhouse",
     "slug": "lattice"
@@ -2623,5 +2618,488 @@
     "name": "Arcadia",
     "platform": "lever",
     "slug": "arcadia"
+  },
+  {
+    "name": "Cisco",
+    "platform": "workday",
+    "workday": {
+      "tenant": "cisco",
+      "site": "Cisco_Careers",
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Coder",
+    "platform": "ashby",
+    "slug": "coder"
+  },
+  {
+    "name": "Sonatype",
+    "platform": "lever",
+    "slug": "sonatype"
+  },
+  {
+    "name": "Healthie",
+    "platform": "greenhouse",
+    "slug": "healthie"
+  },
+  {
+    "name": "Commure",
+    "platform": "ashby",
+    "slug": "commure"
+  },
+  {
+    "name": "Innovaccer",
+    "platform": "greenhouse",
+    "slug": "innovaccer"
+  },
+  {
+    "name": "Automattic",
+    "platform": "workable",
+    "slug": "automattic"
+  },
+  {
+    "name": "CentralReach",
+    "platform": "greenhouse",
+    "slug": "centralreach"
+  },
+  {
+    "name": "Dscout",
+    "platform": "greenhouse",
+    "slug": "dscout"
+  },
+  {
+    "name": "Garner Health",
+    "platform": "greenhouse",
+    "slug": "garnerhealth"
+  },
+  {
+    "name": "PatientPoint",
+    "platform": "greenhouse",
+    "slug": "patientpoint"
+  },
+  {
+    "name": "PerfectServe",
+    "platform": "greenhouse",
+    "slug": "perfectserve"
+  },
+  {
+    "name": "RxSense",
+    "platform": "greenhouse",
+    "slug": "rxsense"
+  },
+  {
+    "name": "Verantos",
+    "platform": "greenhouse",
+    "slug": "verantos"
+  },
+  {
+    "name": "Filevine",
+    "platform": "lever",
+    "slug": "filevine"
+  },
+  {
+    "name": "Fleetio",
+    "platform": "greenhouse",
+    "slug": "fleetio"
+  },
+  {
+    "name": "Engine",
+    "platform": "greenhouse",
+    "slug": "engine"
+  },
+  {
+    "name": "Bellese Technologies",
+    "platform": "lever",
+    "slug": "bellese"
+  },
+  {
+    "name": "Swiftly",
+    "platform": "lever",
+    "slug": "SwiftlySystems"
+  },
+  {
+    "name": "Loop Returns",
+    "platform": "lever",
+    "slug": "loopreturns"
+  },
+  {
+    "name": "Turquoise Health",
+    "platform": "ashby",
+    "slug": "turquoise-health"
+  },
+  {
+    "name": "Notable",
+    "platform": "ashby",
+    "slug": "notable"
+  },
+  {
+    "name": "CareMessage",
+    "platform": "ashby",
+    "slug": "caremessage"
+  },
+  {
+    "name": "Vetcove",
+    "platform": "ashby",
+    "slug": "Vetcove"
+  },
+  {
+    "name": "KAYAK",
+    "platform": "ashby",
+    "slug": "kayak"
+  },
+  {
+    "name": "Stellar Cyber",
+    "platform": "workable",
+    "slug": "stellar-cyber"
+  },
+  {
+    "name": "Solventum",
+    "platform": "workday",
+    "workday": {
+      "tenant": "healthcare",
+      "site": "Search",
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Palo Alto Networks",
+    "platform": "workday",
+    "workday": {
+      "tenant": "paloaltonetworks",
+      "site": "panwexternalcareers",
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Axon",
+    "platform": "greenhouse",
+    "slug": "axon"
+  },
+  {
+    "name": "ServiceNow",
+    "platform": "smartrecruiters",
+    "slug": "ServiceNow",
+    "searchTexts": [
+      "engineering manager",
+      "software development manager",
+      "site reliability",
+      "devops",
+      "platform engineering",
+      "infrastructure",
+      "cloud engineering",
+      "release management",
+      "technical support",
+      "support engineering"
+    ]
+  },
+  {
+    "name": "BD",
+    "platform": "workday",
+    "workday": {
+      "tenant": "bdx",
+      "site": "EXTERNAL_CAREER_SITE_USA",
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Novartis",
+    "platform": "workday",
+    "workday": {
+      "tenant": "novartis",
+      "site": "Novartis_Careers",
+      "shard": "wd3",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "U.S. Bank",
+    "platform": "workday",
+    "workday": {
+      "tenant": "usbank",
+      "site": "US_Bank_Careers",
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "PNC",
+    "platform": "workday",
+    "workday": {
+      "tenant": "pnc",
+      "site": "External",
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "BlackRock",
+    "platform": "workday",
+    "workday": {
+      "tenant": "blackrock",
+      "site": "BlackRock_Professional",
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Fidelity Investments",
+    "platform": "workday",
+    "workday": {
+      "tenant": "fmr",
+      "site": "FidelityCareers",
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Mass General Brigham",
+    "platform": "workday",
+    "workday": {
+      "tenant": "massgeneralbrigham",
+      "site": "MGBExternal",
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "athenahealth",
+    "platform": "workday",
+    "workday": {
+      "tenant": "athenahealth",
+      "site": "External",
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "McKesson",
+    "platform": "workday",
+    "workday": {
+      "tenant": "mckesson",
+      "site": "External_Careers",
+      "shard": "wd3",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Red Hat",
+    "platform": "workday",
+    "workday": {
+      "tenant": "redhat",
+      "site": "Jobs",
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Highmark Health",
+    "platform": "workday",
+    "workday": {
+      "tenant": "highmarkhealth",
+      "site": "highmark",
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "Blue Cross and Blue Shield of Kansas City",
+    "platform": "workday",
+    "workday": {
+      "tenant": "bcbskc",
+      "site": "BCBS_External_Career_Site",
+      "shard": "wd1",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
+  },
+  {
+    "name": "GE HealthCare",
+    "platform": "workday",
+    "workday": {
+      "tenant": "gehc",
+      "site": "GEHC_ExternalSite",
+      "shard": "wd5",
+      "searchTexts": [
+        "engineering manager",
+        "software development manager",
+        "site reliability",
+        "devops",
+        "platform engineering",
+        "infrastructure",
+        "cloud engineering",
+        "release management",
+        "technical support",
+        "support engineering"
+      ]
+    }
   }
 ]
