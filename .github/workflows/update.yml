@@ -5,13 +5,19 @@ on:
     # Daily at 09:17 UTC (4:17am CDT, 3:17am CST). Off the top of the hour,
     # when GitHub's scheduled runs are busiest, and still well before the 7am CT check.
     - cron: '17 9 * * *'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      liveness_only:
+        description: 'Skip the dataset refresh and run only the browser liveness check'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
 
 jobs:
   update:
+    if: ${{ github.event_name != 'workflow_dispatch' || !inputs.liveness_only }}
     runs-on: ubuntu-24.04
     timeout-minutes: 120
     steps:
@@ -36,4 +42,49 @@ jobs:
           else
             git commit -m "chore(data): daily jobs dataset refresh [skip ci]"
             git push
+          fi
+
+  # Opens the few postings listed in data/liveness-targets.json in a real
+  # headless browser and records what each page showed in data/liveness.json
+  # (see scripts/liveness.mjs). Runs after the refresh so the morning check
+  # sees both. It honors robots.txt, never tries to get past a CAPTCHA or bot
+  # check, and cannot fail the dataset refresh.
+  liveness:
+    needs: update
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    continue-on-error: true
+    steps:
+      - name: Check out repo (latest, including the refresh commit)
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Install Playwright and Chromium
+        run: |
+          npm install --no-save --no-package-lock --no-audit --no-fund playwright@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Run browser liveness check
+        run: node scripts/liveness.mjs
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/liveness.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(data): nightly liveness check [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase origin "${{ github.ref_name }}" && git push && break
+              sleep 15
+            done
           fi

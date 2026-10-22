@@ -158,6 +158,23 @@ not a personal test account or an aggregator.
 - **Fixed company list, refreshed daily.** This repo does not accept an
   arbitrary company list at request time — see below if you need that.
 
+## Nightly browser liveness check (this fork)
+
+Some employer job pages only render in a real browser (ADP Workforce Now,
+Eightfold, Avature and similar), so the JSON fetcher can't tell whether a
+posting there is still open. After each refresh, the `liveness` job in
+`.github/workflows/update.yml` runs `scripts/liveness.mjs`, which opens each
+posting listed in `data/liveness-targets.json` once in headless Chromium and
+writes what it saw to `data/liveness.json` (`live`, `closed_text`, `gone`,
+`redirected`, `blocked`, `robots_disallowed`, `robots_unavailable`,
+`unclear` or `error`, with a short quote as evidence).
+
+It honors robots.txt, identifies itself as headless Chrome, loads one page
+at a time with a pause between them, and never tries to get past a CAPTCHA
+or bot check: those are recorded as `blocked` and left alone. The job can't
+fail the dataset refresh. To run it on its own, use **Run workflow** on the
+Actions tab with "run only the browser liveness check" ticked.
+
 ## If you need this for your own company list
 
 This repo's fetcher (`scripts/fetch.mjs`) is deliberately narrow: it's a
