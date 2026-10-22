@@ -52,6 +52,7 @@ const CLOSED_PATTERNS = [
   /the job you are (?:trying to apply for|looking for) (?:has been filled|is no longer)/i,
   /sorry,? (?:this|the) (?:job|position|posting)[^.]{0,40}(?:removed|closed|filled|unavailable|no longer)/i,
   /applications? (?:for this (?:job|position|role) )?(?:are|is) (?:now )?closed/i,
+  /the (?:job|position|posting) you are looking for (?:may have|has) (?:been )?closed/i,
 ];
 const CHALLENGE_TEXT = [
   /just a moment\.\.\./i, /attention required/i, /verify (?:that )?you are (?:a )?human/i,
@@ -184,12 +185,16 @@ async function checkOne(browser, t) {
     const jsonLd = jobPostingFrom(ld);
     const out = { ...base, finalUrl, httpStatus: status, pageTitle, jsonLd };
 
+    // A 404 or 410 is the site's own answer, even when the error page carries
+    // a CAPTCHA script (Netflix's does), so it is read before challenge markers.
+    if (status === 404 || status === 410) {
+      return { ...out, outcome: 'gone', evidence: clip(`HTTP ${status} ${text.match(CLOSED_PATTERNS.find(r => r.test(text)) || /$^/)?.[0] || pageTitle}`) };
+    }
     const challenged = CHALLENGE_TEXT.some(r => r.test(pageTitle) || r.test(text.slice(0, 3000)))
       || (CHALLENGE_HTML.some(r => r.test(html)) && !norm(text).includes(want));
     if (challenged || [401, 403, 429].includes(status)) {
       return { ...out, outcome: 'blocked', evidence: clip(`HTTP ${status} ${pageTitle} ${text.slice(0, 120)}`) };
     }
-    if (status === 404 || status === 410) return { ...out, outcome: 'gone', evidence: `HTTP ${status}` };
 
     const closed = CLOSED_PATTERNS.map(r => text.match(r)).find(Boolean);
     if (closed) return { ...out, outcome: 'closed_text', evidence: clip(closed[0]) };
