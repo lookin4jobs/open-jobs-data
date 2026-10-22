@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-10-22T23:39:38.181Z",
+  "runner": "github-actions",
+  "results": [
+    {
+      "id": "x-clinician-nexus-manager-devops",
+      "company": "Clinician Nexus",
+      "title": "Manager, DevOps",
+      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
+      "checkedAt": "2026-10-22T23:39:38.666Z",
+      "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
+      "httpStatus": 200,
+      "pageTitle": "Career Center | Recruitment",
+      "jsonLd": null,
+      "outcome": "live",
+      "evidence": "title \"Manager, DevOps\" shown on the page"
+    },
+    {
+      "id": "x-sprezzatura-software-development-manager",
+      "company": "Sprezzatura",
+      "title": "Software Development Manager",
+      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
+      "checkedAt": "2026-10-22T23:39:46.730Z",
+      "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
+      "httpStatus": 200,
+      "pageTitle": "Career Center | Recruitment",
+      "jsonLd": null,
+      "outcome": "live",
+      "evidence": "title \"Software Development Manager\" shown on the page"
+    },
+    {
+      "id": "x-netflix-em-tv-client-paved-paths-workflows",
+      "company": "Netflix",
+      "title": "TV Client Paved Paths",
+      "url": "https://explore.jobs.netflix.net/careers/job/790318755298",
+      "checkedAt": "2026-10-22T23:39:53.183Z",
+      "finalUrl": "https://explore.jobs.netflix.net/careers/job/790318755298",
+      "httpStatus": 404,
+      "pageTitle": "Careers at Netflix",
+      "jsonLd": null,
+      "outcome": "blocked",
+      "evidence": "HTTP 404 Careers at Netflix Skip to main content CAREERS LOCATIONS ONLY AT NETFLIX NETFLIX HOUSE The job you are looking for may have closed. Netfli"
+    },
+    {
+      "id": "x-jack-henry-infrastructure-engineering-manager",
+      "company": "Jack Henry",
+      "title": "Infrastructure Engineering Manager",
+      "url": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
+      "checkedAt": "2026-10-22T23:40:13.880Z",
+      "finalUrl": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
+      "httpStatus": 200,
+      "pageTitle": "Infrastructure Engineering Manager at Jack Henry & Associates, Inc",
+      "jsonLd": {
+        "title": "Infrastructure Engineering Manager",
+        "datePosted": "2026-09-03",
+        "validThrough": null
+      },
+      "outcome": "live",
+      "evidence": "title \"Infrastructure Engineering Manager\" shown on the page"
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36",
+  "counts": {
+    "live": 3,
+    "blocked": 1
+  },
+  "seconds": 39
+}
