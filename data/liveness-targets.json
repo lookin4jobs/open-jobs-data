@@ -1,5 +1,5 @@
 {
-  "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained by Claude in chat from Kevin's Role Pipeline: roles in needs_check whose employer posting cannot be read by tool. The four below are a shakedown set, all verified live on 10/22/2026 by other routes, to confirm the browser reads these sites correctly.",
+  "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. The four below are a shakedown set, all verified live on 10/22/2026 by other routes, to confirm the browser reads these sites correctly.",
   "updated": "2026-10-22",
   "targets": [
     {
