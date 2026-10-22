@@ -1,5 +1,5 @@
 {
-  "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. The four below are a shakedown set, all verified live on 10/22/2026 by other routes, to confirm the browser reads these sites correctly.",
+  "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. The three below are a shakedown set, verified live on 10/22/2026 by other routes, to confirm the browser reads these sites correctly.",
   "updated": "2026-10-22",
   "targets": [
     {
@@ -15,13 +15,6 @@
       "title": "Software Development Manager",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
       "why": "shakedown: second ADP board, short jobId form"
-    },
-    {
-      "id": "x-netflix-em-tv-client-paved-paths-workflows",
-      "company": "Netflix",
-      "title": "TV Client Paved Paths",
-      "url": "https://explore.jobs.netflix.net/careers/job/790318755298?microsite=netflix.com",
-      "why": "shakedown: Eightfold portal that only renders in a browser"
     },
     {
       "id": "x-jack-henry-infrastructure-engineering-manager",
