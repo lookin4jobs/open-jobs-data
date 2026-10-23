@@ -303,7 +303,14 @@ async function scanBoard(browser, b) {
       const links = [];
       for (const f of page.frames()) {
         try {
-          links.push(...await f.$$eval('a[href]', as => as.map(a => ({ title: (a.innerText || a.textContent || '').replace(/\s+/g, ' ').trim(), url: a.href }))));
+          // A job card's link often wraps the title plus location and dates, so
+          // the title is the first non-empty line of the link's text.
+          links.push(...await f.$$eval('a[href]', as => as.map(a => {
+            const raw = a.innerText || a.textContent || '';
+            const title = (raw.split(/\n/).map(t => t.trim()).find(Boolean) || '').replace(/\s+/g, ' ');
+            const all = raw.replace(/\s+/g, ' ').trim();
+            return all !== title ? { title, url: a.href, text: all.slice(0, 200) } : { title, url: a.href };
+          })));
         } catch { /* skip */ }
       }
       const seen = new Set();

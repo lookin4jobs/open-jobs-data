@@ -3330,23 +3330,6 @@
     }
   },
   {
-    "name": "Liberty Mutual",
-    "platform": "workday",
-    "workday": {
-      "tenant": "libertymutual",
-      "site": "LMI",
-      "shard": "wd5",
-      "searchTexts": [
-        "site reliability",
-        "devops",
-        "platform engineer",
-        "infrastructure",
-        "cloud engineer",
-        "engineering manager"
-      ]
-    }
-  },
-  {
     "name": "Equifax",
     "platform": "workday",
     "workday": {
@@ -3398,113 +3381,11 @@
     }
   },
   {
-    "name": "Boston Scientific",
-    "platform": "workday",
-    "workday": {
-      "tenant": "bostonscientific",
-      "site": "BostonScientificCareers",
-      "shard": "wd1",
-      "searchTexts": [
-        "site reliability",
-        "devops",
-        "platform engineer",
-        "infrastructure",
-        "cloud engineer",
-        "engineering manager"
-      ]
-    }
-  },
-  {
-    "name": "Jacobs",
-    "platform": "workday",
-    "workday": {
-      "tenant": "jacobs",
-      "site": "External",
-      "shard": "wd1",
-      "searchTexts": [
-        "site reliability",
-        "devops",
-        "platform engineer",
-        "infrastructure",
-        "cloud engineer",
-        "engineering manager"
-      ]
-    }
-  },
-  {
-    "name": "Comcast",
-    "platform": "workday",
-    "workday": {
-      "tenant": "comcast",
-      "site": "Comcast_Careers",
-      "shard": "wd5",
-      "searchTexts": [
-        "site reliability",
-        "devops",
-        "platform engineer",
-        "infrastructure",
-        "cloud engineer",
-        "engineering manager"
-      ]
-    }
-  },
-  {
     "name": "Raymond James",
     "platform": "workday",
     "workday": {
       "tenant": "raymondjames",
       "site": "RaymondJamesCareers",
-      "shard": "wd1",
-      "searchTexts": [
-        "site reliability",
-        "devops",
-        "platform engineer",
-        "infrastructure",
-        "cloud engineer",
-        "engineering manager"
-      ]
-    }
-  },
-  {
-    "name": "Lincoln Financial",
-    "platform": "workday",
-    "workday": {
-      "tenant": "lfg",
-      "site": "LFG_Careers",
-      "shard": "wd1",
-      "searchTexts": [
-        "site reliability",
-        "devops",
-        "platform engineer",
-        "infrastructure",
-        "cloud engineer",
-        "engineering manager"
-      ]
-    }
-  },
-  {
-    "name": "DTCC",
-    "platform": "workday",
-    "workday": {
-      "tenant": "dtcc",
-      "site": "DTCC_Careers",
-      "shard": "wd1",
-      "searchTexts": [
-        "site reliability",
-        "devops",
-        "platform engineer",
-        "infrastructure",
-        "cloud engineer",
-        "engineering manager"
-      ]
-    }
-  },
-  {
-    "name": "Dell Technologies",
-    "platform": "workday",
-    "workday": {
-      "tenant": "dell",
-      "site": "External",
       "shard": "wd1",
       "searchTexts": [
         "site reliability",
