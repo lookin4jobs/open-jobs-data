@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T16:55:45.401Z",
+  "generatedAt": "2026-10-23T17:08:10.198Z",
   "runner": "github-actions",
   "results": [
     {
@@ -7,7 +7,7 @@
       "company": "Clinician Nexus",
       "title": "Manager, DevOps",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
-      "checkedAt": "2026-10-23T16:55:45.923Z",
+      "checkedAt": "2026-10-23T17:08:10.714Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
       "httpStatus": 200,
       "pageTitle": "Career Center | Recruitment",
@@ -20,7 +20,7 @@
       "company": "Sprezzatura",
       "title": "Software Development Manager",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
-      "checkedAt": "2026-10-23T16:55:54.985Z",
+      "checkedAt": "2026-10-23T17:08:18.938Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
       "httpStatus": 200,
       "pageTitle": "Career Center | Recruitment",
@@ -33,7 +33,7 @@
       "company": "Jack Henry",
       "title": "Infrastructure Engineering Manager",
       "url": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
-      "checkedAt": "2026-10-23T16:56:03.124Z",
+      "checkedAt": "2026-10-23T17:08:27.089Z",
       "finalUrl": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
       "httpStatus": 200,
       "pageTitle": "Infrastructure Engineering Manager at Jack Henry & Associates, Inc",
@@ -50,7 +50,7 @@
       "company": "DocuSign",
       "title": "Senior Manager, Site Reliability Engineering",
       "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
-      "checkedAt": "2026-10-23T16:56:11.186Z",
+      "checkedAt": "2026-10-23T17:08:34.240Z",
       "finalUrl": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 200,
       "pageTitle": "Senior Manager, Site Reliability Engineering in Remote | Careers at United States Remote",
@@ -63,7 +63,7 @@
       "company": "Navitus Health Solutions",
       "title": "Manager, Platform Engineering and FinOps",
       "url": "https://careers-navitus.icims.com/jobs/6474/manager,-platform-engineering-and-finops/job",
-      "checkedAt": "2026-10-23T16:56:19.065Z",
+      "checkedAt": "2026-10-23T17:08:41.906Z",
       "finalUrl": "https://careers-navitus.icims.com/jobs/search?ss=1&notFound=1&mobile=false&width=1264&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 410,
       "pageTitle": "Job Listings at Navitus Health Solutions, LLC",
@@ -77,7 +77,7 @@
       "id": "board-burnsmcd-it",
       "company": "Burns & McDonnell",
       "url": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
-      "checkedAt": "2026-10-23T16:56:25.473Z",
+      "checkedAt": "2026-10-23T17:08:48.142Z",
       "finalUrl": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
       "httpStatus": 200,
       "pageTitle": "Information Technology Jobs | Burns & McDonnell",
@@ -160,7 +160,7 @@
       "id": "board-burnsmcd-programming",
       "company": "Burns & McDonnell",
       "url": "https://burnsmcd.jobs/job-function/programming/jobs/",
-      "checkedAt": "2026-10-23T16:56:32.768Z",
+      "checkedAt": "2026-10-23T17:08:54.223Z",
       "finalUrl": "https://burnsmcd.jobs/job-function/programming/jobs/",
       "httpStatus": 200,
       "pageTitle": "Programming Job | Burns & McDonnell",
@@ -178,7 +178,7 @@
       "id": "board-hntb-it",
       "company": "HNTB",
       "url": "https://hntb.jobs/job-category/information-technology-group/jobs/",
-      "checkedAt": "2026-10-23T16:56:38.871Z",
+      "checkedAt": "2026-10-23T17:08:59.636Z",
       "finalUrl": "https://hntb.jobs/job-category/information-technology-group/jobs/",
       "httpStatus": 200,
       "pageTitle": "Information Technology Group Jobs | HNTB",
@@ -241,78 +241,166 @@
       "id": "board-oracle-sre",
       "company": "Oracle (incl. Oracle Health, Kansas City)",
       "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
-      "checkedAt": "2026-10-23T16:56:46.594Z",
+      "checkedAt": "2026-10-23T17:09:05.531Z",
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Oracle Careers",
-      "outcome": "empty",
-      "evidence": "no job links found; page starts: Skip to main content. Search Jobs - Oracle Careers FIND Job title, skill, keyword NEAR LOCATION City, state, country JOB",
-      "jobs": [],
-      "sampleLinks": [
-        "https://careers.oracle.com/en/sites/jobsearch#main",
-        "https://careers.oracle.com/en/sites/jobsearch/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/sitemaps/sitemapIndex",
-        "https://careers.oracle.com/en/sites/jobsearch/my-profile/sign-in",
-        "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/events",
-        "https://careers.oracle.com/en/sites/jobsearch/job/348662/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/340138/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/340128/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/337734/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/join-talent-community?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/340123/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/340129/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/340136/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/340273/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/343759/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/346955/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/348568/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/330218/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/348431/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://careers.oracle.com/en/sites/jobsearch/job/340127/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-        "https://www.oracle.com/careers/",
-        "https://www.oracle.com/corporate/careers/background-check.html",
-        "https://www.oracle.com/corporate/careers/",
-        "https://www.oracle.com/corporate/careers/terms-conditions/"
+      "outcome": "listed",
+      "count": 14,
+      "jobs": [
+        {
+          "title": "Principal Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/348662/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Principal Site Reliability Engineer United States HOT JOB This role combines strategic architecture with practical systems engineering, deployment, automation, patching, troubleshooting, incident resp"
+        },
+        {
+          "title": "Senior Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340138/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Senior Site Reliability Engineer Nashville, TN, United States TRENDING Oracle America, Inc. is seeking a Senior Site Reliability Engineer for the Oracle Health CWx US Public Client Ops department. The"
+        },
+        {
+          "title": "Principal Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340128/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Principal Site Reliability Engineer Nashville, TN, United States Oracle is seeking an experienced, hands-on Principal Site Reliability Engineer to lead the design, reliability, security, and operation"
+        },
+        {
+          "title": "Senior Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/337734/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Senior Site Reliability Engineer Pleasanton, CA, United States and 3 more Site Reliability Engineer 3 responsible for ensuring the reliability, scalability, performance, and operational excellence of "
+        },
+        {
+          "title": "Principal Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340123/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Principal Site Reliability Engineer Nashville, TN, United States This role combines strategic architecture with practical systems engineering, deployment, automation, patching, troubleshooting, incide"
+        },
+        {
+          "title": "Principal Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340129/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Principal Site Reliability Engineer Nashville, TN, United States This role combines strategic architecture with practical systems engineering, deployment, automation, patching, troubleshooting, incide"
+        },
+        {
+          "title": "Site Reliability Engineer 2",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340136/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Site Reliability Engineer 2 Nashville, TN, United States TRENDING This role combines systems administration, production support, cloud operations, cybersecurity remediation, and site reliability engin"
+        },
+        {
+          "title": "Senior Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340273/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Senior Site Reliability Engineer United States TRENDING OCI Incident Response is the first line of defense in maintaining the high availability of Oracle’s cloud. We are looking for a Senior Site Reli"
+        },
+        {
+          "title": "Senior Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/343759/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Senior Site Reliability Engineer Nashville, TN, United States TRENDING OCI Incident Response is the first line of defense in maintaining the high availability of Oracle’s cloud. We are looking for a S"
+        },
+        {
+          "title": "Senior Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/346955/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Senior Site Reliability Engineer United States TRENDING OCI Incident Response is the first line of defense in maintaining the high availability of Oracle’s cloud. We are looking for a Senior Site Reli"
+        },
+        {
+          "title": "Senior Site Reliability Developer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/348568/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Senior Site Reliability Developer United States This role provide support to core data platforms behind Oracle Health’s Data & Analytics Platform. As a Senior Site Reliability Engineer (SRE), you will"
+        },
+        {
+          "title": "Senior Site Reliability Developer- Oracle Health",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/330218/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Senior Site Reliability Developer- Oracle Health United States Come and join us! Building on our cloud momentum, Oracle has formed a new organization—Oracle Health. This team focuses on product deploy"
+        },
+        {
+          "title": "Senior Site Reliability Developer- Oracle Health",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/348431/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Senior Site Reliability Developer- Oracle Health United States TRENDING Come and join us! Building on our cloud momentum, Oracle has formed a new organization—Oracle Health. This team focuses on produ"
+        },
+        {
+          "title": "Lead Principal Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340127/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Lead Principal Site Reliability Engineer Nashville, TN, United States This is a senior individual-contributor and technical leadership role for an engineer who can operate across infrastructure, softw"
+        }
       ]
     },
     {
       "id": "board-oracle-em",
       "company": "Oracle (incl. Oracle Health, Kansas City)",
       "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
-      "checkedAt": "2026-10-23T16:57:08.074Z",
+      "checkedAt": "2026-10-23T17:09:15.635Z",
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Oracle Careers",
-      "outcome": "empty",
-      "evidence": "no job links found; page starts: Skip to main content. Search Jobs - Oracle Careers FIND Job title, skill, keyword NEAR LOCATION City, state, country JOB",
-      "jobs": [],
-      "sampleLinks": [
-        "https://careers.oracle.com/en/sites/jobsearch#main",
-        "https://careers.oracle.com/en/sites/jobsearch/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/sitemaps/sitemapIndex",
-        "https://careers.oracle.com/en/sites/jobsearch/my-profile/sign-in",
-        "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/events",
-        "https://careers.oracle.com/en/sites/jobsearch/job/346459/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/347824/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/343472/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/343471/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/join-talent-community?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/343799/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/336894/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/344311/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/345513/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/326584/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/343240/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/340883/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/343417/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/334828/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://careers.oracle.com/en/sites/jobsearch/job/334829/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-        "https://www.oracle.com/careers/",
-        "https://www.oracle.com/corporate/careers/background-check.html",
-        "https://www.oracle.com/corporate/careers/",
-        "https://www.oracle.com/corporate/careers/terms-conditions/"
+      "outcome": "listed",
+      "count": 14,
+      "jobs": [
+        {
+          "title": "Senior Customer Service Specialist",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/346459/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Senior Customer Service Specialist Kansas City, MO, United States and 2 more TRENDING As a Senior Customer Service Specialist in the Support organization, you will support customers by performing high"
+        },
+        {
+          "title": "Principal Technical Program Manager, Data Centers",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/347824/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Principal Technical Program Manager, Data Centers Kansas City, MO, United States and 2 more End-to-End Data Center Technical Program Manager. Needs to sit in Kansas City, MO or Chicago, IL. Travel: Up"
+        },
+        {
+          "title": "Manager, Support Engineering (Night Shift)",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/343472/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Manager, Support Engineering (Night Shift) Kansas City, MO, United States As a Manager within the Support organization, you will lead a team responsible for delivering high-quality technical and appli"
+        },
+        {
+          "title": "Manager, Support Engineering",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/343471/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Manager, Support Engineering Kansas City, MO, United States As a Manager within the Support organization, you will lead a team responsible for delivering high-quality technical and application support"
+        },
+        {
+          "title": "Senior Program Manager, Oracle Health Support Operations",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/343799/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Senior Program Manager, Oracle Health Support Operations Kansas City, MO, United States and 2 more HOT JOB TRENDING We are seeking an experienced Program Manager to drive strategic and operational ini"
+        },
+        {
+          "title": "Support Engineer 1",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/336894/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Support Engineer 1 Kansas City, MO, United States and 3 more TRENDING The Support Engineer I serves as the first point of contact for Oracle Health customers, providing technical support, troubleshoot"
+        },
+        {
+          "title": "Program Manager, Oracle Health Support Operations",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/344311/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Program Manager, Oracle Health Support Operations Kansas City, MO, United States and 2 more TRENDING We are seeking an experienced Program Manager to drive strategic and operational initiatives across"
+        },
+        {
+          "title": "Supervisor, Customer Service",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/345513/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Supervisor, Customer Service Kansas City, MO, United States TRENDING Manages a team on resolving incoming service requests and manages the operation of customer service delivery, serving as point of e"
+        },
+        {
+          "title": "Configuration Support Analyst – Support Services",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/326584/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Configuration Support Analyst – Support Services Orlando, FL, United States and 3 more TRENDING As a member of the Support organization, your focus is to deliver post-sales support and solutions to th"
+        },
+        {
+          "title": "Configuration Support Analyst – Support Services",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/343240/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Configuration Support Analyst – Support Services Orlando, FL, United States and 2 more TRENDING As a member of the Support organization, your focus is to deliver post-sales support and solutions to th"
+        },
+        {
+          "title": "Senior Customer Service Specialist",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340883/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Senior Customer Service Specialist Kansas City, MO, United States and 3 more TRENDING As an Associate Customer Service Solution Analyst in the Support organization, you will support customers by perfo"
+        },
+        {
+          "title": "Senior Support Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/343417/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Senior Support Engineer Nashville, TN, United States and 2 more TRENDING Serves as a point of contact for customers, fielding inquiries via phone or electronic channels."
+        },
+        {
+          "title": "Senior Customer Service Specialist",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/334828/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Senior Customer Service Specialist Kansas City, MO, United States and 3 more TRENDING As an Associate Customer Service Solution Analyst in the Support organization, you will support customers by perfo"
+        },
+        {
+          "title": "Senior Customer Service Specialist",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/334829/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Senior Customer Service Specialist Kansas City, MO, United States and 3 more TRENDING As an Associate Customer Service Solution Analyst in the Support organization, you will support customers by perfo"
+        }
       ]
     }
   ],
@@ -321,5 +409,5 @@
     "live": 4,
     "gone": 1
   },
-  "seconds": 99
+  "seconds": 70
 }
