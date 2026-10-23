@@ -29,6 +29,13 @@
       "title": "Senior Manager, Site Reliability Engineering",
       "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
       "why": "needs_check since 10/23: the iCIMS page renders only in a browser and the uscareers host is robots-disallowed"
+    },
+    {
+      "id": "calib-icims-navitus-6474",
+      "company": "Navitus Health Solutions",
+      "title": "Manager, Platform Engineering and FinOps",
+      "url": "https://careers-navitus.icims.com/jobs/6474/manager,-platform-engineering-and-finops/job",
+      "why": "calibration: a known-closed iCIMS req, to confirm the browser reads a closed iCIMS posting as closed, not live"
     }
   ]
 }
