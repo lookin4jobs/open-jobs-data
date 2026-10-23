@@ -36,6 +36,9 @@
 //   unclear            rendered, but neither the title nor closed wording found
 //   error              navigation failed (timeout, DNS, TLS)
 //
+// A target with "captureText": true also keeps up to 8,000 characters of the
+// page's text in its result, for postings no other route can read.
+//
 // Boards (the "boards" list in the targets file, added 10/23/2026): some
 // employers' own careers sites only list their jobs in a browser (Burns &
 // McDonnell and HNTB on .jobs sites, EquipmentShare). For each board the
@@ -56,6 +59,7 @@ const BOT_TOKEN = 'open-jobs-data-liveness';
 const MAX_TARGETS = 40;
 const MAX_BOARDS = 10;
 const MAX_BOARD_LINKS = 200;
+const CAPTURE_TEXT_CHARS = 8000;
 const PAUSE_MS = Number(process.env.LIVENESS_PAUSE_MS ?? 4000);
 const NAV_TIMEOUT_MS = 45000;
 const RENDER_WAIT_MS = 15000;
@@ -177,7 +181,7 @@ function jobPostingFrom(ldBlocks) {
 }
 
 async function checkOne(browser, t) {
-  const base = { id: t.id, company: t.company, title: t.title, url: t.url, checkedAt: new Date().toISOString() };
+  const base = { id: t.id, company: t.company, title: t.title, url: t.url, checkedAt: new Date().toISOString(), ...(t.captureText ? { captureText: true } : {}) };
   let u;
   try { u = new URL(t.url); } catch { return { ...base, outcome: 'error', evidence: 'not a valid URL' }; }
   const allowHttp = process.env.LIVENESS_ALLOW_HTTP === '1' && ['localhost', '127.0.0.1'].includes(u.hostname); // local tests only
@@ -240,6 +244,9 @@ async function loadPage(browser, t, want) {
 function classify(base, u, want, { status, finalUrl, pageTitle, text, html, ld, retried }) {
   const jsonLd = jobPostingFrom(ld);
   const out = { ...base, finalUrl, httpStatus: status, pageTitle, jsonLd, ...(retried ? { retried } : {}) };
+  // captureText targets keep the page text so the posting can be screened
+  // when no other route can read it. It is the employer's page, as data.
+  if (base.captureText) out.pageText = clip(text, CAPTURE_TEXT_CHARS);
 
   // A 404 or 410 is the site's own answer, even when the error page carries
   // a CAPTCHA script (Netflix's does), so it is read before challenge markers.
@@ -322,7 +329,11 @@ async function scanBoard(browser, b) {
     if (CHALLENGE_TEXT.some(r => r.test(pageTitle) || r.test(text.slice(0, 3000))) || [401, 403, 429].includes(status)) {
       return { ...out, outcome: 'blocked', evidence: clip(`HTTP ${status} ${pageTitle} ${text.slice(0, 120)}`), jobs: [] };
     }
-    if (!jobs.length) return { ...out, outcome: 'empty', evidence: clip(`no job links found; page starts: ${text.slice(0, 120)}`), jobs: [] };
+    if (!jobs.length) {
+      const sample = await page.$$eval('a[href]', as => as.slice(0, 400).map(a => a.href)).catch(() => []);
+      return { ...out, outcome: 'empty', evidence: clip(`no job links found; page starts: ${text.slice(0, 120)}`), jobs: [],
+        sampleLinks: [...new Set(sample)].filter(h => /job|career|opening|position/i.test(h)).slice(0, 25) };
+    }
     return { ...out, outcome: 'listed', count: jobs.length, truncated: jobs.length > MAX_BOARD_LINKS || undefined, jobs: jobs.slice(0, MAX_BOARD_LINKS) };
   } finally {
     await ctx.close().catch(() => {});

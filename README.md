@@ -176,8 +176,9 @@ from every frame on the page (iCIMS shows the posting in an iframe), and when
 the site's own app shows a generic "unexpected error, please try again" page
 it reloads that page once after a short wait. It can also list the job links
 on a few employer careers pages that only show their jobs in a browser (the
-`boards` list in the same file), for discovery. The job can't fail the dataset
-refresh. To run it on its own, use **Run workflow** on the
+`boards` list in the same file), for discovery, and keep the page text of a
+target marked `captureText` so a posting nothing else can read can still be
+screened. The job can't fail the dataset refresh. To run it on its own, use **Run workflow** on the
 Actions tab with "run only the browser liveness check" ticked.
 
 ## If you need this for your own company list
