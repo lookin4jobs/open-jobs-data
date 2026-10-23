@@ -38,19 +38,12 @@
       "why": "standing control: a known-closed iCIMS req. Read as gone (HTTP 410) on 10/23. If it ever reads live, distrust that night's results"
     },
     {
-      "id": "icims-healthedge-8223",
-      "company": "HealthEdge",
-      "title": "Healthcare Technical Operations Manager",
-      "url": "https://careers-healthedge.icims.com/jobs/8223/job",
-      "why": "needs_check since 10/23: the job page refused the fetch tool twice"
-    },
-    {
-      "id": "x-burns-mcdonnell-delivery-manager-technology-solutions-group",
-      "company": "Burns & McDonnell",
-      "title": "Delivery Manager - Technology Solutions Group",
-      "url": "https://burnsmcd.jobs/kansas-city-mo/delivery-manager-technology-solutions-group-kansas-city/A78A1A6133974F1D93C77E4170383296/job/",
+      "id": "ashby-ccc3148c-fde1-4b22-bf5b-fd74a0f95c1d",
+      "company": "Temporal",
+      "title": "Senior Engineering Manager, Observability Engineering",
+      "url": "https://jobs.ashbyhq.com/temporal/ccc3148c-fde1-4b22-bf5b-fd74a0f95c1d",
       "captureText": true,
-      "why": "found on the Burns & McDonnell IT board 10/23; the page only renders in a browser, so its text is captured for screening"
+      "why": "found 10/23; the Ashby page body renders only in a browser and the req is not yet in Temporal's posting API, so its text is captured for screening"
     }
   ],
   "boards": [
@@ -74,12 +67,6 @@
       "url": "https://hntb.jobs/job-category/information-technology-group/jobs/",
       "linkPattern": "hntb\\.jobs/[^?#]+/[0-9A-F]{32}/job/?$",
       "why": "Kansas City engineering firm (construction watch); .jobs site lists jobs only in a browser"
-    },
-    {
-      "id": "board-equipmentshare",
-      "company": "EquipmentShare",
-      "url": "https://www.equipmentshare.com/careers/current-openings?q=engineer",
-      "why": "Missouri construction-tech employer (construction watch); its openings page renders only in a browser"
     }
   ]
 }
