@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T16:43:17.026Z",
+  "generatedAt": "2026-10-23T16:55:45.401Z",
   "runner": "github-actions",
   "results": [
     {
@@ -7,7 +7,7 @@
       "company": "Clinician Nexus",
       "title": "Manager, DevOps",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
-      "checkedAt": "2026-10-23T16:43:18.961Z",
+      "checkedAt": "2026-10-23T16:55:45.923Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
       "httpStatus": 200,
       "pageTitle": "Career Center | Recruitment",
@@ -20,7 +20,7 @@
       "company": "Sprezzatura",
       "title": "Software Development Manager",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
-      "checkedAt": "2026-10-23T16:43:27.039Z",
+      "checkedAt": "2026-10-23T16:55:54.985Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
       "httpStatus": 200,
       "pageTitle": "Career Center | Recruitment",
@@ -33,7 +33,7 @@
       "company": "Jack Henry",
       "title": "Infrastructure Engineering Manager",
       "url": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
-      "checkedAt": "2026-10-23T16:43:34.621Z",
+      "checkedAt": "2026-10-23T16:56:03.124Z",
       "finalUrl": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
       "httpStatus": 200,
       "pageTitle": "Infrastructure Engineering Manager at Jack Henry & Associates, Inc",
@@ -50,7 +50,7 @@
       "company": "DocuSign",
       "title": "Senior Manager, Site Reliability Engineering",
       "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
-      "checkedAt": "2026-10-23T16:43:41.902Z",
+      "checkedAt": "2026-10-23T16:56:11.186Z",
       "finalUrl": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 200,
       "pageTitle": "Senior Manager, Site Reliability Engineering in Remote | Careers at United States Remote",
@@ -63,7 +63,7 @@
       "company": "Navitus Health Solutions",
       "title": "Manager, Platform Engineering and FinOps",
       "url": "https://careers-navitus.icims.com/jobs/6474/manager,-platform-engineering-and-finops/job",
-      "checkedAt": "2026-10-23T16:43:48.290Z",
+      "checkedAt": "2026-10-23T16:56:19.065Z",
       "finalUrl": "https://careers-navitus.icims.com/jobs/search?ss=1&notFound=1&mobile=false&width=1264&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 410,
       "pageTitle": "Job Listings at Navitus Health Solutions, LLC",
@@ -77,72 +77,82 @@
       "id": "board-burnsmcd-it",
       "company": "Burns & McDonnell",
       "url": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
-      "checkedAt": "2026-10-23T16:43:53.603Z",
+      "checkedAt": "2026-10-23T16:56:25.473Z",
       "finalUrl": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
       "httpStatus": 200,
       "pageTitle": "Information Technology Jobs | Burns & McDonnell",
       "outcome": "listed",
-      "count": 15,
+      "count": 14,
       "jobs": [
         {
-          "title": "Environmental Services Technology & Innovation Manager Kansas City, MO",
-          "url": "https://burnsmcd.jobs/kansas-city-mo/environmental-services-technology-innovation-manager/3534ED376D8C41D5BA889B4C0E6A15F1/job/"
+          "title": "Environmental Services Technology & Innovation Manager",
+          "url": "https://burnsmcd.jobs/kansas-city-mo/environmental-services-technology-innovation-manager/3534ED376D8C41D5BA889B4C0E6A15F1/job/",
+          "text": "Environmental Services Technology & Innovation Manager Kansas City, MO"
         },
         {
-          "title": "IT Engineer Bengaluru, IND",
-          "url": "https://burnsmcd.jobs/bengaluru-ind/it-engineer/23B72D7A09EE491FAA6F66AB3B8CEB2D/job/"
+          "title": "IT Engineer",
+          "url": "https://burnsmcd.jobs/bengaluru-ind/it-engineer/23B72D7A09EE491FAA6F66AB3B8CEB2D/job/",
+          "text": "IT Engineer Bengaluru, IND"
         },
         {
-          "title": "IT Engineer Mumbai, IND",
-          "url": "https://burnsmcd.jobs/mumbai-ind/it-engineer/769015D336B04FF794EFEBD84B4A38CC/job/"
+          "title": "IT Engineer",
+          "url": "https://burnsmcd.jobs/mumbai-ind/it-engineer/769015D336B04FF794EFEBD84B4A38CC/job/",
+          "text": "IT Engineer Mumbai, IND"
         },
         {
-          "title": "ITBM Bengaluru, IND",
-          "url": "https://burnsmcd.jobs/bengaluru-ind/itbm/5CB9A380EB674E1DBEF60AADA5B00AE8/job/"
+          "title": "Lead Enterprise Architect - Corporate IT",
+          "url": "https://burnsmcd.jobs/chicago-il/lead-enterprise-architect-corporate-it/D19DB9D6D53E413691017C8F71468FEB/job/",
+          "text": "Lead Enterprise Architect - Corporate IT Chicago, IL"
         },
         {
-          "title": "Lead Enterprise Architect - Corporate IT Chicago, IL",
-          "url": "https://burnsmcd.jobs/chicago-il/lead-enterprise-architect-corporate-it/D19DB9D6D53E413691017C8F71468FEB/job/"
+          "title": "Lead Enterprise Architect - Corporate IT",
+          "url": "https://burnsmcd.jobs/dallas-tx/lead-enterprise-architect-corporate-it/D042242104B74C74AE44142FBAF9D715/job/",
+          "text": "Lead Enterprise Architect - Corporate IT Dallas, TX"
         },
         {
-          "title": "Lead Enterprise Architect - Corporate IT Dallas, TX",
-          "url": "https://burnsmcd.jobs/dallas-tx/lead-enterprise-architect-corporate-it/D042242104B74C74AE44142FBAF9D715/job/"
+          "title": "Lead Enterprise Architect - Corporate IT",
+          "url": "https://burnsmcd.jobs/houston-tx/lead-enterprise-architect-corporate-it/5392CF4A3DF44E6AAFCEC36DDE7BBF86/job/",
+          "text": "Lead Enterprise Architect - Corporate IT Houston, TX"
         },
         {
-          "title": "Lead Enterprise Architect - Corporate IT Houston, TX",
-          "url": "https://burnsmcd.jobs/houston-tx/lead-enterprise-architect-corporate-it/5392CF4A3DF44E6AAFCEC36DDE7BBF86/job/"
+          "title": "Lead Enterprise Architect - Corporate IT",
+          "url": "https://burnsmcd.jobs/kansas-city-mo/lead-enterprise-architect-corporate-it/3B9B6EB4C73349C79B2F75474E0719A1/job/",
+          "text": "Lead Enterprise Architect - Corporate IT Kansas City, MO"
         },
         {
-          "title": "Lead Enterprise Architect - Corporate IT Kansas City, MO",
-          "url": "https://burnsmcd.jobs/kansas-city-mo/lead-enterprise-architect-corporate-it/3B9B6EB4C73349C79B2F75474E0719A1/job/"
+          "title": "AI Engineer_Full Stack Generative AI",
+          "url": "https://burnsmcd.jobs/bengaluru-ind/ai-engineer_full-stack-generative-ai/2CF7B68CDA8445ECB9BF4984A53C42DC/job/",
+          "text": "AI Engineer_Full Stack Generative AI Bengaluru, IND"
         },
         {
-          "title": "AI Engineer_Full Stack Generative AI Bengaluru, IND",
-          "url": "https://burnsmcd.jobs/bengaluru-ind/ai-engineer_full-stack-generative-ai/2CF7B68CDA8445ECB9BF4984A53C42DC/job/"
+          "title": "Delivery Manager - Technology Solutions Group (Kansas City)",
+          "url": "https://burnsmcd.jobs/kansas-city-mo/delivery-manager-technology-solutions-group-kansas-city/A78A1A6133974F1D93C77E4170383296/job/",
+          "text": "Delivery Manager - Technology Solutions Group (Kansas City) Kansas City, MO"
         },
         {
-          "title": "Delivery Manager - Technology Solutions Group (Kansas City) Kansas City, MO",
-          "url": "https://burnsmcd.jobs/kansas-city-mo/delivery-manager-technology-solutions-group-kansas-city/A78A1A6133974F1D93C77E4170383296/job/"
+          "title": "Power Generation Analyst",
+          "url": "https://burnsmcd.jobs/mumbai-ind/power-generation-analyst/05AF23E7CD5E40A7BC5ACBE7BA9CD842/job/",
+          "text": "Power Generation Analyst Mumbai, IND"
         },
         {
-          "title": "Power Generation Analyst Mumbai, IND",
-          "url": "https://burnsmcd.jobs/mumbai-ind/power-generation-analyst/05AF23E7CD5E40A7BC5ACBE7BA9CD842/job/"
+          "title": "Lead QA",
+          "url": "https://burnsmcd.jobs/bengaluru-ind/lead-qa/7F535F3AC013441D93C29670102927D1/job/",
+          "text": "Lead QA Bengaluru, IND"
         },
         {
-          "title": "Lead QA Bengaluru, IND",
-          "url": "https://burnsmcd.jobs/bengaluru-ind/lead-qa/7F535F3AC013441D93C29670102927D1/job/"
+          "title": "Fullstack Developer (Technical Lead)",
+          "url": "https://burnsmcd.jobs/mumbai-ind/fullstack-developer-technical-lead/F44BD45C939F4A7C8310DC51EBB2CB84/job/",
+          "text": "Fullstack Developer (Technical Lead) Mumbai, IND"
         },
         {
-          "title": "Fullstack Developer (Technical Lead) Mumbai, IND",
-          "url": "https://burnsmcd.jobs/mumbai-ind/fullstack-developer-technical-lead/F44BD45C939F4A7C8310DC51EBB2CB84/job/"
+          "title": "Head of Technical Solutions Group - Corporate Innovation",
+          "url": "https://burnsmcd.jobs/kansas-city-mo/head-of-technical-solutions-group-corporate-innovation/27CC13385BE743A9AF3B0BF64230E1CB/job/",
+          "text": "Head of Technical Solutions Group - Corporate Innovation Kansas City, MO"
         },
         {
-          "title": "Head of Technical Solutions Group - Corporate Innovation Kansas City, MO",
-          "url": "https://burnsmcd.jobs/kansas-city-mo/head-of-technical-solutions-group-corporate-innovation/27CC13385BE743A9AF3B0BF64230E1CB/job/"
-        },
-        {
-          "title": "Technology Services Business Partner - Information Technology (Kansas City) Kansas City, MO",
-          "url": "https://burnsmcd.jobs/kansas-city-mo/technology-services-business-partner-information-technology-kansas-city/C1B75CE39A9D419A874CF840DA498F65/job/"
+          "title": "Technology Services Business Partner - Information Technology (Kansas City)",
+          "url": "https://burnsmcd.jobs/kansas-city-mo/technology-services-business-partner-information-technology-kansas-city/C1B75CE39A9D419A874CF840DA498F65/job/",
+          "text": "Technology Services Business Partner - Information Technology (Kansas City) Kansas City, MO"
         }
       ]
     },
@@ -150,7 +160,7 @@
       "id": "board-burnsmcd-programming",
       "company": "Burns & McDonnell",
       "url": "https://burnsmcd.jobs/job-function/programming/jobs/",
-      "checkedAt": "2026-10-23T16:43:59.178Z",
+      "checkedAt": "2026-10-23T16:56:32.768Z",
       "finalUrl": "https://burnsmcd.jobs/job-function/programming/jobs/",
       "httpStatus": 200,
       "pageTitle": "Programming Job | Burns & McDonnell",
@@ -158,8 +168,9 @@
       "count": 1,
       "jobs": [
         {
-          "title": "Staff Applications Specialist - Construction (St. Louis) Saint Louis, MO",
-          "url": "https://burnsmcd.jobs/saint-louis-mo/staff-applications-specialist-construction-st-louis/135B2C6B0FFB4E67883144D0DC8169E5/job/"
+          "title": "Staff Applications Specialist - Construction (St. Louis)",
+          "url": "https://burnsmcd.jobs/saint-louis-mo/staff-applications-specialist-construction-st-louis/135B2C6B0FFB4E67883144D0DC8169E5/job/",
+          "text": "Staff Applications Specialist - Construction (St. Louis) Saint Louis, MO"
         }
       ]
     },
@@ -167,7 +178,7 @@
       "id": "board-hntb-it",
       "company": "HNTB",
       "url": "https://hntb.jobs/job-category/information-technology-group/jobs/",
-      "checkedAt": "2026-10-23T16:44:05.342Z",
+      "checkedAt": "2026-10-23T16:56:38.871Z",
       "finalUrl": "https://hntb.jobs/job-category/information-technology-group/jobs/",
       "httpStatus": 200,
       "pageTitle": "Information Technology Group Jobs | HNTB",
@@ -175,44 +186,54 @@
       "count": 10,
       "jobs": [
         {
-          "title": "Principal Technologist Engineering Kansas City, MO",
-          "url": "https://hntb.jobs/kansas-city-mo/principal-technologist-engineering/297BEF1E25DF4A61AC9FB5BDA2B75A7B/job/"
+          "title": "Principal Technologist Engineering",
+          "url": "https://hntb.jobs/kansas-city-mo/principal-technologist-engineering/297BEF1E25DF4A61AC9FB5BDA2B75A7B/job/",
+          "text": "Principal Technologist Engineering Kansas City, MO"
         },
         {
-          "title": "Principal Technologist Engineering Philadelphia, PA",
-          "url": "https://hntb.jobs/philadelphia-pa/principal-technologist-engineering/BE48A28E20974D0CA19B82627CD3E986/job/"
+          "title": "Principal Technologist Engineering",
+          "url": "https://hntb.jobs/philadelphia-pa/principal-technologist-engineering/BE48A28E20974D0CA19B82627CD3E986/job/",
+          "text": "Principal Technologist Engineering Philadelphia, PA"
         },
         {
-          "title": "Principal Technologist Engineering Austin, TX",
-          "url": "https://hntb.jobs/austin-tx/principal-technologist-engineering/ECC9C2BA877D497DBF898E46FB00F721/job/"
+          "title": "Principal Technologist Engineering",
+          "url": "https://hntb.jobs/austin-tx/principal-technologist-engineering/ECC9C2BA877D497DBF898E46FB00F721/job/",
+          "text": "Principal Technologist Engineering Austin, TX"
         },
         {
-          "title": "Principal Technologist Engineering Bellevue, WA",
-          "url": "https://hntb.jobs/bellevue-wa/principal-technologist-engineering/9670AC864C134212A8F8CA9B69EB5B36/job/"
+          "title": "Principal Technologist Engineering",
+          "url": "https://hntb.jobs/bellevue-wa/principal-technologist-engineering/9670AC864C134212A8F8CA9B69EB5B36/job/",
+          "text": "Principal Technologist Engineering Bellevue, WA"
         },
         {
-          "title": "Principal Technologist Engineering Houston, TX",
-          "url": "https://hntb.jobs/houston-tx/principal-technologist-engineering/9EB804DD094A4BD18AA003E77560A4FE/job/"
+          "title": "Principal Technologist Engineering",
+          "url": "https://hntb.jobs/houston-tx/principal-technologist-engineering/9EB804DD094A4BD18AA003E77560A4FE/job/",
+          "text": "Principal Technologist Engineering Houston, TX"
         },
         {
-          "title": "Principal Technologist Engineering Raleigh, NC",
-          "url": "https://hntb.jobs/raleigh-nc/principal-technologist-engineering/7CC91A6CA09B4409B970C0B40407A4B4/job/"
+          "title": "Principal Technologist Engineering",
+          "url": "https://hntb.jobs/raleigh-nc/principal-technologist-engineering/7CC91A6CA09B4409B970C0B40407A4B4/job/",
+          "text": "Principal Technologist Engineering Raleigh, NC"
         },
         {
-          "title": "Principal Technologist Engineering Arlington, VA",
-          "url": "https://hntb.jobs/arlington-va/principal-technologist-engineering/AC2B13C1DC6A4DC49DE22C2BFE0851AA/job/"
+          "title": "Principal Technologist Engineering",
+          "url": "https://hntb.jobs/arlington-va/principal-technologist-engineering/AC2B13C1DC6A4DC49DE22C2BFE0851AA/job/",
+          "text": "Principal Technologist Engineering Arlington, VA"
         },
         {
-          "title": "Principal Technologist Engineering Detroit, MI",
-          "url": "https://hntb.jobs/detroit-mi/principal-technologist-engineering/B0E81A25BCD54E60A69E671B3182EB60/job/"
+          "title": "Principal Technologist Engineering",
+          "url": "https://hntb.jobs/detroit-mi/principal-technologist-engineering/B0E81A25BCD54E60A69E671B3182EB60/job/",
+          "text": "Principal Technologist Engineering Detroit, MI"
         },
         {
-          "title": "Principal Technologist Engineering Lake Mary, FL",
-          "url": "https://hntb.jobs/lake-mary-fl/principal-technologist-engineering/8D00C6FE1A6347489D1CAAA46AE0C0AC/job/"
+          "title": "Principal Technologist Engineering",
+          "url": "https://hntb.jobs/lake-mary-fl/principal-technologist-engineering/8D00C6FE1A6347489D1CAAA46AE0C0AC/job/",
+          "text": "Principal Technologist Engineering Lake Mary, FL"
         },
         {
-          "title": "Principal Technologist Engineering Indianapolis, IN",
-          "url": "https://hntb.jobs/indianapolis-in/principal-technologist-engineering/1A47AFA2EA8045598A049F14EB144D2D/job/"
+          "title": "Principal Technologist Engineering",
+          "url": "https://hntb.jobs/indianapolis-in/principal-technologist-engineering/1A47AFA2EA8045598A049F14EB144D2D/job/",
+          "text": "Principal Technologist Engineering Indianapolis, IN"
         }
       ]
     },
@@ -220,7 +241,7 @@
       "id": "board-oracle-sre",
       "company": "Oracle (incl. Oracle Health, Kansas City)",
       "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
-      "checkedAt": "2026-10-23T16:44:12.345Z",
+      "checkedAt": "2026-10-23T16:56:46.594Z",
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Oracle Careers",
@@ -259,7 +280,7 @@
       "id": "board-oracle-em",
       "company": "Oracle (incl. Oracle Health, Kansas City)",
       "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
-      "checkedAt": "2026-10-23T16:44:33.319Z",
+      "checkedAt": "2026-10-23T16:57:08.074Z",
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Oracle Careers",
@@ -293,30 +314,6 @@
         "https://www.oracle.com/corporate/careers/",
         "https://www.oracle.com/corporate/careers/terms-conditions/"
       ]
-    },
-    {
-      "id": "board-garmin",
-      "company": "Garmin (Olathe)",
-      "url": "https://careers.garmin.com/careers-home/jobs?keywords=devops&location=United%20States",
-      "checkedAt": "2026-10-23T16:44:53.814Z",
-      "finalUrl": "https://careers.garmin.com/careers-home/jobs?keywords=devops&location=United%20States",
-      "httpStatus": 403,
-      "pageTitle": "403 Forbidden",
-      "outcome": "blocked",
-      "evidence": "HTTP 403 403 Forbidden 403 Forbidden",
-      "jobs": []
-    },
-    {
-      "id": "board-hrblock",
-      "company": "H&R Block (Kansas City)",
-      "url": "https://careers.hrblock.com/search-jobs?keywords=engineer",
-      "checkedAt": "2026-10-23T16:45:13.153Z",
-      "finalUrl": "https://careers.hrblock.com/search-jobs?keywords=engineer",
-      "httpStatus": 403,
-      "pageTitle": "403 Forbidden",
-      "outcome": "blocked",
-      "evidence": "HTTP 403 403 Forbidden 403 Forbidden",
-      "jobs": []
     }
   ],
   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36",
@@ -324,5 +321,5 @@
     "live": 4,
     "gone": 1
   },
-  "seconds": 131
+  "seconds": 99
 }
