@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T05:43:39.566Z",
+  "generatedAt": "2026-10-23T05:47:07.078Z",
   "runner": "github-actions",
   "results": [
     {
@@ -7,7 +7,7 @@
       "company": "Clinician Nexus",
       "title": "Manager, DevOps",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
-      "checkedAt": "2026-10-23T05:43:39.949Z",
+      "checkedAt": "2026-10-23T05:47:08.651Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
       "httpStatus": 200,
       "pageTitle": "Recruitment",
@@ -21,7 +21,7 @@
       "company": "Sprezzatura",
       "title": "Software Development Manager",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
-      "checkedAt": "2026-10-23T05:44:37.886Z",
+      "checkedAt": "2026-10-23T05:48:05.904Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
       "httpStatus": 200,
       "pageTitle": "Recruitment",
@@ -35,7 +35,7 @@
       "company": "Jack Henry",
       "title": "Infrastructure Engineering Manager",
       "url": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
-      "checkedAt": "2026-10-23T05:45:34.319Z",
+      "checkedAt": "2026-10-23T05:49:04.627Z",
       "finalUrl": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
       "httpStatus": 200,
       "pageTitle": "Infrastructure Engineering Manager at Jack Henry & Associates, Inc",
@@ -52,19 +52,33 @@
       "company": "DocuSign",
       "title": "Senior Manager, Site Reliability Engineering",
       "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
-      "checkedAt": "2026-10-23T05:45:41.461Z",
+      "checkedAt": "2026-10-23T05:49:11.726Z",
       "finalUrl": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 200,
       "pageTitle": "Senior Manager, Site Reliability Engineering in Remote | Careers at United States Remote",
       "jsonLd": null,
       "outcome": "live",
       "evidence": "title \"Senior Manager, Site Reliability Engineering\" shown on the page"
+    },
+    {
+      "id": "calib-icims-navitus-6474",
+      "company": "Navitus Health Solutions",
+      "title": "Manager, Platform Engineering and FinOps",
+      "url": "https://careers-navitus.icims.com/jobs/6474/manager,-platform-engineering-and-finops/job",
+      "checkedAt": "2026-10-23T05:49:17.991Z",
+      "finalUrl": "https://careers-navitus.icims.com/jobs/search?ss=1&notFound=1&mobile=false&width=1264&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
+      "httpStatus": 410,
+      "pageTitle": "Job Listings at Navitus Health Solutions, LLC",
+      "jsonLd": null,
+      "outcome": "gone",
+      "evidence": "HTTP 410 no longer open"
     }
   ],
   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36",
   "counts": {
     "unclear": 2,
-    "live": 2
+    "live": 2,
+    "gone": 1
   },
-  "seconds": 124
+  "seconds": 132
 }
