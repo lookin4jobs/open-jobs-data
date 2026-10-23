@@ -158,16 +158,6 @@ not a personal test account or an aggregator.
 - **Fixed company list, refreshed daily.** This repo does not accept an
   arbitrary company list at request time — see below if you need that.
 
-## robots.txt (this fork)
-
-Since 10/23/2026 `scripts/fetch.mjs` checks each board URL against its host's
-robots.txt before fetching it, as `open-jobs-data` (falling back to the `*`
-rules). Disallowed boards are skipped and show up in `data/summary.json` as
-`robots-disallowed`; a robots.txt that cannot be read (5xx or network error)
-means the host is skipped for that run (`robots-unavailable`) and tried again
-in the retry pass. For Workday tenants the career site's own path is checked
-too, since the JSON endpoint serves that site.
-
 ## Nightly browser liveness check (this fork)
 
 Some employer job pages only render in a real browser (ADP Workforce Now,
