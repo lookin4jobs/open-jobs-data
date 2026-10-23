@@ -171,8 +171,11 @@ writes what it saw to `data/liveness.json` (`live`, `closed_text`, `gone`,
 
 It honors robots.txt, identifies itself as headless Chrome, loads one page
 at a time with a pause between them, and never tries to get past a CAPTCHA
-or bot check: those are recorded as `blocked` and left alone. The job can't
-fail the dataset refresh. To run it on its own, use **Run workflow** on the
+or bot check: those are recorded as `blocked` and left alone. It reads text
+from every frame on the page (iCIMS shows the posting in an iframe), and when
+the site's own app shows a generic "unexpected error, please try again" page
+it reloads that page once after a short wait. The job can't fail the dataset
+refresh. To run it on its own, use **Run workflow** on the
 Actions tab with "run only the browser liveness check" ticked.
 
 ## If you need this for your own company list

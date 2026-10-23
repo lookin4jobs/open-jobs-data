@@ -13,9 +13,14 @@
 //     (5xx or network error) also means skip.
 //   - Challenges are never bypassed. A CAPTCHA, a "verify you are human"
 //     page or a bot-protection interstitial is recorded as blocked and left
-//     alone. No stealth plugins, no retries, no proxies.
+//     alone. No stealth plugins, no retries after a challenge, no proxies.
 //   - One page load per posting per run, one at a time, with a pause
-//     between loads.
+//     between loads. The one exception: when the site's own app shows a
+//     generic error ("an unexpected error has occurred, please try again"),
+//     the page is loaded once more after a short wait. ADP did this on
+//     10/23/2026 for two postings it had shown fine five hours earlier.
+//   - Text is read from every frame on the page, not only the top one:
+//     iCIMS shows the posting inside an iframe on the same site.
 //   - The script always exits 0 so it can never fail the dataset workflow.
 //     Problems are recorded in the output instead.
 //
@@ -43,6 +48,8 @@ const MAX_TARGETS = 40;
 const PAUSE_MS = Number(process.env.LIVENESS_PAUSE_MS ?? 4000);
 const NAV_TIMEOUT_MS = 45000;
 const RENDER_WAIT_MS = 15000;
+const APP_ERROR_RETRY_MS = Number(process.env.LIVENESS_APP_ERROR_RETRY_MS ?? 20000);
+const APP_ERROR = /(?:an unexpected error has occurred|something went wrong)[^.]{0,40}[.!]?\s*(?:please )?try again/i;
 
 const CLOSED_PATTERNS = [
   /no longer (?:accepting applications|available|open|active|posted)/i,
@@ -62,6 +69,16 @@ const CHALLENGE_TEXT = [
 const CHALLENGE_HTML = [/cf-chl|challenge-platform/i, /captcha/i, /datadome/i, /perimeterx|px-captcha/i, /_incapsula_|imperva/i, /akamai.{0,40}bot manager/i];
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+// innerText of the top frame first, then of each child frame. A frame that
+// cannot be read (detached, still navigating) is skipped.
+async function pageText(page) {
+  const parts = [];
+  for (const f of page.frames()) {
+    try { parts.push(await f.evaluate(() => (document.body && document.body.innerText) || '')); } catch { /* skip */ }
+  }
+  return parts.join('\n');
+}
 const norm = s => String(s || '').toLowerCase().replace(/&amp;/g, '&').replace(/[^a-z0-9]+/g, '');
 const clip = (s, n = 160) => String(s || '').replace(/\s+/g, ' ').trim().slice(0, n);
 
@@ -158,59 +175,84 @@ async function checkOne(browser, t) {
   const robots = await checkRobots(t.url);
   if (!robots.ok) return { ...base, outcome: robots.outcome, evidence: robots.evidence };
 
-  const ctx = await browser.newContext({ locale: 'en-US', viewport: { width: 1280, height: 900 } });
-  const page = await ctx.newPage();
+  const want = norm(t.title);
+  let r = await loadPage(browser, t, want);
+  // Reload once only for the site's own generic error page: never after a
+  // challenge or a refusal status.
+  const appError = rd => rd && APP_ERROR.test(rd.text.slice(0, 1000)) && !norm(rd.text).includes(want)
+    && ![401, 403, 429].includes(rd.status) && !CHALLENGE_TEXT.some(re => re.test(rd.pageTitle) || re.test(rd.text.slice(0, 3000)));
+  if (appError(r.read)) {
+    const first = clip(r.read.text.match(APP_ERROR)[0], 80);
+    await r.close();
+    await sleep(APP_ERROR_RETRY_MS);
+    r = await loadPage(browser, t, want);
+    if (r.read) r.read.retried = `reloaded once after "${first}"`;
+  }
   try {
+    return r.read ? classify(base, u, want, r.read) : { ...base, ...r.failed };
+  } finally {
+    await r.close();
+  }
+}
+
+async function loadPage(browser, t, want) {
+  const ctx = await browser.newContext({ locale: 'en-US', viewport: { width: 1280, height: 900 } });
+  const close = () => ctx.close().catch(() => {});
+  try {
+    const page = await ctx.newPage();
     let resp;
     try {
       resp = await page.goto(t.url, { waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT_MS });
     } catch (err) {
-      return { ...base, outcome: 'error', evidence: clip(`${err.name}: ${err.message}`, 160) };
+      return { close, failed: { outcome: 'error', evidence: clip(`${err.name}: ${err.message}`, 160) } };
     }
     const status = resp ? resp.status() : null;
-    const want = norm(t.title);
-    // Script-rendered boards (ADP, Eightfold) fill in after load: wait for the
-    // title, closed wording or a challenge to show up, whichever comes first.
-    await page.waitForFunction(({ want, closed }) => {
-      const txt = (document.body && document.body.innerText) || '';
-      const n = txt.toLowerCase().replace(/[^a-z0-9]+/g, '');
-      return (want && n.includes(want)) || closed.some(src => new RegExp(src, 'i').test(txt));
-    }, { want, closed: CLOSED_PATTERNS.map(r => r.source) }, { timeout: RENDER_WAIT_MS }).catch(() => {});
-
+    // Script-rendered boards (ADP, Eightfold, iCIMS frames) fill in after
+    // load: poll every frame for the title or closed wording, up to the limit.
+    const deadline = Date.now() + RENDER_WAIT_MS;
+    for (;;) {
+      const txt = await pageText(page);
+      if ((want && norm(txt).includes(want)) || CLOSED_PATTERNS.some(re => re.test(txt)) || Date.now() > deadline) break;
+      await sleep(500);
+    }
     const finalUrl = page.url();
     const pageTitle = clip(await page.title(), 120);
-    const text = await page.evaluate(() => (document.body && document.body.innerText) || '');
+    const text = await pageText(page);
     const html = await page.content();
     const ld = await page.$$eval('script[type="application/ld+json"]', els => els.map(e => e.textContent)).catch(() => []);
-    const jsonLd = jobPostingFrom(ld);
-    const out = { ...base, finalUrl, httpStatus: status, pageTitle, jsonLd };
-
-    // A 404 or 410 is the site's own answer, even when the error page carries
-    // a CAPTCHA script (Netflix's does), so it is read before challenge markers.
-    if (status === 404 || status === 410) {
-      return { ...out, outcome: 'gone', evidence: clip(`HTTP ${status} ${text.match(CLOSED_PATTERNS.find(r => r.test(text)) || /$^/)?.[0] || pageTitle}`) };
-    }
-    const challenged = CHALLENGE_TEXT.some(r => r.test(pageTitle) || r.test(text.slice(0, 3000)))
-      || (CHALLENGE_HTML.some(r => r.test(html)) && !norm(text).includes(want));
-    if (challenged || [401, 403, 429].includes(status)) {
-      return { ...out, outcome: 'blocked', evidence: clip(`HTTP ${status} ${pageTitle} ${text.slice(0, 120)}`) };
-    }
-
-    const closed = CLOSED_PATTERNS.map(r => text.match(r)).find(Boolean);
-    if (closed) return { ...out, outcome: 'closed_text', evidence: clip(closed[0]) };
-
-    if (jsonLd && jsonLd.validThrough && Date.parse(jsonLd.validThrough) < Date.now()) {
-      return { ...out, outcome: 'closed_text', evidence: `JobPosting validThrough ${jsonLd.validThrough} is past` };
-    }
-    if (want && norm(text).includes(want)) {
-      return { ...out, outcome: 'live', evidence: `title "${clip(t.title, 80)}" shown on the page` };
-    }
-    const landedElsewhere = new URL(finalUrl).host !== u.host || new URL(finalUrl).pathname !== u.pathname;
-    if (landedElsewhere) return { ...out, outcome: 'redirected', evidence: clip(`landed on ${finalUrl}`) };
-    return { ...out, outcome: 'unclear', evidence: clip(`title not found; page starts: ${text.slice(0, 120)}`) };
-  } finally {
-    await ctx.close().catch(() => {});
+    return { close, read: { status, finalUrl, pageTitle, text, html, ld } };
+  } catch (err) {
+    return { close, failed: { outcome: 'error', evidence: clip(`${err.name}: ${err.message}`, 160) } };
   }
+}
+
+function classify(base, u, want, { status, finalUrl, pageTitle, text, html, ld, retried }) {
+  const jsonLd = jobPostingFrom(ld);
+  const out = { ...base, finalUrl, httpStatus: status, pageTitle, jsonLd, ...(retried ? { retried } : {}) };
+
+  // A 404 or 410 is the site's own answer, even when the error page carries
+  // a CAPTCHA script (Netflix's does), so it is read before challenge markers.
+  if (status === 404 || status === 410) {
+    return { ...out, outcome: 'gone', evidence: clip(`HTTP ${status} ${text.match(CLOSED_PATTERNS.find(r => r.test(text)) || /$^/)?.[0] || pageTitle}`) };
+  }
+  const challenged = CHALLENGE_TEXT.some(r => r.test(pageTitle) || r.test(text.slice(0, 3000)))
+    || (CHALLENGE_HTML.some(r => r.test(html)) && !norm(text).includes(want));
+  if (challenged || [401, 403, 429].includes(status)) {
+    return { ...out, outcome: 'blocked', evidence: clip(`HTTP ${status} ${pageTitle} ${text.slice(0, 120)}`) };
+  }
+
+  const closed = CLOSED_PATTERNS.map(r => text.match(r)).find(Boolean);
+  if (closed) return { ...out, outcome: 'closed_text', evidence: clip(closed[0]) };
+
+  if (jsonLd && jsonLd.validThrough && Date.parse(jsonLd.validThrough) < Date.now()) {
+    return { ...out, outcome: 'closed_text', evidence: `JobPosting validThrough ${jsonLd.validThrough} is past` };
+  }
+  if (want && norm(text).includes(want)) {
+    return { ...out, outcome: 'live', evidence: `title "${clip(base.title, 80)}" shown on the page` };
+  }
+  const landedElsewhere = new URL(finalUrl).host !== u.host || new URL(finalUrl).pathname !== u.pathname;
+  if (landedElsewhere) return { ...out, outcome: 'redirected', evidence: clip(`landed on ${finalUrl}`) };
+  return { ...out, outcome: 'unclear', evidence: clip(`title not found; page starts: ${text.slice(0, 120)}`) };
 }
 
 // ---- main -----------------------------------------------------------------
