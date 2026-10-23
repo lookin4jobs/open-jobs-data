@@ -3131,5 +3131,23 @@
     "name": "eVisit",
     "platform": "workable",
     "slug": "evisit"
+  },
+  {
+    "name": "Netsmart",
+    "platform": "workday",
+    "workday": {
+      "tenant": "ntst",
+      "site": "Careers",
+      "shard": "wd1"
+    }
+  },
+  {
+    "name": "WellSky",
+    "platform": "workday",
+    "workday": {
+      "tenant": "wellsky",
+      "site": "WellSkyCareers",
+      "shard": "wd1"
+    }
   }
 ]

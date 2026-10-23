@@ -35,6 +35,15 @@
 //   robots_unavailable robots.txt could not be read, so the page was not loaded
 //   unclear            rendered, but neither the title nor closed wording found
 //   error              navigation failed (timeout, DNS, TLS)
+//
+// Boards (the "boards" list in the targets file, added 10/23/2026): some
+// employers' own careers sites only list their jobs in a browser (Burns &
+// McDonnell and HNTB on .jobs sites, EquipmentShare). For each board the
+// script loads the listing page once, under the same robots.txt and
+// no-challenge rules, and records the job links it shows (title text and
+// URL) in data/liveness.json under "boards". That is a list for discovery,
+// not a verdict on any one posting. Board outcomes: listed, empty, blocked,
+// robots_disallowed, robots_unavailable, error.
 
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -45,6 +54,8 @@ const TARGETS = process.env.LIVENESS_TARGETS || path.join(ROOT, 'data', 'livenes
 const OUT = process.env.LIVENESS_OUT || path.join(ROOT, 'data', 'liveness.json');
 const BOT_TOKEN = 'open-jobs-data-liveness';
 const MAX_TARGETS = 40;
+const MAX_BOARDS = 10;
+const MAX_BOARD_LINKS = 200;
 const PAUSE_MS = Number(process.env.LIVENESS_PAUSE_MS ?? 4000);
 const NAV_TIMEOUT_MS = 45000;
 const RENDER_WAIT_MS = 15000;
@@ -255,13 +266,78 @@ function classify(base, u, want, { status, finalUrl, pageTitle, text, html, ld, 
   return { ...out, outcome: 'unclear', evidence: clip(`title not found; page starts: ${text.slice(0, 120)}`) };
 }
 
+// ---- boards ---------------------------------------------------------------
+// linkPattern (a regex source matched against each link's absolute URL) picks
+// out job links; without one, a same-site link counts when its path mentions
+// "job" and carries a posting id (5+ digits or 16+ hex characters), which
+// keeps navigation links out. Links whose text is too short or too long to be
+// a title are dropped.
+async function scanBoard(browser, b) {
+  const base = { id: b.id, company: b.company, url: b.url, checkedAt: new Date().toISOString() };
+  let u;
+  try { u = new URL(b.url); } catch { return { ...base, outcome: 'error', evidence: 'not a valid URL', jobs: [] }; }
+  const allowHttp = process.env.LIVENESS_ALLOW_HTTP === '1' && ['localhost', '127.0.0.1'].includes(u.hostname);
+  if (u.protocol !== 'https:' && !allowHttp) return { ...base, outcome: 'error', evidence: 'only https URLs are checked', jobs: [] };
+  const robots = await checkRobots(b.url);
+  if (!robots.ok) return { ...base, outcome: robots.outcome, evidence: robots.evidence, jobs: [] };
+  let pattern;
+  try { pattern = b.linkPattern ? new RegExp(b.linkPattern, 'i') : null; } catch { return { ...base, outcome: 'error', evidence: 'bad linkPattern', jobs: [] }; }
+  const ctx = await browser.newContext({ locale: 'en-US', viewport: { width: 1280, height: 900 } });
+  try {
+    const page = await ctx.newPage();
+    let resp;
+    try {
+      resp = await page.goto(b.url, { waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT_MS });
+    } catch (err) {
+      return { ...base, outcome: 'error', evidence: clip(`${err.name}: ${err.message}`, 160), jobs: [] };
+    }
+    const status = resp ? resp.status() : null;
+    const collect = async () => {
+      const links = [];
+      for (const f of page.frames()) {
+        try {
+          links.push(...await f.$$eval('a[href]', as => as.map(a => ({ title: (a.innerText || a.textContent || '').replace(/\s+/g, ' ').trim(), url: a.href }))));
+        } catch { /* skip */ }
+      }
+      const seen = new Set();
+      return links.filter(l => {
+        let lu;
+        try { lu = new URL(l.url); } catch { return false; }
+        const ok = pattern ? pattern.test(l.url) : (lu.host === u.host && /job/i.test(lu.pathname) && /[0-9]{5,}|[0-9a-f]{16,}/i.test(lu.pathname));
+        if (!ok || l.title.length < 6 || l.title.length > 160 || seen.has(l.url)) return false;
+        seen.add(l.url);
+        return true;
+      });
+    };
+    const deadline = Date.now() + RENDER_WAIT_MS;
+    let jobs = [];
+    for (;;) {
+      jobs = await collect();
+      if (jobs.length || Date.now() > deadline) break;
+      await sleep(750);
+    }
+    const pageTitle = clip(await page.title(), 120);
+    const text = await pageText(page);
+    const out = { ...base, finalUrl: page.url(), httpStatus: status, pageTitle };
+    if (CHALLENGE_TEXT.some(r => r.test(pageTitle) || r.test(text.slice(0, 3000))) || [401, 403, 429].includes(status)) {
+      return { ...out, outcome: 'blocked', evidence: clip(`HTTP ${status} ${pageTitle} ${text.slice(0, 120)}`), jobs: [] };
+    }
+    if (!jobs.length) return { ...out, outcome: 'empty', evidence: clip(`no job links found; page starts: ${text.slice(0, 120)}`), jobs: [] };
+    return { ...out, outcome: 'listed', count: jobs.length, truncated: jobs.length > MAX_BOARD_LINKS || undefined, jobs: jobs.slice(0, MAX_BOARD_LINKS) };
+  } finally {
+    await ctx.close().catch(() => {});
+  }
+}
+
 // ---- main -----------------------------------------------------------------
 async function main() {
   const started = new Date();
-  const report = { generatedAt: started.toISOString(), runner: process.env.GITHUB_ACTIONS ? 'github-actions' : 'local', results: [] };
-  let targets = [];
+  const report = { generatedAt: started.toISOString(), runner: process.env.GITHUB_ACTIONS ? 'github-actions' : 'local', results: [], boards: [] };
+  let targets = [], boards = [];
   try {
-    targets = (JSON.parse(await readFile(TARGETS, 'utf8')).targets || []).filter(t => t && t.url);
+    const file = JSON.parse(await readFile(TARGETS, 'utf8'));
+    targets = (file.targets || []).filter(t => t && t.url);
+    boards = (file.boards || []).filter(b => b && b.url).slice(0, MAX_BOARDS);
   } catch (err) {
     report.error = `could not read targets: ${clip(err.message, 120)}`;
   }
@@ -269,7 +345,7 @@ async function main() {
     report.skipped = targets.length - MAX_TARGETS;
     targets = targets.slice(0, MAX_TARGETS);
   }
-  if (targets.length) {
+  if (targets.length || boards.length) {
     let browser;
     try {
       const { chromium } = await import('playwright');
@@ -281,6 +357,13 @@ async function main() {
         try { r = await checkOne(browser, t); } catch (err) { r = { id: t.id, url: t.url, outcome: 'error', evidence: clip(err.message) }; }
         report.results.push(r);
         console.log(`${r.outcome.padEnd(18)} ${t.company || ''} | ${t.title || ''} | ${r.evidence || ''}`);
+      }
+      for (const b of boards) {
+        await sleep(PAUSE_MS);
+        let r;
+        try { r = await scanBoard(browser, b); } catch (err) { r = { id: b.id, url: b.url, outcome: 'error', evidence: clip(err.message), jobs: [] }; }
+        report.boards.push(r);
+        console.log(`board ${r.outcome.padEnd(12)} ${b.company || ''} | ${r.count ?? 0} job links | ${r.evidence || ''}`);
       }
     } catch (err) {
       report.error = `browser failed: ${clip(err.message, 160)}`;

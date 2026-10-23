@@ -1,5 +1,5 @@
 {
-  "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy.",
+  "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
   "updated": "2026-10-23",
   "targets": [
     {
@@ -36,6 +36,35 @@
       "title": "Manager, Platform Engineering and FinOps",
       "url": "https://careers-navitus.icims.com/jobs/6474/manager,-platform-engineering-and-finops/job",
       "why": "standing control: a known-closed iCIMS req. Read as gone (HTTP 410) on 10/23. If it ever reads live, distrust that night's results"
+    }
+  ],
+  "boards": [
+    {
+      "id": "board-burnsmcd-it",
+      "company": "Burns & McDonnell",
+      "url": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
+      "linkPattern": "burnsmcd\\.jobs/[^?#]+/[0-9A-F]{32}/job/?$",
+      "why": "Kansas City employer; its .jobs site lists jobs only in a browser (robots.txt allows all but feeds)"
+    },
+    {
+      "id": "board-burnsmcd-programming",
+      "company": "Burns & McDonnell",
+      "url": "https://burnsmcd.jobs/job-function/programming/jobs/",
+      "linkPattern": "burnsmcd\\.jobs/[^?#]+/[0-9A-F]{32}/job/?$",
+      "why": "second IT-side function page on the same site"
+    },
+    {
+      "id": "board-hntb-it",
+      "company": "HNTB",
+      "url": "https://hntb.jobs/job-category/information-technology-group/jobs/",
+      "linkPattern": "hntb\\.jobs/[^?#]+/[0-9A-F]{32}/job/?$",
+      "why": "Kansas City engineering firm (construction watch); .jobs site lists jobs only in a browser"
+    },
+    {
+      "id": "board-equipmentshare",
+      "company": "EquipmentShare",
+      "url": "https://www.equipmentshare.com/careers/current-openings?q=engineer",
+      "why": "Missouri construction-tech employer (construction watch); its openings page renders only in a browser"
     }
   ]
 }
