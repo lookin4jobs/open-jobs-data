@@ -299,6 +299,7 @@ async function scanBoard(browser, b) {
       return { ...base, outcome: 'error', evidence: clip(`${err.name}: ${err.message}`, 160), jobs: [] };
     }
     const status = resp ? resp.status() : null;
+    let rejected = [];
     const collect = async () => {
       const links = [];
       for (const f of page.frames()) {
@@ -306,7 +307,10 @@ async function scanBoard(browser, b) {
           // A job card's link often wraps the title plus location and dates, so
           // the title is the first non-empty line of the link's text.
           links.push(...await f.$$eval('a[href]', as => as.map(a => {
-            const raw = a.innerText || a.textContent || '';
+            // Some boards (Oracle) put an empty link over the card: fall back to
+            // the link's label, then to the text of the card around it.
+            let raw = (a.innerText || a.textContent || '').trim() || a.getAttribute('aria-label') || a.getAttribute('title') || '';
+            for (let el = a.parentElement, n = 0; !raw.trim() && el && n < 4; el = el.parentElement, n++) raw = el.innerText || '';
             const title = (raw.split(/\n/).map(t => t.trim()).find(Boolean) || '').replace(/\s+/g, ' ');
             const all = raw.replace(/\s+/g, ' ').trim();
             return all !== title ? { title, url: a.href, text: all.slice(0, 200) } : { title, url: a.href };
@@ -314,11 +318,13 @@ async function scanBoard(browser, b) {
         } catch { /* skip */ }
       }
       const seen = new Set();
+      rejected = [];
       return links.filter(l => {
         let lu;
         try { lu = new URL(l.url); } catch { return false; }
         const ok = pattern ? pattern.test(l.url) : (lu.host === u.host && /job/i.test(lu.pathname) && /[0-9]{5,}|[0-9a-f]{16,}/i.test(lu.pathname));
-        if (!ok || l.title.length < 6 || l.title.length > 160 || seen.has(l.url)) return false;
+        if (!ok || seen.has(l.url)) return false;
+        if (l.title.length < 6 || l.title.length > 160) { if (rejected.length < 5) rejected.push(l); return false; }
         seen.add(l.url);
         return true;
       });
@@ -339,7 +345,8 @@ async function scanBoard(browser, b) {
     if (!jobs.length) {
       const sample = await page.$$eval('a[href]', as => as.slice(0, 400).map(a => a.href)).catch(() => []);
       return { ...out, outcome: 'empty', evidence: clip(`no job links found; page starts: ${text.slice(0, 120)}`), jobs: [],
-        sampleLinks: [...new Set(sample)].filter(h => /job|career|opening|position/i.test(h)).slice(0, 25) };
+        sampleLinks: [...new Set(sample)].filter(h => /job|career|opening|position/i.test(h)).slice(0, 25),
+        ...(rejected.length ? { untitledLinks: rejected } : {}) };
     }
     return { ...out, outcome: 'listed', count: jobs.length, truncated: jobs.length > MAX_BOARD_LINKS || undefined, jobs: jobs.slice(0, MAX_BOARD_LINKS) };
   } finally {
