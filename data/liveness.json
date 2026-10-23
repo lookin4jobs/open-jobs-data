@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T05:47:07.078Z",
+  "generatedAt": "2026-10-23T10:44:57.472Z",
   "runner": "github-actions",
   "results": [
     {
@@ -7,35 +7,33 @@
       "company": "Clinician Nexus",
       "title": "Manager, DevOps",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
-      "checkedAt": "2026-10-23T05:47:08.651Z",
+      "checkedAt": "2026-10-23T10:44:57.973Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
       "httpStatus": 200,
-      "pageTitle": "Recruitment",
+      "pageTitle": "Career Center | Recruitment",
       "jsonLd": null,
-      "retried": "reloaded once after \"An unexpected error has occurred. Please try again\"",
-      "outcome": "unclear",
-      "evidence": "title not found; page starts: Sorry! An unexpected error has occurred. Please try again. We use our own and third-party cookies and similar technologi"
+      "outcome": "live",
+      "evidence": "title \"Manager, DevOps\" shown on the page"
     },
     {
       "id": "x-sprezzatura-software-development-manager",
       "company": "Sprezzatura",
       "title": "Software Development Manager",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
-      "checkedAt": "2026-10-23T05:48:05.904Z",
+      "checkedAt": "2026-10-23T10:45:05.450Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
       "httpStatus": 200,
-      "pageTitle": "Recruitment",
+      "pageTitle": "Career Center | Recruitment",
       "jsonLd": null,
-      "retried": "reloaded once after \"An unexpected error has occurred. Please try again\"",
-      "outcome": "unclear",
-      "evidence": "title not found; page starts: Sorry! An unexpected error has occurred. Please try again. We use our own and third-party cookies and similar technologi"
+      "outcome": "live",
+      "evidence": "title \"Software Development Manager\" shown on the page"
     },
     {
       "id": "x-jack-henry-infrastructure-engineering-manager",
       "company": "Jack Henry",
       "title": "Infrastructure Engineering Manager",
       "url": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
-      "checkedAt": "2026-10-23T05:49:04.627Z",
+      "checkedAt": "2026-10-23T10:45:12.757Z",
       "finalUrl": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
       "httpStatus": 200,
       "pageTitle": "Infrastructure Engineering Manager at Jack Henry & Associates, Inc",
@@ -52,7 +50,7 @@
       "company": "DocuSign",
       "title": "Senior Manager, Site Reliability Engineering",
       "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
-      "checkedAt": "2026-10-23T05:49:11.726Z",
+      "checkedAt": "2026-10-23T10:45:19.659Z",
       "finalUrl": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 200,
       "pageTitle": "Senior Manager, Site Reliability Engineering in Remote | Careers at United States Remote",
@@ -65,7 +63,7 @@
       "company": "Navitus Health Solutions",
       "title": "Manager, Platform Engineering and FinOps",
       "url": "https://careers-navitus.icims.com/jobs/6474/manager,-platform-engineering-and-finops/job",
-      "checkedAt": "2026-10-23T05:49:17.991Z",
+      "checkedAt": "2026-10-23T10:45:25.847Z",
       "finalUrl": "https://careers-navitus.icims.com/jobs/search?ss=1&notFound=1&mobile=false&width=1264&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 410,
       "pageTitle": "Job Listings at Navitus Health Solutions, LLC",
@@ -76,9 +74,8 @@
   ],
   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36",
   "counts": {
-    "unclear": 2,
-    "live": 2,
+    "live": 4,
     "gone": 1
   },
-  "seconds": 132
+  "seconds": 29
 }
