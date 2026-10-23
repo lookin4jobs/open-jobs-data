@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T23:45:01.467Z",
+  "generatedAt": "2026-10-23T05:35:41.975Z",
   "runner": "github-actions",
   "results": [
     {
@@ -7,46 +7,33 @@
       "company": "Clinician Nexus",
       "title": "Manager, DevOps",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
-      "checkedAt": "2026-10-22T23:45:02.925Z",
+      "checkedAt": "2026-10-23T05:35:43.642Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
       "httpStatus": 200,
-      "pageTitle": "Career Center | Recruitment",
+      "pageTitle": "Recruitment",
       "jsonLd": null,
-      "outcome": "live",
-      "evidence": "title \"Manager, DevOps\" shown on the page"
+      "outcome": "unclear",
+      "evidence": "title not found; page starts: Sorry! An unexpected error has occurred. Please try again. We use our own and third-party cookies and similar technologi"
     },
     {
       "id": "x-sprezzatura-software-development-manager",
       "company": "Sprezzatura",
       "title": "Software Development Manager",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
-      "checkedAt": "2026-10-22T23:45:10.672Z",
+      "checkedAt": "2026-10-23T05:36:04.321Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
       "httpStatus": 200,
-      "pageTitle": "Career Center | Recruitment",
+      "pageTitle": "Recruitment",
       "jsonLd": null,
-      "outcome": "live",
-      "evidence": "title \"Software Development Manager\" shown on the page"
-    },
-    {
-      "id": "x-netflix-em-tv-client-paved-paths-workflows",
-      "company": "Netflix",
-      "title": "TV Client Paved Paths",
-      "url": "https://explore.jobs.netflix.net/careers/job/790318755298?microsite=netflix.com",
-      "checkedAt": "2026-10-22T23:45:17.119Z",
-      "finalUrl": "https://explore.jobs.netflix.net/careers/job/790318755298?microsite=netflix.com",
-      "httpStatus": 404,
-      "pageTitle": "Careers at Netflix",
-      "jsonLd": null,
-      "outcome": "gone",
-      "evidence": "HTTP 404 The job you are looking for may have closed"
+      "outcome": "unclear",
+      "evidence": "title not found; page starts: Sorry! An unexpected error has occurred. Please try again. We use our own and third-party cookies and similar technologi"
     },
     {
       "id": "x-jack-henry-infrastructure-engineering-manager",
       "company": "Jack Henry",
       "title": "Infrastructure Engineering Manager",
       "url": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
-      "checkedAt": "2026-10-22T23:45:22.928Z",
+      "checkedAt": "2026-10-23T05:36:24.522Z",
       "finalUrl": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
       "httpStatus": 200,
       "pageTitle": "Infrastructure Engineering Manager at Jack Henry & Associates, Inc",
@@ -57,12 +44,26 @@
       },
       "outcome": "live",
       "evidence": "title \"Infrastructure Engineering Manager\" shown on the page"
+    },
+    {
+      "id": "icims-docusign-29787",
+      "company": "DocuSign",
+      "title": "Senior Manager, Site Reliability Engineering",
+      "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
+      "checkedAt": "2026-10-23T05:36:31.417Z",
+      "finalUrl": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
+      "httpStatus": 200,
+      "pageTitle": "Senior Manager, Site Reliability Engineering in Remote | Careers at United States Remote",
+      "jsonLd": null,
+      "outcome": "blocked",
+      "evidence": "HTTP 200 Senior Manager, Site Reliability Engineering in Remote | Careers at United States Remote Skip Branding Skip to Main Content Back to Docusign.com Overvi"
     }
   ],
   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36",
   "counts": {
-    "live": 3,
-    "gone": 1
+    "unclear": 2,
+    "live": 1,
+    "blocked": 1
   },
-  "seconds": 24
+  "seconds": 66
 }
