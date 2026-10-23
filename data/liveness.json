@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T14:51:14.095Z",
+  "generatedAt": "2026-10-23T14:54:39.069Z",
   "runner": "github-actions",
   "results": [
     {
@@ -7,7 +7,7 @@
       "company": "Clinician Nexus",
       "title": "Manager, DevOps",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
-      "checkedAt": "2026-10-23T14:51:14.522Z",
+      "checkedAt": "2026-10-23T14:54:39.626Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
       "httpStatus": 200,
       "pageTitle": "Career Center | Recruitment",
@@ -20,7 +20,7 @@
       "company": "Sprezzatura",
       "title": "Software Development Manager",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
-      "checkedAt": "2026-10-23T14:51:23.379Z",
+      "checkedAt": "2026-10-23T14:54:49.301Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
       "httpStatus": 200,
       "pageTitle": "Career Center | Recruitment",
@@ -33,7 +33,7 @@
       "company": "Jack Henry",
       "title": "Infrastructure Engineering Manager",
       "url": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
-      "checkedAt": "2026-10-23T14:51:31.270Z",
+      "checkedAt": "2026-10-23T14:54:56.633Z",
       "finalUrl": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
       "httpStatus": 200,
       "pageTitle": "Infrastructure Engineering Manager at Jack Henry & Associates, Inc",
@@ -50,7 +50,7 @@
       "company": "DocuSign",
       "title": "Senior Manager, Site Reliability Engineering",
       "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
-      "checkedAt": "2026-10-23T14:51:38.466Z",
+      "checkedAt": "2026-10-23T14:55:03.334Z",
       "finalUrl": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 200,
       "pageTitle": "Senior Manager, Site Reliability Engineering in Remote | Careers at United States Remote",
@@ -63,7 +63,7 @@
       "company": "Navitus Health Solutions",
       "title": "Manager, Platform Engineering and FinOps",
       "url": "https://careers-navitus.icims.com/jobs/6474/manager,-platform-engineering-and-finops/job",
-      "checkedAt": "2026-10-23T14:51:45.047Z",
+      "checkedAt": "2026-10-23T14:55:11.611Z",
       "finalUrl": "https://careers-navitus.icims.com/jobs/search?ss=1&notFound=1&mobile=false&width=1264&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 410,
       "pageTitle": "Job Listings at Navitus Health Solutions, LLC",
@@ -72,36 +72,23 @@
       "evidence": "HTTP 410 no longer open"
     },
     {
-      "id": "icims-healthedge-8223",
-      "company": "HealthEdge",
-      "title": "Healthcare Technical Operations Manager",
-      "url": "https://careers-healthedge.icims.com/jobs/8223/job",
-      "checkedAt": "2026-10-23T14:51:50.646Z",
-      "finalUrl": "https://careers-healthedge.icims.com/jobs/search?ss=1&notFound=1&mobile=false&width=1264&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
-      "httpStatus": 410,
-      "pageTitle": "Job Listings at HealthEdge",
-      "jsonLd": null,
-      "outcome": "gone",
-      "evidence": "HTTP 410 no longer open"
-    },
-    {
-      "id": "x-burns-mcdonnell-delivery-manager-technology-solutions-group",
-      "company": "Burns & McDonnell",
-      "title": "Delivery Manager - Technology Solutions Group",
-      "url": "https://burnsmcd.jobs/kansas-city-mo/delivery-manager-technology-solutions-group-kansas-city/A78A1A6133974F1D93C77E4170383296/job/",
-      "checkedAt": "2026-10-23T14:51:56.218Z",
+      "id": "ashby-ccc3148c-fde1-4b22-bf5b-fd74a0f95c1d",
+      "company": "Temporal",
+      "title": "Senior Engineering Manager, Observability Engineering",
+      "url": "https://jobs.ashbyhq.com/temporal/ccc3148c-fde1-4b22-bf5b-fd74a0f95c1d",
+      "checkedAt": "2026-10-23T14:55:17.239Z",
       "captureText": true,
-      "finalUrl": "https://burnsmcd.jobs/kansas-city-mo/delivery-manager-technology-solutions-group-kansas-city/A78A1A6133974F1D93C77E4170383296/job/",
+      "finalUrl": "https://jobs.ashbyhq.com/temporal/ccc3148c-fde1-4b22-bf5b-fd74a0f95c1d",
       "httpStatus": 200,
-      "pageTitle": "Delivery Manager - Technology Solutions Group (Kansas City) | Burns & McDonnell",
+      "pageTitle": "Senior Engineering Manager, Observability Engineering @ Temporal Technologies",
       "jsonLd": {
-        "title": "Delivery Manager - Technology Solutions Group (Kansas City)",
-        "datePosted": "2026-10-08T18:24:30.007Z",
+        "title": "Senior Engineering Manager, Observability Engineering",
+        "datePosted": "2026-10-22",
         "validThrough": null
       },
-      "pageText": "This website stores cookies on your computer. These cookies are used to collect information about how you interact with our website and allow us to remember you. We use this information in order to improve and customize your browsing experience and for analytics and metrics about our visitors both on this website and other media. To find out more about the cookies we use, see our Privacy Policy. If you decline, your information won’t be tracked when you visit this website. A single cookie will be used in your browser to remember your preference not to be tracked. Accept Decline Skip To Main Content Protect Yourself From Recruitment Scams: This is an official Burns & McDonnell page. If you receive any job offer outside of our official process or that appears suspicious, it may be fraudulent. Check out our FAQs and report concerns here . What We Do Insights & News Careers About Contact Us city, state, country or zip code job title or keywords Search Job Map Talent Community Previous Applicant Veterans Delivery Manager - Technology Solutions Group (Kansas City) Kansas City, MO Job: Information Technology Primary Location: Kansas City, MO Schedule: Full-time Travel: Yes, 10 % of the Time Req ID: 263722 Description The Delivery Manager in the Technology Solutions Group (TSG) is a critical role responsible for the successful execution and delivery of solutions and digital products. This individual will ensure all assigned projects adhere to the TSG Software Development Life Cycle (SDLC) and Agile processes. The Delivery Manager will serve as the central point of contact for customers throughout the delivery process, working in close collaboration with UX/UI teams, development teams, and business stakeholders to ensure healthy, on-time, and on-budget project completion. Job Duties Delivery Oversight: Manage and oversee the end-to-end delivery of technology solutions, ensuring alignment with the TSG SDLC and Agile methodologies. **Process Alignment: ** Champion and align the execution of the SDLC across all project phases, from initiation to deployment and closure. **Stakeholder Collaboration: ** Work closely with UX/UI designers, development teams, and customers to facilitate clear communication, manage expectations, and ensure project goals are met. **Scope Definition: ** Author and maintain comprehensive scope documents that clearly outline project objectives, deliverables, timelines, and resources. **Status Reporting: ** Define and implement processes for health and status reporting, providing transparent and consistent updates to customers and internal leadership. **Central Point of Contact: ** Act as the primary liaison for the customer throughout the solution delivery lifecycle, addressing questions, resolving issues, and managing project changes. **Project Health: ** Proactively monitor project health to ensure work is delivered on time and within budget, identifying risks and implementing mitigation strategies to maintain healthy delivery. All other duties as assigned. Qualifications Bachelor Degree in Information Technology or Computer Sciences or a related technical field from accredited program. and 14 years related experience in Information Technology. Required In-depth understanding of how to connect technology solutions to business needs and strategy strongly preferred. Proven experience leading project delivery within an established Software Development Life Cycle (SDLC) framework strongly preferred. Strong knowledge of and experience with Agile (Scrum, Kanban) and Waterfall methodologies. Strong knowledge of the Atlassian suite (Jira, Confluence) strongly preferred. Demonstrated ability to write clear and concise scope documents and technical project documentation strongly preferred. Excellent communication and interpersonal skills, with the ability to act as a primary point of contact for customers and technical teams strongly preferred. Experience in a client-facing role, with a strong focus on customer satisfaction and relationship management strongly preferred. Proven ability to collaborate effectively with cross-functional teams, including UX/UI designers and software developers strongly preferred. Strong organizational skills with experience in defining and managing project status and health reporting strongly preferred. This job posting will remain open a minimum of 72 hours and on an ongoing basis until filled. EEO/Disabled/Veterans Apply Now Not Ready to Apply? Apply Now Not Ready to Apply? About Burns & McDonnell At Burns & McDonnell, you'll be empowered to build not just projects, but your career. Our expansive service offerings means stability, job security and incredible potential for growth. Move up the project management or sales cycle, or across departments and groups. Explore opportunities across our family of companies. Establish and achieve evolving goals along your career journey — all at the same company. Just choose your starting point and go. We take on the world's toughest challenges and use our skills, experience, and courage to solve them. Working from more than 75 offices globally , our professionals transform communities through the vital infrastructure that sustains and improves quality of life. We're proud to be a 100% employee-owned company and we invest in our most important resource — our people — with an industry-leading benefits package that supports physical, emotional and financial health. But being employee-owners means more to us than just the financial benefit. We all foster a culture of ownership, where each of us has a vested stake in the success of our company and one another. From robust training programs to a commitment to equal employment opportunities to all the ways we give back , our employee-owners help our clients, our industries and our communities thrive. It may be fine print, but it’s also vitally important. Notice to External Search Firms: Burns & McDonnell and its subsidiaries do not accept unsolicited resumes and will not be obligated to pay a placement fee for unsolicited resumes. Burns & McDonnell Talent Acquisition engages with approved search firms directly for specific hiring needs. Recruitment Fraud Notice Equal Employment Opportunity Policy Accommodations for Applicants Pay Transparency Making Our Clients Successful Contact Us Accessibility Privacy Statement Ethics & Compliance Manage Your Email Preferences © 2026 Burns & McDonnell. All rights reserved. At this time, Burns & McDonnell is not offering pure architectural services in the states of Illinois or New Jersey. We may, however, provide design-build services for architectural projects. SHARE",
+      "pageText": "Senior Engineering Manager, Observability Engineering Location Seattle, Washington; United States (Remote) Employment Type Full time Location Type Remote Department Engineering Infrastructure DevProd Compensation Tier 1 Salary $276K – $362K • Offers Equity Teir 2 Salary $248K – $326K • Offers Equity Tier 3 Salary $220K – $289K • Offers Equity Tier Guide Compensation ranges reflect salary and commission compensation (when applicable) across several geographic markets. Employment offers carefully consider multiple factors, including prior experience, knowledge, expertise, skillset, market location, and job level assessed during the interview process. Overview Application Senior Engineering Manager, Observability Engineering Temporal is an open source programming model that can simplify code, make applications more reliable, and help developers focus on the important things like delivering features faster. We are on a mission to be the reliable foundation of every developer's toolbox, and are building the team that will make that happen. Our values guide us — they are present in how we show up, make decisions, and work together to make an impact. We're curious, driven, collaborative, genuine and humble. Temporal is growing and we are looking for those who share our values, challenge 'standard' thinking, and want to influence our future. If you have a passion for improving the developer experience, building world-class open-source software and communities, and want to be a part of our amazing team, we'd love to hear from you! Companies at the frontier of the AI revolution run on Temporal. OpenAI runs on Temporal, handling millions of requests. Cursor runs its cloud coding agents on Temporal at over 50 million actions a day across 7M+ workflows. Lovable, Abridge, and Hebbia build their agents on it too. In the last year alone, AI-native companies executed 1.86 trillion actions on Temporal Cloud, and the curve is still bending upwards. Backed by a recent $550M Series E at a $12.55B valuation, we are building the durable execution layer the agentic era depends on. Observability is how we and our customers know that layer is holding. This role owns both halves of that problem. Internally, you own the telemetry platform our engineers use to run a multi-tenant service that some of the largest companies in the world rely on. Externally, observability is a product surface. Customers debug their own workflows through what we expose, and the quality of that experience is a key feature of the platform. We are looking for a leader who has run observability at scale, treats telemetry cost and cardinality as first-class engineering constraints, and has the operational rigor to be accountable for live-site outcomes on a platform where reliability is the product. Responsibilities Observability roadmap: Own the team’s technical roadmap and delivery, aligned with broader engineering priorities. Evaluate build, buy, and open-source options, balancing reliability, customer needs, and cost. Technical leadership: Lead, hire, and grow a high-ownership team of engineers. Guide technical decisions through design and code reviews. Coach engineers, help them grow, and clear the friction that slows them down. Platform ownership: Own the ingestion, storage, query, and visualization path for high-cardinality telemetry across a multi-tenant, multi-cloud fleet. Enable self-serve capabilities to support a growing Engineering organization. Operational excellence: Own alerting and incident response tooling end to end. Drive the detection quality, routing, and clear, actionable runbooks that make on-call sustainable, and turn incident reviews into lasting reliability improvements. Customer-facing observability: Partner with Product and SDK teams on the telemetry Temporal exposes to customers: metrics, traces, and workflow-level diagnostics. Work directly with design-partner customers and integrate what you learn into the roadmap. Cost, capacity & economics: Own the unit economics of observability: cost per ingested series, per query, per namespace. Set cardinality budgets, drive consolidation where tool sprawl has crept in, and negotiate and manage vendor relationships against clear value criteria. Partner with Engineering, Product, Security, and Support to resolve competing priorities and deliver shared outcomes. Explain technical tradeoffs and risks clearly to senior leaders and non-specialist partners. Qualifications Proven experience leading engineering teams that build and operate observability, monitoring, or telemetry platforms at scale, with strong operational practices. Demonstrated success leading engineering teams that build and operate production observability platforms, including hiring, coaching, performance management, and delivery. 15+ years in software and/or infrastructure engineering, including 7+ years of people management, with demonstrated ownership of delivery and live-site outcomes. Experience hiring, leveling, and performance management. Strong distributed-systems expertise with the hands-on judgment to guide architecture and execution rather than guide it from a distance. Experience operating multi-tenant infrastructure that other people's production workloads depend on. Bachelor's degree in Computer Science or related field, or equivalent practical experience; advanced degree a plus. Excellent communication skills, with the ability to partner across engineering, product, and leadership and translate customer feedback into a roadmap. Required Skills Strong leadership and coaching; ability to grow engineers and build a healthy, accountable, high-ownership team, including through reorgs, acquisitions, or platform migrations. Set priorities and deliver incremental improvements with incomplete information. Make tradeoffs explicit and adapt plans as customer and operational needs change. Command of the observability building blocks — metrics, logs, traces, profiling, and alerting and the tradeoffs between them at scale. Time-series and telemetry data fundamentals: cardinality control, retention and downsampling, query performance, and hot/cold storage tiering. Live-site reliability craft: SLA/SLO definition, on-call, incident management, and postmortem-driven continuous improvement. Ability to review and raise the bar on technical artifacts (design docs, code reviews) across a distributed-systems codebase. Preferred Experience Applying AI/LLM techniques to triage, anomaly detection, or incident summarization, with clear-eyed judgment about where they help and where they don't. OpenTelemetry at depth: collector architecture, semantic conventions, instrumentation strategy. The open-source observability stack in production: Prometheus, Mimir/Thanos/Cortex, Grafana, Loki, Tempo, ClickHouse. Building observability as a product for external developers, not only as internal tooling. Kubernetes internals and multi-cloud delivery across AWS, GCP, and Azure. Vendor consolidation or migration programs (commercial APM/SaaS to open-source, or the reverse) with measurable cost and reliability outcomes. Developer experience or engineering productivity backgrounds - treating internal engineers as customers with a measurable experience. Prior experience at a developer infrastructure or open-source-based company, where the community is part of the feedback loop. Temporal Technologies is an Equal Opportunity Employer. Temporal Technologies does not discriminate on the basis of race, religion, color, sex, gender identity, sexual orientation, age, non-disqualifying physical or mental disability, national origin, veteran status, or any other basis covered by appropriate law. All employment is decided on the basis of qualifications, merit, and business need. We embrace and celebrate differences and diversity. Temporal is committed to providing access, equal opportunity, and reasonable accommodation for individuals with disabilities in employment, its services, programs, and activities. If ",
       "outcome": "live",
-      "evidence": "title \"Delivery Manager - Technology Solutions Group\" shown on the page"
+      "evidence": "title \"Senior Engineering Manager, Observability Engineering\" shown on the page"
     }
   ],
   "boards": [
@@ -109,7 +96,7 @@
       "id": "board-burnsmcd-it",
       "company": "Burns & McDonnell",
       "url": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
-      "checkedAt": "2026-10-23T14:52:01.824Z",
+      "checkedAt": "2026-10-23T14:55:22.009Z",
       "finalUrl": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
       "httpStatus": 200,
       "pageTitle": "Information Technology Jobs | Burns & McDonnell",
@@ -182,7 +169,7 @@
       "id": "board-burnsmcd-programming",
       "company": "Burns & McDonnell",
       "url": "https://burnsmcd.jobs/job-function/programming/jobs/",
-      "checkedAt": "2026-10-23T14:52:07.144Z",
+      "checkedAt": "2026-10-23T14:55:27.422Z",
       "finalUrl": "https://burnsmcd.jobs/job-function/programming/jobs/",
       "httpStatus": 200,
       "pageTitle": "Programming Job | Burns & McDonnell",
@@ -199,7 +186,7 @@
       "id": "board-hntb-it",
       "company": "HNTB",
       "url": "https://hntb.jobs/job-category/information-technology-group/jobs/",
-      "checkedAt": "2026-10-23T14:52:12.488Z",
+      "checkedAt": "2026-10-23T14:55:35.561Z",
       "finalUrl": "https://hntb.jobs/job-category/information-technology-group/jobs/",
       "httpStatus": 200,
       "pageTitle": "Information Technology Group Jobs | HNTB",
@@ -247,47 +234,12 @@
           "url": "https://hntb.jobs/indianapolis-in/principal-technologist-engineering/1A47AFA2EA8045598A049F14EB144D2D/job/"
         }
       ]
-    },
-    {
-      "id": "board-equipmentshare",
-      "company": "EquipmentShare",
-      "url": "https://www.equipmentshare.com/careers/current-openings?q=engineer",
-      "checkedAt": "2026-10-23T14:52:18.248Z",
-      "finalUrl": "https://www.equipmentshare.com/careers/current-openings?q=engineer",
-      "httpStatus": 200,
-      "pageTitle": "Current Job Openings at EquipmentShare",
-      "outcome": "empty",
-      "evidence": "no job links found; page starts: We Value Your Privacy This website or its third-party tools process personal data. You can opt out of the sale of your",
-      "jobs": [],
-      "sampleLinks": [
-        "https://www.equipmentshare.com/careers/culture",
-        "https://www.equipmentshare.com/careers",
-        "https://www.equipmentshare.com/careers/current-openings",
-        "https://www.equipmentshare.com/careers/branches",
-        "https://www.equipmentshare.com/careers/corporate",
-        "https://www.equipmentshare.com/careers/hiring-veterans",
-        "https://www.equipmentshare.com/careers/current-openings?q=engineer#",
-        "https://www.equipmentshare.com/careers/apprentice-program",
-        "https://www.equipmentshare.com/careers/internships",
-        "https://www.equipmentshare.com/careers/openings/8212029/senior-software-engineer-at-corporate?requestId=d8a03447-12d7-4c64-8cd2-e63878aa41f4%3AAPAb7IRd1Rq9pQzmsXMyCKx6BW7XGQRXOQ%3D%3D",
-        "https://www.equipmentshare.com/careers/openings/8139667/control-systems-engineer-at-corporate?requestId=d8a03447-12d7-4c64-8cd2-e63878aa41f4%3AAPAb7IRd1Rq9pQzmsXMyCKx6BW7XGQRXOQ%3D%3D",
-        "https://www.equipmentshare.com/careers/openings/8148076/mechanical-engineer-ii-at-corporate?requestId=d8a03447-12d7-4c64-8cd2-e63878aa41f4%3AAPAb7IRd1Rq9pQzmsXMyCKx6BW7XGQRXOQ%3D%3D",
-        "https://www.equipmentshare.com/careers/openings/8212071/building-design-engineer-at-corporate?requestId=d8a03447-12d7-4c64-8cd2-e63878aa41f4%3AAPAb7IRd1Rq9pQzmsXMyCKx6BW7XGQRXOQ%3D%3D",
-        "https://www.equipmentshare.com/careers/openings/8143762/data-analytics-engineer-at-corporate?requestId=d8a03447-12d7-4c64-8cd2-e63878aa41f4%3AAPAb7IRd1Rq9pQzmsXMyCKx6BW7XGQRXOQ%3D%3D",
-        "https://www.equipmentshare.com/careers/openings/7767280/embedded-hardware-engineer-iii-at-corporate?requestId=d8a03447-12d7-4c64-8cd2-e63878aa41f4%3AAPAb7IRd1Rq9pQzmsXMyCKx6BW7XGQRXOQ%3D%3D",
-        "https://www.equipmentshare.com/careers/openings/8201311/senior-electrical-engineer-temporary-power-generation-energy-systems-at-corporate?requestId=d8a03447-12d7-4c64-8cd2-e63878aa41f4%3AAPAb7IRd1Rq9pQzmsXMyCKx6BW7XGQRXOQ%3D%3D",
-        "https://www.equipmentshare.com/careers/openings/8189297/intern-engineering-embedded-at-corporate?requestId=d8a03447-12d7-4c64-8cd2-e63878aa41f4%3AAPAb7IRd1Rq9pQzmsXMyCKx6BW7XGQRXOQ%3D%3D",
-        "https://www.equipmentshare.com/careers/openings/8142763/intern-engineering-embedded-at-corporate?requestId=d8a03447-12d7-4c64-8cd2-e63878aa41f4%3AAPAb7IRd1Rq9pQzmsXMyCKx6BW7XGQRXOQ%3D%3D",
-        "https://www.equipmentshare.com/careers/openings/8196207/field-service-technician-mechanic-at-raleigh-nc-core-solutions?requestId=d8a03447-12d7-4c64-8cd2-e63878aa41f4%3AAPAb7IRd1Rq9pQzmsXMyCKx6BW7XGQRXOQ%3D%3D",
-        "https://www.equipmentshare.com/careers/openings/7761080/future-yard-technician-opportunities?requestId=0a75e631-f830-4d97-9777-2a4dae3e015a%3AAPAb7ISaAAMUnCF40iImPMXsfrRRlTSYPg%3D%3D",
-        "https://www.equipmentshare.com/careers/openings/6900534/future-warranty-administrator?requestId=0a75e631-f830-4d97-9777-2a4dae3e015a%3AAPAb7ISaAAMUnCF40iImPMXsfrRRlTSYPg%3D%3D"
-      ]
     }
   ],
   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36",
   "counts": {
     "live": 5,
-    "gone": 2
+    "gone": 1
   },
-  "seconds": 81
+  "seconds": 59
 }
