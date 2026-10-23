@@ -1,6 +1,6 @@
 {
-  "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. The three below are a shakedown set, verified live on 10/22/2026 by other routes, to confirm the browser reads these sites correctly.",
-  "updated": "2026-10-22",
+  "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. The first three are a shakedown set, verified live on 10/22/2026 by other routes, to confirm the browser reads these sites correctly.",
+  "updated": "2026-10-23",
   "targets": [
     {
       "id": "x-clinician-nexus-manager-devops",
@@ -22,6 +22,13 @@
       "title": "Infrastructure Engineering Manager",
       "url": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
       "why": "shakedown: employer careers site"
+    },
+    {
+      "id": "icims-docusign-29787",
+      "company": "DocuSign",
+      "title": "Senior Manager, Site Reliability Engineering",
+      "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
+      "why": "needs_check since 10/23: the iCIMS page renders only in a browser and the uscareers host is robots-disallowed"
     }
   ]
 }
