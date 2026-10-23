@@ -3149,5 +3149,388 @@
     "name": "EquipmentShare",
     "platform": "greenhouse",
     "slug": "equipmentsharecom"
+  },
+  {
+    "name": "Federal Reserve System",
+    "platform": "workday",
+    "workday": {
+      "tenant": "rb",
+      "site": "FRS",
+      "shard": "wd5"
+    }
+  },
+  {
+    "name": "Capital One",
+    "platform": "workday",
+    "workday": {
+      "tenant": "capitalone",
+      "site": "Capital_One",
+      "shard": "wd12",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Thomson Reuters",
+    "platform": "workday",
+    "workday": {
+      "tenant": "thomsonreuters",
+      "site": "External_Career_Site",
+      "shard": "wd5",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "The Hartford",
+    "platform": "workday",
+    "workday": {
+      "tenant": "thehartford",
+      "site": "Careers_External",
+      "shard": "wd5",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "TransUnion",
+    "platform": "workday",
+    "workday": {
+      "tenant": "transunion",
+      "site": "TransUnion",
+      "shard": "wd5",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Wells Fargo",
+    "platform": "workday",
+    "workday": {
+      "tenant": "wf",
+      "site": "WellsFargoJobs",
+      "shard": "wd1",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Bank of America",
+    "platform": "workday",
+    "workday": {
+      "tenant": "ghr",
+      "site": "Lateral-US",
+      "shard": "wd1",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "GEICO",
+    "platform": "workday",
+    "workday": {
+      "tenant": "geico",
+      "site": "External",
+      "shard": "wd1",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Nationwide",
+    "platform": "workday",
+    "workday": {
+      "tenant": "nationwide",
+      "site": "Nationwide_Career",
+      "shard": "wd1",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Allstate",
+    "platform": "workday",
+    "workday": {
+      "tenant": "allstate",
+      "site": "allstate_careers",
+      "shard": "wd5",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Travelers",
+    "platform": "workday",
+    "workday": {
+      "tenant": "travelers",
+      "site": "External",
+      "shard": "wd5",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Liberty Mutual",
+    "platform": "workday",
+    "workday": {
+      "tenant": "libertymutual",
+      "site": "LMI",
+      "shard": "wd5",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Equifax",
+    "platform": "workday",
+    "workday": {
+      "tenant": "equifax",
+      "site": "External",
+      "shard": "wd5",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Thermo Fisher Scientific",
+    "platform": "workday",
+    "workday": {
+      "tenant": "thermofisher",
+      "site": "ThermoFisherCareers",
+      "shard": "wd5",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "General Motors",
+    "platform": "workday",
+    "workday": {
+      "tenant": "generalmotors",
+      "site": "Careers_GM",
+      "shard": "wd5",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Boston Scientific",
+    "platform": "workday",
+    "workday": {
+      "tenant": "bostonscientific",
+      "site": "BostonScientificCareers",
+      "shard": "wd1",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Jacobs",
+    "platform": "workday",
+    "workday": {
+      "tenant": "jacobs",
+      "site": "External",
+      "shard": "wd1",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Comcast",
+    "platform": "workday",
+    "workday": {
+      "tenant": "comcast",
+      "site": "Comcast_Careers",
+      "shard": "wd5",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Raymond James",
+    "platform": "workday",
+    "workday": {
+      "tenant": "raymondjames",
+      "site": "RaymondJamesCareers",
+      "shard": "wd1",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Lincoln Financial",
+    "platform": "workday",
+    "workday": {
+      "tenant": "lfg",
+      "site": "LFG_Careers",
+      "shard": "wd1",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "DTCC",
+    "platform": "workday",
+    "workday": {
+      "tenant": "dtcc",
+      "site": "DTCC_Careers",
+      "shard": "wd1",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Dell Technologies",
+    "platform": "workday",
+    "workday": {
+      "tenant": "dell",
+      "site": "External",
+      "shard": "wd1",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Hewlett Packard Enterprise",
+    "platform": "workday",
+    "workday": {
+      "tenant": "hpe",
+      "site": "Jobsathpe",
+      "shard": "wd5",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
   }
 ]

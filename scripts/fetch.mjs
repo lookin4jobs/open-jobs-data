@@ -33,6 +33,89 @@ const WORKDAY_403_BACKOFF_MS = 5000;
 const RETRY_PASS_WAIT_MS = 60000;
 
 // ---------------------------------------------------------------------------
+// robots.txt (this fork, added 10/23/2026)
+// ---------------------------------------------------------------------------
+// Every board URL is checked against its host's robots.txt before it is
+// fetched. A path disallowed for our token ("open-jobs-data") or for "*" is
+// skipped and reported as robots-disallowed. Per RFC 9309, a robots.txt that
+// is missing (4xx) means no restrictions, and one that cannot be read (5xx or
+// network error) means stay off the host this run (robots-unavailable, which
+// the retry pass tries again). For Workday the career site's own path
+// (/SITE/) is checked too, since the JSON endpoint serves that site: a tenant
+// whose robots.txt disallows its career site is not read through the API.
+const BOT_TOKEN = 'open-jobs-data';
+const robotsCache = new Map();
+
+function parseRobots(text) {
+  const groups = [];
+  let cur = null, lastWasAgent = false;
+  for (const raw of text.split(/\r?\n/)) {
+    const line = raw.replace(/#.*/, '').trim();
+    const m = line.match(/^([A-Za-z-]+)\s*:\s*(.*)$/);
+    if (!m) continue;
+    const key = m[1].toLowerCase(), val = m[2].trim();
+    if (key === 'user-agent') {
+      if (!lastWasAgent) { cur = { agents: [], rules: [] }; groups.push(cur); }
+      cur.agents.push(val.toLowerCase());
+      lastWasAgent = true;
+    } else {
+      lastWasAgent = false;
+      if (cur && (key === 'allow' || key === 'disallow')) cur.rules.push({ allow: key === 'allow', path: val });
+    }
+  }
+  return groups;
+}
+
+function robotsRuleMatches(rulePath, target) {
+  if (!rulePath) return false;
+  const anchored = rulePath.endsWith('$');
+  const body = anchored ? rulePath.slice(0, -1) : rulePath;
+  const re = new RegExp('^' + body.split('*').map((p) => p.replace(/[.+?^${}()|[\]\\]/g, '\\$&')).join('.*') + (anchored ? '$' : ''));
+  return re.test(target);
+}
+
+function robotsAllowsPath(groups, target) {
+  let chosen = groups.filter((g) => g.agents.some((a) => a !== '*' && BOT_TOKEN.includes(a)));
+  if (!chosen.length) chosen = groups.filter((g) => g.agents.includes('*'));
+  let best = null;
+  for (const g of chosen) for (const r of g.rules) {
+    if (!robotsRuleMatches(r.path, target)) continue;
+    const len = r.path.replace(/\$$/, '').length;
+    if (!best || len > best.len || (len === best.len && r.allow)) best = { len, allow: r.allow };
+  }
+  return best ? best.allow : true;
+}
+
+// Returns null when the URL may be fetched, or 'robots-disallowed' /
+// 'robots-unavailable' when it may not.
+async function robotsBlock(url) {
+  let u;
+  try { u = new URL(url); } catch { return null; }
+  if (!robotsCache.has(u.origin)) {
+    robotsCache.set(u.origin, (async () => {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+      try {
+        const res = await fetch(u.origin + '/robots.txt', { headers: { 'User-Agent': USER_AGENT }, signal: controller.signal });
+        if (res.status >= 500) return { unavailable: true };
+        if (res.status >= 400) return { groups: [] };
+        return { groups: parseRobots(await res.text()) };
+      } catch {
+        return { unavailable: true };
+      } finally {
+        clearTimeout(timeout);
+      }
+    })());
+  }
+  const entry = await robotsCache.get(u.origin);
+  if (entry.unavailable) {
+    robotsCache.delete(u.origin); // let a later attempt (the retry pass) read it again
+    return 'robots-unavailable';
+  }
+  return robotsAllowsPath(entry.groups, u.pathname + u.search) ? null : 'robots-disallowed';
+}
+
+// ---------------------------------------------------------------------------
 // HTTP helpers
 // ---------------------------------------------------------------------------
 
@@ -47,6 +130,8 @@ async function fetchWithRetryText(url, options = {}) {
   let lastErr;
   let lastStatus = null;
   const { retry403, ...fetchOptions } = options;
+  const blocked = await robotsBlock(url);
+  if (blocked) return { notFound: true, status: blocked };
   for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
@@ -194,8 +279,8 @@ const platforms = {
   async greenhouse(company) {
     const slug = company.slug;
     const url = `https://boards-api.greenhouse.io/v1/boards/${encodeURIComponent(slug)}/jobs?content=false`;
-    const { data, notFound } = await getJson(url);
-    if (notFound) return { jobs: [], notFound: true };
+    const { data, notFound, status } = await getJson(url);
+    if (notFound) return { jobs: [], notFound: true, status };
     return {
       jobs: (data.jobs ?? []).map((job) => {
         const locations = job.location?.name ? [job.location.name] : [];
@@ -218,8 +303,8 @@ const platforms = {
   async lever(company) {
     const slug = company.slug;
     const url = `https://api.lever.co/v0/postings/${encodeURIComponent(slug)}?mode=json`;
-    const { data, notFound } = await getJson(url);
-    if (notFound) return { jobs: [], notFound: true };
+    const { data, notFound, status } = await getJson(url);
+    if (notFound) return { jobs: [], notFound: true, status };
     if (!Array.isArray(data)) return { jobs: [], notFound: true };
     return {
       jobs: data.map((job) => {
@@ -249,8 +334,8 @@ const platforms = {
   async ashby(company) {
     const slug = company.slug;
     const url = `https://api.ashbyhq.com/posting-api/job-board/${encodeURIComponent(slug)}`;
-    const { data, notFound } = await getJson(url);
-    if (notFound) return { jobs: [], notFound: true };
+    const { data, notFound, status } = await getJson(url);
+    if (notFound) return { jobs: [], notFound: true, status };
     return {
       jobs: (data.jobs ?? []).map((job) => {
         const locations = [
@@ -284,6 +369,8 @@ const platforms = {
       headers: { Accept: 'application/json', 'Accept-Language': 'en-US', Origin: origin, Referer: `${origin}/${site}` },
     };
     const baseUrl = `https://${tenant}.${shard}.myworkdayjobs.com/wday/cxs/${tenant}/${site}`;
+    const siteBlocked = await robotsBlock(`${origin}/${site}/`);
+    if (siteBlocked) return { jobs: [], notFound: true, status: siteBlocked };
     const PAGE_SIZE = 20;
     const MAX_JOBS = 500;
     // Large tenants list thousands of jobs and the 500 cap cuts most of them off.
@@ -353,6 +440,7 @@ const platforms = {
     const searches = Array.isArray(company.searchTexts) && company.searchTexts.length ? company.searchTexts : [''];
     const byId = new Map();
     let anyFound = false;
+    let lastSrStatus = null;
     for (const q of searches) {
       let offset = 0;
       let totalFound = Infinity;
@@ -361,8 +449,8 @@ const platforms = {
         const limit = Math.min(PAGE_SIZE, MAX_JOBS - fetched);
         const qs = q ? `&q=${encodeURIComponent(q)}` : '';
         const url = `https://api.smartrecruiters.com/v1/companies/${encodeURIComponent(slug)}/postings?limit=${limit}&offset=${offset}${qs}`;
-        const { data, notFound } = await getJson(url);
-        if (notFound) break;
+        const { data, notFound, status } = await getJson(url);
+        if (notFound) { lastSrStatus = status; break; }
         anyFound = true;
         totalFound = data.totalFound ?? 0;
         if (!data.content || data.content.length === 0) break;
@@ -372,7 +460,7 @@ const platforms = {
         await sleep(REQUEST_DELAY_MS);
       }
     }
-    if (!anyFound) return { jobs: [], notFound: true };
+    if (!anyFound) return { jobs: [], notFound: true, status: lastSrStatus };
     const jobs = [...byId.values()];
     return {
       jobs: jobs.map((job) => {
@@ -396,8 +484,8 @@ const platforms = {
   async workable(company) {
     const slug = company.slug;
     const url = `https://apply.workable.com/api/v1/widget/accounts/${encodeURIComponent(slug)}?details=false`;
-    const { data, notFound } = await getJson(url);
-    if (notFound) return { jobs: [], notFound: true };
+    const { data, notFound, status } = await getJson(url);
+    if (notFound) return { jobs: [], notFound: true, status };
     return {
       jobs: (data.jobs ?? []).map((job) => {
         const locations = [job.city, job.state, job.country].filter(Boolean);
@@ -420,8 +508,8 @@ const platforms = {
   async recruitee(company) {
     const slug = company.slug;
     const url = `https://${encodeURIComponent(slug)}.recruitee.com/api/offers/`;
-    const { data, notFound } = await getJson(url);
-    if (notFound) return { jobs: [], notFound: true };
+    const { data, notFound, status } = await getJson(url);
+    if (notFound) return { jobs: [], notFound: true, status };
     return {
       jobs: (data.offers ?? []).map((offer) => {
         const locations = offer.locations?.length
@@ -449,8 +537,8 @@ const platforms = {
   async personio(company) {
     const slug = company.slug;
     const url = `https://${encodeURIComponent(slug)}.jobs.personio.de/xml`;
-    const { data: xml, notFound } = await getText(url);
-    if (notFound || !xml || !xml.includes('<position>')) return { jobs: [], notFound: true };
+    const { data: xml, notFound, status } = await getText(url);
+    if (notFound || !xml || !xml.includes('<position>')) return { jobs: [], notFound: true, status };
     const positions = parsePersonioXml(xml);
     return {
       jobs: positions.map((position) =>
@@ -473,8 +561,8 @@ const platforms = {
   async bamboohr(company) {
     const slug = company.slug;
     const url = `https://${encodeURIComponent(slug)}.bamboohr.com/careers/list`;
-    const { data: body, notFound } = await getText(url);
-    if (notFound) return { jobs: [], notFound: true };
+    const { data: body, notFound, status } = await getText(url);
+    if (notFound) return { jobs: [], notFound: true, status };
     let data;
     try {
       data = JSON.parse(body);
@@ -671,6 +759,7 @@ async function main() {
     if (!fetcher) return { entry: { ...entry, status: 'unsupported-platform', jobs: 0 }, jobs: [] };
     try {
       const { jobs, notFound, status, failedSearches } = await fetcher(company);
+      if (status === 'robots-disallowed' || status === 'robots-unavailable') return { entry: { ...entry, status, jobs: 0 }, jobs: [] };
       if (notFound) return { entry: { ...entry, status: 'not-found', httpStatus: status ?? null, jobs: 0 }, jobs: [] };
       const ok = { ...entry, status: 'ok', jobs: jobs.length };
       if (failedSearches && failedSearches.length) {
@@ -689,7 +778,7 @@ async function main() {
   // One retry pass for anything that failed or came back partial, after a pause.
   const retry = companies.filter((c) => {
     const st = outcome.get(c).entry.status;
-    return st !== 'ok' && st !== 'unsupported-platform';
+    return st !== 'ok' && st !== 'unsupported-platform' && st !== 'robots-disallowed';
   });
   if (retry.length) {
     console.log(`Retrying ${retry.length} companies after ${RETRY_PASS_WAIT_MS / 1000}s: ${retry.map((c) => c.name).join(', ')}`);

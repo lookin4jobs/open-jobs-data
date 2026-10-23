@@ -59,6 +59,30 @@
       "url": "https://hntb.jobs/job-category/information-technology-group/jobs/",
       "linkPattern": "hntb\\.jobs/[^?#]+/[0-9A-F]{32}/job/?$",
       "why": "Kansas City engineering firm (construction watch); .jobs site lists jobs only in a browser"
+    },
+    {
+      "id": "board-oracle-sre",
+      "company": "Oracle (incl. Oracle Health, Kansas City)",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
+      "why": "Oracle's career site renders only in a browser; Kevin's former employer, big KC presence (Oracle Health)"
+    },
+    {
+      "id": "board-oracle-em",
+      "company": "Oracle (incl. Oracle Health, Kansas City)",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
+      "why": "Oracle software development manager roles near Kansas City"
+    },
+    {
+      "id": "board-garmin",
+      "company": "Garmin (Olathe)",
+      "url": "https://careers.garmin.com/careers-home/jobs?keywords=devops&location=United%20States",
+      "why": "large Olathe employer; its career site renders in a browser"
+    },
+    {
+      "id": "board-hrblock",
+      "company": "H&R Block (Kansas City)",
+      "url": "https://careers.hrblock.com/search-jobs?keywords=engineer",
+      "why": "Kansas City headquarters; trial board URL, check sampleLinks"
     }
   ]
 }
