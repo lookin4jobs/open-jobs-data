@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T05:35:41.975Z",
+  "generatedAt": "2026-10-23T05:43:39.566Z",
   "runner": "github-actions",
   "results": [
     {
@@ -7,11 +7,12 @@
       "company": "Clinician Nexus",
       "title": "Manager, DevOps",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
-      "checkedAt": "2026-10-23T05:35:43.642Z",
+      "checkedAt": "2026-10-23T05:43:39.949Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
       "httpStatus": 200,
       "pageTitle": "Recruitment",
       "jsonLd": null,
+      "retried": "reloaded once after \"An unexpected error has occurred. Please try again\"",
       "outcome": "unclear",
       "evidence": "title not found; page starts: Sorry! An unexpected error has occurred. Please try again. We use our own and third-party cookies and similar technologi"
     },
@@ -20,11 +21,12 @@
       "company": "Sprezzatura",
       "title": "Software Development Manager",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
-      "checkedAt": "2026-10-23T05:36:04.321Z",
+      "checkedAt": "2026-10-23T05:44:37.886Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
       "httpStatus": 200,
       "pageTitle": "Recruitment",
       "jsonLd": null,
+      "retried": "reloaded once after \"An unexpected error has occurred. Please try again\"",
       "outcome": "unclear",
       "evidence": "title not found; page starts: Sorry! An unexpected error has occurred. Please try again. We use our own and third-party cookies and similar technologi"
     },
@@ -33,7 +35,7 @@
       "company": "Jack Henry",
       "title": "Infrastructure Engineering Manager",
       "url": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
-      "checkedAt": "2026-10-23T05:36:24.522Z",
+      "checkedAt": "2026-10-23T05:45:34.319Z",
       "finalUrl": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
       "httpStatus": 200,
       "pageTitle": "Infrastructure Engineering Manager at Jack Henry & Associates, Inc",
@@ -50,20 +52,19 @@
       "company": "DocuSign",
       "title": "Senior Manager, Site Reliability Engineering",
       "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
-      "checkedAt": "2026-10-23T05:36:31.417Z",
+      "checkedAt": "2026-10-23T05:45:41.461Z",
       "finalUrl": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 200,
       "pageTitle": "Senior Manager, Site Reliability Engineering in Remote | Careers at United States Remote",
       "jsonLd": null,
-      "outcome": "blocked",
-      "evidence": "HTTP 200 Senior Manager, Site Reliability Engineering in Remote | Careers at United States Remote Skip Branding Skip to Main Content Back to Docusign.com Overvi"
+      "outcome": "live",
+      "evidence": "title \"Senior Manager, Site Reliability Engineering\" shown on the page"
     }
   ],
   "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.7339.16 Safari/537.36",
   "counts": {
     "unclear": 2,
-    "live": 1,
-    "blocked": 1
+    "live": 2
   },
-  "seconds": 66
+  "seconds": 124
 }
