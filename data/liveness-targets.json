@@ -92,6 +92,14 @@
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/348431/",
       "why": "Oracle posting found on the Oracle board; renders only in a browser",
       "captureText": true
+    },
+    {
+      "id": "x-remote-com-team-leader-site-reliability-engineering",
+      "company": "Remote.com",
+      "title": "Team Leader, Site Reliability Engineering",
+      "url": "https://apply.remote.com/jobs/700bb10e-3aaa-4cf8-ae4d-1ec6e2291160",
+      "why": "listed on remote.com/openings; Remote's own job pages render only in a browser",
+      "captureText": true
     }
   ],
   "boards": [
@@ -129,6 +137,27 @@
       "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
       "why": "Oracle software development manager roles near Kansas City",
       "linkPattern": "careers\\.oracle\\.com/en/sites/jobsearch/job/\\d+"
+    },
+    {
+      "id": "board-dell-sre",
+      "company": "Dell Technologies",
+      "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=site%20reliability&location=United%20States",
+      "why": "Dell moved its jobs to Oracle Recruiting Cloud, which the feed cannot read and which renders only in a browser",
+      "linkPattern": "enterpriseplatform\\.dell\\.com/hcmUI/CandidateExperience/en/sites/careers/job/\\d+"
+    },
+    {
+      "id": "board-dell-em",
+      "company": "Dell Technologies",
+      "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=engineering%20manager&location=United%20States",
+      "why": "Dell engineering manager roles on Oracle Recruiting Cloud",
+      "linkPattern": "enterpriseplatform\\.dell\\.com/hcmUI/CandidateExperience/en/sites/careers/job/\\d+"
+    },
+    {
+      "id": "board-dtcc-sre",
+      "company": "DTCC",
+      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=site%20reliability&location=United%20States",
+      "why": "DTCC posts on Oracle Recruiting Cloud, which the feed cannot read and which renders only in a browser",
+      "linkPattern": "ebxr\\.fa\\.us2\\.oraclecloud\\.com/hcmUI/CandidateExperience/en/sites/CX_1/job/\\d+"
     }
   ]
 }

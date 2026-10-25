@@ -2662,8 +2662,8 @@
   },
   {
     "name": "Innovaccer",
-    "platform": "greenhouse",
-    "slug": "innovaccer"
+    "platform": "workable",
+    "slug": "innovaccer-analytics"
   },
   {
     "name": "Automattic",
@@ -3370,6 +3370,23 @@
       "tenant": "generalmotors",
       "site": "Careers_GM",
       "shard": "wd5",
+      "searchTexts": [
+        "site reliability",
+        "devops",
+        "platform engineer",
+        "infrastructure",
+        "cloud engineer",
+        "engineering manager"
+      ]
+    }
+  },
+  {
+    "name": "Comcast",
+    "platform": "workday",
+    "workday": {
+      "tenant": "comcast",
+      "site": "Comcast_Careers",
+      "shard": "wd115",
       "searchTexts": [
         "site reliability",
         "devops",
