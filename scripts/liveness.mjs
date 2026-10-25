@@ -156,6 +156,9 @@ async function checkRobots(url) {
         redirect: 'follow', signal: AbortSignal.timeout(15000),
       });
       if (res.status >= 500) entry = { unavailable: `robots.txt HTTP ${res.status}` };
+      // A 2xx that is not 200 (Jacobs answered 202 with an empty body on 10/25, a bot-check
+      // response) is not a robots file, so it is treated as unreadable rather than as "no rules".
+      else if (res.status < 300 && res.status !== 200) entry = { unavailable: `robots.txt HTTP ${res.status}` };
       else if (res.status >= 400) entry = { groups: [] };          // no robots.txt = no restrictions
       else entry = { groups: parseRobots(await res.text()) };
     } catch (err) {
@@ -203,6 +206,7 @@ async function auditRobots(entry) {
     });
     out.status = res.status;
     out.finalUrl = res.url;
+    if (res.status < 300 && res.status !== 200) out.unreadable = `HTTP ${res.status} is not a robots file (treated as unreadable)`;
     const text = res.status < 400 ? await res.text() : '';
     out.text = clip(text, 6000);
     const groups = res.status < 400 ? parseRobots(text) : [];

@@ -166,7 +166,7 @@
       "paths": [
         "/",
         "/job/19771462/",
-        "/sitemap.xml"
+        "/api/jobs?keywords=devops"
       ],
       "why": "fetch tool reported robots_disallowed on 10/24"
     },
@@ -182,14 +182,17 @@
       "host": "https://careers.hrblock.com",
       "paths": [
         "/",
-        "/careers-home/jobs"
+        "/careers-home/jobs",
+        "/api/jobs?keywords=devops"
       ],
       "why": "H&R Block careers site; refused the browser check with HTTP 403 on 10/23"
     },
     {
       "host": "https://careers.garmin.com",
       "paths": [
-        "/"
+        "/",
+        "/api/jobs?keywords=devops",
+        "/jobs/20147"
       ],
       "why": "refused the browser check with HTTP 403 on 10/23"
     },
@@ -248,7 +251,9 @@
       "host": "https://hiring.cafe",
       "paths": [
         "/",
-        "/jobs"
+        "/jobs",
+        "/recently-posted-jobs",
+        "/?searchState=x"
       ],
       "why": "listed as blocked by robots.txt in the daily check; re-check"
     },
