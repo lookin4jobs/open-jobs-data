@@ -159,5 +159,113 @@
       "why": "DTCC posts on Oracle Recruiting Cloud, which the feed cannot read and which renders only in a browser",
       "linkPattern": "ebxr\\.fa\\.us2\\.oraclecloud\\.com/hcmUI/CandidateExperience/en/sites/CX_1/job/\\d+"
     }
+  ],
+  "robotsAudit": [
+    {
+      "host": "https://careers.jacobs.com",
+      "paths": [
+        "/",
+        "/job/19771462/",
+        "/sitemap.xml"
+      ],
+      "why": "fetch tool reported robots_disallowed on 10/24"
+    },
+    {
+      "host": "https://careers-hrblock.icims.com",
+      "paths": [
+        "/jobs/search?ss=1&searchKeyword=engineer&in_iframe=1",
+        "/jobs/1/job"
+      ],
+      "why": "fetch tool reported robots_disallowed on 10/24"
+    },
+    {
+      "host": "https://careers.hrblock.com",
+      "paths": [
+        "/",
+        "/careers-home/jobs"
+      ],
+      "why": "H&R Block careers site; refused the browser check with HTTP 403 on 10/23"
+    },
+    {
+      "host": "https://careers.garmin.com",
+      "paths": [
+        "/"
+      ],
+      "why": "refused the browser check with HTTP 403 on 10/23"
+    },
+    {
+      "host": "https://www.garmin.com",
+      "paths": [
+        "/en-US/careers/"
+      ],
+      "why": "Garmin's careers page since careers.garmin.com redirects there"
+    },
+    {
+      "host": "https://api.smartrecruiters.com",
+      "paths": [
+        "/v1/companies/abbvie/postings/1"
+      ],
+      "why": "fetch tool reported robots_disallowed on 10/24 (job pages still read)"
+    },
+    {
+      "host": "https://jobs.smartrecruiters.com",
+      "paths": [
+        "/abbvie/1"
+      ],
+      "why": "comparison: SmartRecruiters job pages"
+    },
+    {
+      "host": "https://boards-api.eu.greenhouse.io",
+      "paths": [
+        "/v1/boards/airship/jobs"
+      ],
+      "why": "fetch tool reported robots_disallowed on 10/24"
+    },
+    {
+      "host": "https://boards-api.greenhouse.io",
+      "paths": [
+        "/v1/boards/arine/jobs"
+      ],
+      "why": "comparison: the US Greenhouse API"
+    },
+    {
+      "host": "https://apply.workable.com",
+      "paths": [
+        "/api/v1/widget/accounts/pennmutual",
+        "/pennmutual/"
+      ],
+      "why": "fetch tool reported robots_disallowed on 10/25"
+    },
+    {
+      "host": "https://www.indeed.com",
+      "paths": [
+        "/jobs?q=x",
+        "/viewjob?jk=1"
+      ],
+      "why": "job pages refused the fetch tool from 10/22 to 10/24"
+    },
+    {
+      "host": "https://hiring.cafe",
+      "paths": [
+        "/",
+        "/jobs"
+      ],
+      "why": "listed as blocked by robots.txt in the daily check; re-check"
+    },
+    {
+      "host": "https://www.linkedin.com",
+      "paths": [
+        "/jobs/view/1",
+        "/jobs/search"
+      ],
+      "why": "listed as blocked by robots.txt in the daily check; re-check"
+    },
+    {
+      "host": "https://careers-libertymutual.icims.com",
+      "paths": [
+        "/jobs/search?ss=1&searchKeyword=devops&in_iframe=1"
+      ],
+      "why": "comparison: an iCIMS site that reads"
+    }
   ]
 }

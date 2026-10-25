@@ -47,6 +47,10 @@
 // URL) in data/liveness.json under "boards". That is a list for discovery,
 // not a verdict on any one posting. Board outcomes: listed, empty, blocked,
 // robots_disallowed, robots_unavailable, error.
+//
+// Robots audit (the "robotsAudit" list, added 10/25/2026): for each host, the
+// script reads robots.txt only and records what it says to each agent for the
+// listed paths, under "robotsAudit" in data/liveness.json.
 
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -163,6 +167,54 @@ async function checkRobots(url) {
   if (entry.unavailable) return { ok: false, outcome: 'robots_unavailable', evidence: entry.unavailable };
   if (!robotsAllows(entry.groups, u.pathname + u.search)) return { ok: false, outcome: 'robots_disallowed', evidence: `robots.txt disallows ${u.pathname}` };
   return { ok: true };
+}
+
+// ---- robots audit (added 10/25/2026) --------------------------------------
+// Reads robots.txt for the hosts listed under "robotsAudit" in the targets file
+// and records, for each listed path, what the file says to this script, to "*",
+// to Anthropic's user-initiated fetcher (Claude-User), to its crawler
+// (ClaudeBot) and to a mainstream crawler for comparison. That way a refusal
+// can be read and understood (and re-checked over time) instead of guessed at.
+// Only robots.txt itself is requested here; no other page on the host is loaded.
+const AUDIT_AGENTS = [BOT_TOKEN, '*', 'Claude-User', 'ClaudeBot', 'anthropic-ai', 'Googlebot'];
+const MAX_AUDIT_HOSTS = 25;
+
+function robotsVerdict(groups, agent, target) {
+  const a = agent.toLowerCase();
+  let chosen = a === '*' ? [] : groups.filter(g => g.agents.some(x => x !== '*' && a.includes(x)));
+  const named = chosen.length > 0;
+  if (!named) chosen = groups.filter(g => g.agents.includes('*'));
+  let best = null;
+  for (const g of chosen) for (const r of g.rules) {
+    if (!ruleMatches(r.path, target)) continue;
+    const len = r.path.replace(/\$$/, '').length;
+    if (!best || len > best.len || (len === best.len && r.allow)) best = { len, allow: r.allow, rule: `${r.allow ? 'Allow' : 'Disallow'}: ${r.path}` };
+  }
+  return { allowed: best ? best.allow : true, rule: best ? best.rule : null, group: named ? 'named' : chosen.length ? '*' : 'none' };
+}
+
+async function auditRobots(entry) {
+  const host = String(entry.host || '').replace(/\/+$/, '');
+  const out = { host, paths: entry.paths || ['/'], why: entry.why };
+  try {
+    const res = await fetch(host + '/robots.txt', {
+      headers: { 'user-agent': `${BOT_TOKEN}/1.0 (+https://github.com/lookin4jobs/open-jobs-data)` },
+      redirect: 'follow', signal: AbortSignal.timeout(15000),
+    });
+    out.status = res.status;
+    out.finalUrl = res.url;
+    const text = res.status < 400 ? await res.text() : '';
+    out.text = clip(text, 6000);
+    const groups = res.status < 400 ? parseRobots(text) : [];
+    out.verdicts = {};
+    for (const p of out.paths) {
+      out.verdicts[p] = {};
+      for (const agent of AUDIT_AGENTS) out.verdicts[p][agent] = robotsVerdict(groups, agent, p);
+    }
+  } catch (err) {
+    out.error = `${err.name}: ${clip(err.message, 100)}`;
+  }
+  return out;
 }
 
 // ---- page check -----------------------------------------------------------
@@ -358,11 +410,12 @@ async function scanBoard(browser, b) {
 async function main() {
   const started = new Date();
   const report = { generatedAt: started.toISOString(), runner: process.env.GITHUB_ACTIONS ? 'github-actions' : 'local', results: [], boards: [] };
-  let targets = [], boards = [];
+  let targets = [], boards = [], audits = [];
   try {
     const file = JSON.parse(await readFile(TARGETS, 'utf8'));
     targets = (file.targets || []).filter(t => t && t.url);
     boards = (file.boards || []).filter(b => b && b.url).slice(0, MAX_BOARDS);
+    audits = (file.robotsAudit || []).filter(a => a && a.host).slice(0, MAX_AUDIT_HOSTS);
   } catch (err) {
     report.error = `could not read targets: ${clip(err.message, 120)}`;
   }
@@ -394,6 +447,16 @@ async function main() {
       report.error = `browser failed: ${clip(err.message, 160)}`;
     } finally {
       if (browser) await browser.close().catch(() => {});
+    }
+  }
+  if (audits.length) {
+    report.robotsAudit = [];
+    for (const a of audits) {
+      const r = await auditRobots(a);
+      report.robotsAudit.push(r);
+      const deny = Object.entries(r.verdicts || {}).flatMap(([p, v]) => Object.entries(v).filter(([, x]) => !x.allowed).map(([ag]) => `${ag} ${p}`));
+      console.log(`robots ${r.host} | HTTP ${r.status ?? '-'} | ${deny.length ? 'disallows: ' + deny.join(', ') : 'allows all listed'}${r.error ? ' | ' + r.error : ''}`);
+      await sleep(1000);
     }
   }
   report.counts = report.results.reduce((c, r) => ({ ...c, [r.outcome]: (c[r.outcome] || 0) + 1 }), {});
