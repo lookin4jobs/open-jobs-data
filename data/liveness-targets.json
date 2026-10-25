@@ -62,22 +62,6 @@
       "captureText": true
     },
     {
-      "id": "x-oracle-senior-site-reliability-engineer-346955",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/346955/",
-      "why": "Oracle posting found on the Oracle board; renders only in a browser",
-      "captureText": true
-    },
-    {
-      "id": "x-oracle-senior-site-reliability-developer-348568",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Developer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/348568/",
-      "why": "Oracle posting found on the Oracle board; renders only in a browser",
-      "captureText": true
-    },
-    {
       "id": "x-oracle-senior-site-reliability-developer-330218",
       "company": "Oracle",
       "title": "Senior Site Reliability Developer",
@@ -102,11 +86,19 @@
       "captureText": true
     },
     {
-      "id": "x-dell-technologies-principal-engineer-enterprise-devops-alm-platforms-296687",
-      "company": "Dell Technologies",
-      "title": "Principal Engineer - Enterprise DevOps & ALM Platforms",
-      "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/296687/",
-      "why": "found on the Dell board; Dell's Oracle Recruiting Cloud pages render only in a browser",
+      "id": "ashby-aefd66e4-d812-48b3-a9f6-160e19882136",
+      "company": "ClickHouse",
+      "title": "Engineering Manager - Control Plane Platform Engineer",
+      "url": "https://jobs.ashbyhq.com/clickhouse/aefd66e4-d812-48b3-a9f6-160e19882136",
+      "why": "Ashby page whose description loads only in a browser",
+      "captureText": true
+    },
+    {
+      "id": "ashby-e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
+      "company": "Horizon3.ai",
+      "title": "Staff Software Engineer, Image Build & Release",
+      "url": "https://jobs.ashbyhq.com/horizon3ai/e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
+      "why": "Ashby page whose description loads only in a browser",
       "captureText": true
     }
   ],

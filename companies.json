@@ -2761,6 +2761,16 @@
     "slug": "kayak"
   },
   {
+    "name": "Hims & Hers",
+    "platform": "ashby",
+    "slug": "hims-and-hers"
+  },
+  {
+    "name": "WellTheory",
+    "platform": "ashby",
+    "slug": "welltheory"
+  },
+  {
     "name": "Stellar Cyber",
     "platform": "workable",
     "slug": "stellar-cyber"
@@ -3128,6 +3138,11 @@
     "slug": "evisit"
   },
   {
+    "name": "Penn Mutual",
+    "platform": "workable",
+    "slug": "pennmutual"
+  },
+  {
     "name": "Netsmart",
     "platform": "workday",
     "workday": {
@@ -3159,6 +3174,11 @@
     "name": "Form Health",
     "platform": "greenhouse",
     "slug": "formhealth"
+  },
+  {
+    "name": "Prove",
+    "platform": "greenhouse",
+    "slug": "prove"
   },
   {
     "name": "Federal Reserve System",
