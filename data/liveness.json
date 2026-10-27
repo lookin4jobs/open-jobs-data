@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T11:05:19.045Z",
+  "generatedAt": "2026-10-27T10:59:16.929Z",
   "runner": "github-actions",
   "results": [
     {
@@ -7,7 +7,7 @@
       "company": "Clinician Nexus",
       "title": "Manager, DevOps",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
-      "checkedAt": "2026-10-26T11:05:19.405Z",
+      "checkedAt": "2026-10-27T10:59:17.446Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
       "httpStatus": 200,
       "pageTitle": "Career Center | Recruitment",
@@ -20,7 +20,7 @@
       "company": "Sprezzatura",
       "title": "Software Development Manager",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
-      "checkedAt": "2026-10-26T11:05:27.936Z",
+      "checkedAt": "2026-10-27T10:59:24.950Z",
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
       "httpStatus": 200,
       "pageTitle": "Career Center | Recruitment",
@@ -33,7 +33,7 @@
       "company": "Jack Henry",
       "title": "Infrastructure Engineering Manager",
       "url": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
-      "checkedAt": "2026-10-26T11:05:35.017Z",
+      "checkedAt": "2026-10-27T10:59:32.922Z",
       "finalUrl": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
       "httpStatus": 200,
       "pageTitle": "Infrastructure Engineering Manager at Jack Henry & Associates, Inc",
@@ -50,7 +50,7 @@
       "company": "DocuSign",
       "title": "Senior Manager, Site Reliability Engineering",
       "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
-      "checkedAt": "2026-10-26T11:05:42.245Z",
+      "checkedAt": "2026-10-27T10:59:40.265Z",
       "finalUrl": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 200,
       "pageTitle": "Senior Manager, Site Reliability Engineering in Remote | Careers at United States Remote",
@@ -63,7 +63,7 @@
       "company": "Navitus Health Solutions",
       "title": "Manager, Platform Engineering and FinOps",
       "url": "https://careers-navitus.icims.com/jobs/6474/manager,-platform-engineering-and-finops/job",
-      "checkedAt": "2026-10-26T11:05:48.629Z",
+      "checkedAt": "2026-10-27T10:59:46.371Z",
       "finalUrl": "https://careers-navitus.icims.com/jobs/search?ss=1&notFound=1&mobile=false&width=1264&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 410,
       "pageTitle": "Job Listings at Navitus Health Solutions, LLC",
@@ -76,16 +76,12 @@
       "company": "Oracle",
       "title": "Principal Site Reliability Engineer",
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/348662/",
-      "checkedAt": "2026-10-26T11:05:53.678Z",
+      "checkedAt": "2026-10-27T10:59:52.383Z",
       "captureText": true,
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/348662/",
       "httpStatus": 200,
       "pageTitle": "Principal Site Reliability Engineer - Oracle Careers",
-      "jsonLd": {
-        "title": "Principal Site Reliability Engineer",
-        "datePosted": "2026-10-23T08:12:09.000Z",
-        "validThrough": null
-      },
+      "jsonLd": null,
       "pageText": "Skip to main content. View More Jobs Principal Site Reliability Engineer United States HOT JOB TRENDING Job Identification 348662 Job Category Product and Research Posting Date 10/23/2026, 08:12 AM Role Individual Contributor Job Type Regular Employee Does this position require a security clearance? No Years 3 to 5+ years Additional Info Visa / work permit sponsorship is not available for this position Applicants are required to read, write, and speak the following languages English Job Description The successful candidate will serve as a senior technical authority, establish reliability standards, guide complex technical decisions, and lead improvements that reduce operational risk and manual effort. This individual must be comfortable moving between architecture and hands-on execution, including accessing deployed hosts, troubleshooting failed services, reviewing logs, correcting configurations, and validating production changes. Designs and architects infrastructure and service to ensure reliability and functionality. Forecasts demands and responds to capacity needs. Collaborates with software development teams to develop reliable and scalable infrastructures. Exercises judgment when performing data collection to maintain and optimize operations and reliability. Leverages advanced knowledge to perform incident response and/or maintenance tasks. Provides comprehensive health and performance reporting. Identifies and recommends opportunities for automation. Communicates comprehensive information about services and proactively anticipates and articulates the potential impact of changes. Provides comprehensive support for technology and documents incidents. Conducts advanced experiments with new tools and develops and maintains advanced knowledge of site reliability trends. Responsibilities Key Responsibilities Design and architect reliable, secure, scalable, and maintainable infrastructure and services. Take proactive steps to ensure solutions meet defined reliability and functionality requirements. Establish technical direction, engineering standards, and operational best practices across complex infrastructure and application environments. Identify system dependencies, operational risks, capacity constraints, performance issues, and potential failure points before they affect service. Translate business, client, security, and application requirements into practical infrastructure and reliability solutions. Lead the installation, configuration, deployment, and validation of applications across Windows Server and Linux environments. Oversee structured builds and deployments using runbooks, scripts, readiness assessments, change controls, and post-deployment validation. Troubleshoot complex operating system, service, application, installation, patching, permissions, certificate, and connectivity issues. Define and improve monitoring, alerting, logging, observability, capacity planning, and service-health practices. Develop and promote automation that reduces manual effort, improves consistency, and lowers operational risk. Own the administration, governance, and continuous improvement of an enterprise infrastructure automation platform, including maintaining automation standards, enabling engineering teams, and driving adoption of scalable, repeatable infrastructure management practices. Lead operating system, middleware, and application patching initiatives, including change planning, rollback preparation, execution, and validation. Direct major incident response, root cause analysis, corrective-action planning, and prevention of recurring failures. Partner with cybersecurity teams on vulnerability remediation, system hardening, STIG compliance, and other security-driven changes. Evaluate emerging technologies and recommend solutions that improve reliability, resilience, security, and operational efficiency. Create and maintain technical standards, architecture documentation, runbooks, deployment procedures, and troubleshooting guides. Provide technical leadership, mentorship, and design guidance to engineers across multiple teams. Communicate technical risks, dependencies, decisions, and recommendations clearly to leadership and stakeholders. Core Skills and Qualifications Technical Leadership and Architecture Extensive experience in site reliability engineering, systems engineering, infrastructure architecture, production operations, or application hosting. Demonstrated ability to design and support highly available, resilient, and secure enterprise systems. Experience leading complex technical initiatives across engineering, operations, security, networking, and application teams. Ability to make sound architectural decisions, evaluate tradeoffs, and communicate recommendations to technical and nontechnical stakeholders. Experience defining engineering standards, operational controls, and reliability practices. Windows and Linux System Administration Advanced, hands-on experience administering Windows Server and/or Linux systems. Ability to access deployed hosts and perform post-deployment configuration, troubleshooting, and validation. Experience installing, configuring, and validating applications in Windows Server and Linux environments. Ability to resolve operating-system-level, service-level, and application-level issues. Strong knowledge of system services, permissions, configuration files, logs, processes, and resource utilization. Manual Build and Deployment Experience Experience leading structured build and deployment activities using runbooks, deployment guides, scripts, and technical procedures. Ability to execute and troubleshoot scripts, validate outputs, and resolve build or configuration issues. Experience with build handoffs, environment-readiness assessments, deployment validation, and post-build verification. Ability to identify process gaps, document exceptions, and improve deployment procedures. Experience managing complex or high-risk production changes. Troubleshooting and Operational Support Ability to investigate complex service failures, installation errors, patching failures, application startup problems, permissions issues, and connectivity incidents. Experience reviewing logs, event viewers, service status, configuration files, ports, certificates, and access controls. Strong analytical and problem-solving skills, with the ability to isolate root causes and implement sustainable solutions. Experience leading major incident response and coordinating technical teams during business-critical outages. Ability to document symptoms, findings, impact, corrective actions, and recommended next steps clearly. Extensive experience supporting production or other mission-critical environments. Scripting and Automation Advanced hands-on experience with one or more of the following: PowerShell Bash Python Ansible Chef Candidates should be able to create, modify, validate, and troubleshoot scripts and automation workflows. Experience identifying automation opportunities and establishing safe, repeatable operational processes is essential. Experience administering or owning an enterprise automation platform for infrastructure management is strongly preferred. Candidates should be comfortable serving as the technical owner of automation capabilities, establishing operational standards, supporting users, and driving ongoing platform adoption and improvement. Patching and Software Maintenance Experience planning and executing operating system, middleware, and application patching. Ability to troubleshoot patch failures, compatibility issues, and post-patch application problems. Strong understanding of maintenance windows, change control, rollback planning, risk assessment, and post-change validation. Experience coordinating patching and remediation activities across application, infrastructure, cybersecurity, and client teams. Cloud and Oracle Cloud Infrastructure Strong understanding of cloud-hosted and hybrid infrastructure. Experience",
       "outcome": "live",
       "evidence": "title \"Principal Site Reliability Engineer\" shown on the page"
@@ -95,7 +91,7 @@
       "company": "Oracle",
       "title": "Senior Site Reliability Engineer",
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/337734/",
-      "checkedAt": "2026-10-26T11:06:02.292Z",
+      "checkedAt": "2026-10-27T11:00:01.118Z",
       "captureText": true,
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/337734/",
       "httpStatus": 200,
@@ -110,7 +106,7 @@
       "company": "Oracle",
       "title": "Senior Site Reliability Engineer",
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/340273/",
-      "checkedAt": "2026-10-26T11:06:09.755Z",
+      "checkedAt": "2026-10-27T11:00:08.569Z",
       "captureText": true,
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/340273/",
       "httpStatus": 200,
@@ -125,13 +121,13 @@
       "company": "Oracle",
       "title": "Senior Site Reliability Developer",
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/330218/",
-      "checkedAt": "2026-10-26T11:06:17.691Z",
+      "checkedAt": "2026-10-27T11:00:16.086Z",
       "captureText": true,
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/330218/",
       "httpStatus": 200,
       "pageTitle": "Senior Site Reliability Developer- Oracle Health - Oracle Careers",
       "jsonLd": null,
-      "pageText": "Skip to main content. View More Jobs Senior Site Reliability Developer- Oracle Health United States Job Identification 330218 Job Category Product Development Posting Date 10/22/2026, 02:55 PM Role Individual Contributor Job Type Regular Employee Does this position require a security clearance? No Years 3 to 5+ years Additional Info Visa / work permit sponsorship is not available for this position Applicants are required to read, write, and speak the following languages English Job Description At Oracle Health, we’re building the cloud platform behind AI-assisted clinical systems used by healthcare professionals around the world. We’re looking for engineers who enjoy solving production problems at scale, improving system reliability through automation, and building infrastructure that directly supports patient care. This is an opportunity to work on modern cloud-native systems inside a fast-growing organization with real technical challenges and meaningful impact. What You’ll Work On Operate and improve large-scale distributed systems powering Clinical AI Assistant services Build automation that improves reliability, scalability, and operational efficiency Improve observability across metrics, logging, tracing, and alerting Participate in production operations, incident response, and root-cause analysis Help build self-healing infrastructure and operational tooling Support Kubernetes-based services and cloud-native infrastructure Partner with software engineers to improve reliability before systems reach production Contribute to CI/CD pipelines, infrastructure as code, and platform engineering standards Learn and apply modern SRE practices for AI-powered healthcare systems Responsibilities What We’re Looking For 4–6 years of experience in Site Reliability Engineering, DevOps, Production Engineering, or related infrastructure roles Experience supporting production systems in cloud or distributed environments Strong Linux fundamentals and troubleshooting skills Experience with Kubernetes, containers, or cloud-native infrastructure Scripting or software development experience with Python, Bash, or similar languages Familiarity with infrastructure as code and CI/CD workflows Understanding of monitoring, alerting, and observability concepts Curiosity, ownership, and a strong engineering mindset Helpful Experience Experience with cloud platforms such as OCI, AWS, or Azure Exposure to large-scale distributed systems AI/ML platform or observability tooling experience Experience in regulated or high-availability environments Requirements U.S. citizenship required Ability to obtain and maintain a federal security clearance Why Oracle Health You’ll work on systems that matter, alongside experienced engineers solving complex infrastructure problems at scale. This role offers strong growth opportunities into senior engineering, platform architecture, and reliability leadership. Qualifications Disclaimer: Certain U.S. based or U.S. customer or client-facing roles may be required to comply with applicable requirements, such as immunization/occupational health mandates, and/or drug testing requirements. Range and benefit information provided in this posting are specific to the stated locations only US: Hiring Range in USD from: $91,400 to $187,000 per annum. May be eligible for bonus and equity. Oracle maintains broad salary ranges for its roles in order to account for variations in knowledge, skills, experience, market conditions and locations, as well as reflect Oracle's differing products, industries and lines of business. Candidates are typically placed into the range based on the preceding factors as well as internal peer equity. Oracle US offers a comprehensive benefits package which includes the following: 1. Medical, dental, and vision insurance, including expert medical opinion 2. Short term disability and long term disability 3. Life insurance and AD&D 4. Supplemental life insurance (Employee/Spouse/Child) 5. Health care and dependent care Flexible Spending Accounts 6. Pre-tax commuter and parking benefits 7. 401(k) Savings and Investment Plan with company match 8. Paid time off: Flexible Vacation is provided to all eligible employees assigned to a salaried (non-overtime eligible) position. Accrued Vacation is provided to all other employees eligible for vacation benefits. For employees working at least 35 hours per week, the vacation accrual rate is 13 days annually for the first three years of employment and 18 days annually for subsequent years of employment. Vacation accrual is prorated for employees working between 20 and 34 hours per week. Employees working fewer than 20 hours per week are not eligible for vacation. 9. 11 paid holidays 10. Paid sick leave: 72 hours of paid sick leave upon date of hire. Refreshes each calendar year. Unused balance will carry over each year up to a maximum cap of 112 hours. 11. Paid parental leave 12. Adoption assistance 13. Employee Stock Purchase Plan 14. Financial planning and group legal 15. Voluntary benefits including auto, homeowner and pet insurance The role will generally accept applications for at least three calendar days from the posting date or as long as the job remains posted. Career Level - IC3 About Us Only Oracle brings together the data, infrastructure, applications, and expertise to power everything from industry innovations to life-saving care. And with AI embedded across our products and services, we help customers turn that promise into a better future for all. Discover your potential at a company leading the way in AI and cloud solutions that impact billions of lives. True innovation starts when everyone is empowered to contribute. That’s why we’re committed to growing a workforce that promotes opportunities for all with competitive benefits that support our people with flexible medical, life insurance, and retirement options. We also encourage employees to give back to their communities through our volunteer programs. We’re committed to including people with disabilities at all stages of the employment process. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling 1-888-404-2494 in the United States. Oracle is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans’ status, or any other characteristic protected by law. Oracle will consider for employment qualified applicants with arrest and conviction records pursuant to applicable law. APPLY NOW Request a referral from an Oracle employee. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S. Oracle’s U.S. affirmative action plan for people with disabilities and military veterans is available by contacting +1 888 404 2494. Need Help? Contact us and include a detailed description of the issue. Oracle's Pre-employment Screening Process Oracle's Equal Employment Opportunity and Pay Transparency © 2026 Oracle Privacy / Do Not Sell My Info Ad Choices Careers Policy Page Senior Site Reliability Developer- Oracle Health - Oracle Careers loaded Oracle Careers l Create the Future With Us Oracle Careers Oracle Careers 5.08K subscribers Watch on See who works here Sign in to see your connections who work at Oracle 202,961 employees are on LinkedIn Sign in",
+      "pageText": "Skip to main content. View More Jobs Senior Site Reliability Developer- Oracle Health United States TRENDING Job Identification 330218 Job Category Product Development Posting Date 10/22/2026, 02:55 PM Role Individual Contributor Job Type Regular Employee Does this position require a security clearance? No Years 3 to 5+ years Additional Info Visa / work permit sponsorship is not available for this position Applicants are required to read, write, and speak the following languages English Job Description At Oracle Health, we’re building the cloud platform behind AI-assisted clinical systems used by healthcare professionals around the world. We’re looking for engineers who enjoy solving production problems at scale, improving system reliability through automation, and building infrastructure that directly supports patient care. This is an opportunity to work on modern cloud-native systems inside a fast-growing organization with real technical challenges and meaningful impact. What You’ll Work On Operate and improve large-scale distributed systems powering Clinical AI Assistant services Build automation that improves reliability, scalability, and operational efficiency Improve observability across metrics, logging, tracing, and alerting Participate in production operations, incident response, and root-cause analysis Help build self-healing infrastructure and operational tooling Support Kubernetes-based services and cloud-native infrastructure Partner with software engineers to improve reliability before systems reach production Contribute to CI/CD pipelines, infrastructure as code, and platform engineering standards Learn and apply modern SRE practices for AI-powered healthcare systems Responsibilities What We’re Looking For 4–6 years of experience in Site Reliability Engineering, DevOps, Production Engineering, or related infrastructure roles Experience supporting production systems in cloud or distributed environments Strong Linux fundamentals and troubleshooting skills Experience with Kubernetes, containers, or cloud-native infrastructure Scripting or software development experience with Python, Bash, or similar languages Familiarity with infrastructure as code and CI/CD workflows Understanding of monitoring, alerting, and observability concepts Curiosity, ownership, and a strong engineering mindset Helpful Experience Experience with cloud platforms such as OCI, AWS, or Azure Exposure to large-scale distributed systems AI/ML platform or observability tooling experience Experience in regulated or high-availability environments Requirements U.S. citizenship required Ability to obtain and maintain a federal security clearance Why Oracle Health You’ll work on systems that matter, alongside experienced engineers solving complex infrastructure problems at scale. This role offers strong growth opportunities into senior engineering, platform architecture, and reliability leadership. Qualifications Disclaimer: Certain U.S. based or U.S. customer or client-facing roles may be required to comply with applicable requirements, such as immunization/occupational health mandates, and/or drug testing requirements. Range and benefit information provided in this posting are specific to the stated locations only US: Hiring Range in USD from: $91,400 to $187,000 per annum. May be eligible for bonus and equity. Oracle maintains broad salary ranges for its roles in order to account for variations in knowledge, skills, experience, market conditions and locations, as well as reflect Oracle's differing products, industries and lines of business. Candidates are typically placed into the range based on the preceding factors as well as internal peer equity. Oracle US offers a comprehensive benefits package which includes the following: 1. Medical, dental, and vision insurance, including expert medical opinion 2. Short term disability and long term disability 3. Life insurance and AD&D 4. Supplemental life insurance (Employee/Spouse/Child) 5. Health care and dependent care Flexible Spending Accounts 6. Pre-tax commuter and parking benefits 7. 401(k) Savings and Investment Plan with company match 8. Paid time off: Flexible Vacation is provided to all eligible employees assigned to a salaried (non-overtime eligible) position. Accrued Vacation is provided to all other employees eligible for vacation benefits. For employees working at least 35 hours per week, the vacation accrual rate is 13 days annually for the first three years of employment and 18 days annually for subsequent years of employment. Vacation accrual is prorated for employees working between 20 and 34 hours per week. Employees working fewer than 20 hours per week are not eligible for vacation. 9. 11 paid holidays 10. Paid sick leave: 72 hours of paid sick leave upon date of hire. Refreshes each calendar year. Unused balance will carry over each year up to a maximum cap of 112 hours. 11. Paid parental leave 12. Adoption assistance 13. Employee Stock Purchase Plan 14. Financial planning and group legal 15. Voluntary benefits including auto, homeowner and pet insurance The role will generally accept applications for at least three calendar days from the posting date or as long as the job remains posted. Career Level - IC3 About Us Only Oracle brings together the data, infrastructure, applications, and expertise to power everything from industry innovations to life-saving care. And with AI embedded across our products and services, we help customers turn that promise into a better future for all. Discover your potential at a company leading the way in AI and cloud solutions that impact billions of lives. True innovation starts when everyone is empowered to contribute. That’s why we’re committed to growing a workforce that promotes opportunities for all with competitive benefits that support our people with flexible medical, life insurance, and retirement options. We also encourage employees to give back to their communities through our volunteer programs. We’re committed to including people with disabilities at all stages of the employment process. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling 1-888-404-2494 in the United States. Oracle is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans’ status, or any other characteristic protected by law. Oracle will consider for employment qualified applicants with arrest and conviction records pursuant to applicable law. APPLY NOW Request a referral from an Oracle employee. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S. Oracle’s U.S. affirmative action plan for people with disabilities and military veterans is available by contacting +1 888 404 2494. Need Help? Contact us and include a detailed description of the issue. Oracle's Pre-employment Screening Process Oracle's Equal Employment Opportunity and Pay Transparency © 2026 Oracle Privacy / Do Not Sell My Info Ad Choices Careers Policy Page Senior Site Reliability Developer- Oracle Health - Oracle Careers loaded Oracle Careers l Create the Future With Us Oracle Careers Oracle Careers 5.08K subscribers Watch on See who works here Sign in to see your connections who work at Oracle 202,961 employees are on LinkedIn Sign in",
       "outcome": "live",
       "evidence": "title \"Senior Site Reliability Developer\" shown on the page"
     },
@@ -140,22 +136,22 @@
       "company": "Oracle",
       "title": "Senior Site Reliability Developer",
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/348431/",
-      "checkedAt": "2026-10-26T11:06:25.717Z",
+      "checkedAt": "2026-10-27T11:00:24.777Z",
       "captureText": true,
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/348431/",
       "httpStatus": 200,
-      "pageTitle": "Senior Site Reliability Developer- Oracle Health - Oracle Careers",
+      "pageTitle": "Oracle Careers",
       "jsonLd": null,
-      "pageText": "Skip to main content. View More Jobs Senior Site Reliability Developer- Oracle Health United States TRENDING Job Identification 348431 Job Category Product Development Posting Date 10/22/2026, 01:59 PM Role Individual Contributor Job Type Regular Employee Does this position require a security clearance? No Years 3 to 5+ years Additional Info Visa / work permit sponsorship is not available for this position Applicants are required to read, write, and speak the following languages English Job Description At Oracle Health, we’re building the cloud platform behind AI-assisted clinical systems used by healthcare professionals around the world. We’re looking for engineers who enjoy solving production problems at scale, improving system reliability through automation, and building infrastructure that directly supports patient care. This is an opportunity to work on modern cloud-native systems inside a fast-growing organization with real technical challenges and meaningful impact. What You’ll Work On Operate and improve large-scale distributed systems powering Clinical AI Assistant services Build automation that improves reliability, scalability, and operational efficiency Improve observability across metrics, logging, tracing, and alerting Participate in production operations, incident response, and root-cause analysis Help build self-healing infrastructure and operational tooling Support Kubernetes-based services and cloud-native infrastructure Partner with software engineers to improve reliability before systems reach production Contribute to CI/CD pipelines, infrastructure as code, and platform engineering standards Learn and apply modern SRE practices for AI-powered healthcare systems Responsibilities What We’re Looking For 4–6 years of experience in Site Reliability Engineering, DevOps, Production Engineering, or related infrastructure roles Experience supporting production systems in cloud or distributed environments Strong Linux fundamentals and troubleshooting skills Experience with Kubernetes, containers, or cloud-native infrastructure Scripting or software development experience with Python, Bash, or similar languages Familiarity with infrastructure as code and CI/CD workflows Understanding of monitoring, alerting, and observability concepts Curiosity, ownership, and a strong engineering mindset Helpful Experience Experience with cloud platforms such as OCI, AWS, or Azure Exposure to large-scale distributed systems AI/ML platform or observability tooling experience Experience in regulated or high-availability environments Requirements U.S. citizenship required Ability to obtain and maintain a federal security clearance Why Oracle Health You’ll work on systems that matter, alongside experienced engineers solving complex infrastructure problems at scale. This role offers strong growth opportunities into senior engineering, platform architecture, and reliability leadership. Qualifications Disclaimer: Certain U.S. based or U.S. customer or client-facing roles may be required to comply with applicable requirements, such as immunization/occupational health mandates, and/or drug testing requirements. Range and benefit information provided in this posting are specific to the stated locations only US: Hiring Range in USD from: $91,400 to $187,000 per annum. May be eligible for bonus and equity. Oracle maintains broad salary ranges for its roles in order to account for variations in knowledge, skills, experience, market conditions and locations, as well as reflect Oracle's differing products, industries and lines of business. Candidates are typically placed into the range based on the preceding factors as well as internal peer equity. Oracle US offers a comprehensive benefits package which includes the following: 1. Medical, dental, and vision insurance, including expert medical opinion 2. Short term disability and long term disability 3. Life insurance and AD&D 4. Supplemental life insurance (Employee/Spouse/Child) 5. Health care and dependent care Flexible Spending Accounts 6. Pre-tax commuter and parking benefits 7. 401(k) Savings and Investment Plan with company match 8. Paid time off: Flexible Vacation is provided to all eligible employees assigned to a salaried (non-overtime eligible) position. Accrued Vacation is provided to all other employees eligible for vacation benefits. For employees working at least 35 hours per week, the vacation accrual rate is 13 days annually for the first three years of employment and 18 days annually for subsequent years of employment. Vacation accrual is prorated for employees working between 20 and 34 hours per week. Employees working fewer than 20 hours per week are not eligible for vacation. 9. 11 paid holidays 10. Paid sick leave: 72 hours of paid sick leave upon date of hire. Refreshes each calendar year. Unused balance will carry over each year up to a maximum cap of 112 hours. 11. Paid parental leave 12. Adoption assistance 13. Employee Stock Purchase Plan 14. Financial planning and group legal 15. Voluntary benefits including auto, homeowner and pet insurance The role will generally accept applications for at least three calendar days from the posting date or as long as the job remains posted. As part of Oracle's onboarding process and consistent with applicable law, US-based employees are required to complete identity verification, which involves the collection and processing of their biometric information. Accommodations to this requirement may be granted following an individualized assessment. About Us Only Oracle brings together the data, infrastructure, applications, and expertise to power everything from industry innovations to life-saving care. And with AI embedded across our products and services, we help customers turn that promise into a better future for all. Discover your potential at a company leading the way in AI and cloud solutions that impact billions of lives. True innovation starts when everyone is empowered to contribute. That’s why we’re committed to growing a workforce that promotes opportunities for all with competitive benefits that support our people with flexible medical, life insurance, and retirement options. We also encourage employees to give back to their communities through our volunteer programs. We’re committed to including people with disabilities at all stages of the employment process. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling 1-888-404-2494 in the United States. Oracle is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans’ status, or any other characteristic protected by law. Oracle will consider for employment qualified applicants with arrest and conviction records pursuant to applicable law. APPLY NOW Request a referral from an Oracle employee. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S. Oracle’s U.S. affirmative action plan for people with disabilities and military veterans is available by contacting +1 888 404 2494. Need Help? Contact us and include a detailed description of the issue. Oracle's Pre-employment Screening Process Oracle's Equal Employment Opportunity and Pay Transparency © 2026 Oracle Privacy / Do Not Sell My Info Ad Choices Careers Policy Page Senior Site Reliability Developer- Oracle Health - Oracle Careers loaded",
-      "outcome": "live",
-      "evidence": "title \"Senior Site Reliability Developer\" shown on the page"
+      "pageText": "Skip to main content. This job is no longer available. You may also SEARCH FOR JOBS. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S. Oracle’s U.S. affirmative action plan for people with disabilities and military veterans is available by contacting +1 888 404 2494. Need Help? Contact us and include a detailed description of the issue. Oracle's Pre-employment Screening Process Oracle's Equal Employment Opportunity and Pay Transparency © 2026 Oracle Privacy / Do Not Sell My Info Ad Choices Careers Policy",
+      "outcome": "closed_text",
+      "evidence": "no longer available"
     },
     {
       "id": "x-remote-com-team-leader-site-reliability-engineering",
       "company": "Remote.com",
       "title": "Team Leader, Site Reliability Engineering",
       "url": "https://apply.remote.com/jobs/700bb10e-3aaa-4cf8-ae4d-1ec6e2291160",
-      "checkedAt": "2026-10-26T11:06:33.485Z",
+      "checkedAt": "2026-10-27T11:00:32.681Z",
       "captureText": true,
       "finalUrl": "https://apply.remote.com/jobs/700bb10e-3aaa-4cf8-ae4d-1ec6e2291160",
       "httpStatus": 200,
@@ -170,7 +166,7 @@
       "company": "ClickHouse",
       "title": "Engineering Manager - Control Plane Platform Engineer",
       "url": "https://jobs.ashbyhq.com/clickhouse/aefd66e4-d812-48b3-a9f6-160e19882136",
-      "checkedAt": "2026-10-26T11:06:53.983Z",
+      "checkedAt": "2026-10-27T11:00:53.088Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/clickhouse/aefd66e4-d812-48b3-a9f6-160e19882136",
       "httpStatus": 200,
@@ -189,7 +185,7 @@
       "company": "Horizon3.ai",
       "title": "Staff Software Engineer, Image Build & Release",
       "url": "https://jobs.ashbyhq.com/horizon3ai/e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
-      "checkedAt": "2026-10-26T11:06:58.949Z",
+      "checkedAt": "2026-10-27T11:00:58.023Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/horizon3ai/e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
       "httpStatus": 200,
@@ -209,13 +205,43 @@
       "id": "board-burnsmcd-it",
       "company": "Burns & McDonnell",
       "url": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
-      "checkedAt": "2026-10-26T11:07:04.280Z",
+      "checkedAt": "2026-10-27T11:01:02.783Z",
       "finalUrl": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
       "httpStatus": 200,
       "pageTitle": "Information Technology Jobs | Burns & McDonnell",
       "outcome": "listed",
       "count": 14,
       "jobs": [
+        {
+          "title": "Department Manager, Data Engineering & AI",
+          "url": "https://burnsmcd.jobs/kansas-city-mo/department-manager-data-engineering-ai/0A4D85F6BD274E6897EDB7D34E854CC2/job/",
+          "text": "Department Manager, Data Engineering & AI Kansas City, MO"
+        },
+        {
+          "title": "Department Manager, Data Engineering & AI",
+          "url": "https://burnsmcd.jobs/dallas-tx/department-manager-data-engineering-ai/427EEF3B363545299428DC8A0C3B89B1/job/",
+          "text": "Department Manager, Data Engineering & AI Dallas, TX"
+        },
+        {
+          "title": "Department Manager, Operating Model & Strategy - Data & AI Function",
+          "url": "https://burnsmcd.jobs/kansas-city-mo/department-manager-operating-model-strategy-data-ai-function/ADBBC5209AE3463F97C61BF40D94A8AB/job/",
+          "text": "Department Manager, Operating Model & Strategy - Data & AI Function Kansas City, MO"
+        },
+        {
+          "title": "Department Manager, Data Engineering & AI",
+          "url": "https://burnsmcd.jobs/houston-tx/department-manager-data-engineering-ai/6AB8ACA6C00C414D99974F5B84572502/job/",
+          "text": "Department Manager, Data Engineering & AI Houston, TX"
+        },
+        {
+          "title": "Department Manager, Operating Model & Strategy - Data & AI Function",
+          "url": "https://burnsmcd.jobs/houston-tx/department-manager-operating-model-strategy-data-ai-function/878556B7643347E78C44237BD2151147/job/",
+          "text": "Department Manager, Operating Model & Strategy - Data & AI Function Houston, TX"
+        },
+        {
+          "title": "Department Manager, Operating Model & Strategy - Data & AI Function",
+          "url": "https://burnsmcd.jobs/dallas-tx/department-manager-operating-model-strategy-data-ai-function/2690FB02027E4781841731580BF17904/job/",
+          "text": "Department Manager, Operating Model & Strategy - Data & AI Function Dallas, TX"
+        },
         {
           "title": "Environmental Services Technology & Innovation Manager",
           "url": "https://burnsmcd.jobs/kansas-city-mo/environmental-services-technology-innovation-manager/3534ED376D8C41D5BA889B4C0E6A15F1/job/",
@@ -255,36 +281,6 @@
           "title": "AI Engineer_Full Stack Generative AI",
           "url": "https://burnsmcd.jobs/bengaluru-ind/ai-engineer_full-stack-generative-ai/2CF7B68CDA8445ECB9BF4984A53C42DC/job/",
           "text": "AI Engineer_Full Stack Generative AI Bengaluru, IND"
-        },
-        {
-          "title": "Delivery Manager - Technology Solutions Group (Kansas City)",
-          "url": "https://burnsmcd.jobs/kansas-city-mo/delivery-manager-technology-solutions-group-kansas-city/A78A1A6133974F1D93C77E4170383296/job/",
-          "text": "Delivery Manager - Technology Solutions Group (Kansas City) Kansas City, MO"
-        },
-        {
-          "title": "Power Generation Analyst",
-          "url": "https://burnsmcd.jobs/mumbai-ind/power-generation-analyst/05AF23E7CD5E40A7BC5ACBE7BA9CD842/job/",
-          "text": "Power Generation Analyst Mumbai, IND"
-        },
-        {
-          "title": "Lead QA",
-          "url": "https://burnsmcd.jobs/bengaluru-ind/lead-qa/7F535F3AC013441D93C29670102927D1/job/",
-          "text": "Lead QA Bengaluru, IND"
-        },
-        {
-          "title": "Fullstack Developer (Technical Lead)",
-          "url": "https://burnsmcd.jobs/mumbai-ind/fullstack-developer-technical-lead/F44BD45C939F4A7C8310DC51EBB2CB84/job/",
-          "text": "Fullstack Developer (Technical Lead) Mumbai, IND"
-        },
-        {
-          "title": "Head of Technical Solutions Group - Corporate Innovation",
-          "url": "https://burnsmcd.jobs/kansas-city-mo/head-of-technical-solutions-group-corporate-innovation/27CC13385BE743A9AF3B0BF64230E1CB/job/",
-          "text": "Head of Technical Solutions Group - Corporate Innovation Kansas City, MO"
-        },
-        {
-          "title": "Technology Services Business Partner - Information Technology (Kansas City)",
-          "url": "https://burnsmcd.jobs/kansas-city-mo/technology-services-business-partner-information-technology-kansas-city/C1B75CE39A9D419A874CF840DA498F65/job/",
-          "text": "Technology Services Business Partner - Information Technology (Kansas City) Kansas City, MO"
         }
       ]
     },
@@ -292,7 +288,7 @@
       "id": "board-burnsmcd-programming",
       "company": "Burns & McDonnell",
       "url": "https://burnsmcd.jobs/job-function/programming/jobs/",
-      "checkedAt": "2026-10-26T11:07:10.421Z",
+      "checkedAt": "2026-10-27T11:01:18.575Z",
       "finalUrl": "https://burnsmcd.jobs/job-function/programming/jobs/",
       "httpStatus": 200,
       "pageTitle": "Programming Job | Burns & McDonnell",
@@ -310,13 +306,18 @@
       "id": "board-hntb-it",
       "company": "HNTB",
       "url": "https://hntb.jobs/job-category/information-technology-group/jobs/",
-      "checkedAt": "2026-10-26T11:07:15.653Z",
+      "checkedAt": "2026-10-27T11:01:25.902Z",
       "finalUrl": "https://hntb.jobs/job-category/information-technology-group/jobs/",
       "httpStatus": 200,
       "pageTitle": "Information Technology Group Jobs | HNTB",
       "outcome": "listed",
       "count": 10,
       "jobs": [
+        {
+          "title": "Sr Information Security Specialist",
+          "url": "https://hntb.jobs/kansas-city-mo/sr-information-security-specialist/8124B51D913D4909A56D7CEDB65628F5/job/",
+          "text": "Sr Information Security Specialist Kansas City, MO"
+        },
         {
           "title": "Principal Technologist Engineering",
           "url": "https://hntb.jobs/kansas-city-mo/principal-technologist-engineering/297BEF1E25DF4A61AC9FB5BDA2B75A7B/job/",
@@ -361,11 +362,6 @@
           "title": "Principal Technologist Engineering",
           "url": "https://hntb.jobs/lake-mary-fl/principal-technologist-engineering/8D00C6FE1A6347489D1CAAA46AE0C0AC/job/",
           "text": "Principal Technologist Engineering Lake Mary, FL"
-        },
-        {
-          "title": "Principal Technologist Engineering",
-          "url": "https://hntb.jobs/indianapolis-in/principal-technologist-engineering/1A47AFA2EA8045598A049F14EB144D2D/job/",
-          "text": "Principal Technologist Engineering Indianapolis, IN"
         }
       ]
     },
@@ -373,7 +369,7 @@
       "id": "board-oracle-sre",
       "company": "Oracle (incl. Oracle Health, Kansas City)",
       "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
-      "checkedAt": "2026-10-26T11:07:22.601Z",
+      "checkedAt": "2026-10-27T11:01:34.427Z",
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Oracle Careers",
@@ -391,14 +387,14 @@
           "text": "Senior Site Reliability Engineer Nashville, TN, United States TRENDING Oracle America, Inc. is seeking a Senior Site Reliability Engineer for the Oracle Health CWx US Public Client Ops department. The"
         },
         {
-          "title": "Principal Site Reliability Engineer",
-          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340128/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-          "text": "Principal Site Reliability Engineer Nashville, TN, United States Oracle is seeking an experienced, hands-on Principal Site Reliability Engineer to lead the design, reliability, security, and operation"
+          "title": "Senior Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/348474/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Senior Site Reliability Engineer Nashville, TN, United States BE THE FIRST TO APPLY Takes proactive steps to design and architect infrastructure and service to ensure reliability and functionality."
         },
         {
           "title": "Principal Site Reliability Engineer",
-          "url": "https://careers.oracle.com/en/sites/jobsearch/job/348479/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-          "text": "Principal Site Reliability Engineer Nashville, TN, United States and 1 more Designs and architects infrastructure and service to ensure reliability and functionality."
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340128/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Principal Site Reliability Engineer Nashville, TN, United States Oracle is seeking an experienced, hands-on Principal Site Reliability Engineer to lead the design, reliability, security, and operation"
         },
         {
           "title": "Senior Site Reliability Engineer",
@@ -431,14 +427,14 @@
           "text": "Senior Site Reliability Engineer Nashville, TN, United States TRENDING OCI Incident Response is the first line of defense in maintaining the high availability of Oracle’s cloud. We are looking for a S"
         },
         {
-          "title": "Lead Principal Site Reliability Engineer",
-          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340127/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-          "text": "Lead Principal Site Reliability Engineer Nashville, TN, United States This is a senior individual-contributor and technical leadership role for an engineer who can operate across infrastructure, softw"
-        },
-        {
           "title": "Senior Site Reliability Engineer",
           "url": "https://careers.oracle.com/en/sites/jobsearch/job/340122/?keyword=site+reliability&location=United+States&locationId=300000000149325",
           "text": "Senior Site Reliability Engineer Nashville, TN, United States TRENDING This role combines infrastructure design with systems administration, application deployment, automation, patching, troubleshooti"
+        },
+        {
+          "title": "Lead Principal Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340127/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Lead Principal Site Reliability Engineer Nashville, TN, United States This is a senior individual-contributor and technical leadership role for an engineer who can operate across infrastructure, softw"
         },
         {
           "title": "Senior Site Reliability Developer",
@@ -456,7 +452,7 @@
       "id": "board-oracle-em",
       "company": "Oracle (incl. Oracle Health, Kansas City)",
       "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
-      "checkedAt": "2026-10-26T11:07:30.774Z",
+      "checkedAt": "2026-10-27T11:01:42.844Z",
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Oracle Careers",
@@ -494,6 +490,11 @@
           "text": "Program Manager, Oracle Health Support Operations Kansas City, MO, United States and 2 more TRENDING We are seeking an experienced Program Manager to drive strategic and operational initiatives across"
         },
         {
+          "title": "Supervisor, Customer Service",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/345513/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
+          "text": "Supervisor, Customer Service Kansas City, MO, United States TRENDING Manages a team on resolving incoming service requests and manages the operation of customer service delivery, serving as point of e"
+        },
+        {
           "title": "Configuration Support Analyst – Support Services",
           "url": "https://careers.oracle.com/en/sites/jobsearch/job/326584/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
           "text": "Configuration Support Analyst – Support Services Orlando, FL, United States and 3 more TRENDING As a member of the Support organization, your focus is to deliver post-sales support and solutions to th"
@@ -502,11 +503,6 @@
           "title": "Configuration Support Analyst – Support Services",
           "url": "https://careers.oracle.com/en/sites/jobsearch/job/343240/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
           "text": "Configuration Support Analyst – Support Services Orlando, FL, United States and 2 more TRENDING As a member of the Support organization, your focus is to deliver post-sales support and solutions to th"
-        },
-        {
-          "title": "Supervisor, Customer Service",
-          "url": "https://careers.oracle.com/en/sites/jobsearch/job/345513/?keyword=software+development+manager&location=Kansas+City%252C+MO%252C+United+States",
-          "text": "Supervisor, Customer Service Kansas City, MO, United States TRENDING Manages a team on resolving incoming service requests and manages the operation of customer service delivery, serving as point of e"
         },
         {
           "title": "Senior Customer Service Specialist",
@@ -539,7 +535,7 @@
       "id": "board-dell-sre",
       "company": "Dell Technologies",
       "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=site%20reliability&location=United%20States",
-      "checkedAt": "2026-10-26T11:07:40.592Z",
+      "checkedAt": "2026-10-27T11:01:50.794Z",
       "finalUrl": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=site%20reliability&location=United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Dell Careers",
@@ -587,7 +583,7 @@
       "id": "board-dell-em",
       "company": "Dell Technologies",
       "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=engineering%20manager&location=United%20States",
-      "checkedAt": "2026-10-26T11:07:48.897Z",
+      "checkedAt": "2026-10-27T11:01:58.947Z",
       "finalUrl": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=engineering%20manager&location=United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Dell Careers",
@@ -610,6 +606,11 @@
           "text": "Senior Manager, Product Security Engineering Round Rock, TX, United States"
         },
         {
+          "title": "Hardware Senior Principal Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300658/?keyword=engineering+manager&location=United+States",
+          "text": "Hardware Senior Principal Engineer Austin, TX, United States"
+        },
+        {
           "title": "Senior Systems Engineer, Data Management",
           "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/297947/?keyword=engineering+manager&location=United+States",
           "text": "Senior Systems Engineer, Data Management NC, United States"
@@ -618,6 +619,11 @@
           "title": "Senior Principal Engineer, Rack Systems Engineering (Rack Portfolio Development)",
           "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/299688/?keyword=engineering+manager&location=United+States",
           "text": "Senior Principal Engineer, Rack Systems Engineering (Rack Portfolio Development) Hopkinton, MA, United States and 1 more"
+        },
+        {
+          "title": "Software Principal Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/299386/?keyword=engineering+manager&location=United+States",
+          "text": "Software Principal Engineer TX, United States and 1 more"
         },
         {
           "title": "AI Performance Engineer",
@@ -645,11 +651,6 @@
           "text": "AI Performance Engineer Austin, TX, United States"
         },
         {
-          "title": "Software Principal Engineer",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/299386/?keyword=engineering+manager&location=United+States",
-          "text": "Software Principal Engineer TX, United States and 1 more"
-        },
-        {
           "title": "Senior Product Manager - AI Engineering",
           "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/297808/?keyword=engineering+manager&location=United+States",
           "text": "Senior Product Manager - AI Engineering Hopkinton, MA, United States and 1 more"
@@ -675,14 +676,29 @@
           "text": "Senior Principal Engineer-Thermal Controls Strategy and Architecture Round Rock, TX, United States"
         },
         {
+          "title": "GenAI & High Performance Computing (HPC) Delivery Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300170/?keyword=engineering+manager&location=United+States",
+          "text": "GenAI & High Performance Computing (HPC) Delivery Engineer Oklahoma City, OK, United States"
+        },
+        {
+          "title": "GenAI & High Performance Computing (HPC) Delivery Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300159/?keyword=engineering+manager&location=United+States",
+          "text": "GenAI & High Performance Computing (HPC) Delivery Engineer TX, United States"
+        },
+        {
+          "title": "GenAI & High Performance Computing (HPC) Delivery Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300162/?keyword=engineering+manager&location=United+States",
+          "text": "GenAI & High Performance Computing (HPC) Delivery Engineer Austin, TX, United States"
+        },
+        {
+          "title": "GenAI & High Performance Computing (HPC) Delivery Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300167/?keyword=engineering+manager&location=United+States",
+          "text": "GenAI & High Performance Computing (HPC) Delivery Engineer Chicago, IL, United States"
+        },
+        {
           "title": "Hardware Principal Engineer",
           "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/294985/?keyword=engineering+manager&location=United+States",
           "text": "Hardware Principal Engineer Hopkinton, MA, United States"
-        },
-        {
-          "title": "Senior Principal Systems Development Engineer",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/295843/?keyword=engineering+manager&location=United+States",
-          "text": "Senior Principal Systems Development Engineer Round Rock, TX, United States"
         },
         {
           "title": "Senior Product Management – Datacenter Power & Cooling Infrastructure",
@@ -690,34 +706,14 @@
           "text": "Senior Product Management – Datacenter Power & Cooling Infrastructure Round Rock, TX, United States and 1 more"
         },
         {
+          "title": "Senior Principal Systems Development Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/295843/?keyword=engineering+manager&location=United+States",
+          "text": "Senior Principal Systems Development Engineer Round Rock, TX, United States"
+        },
+        {
           "title": "Senior Supplier Process Engineer",
           "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/297703/?keyword=engineering+manager&location=United+States",
           "text": "Senior Supplier Process Engineer Franklin, MA, United States"
-        },
-        {
-          "title": "Hardware Senior Principal Engineer – System Development",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/295832/?keyword=engineering+manager&location=United+States",
-          "text": "Hardware Senior Principal Engineer – System Development Santa Clara, CA, United States and 1 more"
-        },
-        {
-          "title": "Hardware Senior Principal Engineer – System Integration",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/295833/?keyword=engineering+manager&location=United+States",
-          "text": "Hardware Senior Principal Engineer – System Integration Franklin, MA, United States and 2 more"
-        },
-        {
-          "title": "Mechanical Senior Principal Engineer",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/295835/?keyword=engineering+manager&location=United+States",
-          "text": "Mechanical Senior Principal Engineer Franklin, MA, United States and 2 more"
-        },
-        {
-          "title": "Technical Product Manager, Agentic AI Security",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/298743/?keyword=engineering+manager&location=United+States",
-          "text": "Technical Product Manager, Agentic AI Security Round Rock, TX, United States"
-        },
-        {
-          "title": "Hardware Senior Principal Engineer",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/299183/?keyword=engineering+manager&location=United+States",
-          "text": "Hardware Senior Principal Engineer TX, United States"
         }
       ]
     },
@@ -725,17 +721,22 @@
       "id": "board-dtcc-sre",
       "company": "DTCC",
       "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=site%20reliability&location=United%20States",
-      "checkedAt": "2026-10-26T11:07:56.520Z",
+      "checkedAt": "2026-10-27T11:02:06.903Z",
       "finalUrl": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=site%20reliability&location=United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - DTCC Candidate Experience Site Careers",
       "outcome": "listed",
-      "count": 10,
+      "count": 11,
       "jobs": [
+        {
+          "title": "Senior Application Support Engineer / Site Reliability Engineer (SRE)",
+          "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213844/?keyword=site+reliability&location=United+States",
+          "text": "Senior Application Support Engineer / Site Reliability Engineer (SRE) Boston, MA, United States Posting Date10/26/2026"
+        },
         {
           "title": "Data Center Facilities Engineering Senior Associate",
           "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214861/?keyword=site+reliability&location=United+States",
-          "text": "Data Center Facilities Engineering Senior Associate Brooklyn, NY, United States Posting Date10/23/2026"
+          "text": "Data Center Facilities Engineering Senior Associate Brooklyn, NY, United States Posting Date10/23/2026 BE THE FIRST TO APPLY"
         },
         {
           "title": "DevSecOps Engineering Senior Associate (Application Infrastructure)",
@@ -1799,9 +1800,10 @@
     }
   ],
   "counts": {
-    "live": 11,
+    "live": 10,
     "gone": 1,
+    "closed_text": 1,
     "unclear": 1
   },
-  "seconds": 177
+  "seconds": 190
 }
