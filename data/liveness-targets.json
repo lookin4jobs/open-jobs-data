@@ -1,6 +1,6 @@
 {
   "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-10-23",
+  "updated": "2026-10-28",
   "targets": [
     {
       "id": "x-clinician-nexus-manager-devops",
@@ -100,6 +100,83 @@
       "url": "https://jobs.ashbyhq.com/horizon3ai/e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
       "why": "Ashby page whose description loads only in a browser",
       "captureText": true
+    },
+    {
+      "id": "x-oracle-senior-engineering-manager-ohai-reimbursement",
+      "company": "Oracle",
+      "title": "Senior Engineering Manager - OHAI Reimbursement",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/334068/",
+      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
+    },
+    {
+      "id": "x-oracle-senior-application-software-engineering-manag",
+      "company": "Oracle",
+      "title": "Senior Application Software Engineering Manager",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/337860/",
+      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
+    },
+    {
+      "id": "x-oracle-software-development-manager-authorization-ia",
+      "company": "Oracle",
+      "title": "Software Development Manager, Authorization (IAM)",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/335818/",
+      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
+    },
+    {
+      "id": "x-oracle-senior-manager-application-software-engineeri",
+      "company": "Oracle",
+      "title": "Senior Manager, Application Software Engineering",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/337988/",
+      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
+    },
+    {
+      "id": "x-onebrief-manager-platform-engineering",
+      "company": "Onebrief",
+      "title": "Manager, Platform Engineering",
+      "url": "https://jobs.insightpartners.com/companies/onebrief/jobs/62541415-manager-platform-engineering",
+      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
+    },
+    {
+      "id": "x-illumia-sr-systems-engineer",
+      "company": "Illumia",
+      "title": "Senior Systems Engineer",
+      "url": "https://transact-campus.breezy.hr/p/9d4fccc47e7e-senior-systems-engineer",
+      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
+    },
+    {
+      "id": "x-nationsbenefits-manager-site-reliability-engineering",
+      "company": "NationsBenefits",
+      "title": "Site Reliability Engineering Manager",
+      "url": "https://nationsbenefits.breezy.hr/p/47131d11e4a3-site-reliability-engineering-manager",
+      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
+    },
+    {
+      "id": "x-tango-analytics-platform-engineering-manager",
+      "company": "Tango Analytics",
+      "title": "Platform Engineering Manager",
+      "url": "https://tangoanalytics.hire.trakstar.com/jobs/fk0zzk6/",
+      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
+    },
+    {
+      "id": "rippling-008fe5e9-5324-44b1-9fb6-35b2c0b56cd9",
+      "company": "Shippo",
+      "title": "Site Reliability Engineering Manager",
+      "url": "https://ats.rippling.com/shippo/jobs/008fe5e9-5324-44b1-9fb6-35b2c0b56cd9",
+      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
+    },
+    {
+      "id": "x-prealize-health-sr-engineering-manager-cloud-platform-devseco",
+      "company": "Prealize Health",
+      "title": "Sr. Engineering Manager, Cloud Platform & DevSecOps",
+      "url": "https://prealize.applytojob.com/apply/qe9mSbVBRi/Sr-Engineering-Manager-Cloud-Platform-DevSecOps",
+      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
+    },
+    {
+      "id": "icims-atlassian-27216",
+      "company": "Atlassian",
+      "title": "Senior Engineering Manager - Atlassian Government Cloud",
+      "url": "https://careers-americas.icims.com/jobs/27216/senior-engineering-manager---atlassian-government-cloud/job",
+      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
     }
   ],
   "boards": [
