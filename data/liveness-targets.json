@@ -184,6 +184,62 @@
       "title": "Senior Engineering Manager, Flink Control Plane",
       "url": "https://careers.confluent.io/open-positions/job/f6b05632-b694-49bf-9464-0af5430c8c6c",
       "why": "applied 07/18: Confluent's Ashby board returns no jobs to the feed, and its own careers site uses the same job ids"
+    },
+    {
+      "id": "lever-5bf3233d-a162-47b2-8d85-d3650b176c6e",
+      "company": "Metabase",
+      "title": "Engineering Manager",
+      "url": "https://jobs.lever.co/metabase/5bf3233d-a162-47b2-8d85-d3650b176c6e",
+      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+    },
+    {
+      "id": "gh-4676649",
+      "company": "Canonical",
+      "title": "Cloud Engineering Manager",
+      "url": "https://job-boards.greenhouse.io/canonical/jobs/4676649",
+      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+    },
+    {
+      "id": "gh-8297124002",
+      "company": "Honor",
+      "title": "Platform Engineering Manager",
+      "url": "https://job-boards.greenhouse.io/honor/jobs/8297124002",
+      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+    },
+    {
+      "id": "gh-5137153008",
+      "company": "Cresta",
+      "title": "Senior Infrastructure Engineer",
+      "url": "https://job-boards.greenhouse.io/cresta/jobs/5137153008",
+      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+    },
+    {
+      "id": "ashby-b9119961-806c-40d9-a38f-b9df69ecf684",
+      "company": "Sardine",
+      "title": "Support Engineering Lead",
+      "url": "https://jobs.ashbyhq.com/sardine/b9119961-806c-40d9-a38f-b9df69ecf684",
+      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+    },
+    {
+      "id": "gh-5324752008",
+      "company": "Outside Inc.",
+      "title": "Engineering Manager - Foundational Services",
+      "url": "https://job-boards.greenhouse.io/outside/jobs/5324752008",
+      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+    },
+    {
+      "id": "wd-crowdstrike-r30005",
+      "company": "CrowdStrike",
+      "title": "Engineering Manager - Core Infrastructure",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Engineering-Manager---Core-Infrastructure--Remote-_R30005",
+      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+    },
+    {
+      "id": "wd-cdw-r26-00002670",
+      "company": "CDW",
+      "title": "Manager, Engineering, Managed Services",
+      "url": "https://cdw.wd5.myworkdayjobs.com/careers/job/remote--usa/manager--engineering--managed-services---aix--unix---linux_r26_00002670",
+      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
     }
   ],
   "boards": [
