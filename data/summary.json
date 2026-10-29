@@ -1,163 +1,163 @@
 {
-  "generatedAt": "2026-10-28T16:43:26.653Z",
-  "total": 64211,
+  "generatedAt": "2026-10-29T11:09:45.018Z",
+  "total": 64292,
   "byPlatform": {
-    "greenhouse": 29272,
-    "lever": 2333,
-    "ashby": 6701,
-    "smartrecruiters": 2699,
-    "workable": 170,
-    "recruitee": 75,
+    "greenhouse": 29291,
+    "lever": 2337,
+    "ashby": 6697,
+    "smartrecruiters": 2707,
+    "workable": 171,
+    "recruitee": 77,
     "personio": 17,
     "bamboohr": 16,
-    "workday": 22928
+    "workday": 22979
   },
   "byCompany": {
-    "Stripe": 718,
-    "Airbnb": 198,
-    "Coinbase": 226,
-    "Robinhood": 159,
-    "Figma": 142,
-    "Discord": 46,
-    "Asana": 114,
-    "Pinterest": 160,
-    "Reddit": 162,
-    "Cloudflare": 461,
-    "Affirm": 243,
-    "Instacart": 94,
-    "Datadog": 398,
-    "GitLab": 238,
-    "Dropbox": 21,
-    "Twitch": 62,
-    "Anthropic": 678,
-    "Databricks": 895,
-    "Samsara": 321,
-    "Brex": 261,
-    "Flexport": 186,
+    "Stripe": 724,
+    "Airbnb": 190,
+    "Coinbase": 227,
+    "Robinhood": 162,
+    "Figma": 141,
+    "Discord": 45,
+    "Asana": 112,
+    "Pinterest": 162,
+    "Reddit": 163,
+    "Cloudflare": 460,
+    "Affirm": 242,
+    "Instacart": 93,
+    "Datadog": 396,
+    "GitLab": 232,
+    "Dropbox": 19,
+    "Twitch": 60,
+    "Anthropic": 680,
+    "Databricks": 902,
+    "Samsara": 323,
+    "Brex": 262,
+    "Flexport": 192,
     "Squarespace": 27,
-    "Doximity": 15,
+    "Doximity": 13,
     "Lyft": 177,
-    "Roblox": 271,
+    "Roblox": 267,
     "Okta": 385,
-    "Elastic": 406,
-    "MongoDB": 366,
-    "Twilio": 135,
-    "Zscaler": 353,
+    "Elastic": 404,
+    "MongoDB": 370,
+    "Twilio": 131,
+    "Zscaler": 355,
     "Udemy": 3,
-    "Peloton": 55,
-    "Carta": 74,
-    "Checkr": 45,
-    "Duolingo": 58,
+    "Peloton": 57,
+    "Carta": 77,
+    "Checkr": 46,
+    "Duolingo": 59,
     "Faire": 67,
     "Mixpanel": 44,
     "Remote": 2,
-    "Scale AI": 169,
-    "Vercel": 93,
-    "Airtable": 4,
+    "Scale AI": 171,
+    "Vercel": 92,
+    "Airtable": 5,
     "Calendly": 8,
-    "PagerDuty": 48,
-    "Gusto": 93,
+    "PagerDuty": 49,
+    "Gusto": 88,
     "Chime": 72,
-    "Toast": 339,
-    "LaunchDarkly": 52,
-    "Justworks": 97,
+    "Toast": 342,
+    "LaunchDarkly": 51,
+    "Justworks": 99,
     "Smartsheet": 86,
-    "Nextdoor": 23,
+    "Nextdoor": 21,
     "Betterment": 25,
-    "SoFi": 62,
+    "SoFi": 63,
     "N": 32,
     "GoCardless": 23,
     "Monzo": 67,
-    "Grafana Labs": 132,
-    "Anduril": 2532,
-    "Jane Street": 220,
+    "Grafana Labs": 130,
+    "Anduril": 2546,
+    "Jane Street": 222,
     "Blend": 14,
     "Bill.com": 45,
-    "Attentive": 30,
-    "Braze": 339,
+    "Attentive": 31,
+    "Braze": 338,
     "Contentful": 29,
-    "Algolia": 25,
+    "Algolia": 26,
     "Fastly": 53,
     "Netlify": 4,
     "CircleCI": 14,
     "PlanetScale": 11,
     "Together AI": 87,
     "Glean": 133,
-    "Intercom": 101,
+    "Intercom": 103,
     "Typeform": 11,
     "StockX": 34,
     "Cameo": 1,
     "Kickstarter": 1,
     "Wikimedia Foundation": 15,
-    "Mozilla": 121,
-    "Proton": 20,
-    "Bitwarden": 35,
-    "Wiz": 123,
+    "Mozilla": 118,
+    "Proton": 13,
+    "Bitwarden": 36,
+    "Wiz": 122,
     "Tailscale": 53,
-    "JFrog": 68,
-    "Chainguard": 90,
-    "Oura": 92,
+    "JFrog": 70,
+    "Chainguard": 93,
+    "Oura": 95,
     "Maven Clinic": 29,
     "Recursion Pharmaceuticals": 12,
-    "Verkada": 331,
-    "Rubrik": 150,
-    "SambaNova Systems": 69,
-    "CoreWeave": 312,
+    "Verkada": 336,
+    "Rubrik": 152,
+    "SambaNova Systems": 71,
+    "CoreWeave": 311,
     "Nuro": 97,
-    "Rocket Lab": 555,
+    "Rocket Lab": 551,
     "Varda Space": 119,
-    "Redwood Materials": 135,
+    "Redwood Materials": 134,
     "Motive": 166,
-    "Carvana": 1667,
+    "Carvana": 1664,
     "Highnote": 5,
-    "Lithic": 11,
-    "TripActions": 221,
+    "Lithic": 10,
+    "TripActions": 222,
     "Descope": 7,
-    "Cribl": 78,
-    "Honeycomb": 25,
+    "Cribl": 74,
+    "Honeycomb": 24,
     "Pendo": 26,
     "Airship": 9,
     "Customer.io": 25,
-    "Klaviyo": 157,
+    "Klaviyo": 155,
     "Narvar": 1,
     "Flexe": 2,
     "project": 27,
     "FourKites": 17,
     "Bringg": 1,
-    "Lattice": 9,
+    "Lattice": 11,
     "Culture Amp": 33,
     "Greenhouse Software": 18,
     "Textio": 2,
     "SeekOut": 2,
-    "HackerRank": 30,
+    "HackerRank": 28,
     "Karat": 13,
-    "ZipRecruiter": 43,
+    "ZipRecruiter": 45,
     "Upwork": 7,
-    "DoorDash": 444,
-    "Netskope": 131,
+    "DoorDash": 439,
+    "Netskope": 127,
     "Orca Security": 9,
-    "Huntress": 32,
-    "Abnormal Security": 90,
+    "Huntress": 31,
+    "Abnormal Security": 89,
     "Axonius": 22,
-    "Cato Networks": 104,
+    "Cato Networks": 103,
     "KnowBe": 56,
-    "Recorded Future": 52,
-    "Censys": 27,
-    "BigID": 8,
-    "OneTrust": 78,
+    "Recorded Future": 54,
+    "Censys": 26,
+    "BigID": 9,
+    "OneTrust": 77,
     "Osano": 10,
     "Starburst": 35,
     "Imply": 5,
-    "Labelbox": 9,
+    "Labelbox": 10,
     "Snorkel AI": 43,
-    "Domino Data Lab": 23,
+    "Domino Data Lab": 21,
     "Arize AI": 27,
-    "New Relic": 49,
-    "Sumo Logic": 12,
-    "Globalization Partners": 56,
-    "Epic Games": 144,
+    "New Relic": 50,
+    "Sumo Logic": 11,
+    "Globalization Partners": 60,
+    "Epic Games": 141,
     "Riot Games": 184,
-    "Scopely": 180,
+    "Scopely": 181,
     "Gemini": 30,
     "Fireblocks": 25,
     "BitGo": 56,
@@ -167,162 +167,161 @@
     "Public.com": 3,
     "Trade Republic": 49,
     "Homelight": 9,
-    "Orchard": 30,
+    "Orchard": 34,
     "Knock": 7,
     "Human Interest": 63,
     "Vestwell": 25,
     "Alpaca": 68,
     "Cleo": 8,
-    "Earnin": 25,
+    "Earnin": 27,
     "Ginkgo Bioworks": 19,
     "Freenome": 31,
     "Natera": 231,
     "Truveta": 34,
-    "Flatiron Health": 23,
+    "Flatiron Health": 25,
     "Calico Labs": 21,
-    "Beam Therapeutics": 42,
+    "Beam Therapeutics": 41,
     "Sword Health": 59,
-    "Omada Health": 21,
-    "One Medical": 383,
+    "Omada Health": 20,
+    "One Medical": 390,
     "Parsley Health": 8,
     "Calm": 1,
     "BetterHelp": 179,
-    "Talkspace": 24,
+    "Talkspace": 27,
     "Modern Health": 2,
-    "MyFitnessPal": 9,
+    "MyFitnessPal": 8,
     "Tempo Fit": 6,
     "Future Fit": 7,
-    "ClassPass": 33,
+    "ClassPass": 32,
     "Mindbody": 20,
-    "Gympass": 85,
-    "Coursera": 27,
+    "Gympass": 88,
+    "Coursera": 29,
     "Udacity": 24,
-    "Khan Academy": 5,
+    "Khan Academy": 4,
     "MasterClass": 6,
     "Springboard": 4,
     "Newsela": 9,
-    "IXL Learning": 119,
+    "IXL Learning": 120,
     "GoGuardian": 13,
     "Imbue": 2,
     "Inflection AI": 4,
-    "Stability AI": 6,
-    "Relativity": 405,
-    "Everlaw": 33,
-    "Alloy": 29,
-    "Forter": 21,
-    "Riskified": 38,
-    "Feedzai": 16,
-    "ComplyAdvantage": 14,
+    "Stability AI": 4,
+    "Relativity": 404,
+    "Everlaw": 34,
+    "Alloy": 30,
+    "Forter": 20,
+    "Riskified": 37,
+    "Feedzai": 17,
+    "ComplyAdvantage": 13,
     "Nova Credit": 8,
     "Homeward": 3,
     "Kasa Living": 17,
-    "TaskRabbit": 19,
+    "TaskRabbit": 20,
     "Instawork": 56,
-    "Movable Ink": 30,
+    "Movable Ink": 31,
     "Bloomreach": 79,
     "QuillBot": 2,
-    "Invisible Technologies": 21,
-    "Turing": 37,
-    "Wrike": 68,
+    "Invisible Technologies": 20,
+    "Turing": 34,
+    "Wrike": 72,
     "Qualtrics": 92,
     "Backblaze": 33,
     "Wasabi Technologies": 12,
-    "MinIO": 27,
+    "MinIO": 31,
     "Filecoin Foundation": 1,
     "Prismatic": 4,
-    "Workato": 54,
-    "Celigo": 21,
-    "Appian": 164,
-    "Mercury": 78,
+    "Workato": 53,
+    "Celigo": 20,
+    "Appian": 160,
+    "Mercury": 79,
     "TrueLayer": 3,
-    "Sezzle": 266,
+    "Sezzle": 281,
     "Luno": 2,
     "Bitpanda": 34,
-    "OKX": 372,
+    "OKX": 373,
     "Bybit": 156,
     "Vectara": 6,
     "AssemblyAI": 18,
     "Speechmatics": 15,
     "Otter.ai": 20,
-    "Cresta": 88,
+    "Cresta": 89,
     "Observe.AI": 7,
     "PolyAI": 1,
-    "6sense": 30,
-    "ZoomInfo": 99,
+    "6sense": 31,
+    "ZoomInfo": 101,
     "Apollo.io": 54,
-    "Cognism": 18,
+    "Cognism": 19,
     "OfferUp": 4,
     "StitchFix": 14,
     "HelloFresh": 385,
-    "Home Chef": 33,
+    "Home Chef": 31,
     "Thrive Market": 18,
     "Misfits Market": 65,
-    "Weee!": 21,
-    "Palantir": 303,
+    "Weee!": 20,
+    "Palantir": 304,
     "Ro": 51,
-    "Veeva Systems": 887,
+    "Veeva Systems": 889,
     "Tala": 9,
     "Wattpad": 16,
     "Aircall": 77,
-    "BrightEdge": 26,
+    "BrightEdge": 25,
     "Zoox": 228,
     "Outreach": 21,
-    "Ramp": 172,
+    "Ramp": 168,
     "Linear": 32,
-    "OpenAI": 806,
-    "Watershed": 39,
+    "OpenAI": 812,
+    "Watershed": 40,
     "Substack": 16,
-    "Notion": 141,
+    "Notion": 143,
     "Runway": 3,
     "Synthesia": 36,
     "Cursor (Anysphere)": 123,
-    "Replit": 32,
+    "Replit": 33,
     "Modal": 43,
-    "Middesk": 16,
-    "Vanta": 78,
-    "Abridge": 38,
-    "Sardine": 47,
-    "Decagon": 132,
-    "Harvey": 368,
+    "Middesk": 18,
+    "Vanta": 79,
+    "Abridge": 39,
+    "Sardine": 46,
+    "Decagon": 133,
+    "Harvey": 365,
     "Sierra": 213,
     "Speak": 33,
-    "Crusoe": 355,
+    "Crusoe": 358,
     "Rilla": 26,
-    "Suno": 71,
-    "ElevenLabs": 158,
+    "Suno": 70,
+    "ElevenLabs": 153,
     "Baseten": 105,
     "Braintrust": 30,
-    "Lovable": 82,
+    "Lovable": 84,
     "Bland": 15,
-    "PostHog": 12,
+    "PostHog": 11,
     "Warp": 20,
     "Rho": 43,
-    "Mercor": 107,
-    "Persona": 13,
+    "Mercor": 108,
+    "Persona": 15,
     "Anrok": 14,
     "Orb": 21,
-    "LangChain": 101,
+    "LangChain": 99,
     "Pinecone": 8,
     "Weaviate": 2,
     "Runpod": 28,
     "Merge": 14,
     "Nango": 7,
-    "Endgame": 4,
-    "Drata": 29,
+    "Drata": 28,
     "Secureframe": 7,
     "Headway": 90,
     "Cedar": 1,
     "Aurora Solar": 11,
     "Resend": 14,
     "Trigger.dev": 6,
-    "Rula": 35,
-    "Skydio": 174,
-    "Saronic": 246,
-    "Whoop": 136,
-    "Superpower": 29,
+    "Rula": 33,
+    "Skydio": 175,
+    "Saronic": 247,
+    "Whoop": 134,
+    "Superpower": 30,
     "Eight Sleep": 40,
-    "Attio": 27,
-    "Gamma": 21,
+    "Attio": 26,
+    "Gamma": 20,
     "Zapier": 12,
     "Unit": 2,
     "Column": 21,
@@ -334,19 +333,19 @@
     "Zilch": 12,
     "Griffin": 4,
     "Snowflake": 363,
-    "Preply": 122,
+    "Preply": 118,
     "Equinox": 500,
-    "The Wonderful Company": 228,
-    "Version 1": 162,
+    "The Wonderful Company": 227,
+    "Version 1": 164,
     "Bosch Group": 500,
     "Delivery Hero": 500,
     "Hugging Face": 6,
     "EQL Tech": 46,
-    "I-Tech People": 2,
-    "Helloprint": 5,
+    "I-Tech People": 3,
+    "Helloprint": 6,
     "Channable": 14,
     "Trusted Shops": 15,
-    "bunq": 21,
+    "bunq": 22,
     "CM.com": 20,
     "Clark": 3,
     "orderbird": 4,
@@ -354,43 +353,43 @@
     "ottonova": 9,
     "Fly.io": 10,
     "Bitcoin.com": 6,
-    "Intel": 769,
-    "Salesforce": 1000,
-    "Adobe": 225,
-    "CVS Health": 699,
-    "Vanguard": 234,
-    "Autodesk": 166,
-    "Target": 640,
+    "Intel": 776,
+    "Salesforce": 1003,
+    "Adobe": 229,
+    "CVS Health": 705,
+    "Vanguard": 232,
+    "Autodesk": 165,
+    "Target": 651,
     "PayPal": 226,
-    "Nvidia": 1761,
-    "Workday Inc": 333,
-    "Upstart": 88,
+    "Nvidia": 1767,
+    "Workday Inc": 348,
+    "Upstart": 87,
     "Spark Advisors": 9,
-    "Honor": 14,
-    "Dragos": 49,
+    "Honor": 15,
+    "Dragos": 47,
     "Canonical": 314,
     "Altana": 36,
     "Outside": 13,
-    "Zocdoc": 61,
-    "iFIT": 29,
+    "Zocdoc": 60,
+    "iFIT": 25,
     "HopSkipDrive": 8,
     "Code for America": 9,
-    "Nava PBC": 19,
-    "Skylight": 14,
-    "Datavant": 141,
+    "Nava PBC": 18,
+    "Skylight": 15,
+    "Datavant": 149,
     "Headspace": 5,
     "Pathstream": 6,
     "Accela": 8,
     "Vannevar Labs": 29,
     "First Due": 22,
-    "GiveDirectly": 32,
+    "GiveDirectly": 30,
     "Imagine Pediatrics": 21,
-    "Abacus Insights": 22,
-    "Lyra Health": 465,
-    "Zeta Global": 116,
+    "Abacus Insights": 21,
+    "Lyra Health": 469,
+    "Zeta Global": 112,
     "Appfire": 24,
-    "SmartBear": 20,
-    "Lucid": 31,
+    "SmartBear": 21,
+    "Lucid": 26,
     "Prolific": 33,
     "Pilot": 10,
     "Kard": 7,
@@ -401,63 +400,63 @@
     "Ignite Reading": 5,
     "Render": 35,
     "Valon": 27,
-    "Virta Health": 26,
+    "Virta Health": 25,
     "Temporal": 73,
-    "ClickHouse": 207,
+    "ClickHouse": 208,
     "Materialize": 4,
     "Tempo": 18,
     "Aditude": 1,
-    "1Password": 89,
-    "Horizon3.ai": 157,
-    "Cohere": 118,
-    "Delinea": 61,
+    "1Password": 88,
+    "Horizon3.ai": 159,
+    "Cohere": 119,
+    "Delinea": 66,
     "Metabase": 19,
     "Zencore": 20,
     "Mirantis": 96,
     "Alteryx": 56,
-    "CDW": 191,
-    "CrowdStrike": 352,
+    "CDW": 186,
+    "CrowdStrike": 350,
     "Deckers Brands": 50,
-    "Experity": 35,
-    "Ferguson": 412,
-    "Mastercard": 747,
+    "Experity": 34,
+    "Ferguson": 411,
+    "Mastercard": 751,
     "ModMed": 76,
-    "ServiceTitan": 76,
-    "Teladoc Health": 54,
+    "ServiceTitan": 74,
+    "Teladoc Health": 56,
     "Sentry": 42,
-    "Harness": 69,
+    "Harness": 67,
     "Snyk": 37,
     "Docker": 54,
-    "Kong": 104,
-    "DigitalOcean": 180,
-    "Fivetran": 162,
+    "Kong": 101,
+    "DigitalOcean": 178,
+    "Fivetran": 160,
     "Buildkite": 8,
     "Sourcegraph": 7,
-    "Cockroach Labs": 14,
+    "Cockroach Labs": 13,
     "Redis": 27,
     "Supabase": 64,
     "Pulumi": 4,
     "Railway": 7,
-    "Centene": 46,
-    "Elevance Health": 65,
-    "Humana": 117,
-    "The Cigna Group": 295,
-    "Abbott": 1078,
+    "Centene": 52,
+    "Elevance Health": 62,
+    "Humana": 120,
+    "The Cigna Group": 283,
+    "Abbott": 1088,
     "Medtronic": 756,
-    "Stryker": 775,
-    "Oscar Health": 224,
+    "Stryker": 772,
+    "Oscar Health": 220,
     "Pearl Health": 5,
     "Arcadia": 19,
-    "Cisco": 1194,
-    "Coder": 28,
-    "Sonatype": 15,
-    "Healthie": 23,
-    "Commure": 83,
-    "Innovaccer": 92,
+    "Cisco": 1191,
+    "Coder": 27,
+    "Sonatype": 14,
+    "Healthie": 21,
+    "Commure": 84,
+    "Innovaccer": 91,
     "CentralReach": 15,
     "Dscout": 12,
-    "Garner Health": 74,
-    "PatientPoint": 41,
+    "Garner Health": 72,
+    "PatientPoint": 42,
     "PerfectServe": 11,
     "RxSense": 6,
     "Verantos": 8,
@@ -472,68 +471,68 @@
     "CareMessage": 5,
     "Vetcove": 28,
     "KAYAK": 43,
-    "Hims & Hers": 150,
+    "Hims & Hers": 148,
     "WellTheory": 15,
-    "Stellar Cyber": 17,
-    "Solventum": 240,
-    "Palo Alto Networks": 933,
-    "Axon": 466,
-    "ServiceNow": 713,
-    "BD": 590,
+    "Stellar Cyber": 18,
+    "Solventum": 237,
+    "Palo Alto Networks": 932,
+    "Axon": 458,
+    "ServiceNow": 720,
+    "BD": 582,
     "Novartis": 436,
-    "U.S. Bank": 284,
-    "PNC": 182,
-    "BlackRock": 287,
-    "Fidelity Investments": 323,
-    "Mass General Brigham": 749,
+    "U.S. Bank": 292,
+    "PNC": 181,
+    "BlackRock": 285,
+    "Fidelity Investments": 325,
+    "Mass General Brigham": 750,
     "athenahealth": 59,
     "McKesson": 384,
-    "Red Hat": 143,
-    "Highmark Health": 298,
-    "GE HealthCare": 669,
+    "Red Hat": 147,
+    "Highmark Health": 292,
+    "GE HealthCare": 675,
     "SeatGeek": 39,
     "Cohere Health": 70,
     "BeyondTrust": 43,
     "eVisit": 7,
-    "Netsmart": 75,
-    "WellSky": 42,
-    "EquipmentShare": 1042,
-    "SmithRx": 24,
+    "Netsmart": 76,
+    "WellSky": 41,
+    "EquipmentShare": 1045,
+    "SmithRx": 23,
     "Form Health": 42,
-    "Prove": 11,
-    "Federal Reserve System": 157,
-    "Capital One": 869,
-    "Thomson Reuters": 198,
-    "The Hartford": 112,
-    "TransUnion": 97,
-    "Wells Fargo": 162,
-    "Bank of America": 164,
-    "GEICO": 98,
-    "Nationwide": 27,
-    "Allstate": 107,
+    "Prove": 12,
+    "Federal Reserve System": 158,
+    "Capital One": 876,
+    "Thomson Reuters": 196,
+    "The Hartford": 106,
+    "TransUnion": 105,
+    "Wells Fargo": 154,
+    "Bank of America": 163,
+    "GEICO": 99,
+    "Nationwide": 32,
+    "Allstate": 111,
     "Travelers": 85,
-    "Equifax": 83,
-    "Thermo Fisher Scientific": 756,
-    "General Motors": 639,
-    "Comcast": 84,
-    "Raymond James": 57,
+    "Equifax": 80,
+    "Thermo Fisher Scientific": 760,
+    "General Motors": 638,
+    "Comcast": 86,
+    "Raymond James": 55,
     "Hewlett Packard Enterprise": 1111,
     "TailorCare": 9,
-    "Penn Interactive": 37,
-    "Podium": 64,
+    "Penn Interactive": 39,
+    "Podium": 68,
     "Infisical": 12,
     "Fluxx": 3,
-    "Rocket Money": 19,
-    "Aledade": 45,
+    "Rocket Money": 20,
+    "Aledade": 44,
     "Turnkey (Greenhouse)": 5
   },
   "companiesAttempted": 535,
-  "companiesOk": 533,
+  "companiesOk": 532,
   "companiesPartial": 0,
-  "companiesFailed": 2,
-  "elapsedMs": 4282911,
-  "newSinceLastSnapshot": 898,
-  "previousSnapshotAt": "2026-10-28T11:06:16.254Z",
+  "companiesFailed": 3,
+  "elapsedMs": 3919083,
+  "newSinceLastSnapshot": 1877,
+  "previousSnapshotAt": "2026-10-28T16:43:26.653Z",
   "newSinceLastSnapshotFirstRun": false,
   "perCompanyStatus": [
     {
@@ -541,147 +540,147 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 718
+      "jobs": 724
     },
     {
       "company": "Airbnb",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 198
+      "jobs": 190
     },
     {
       "company": "Coinbase",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 226
+      "jobs": 227
     },
     {
       "company": "Robinhood",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 159
+      "jobs": 162
     },
     {
       "company": "Figma",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 142
+      "jobs": 141
     },
     {
       "company": "Discord",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 46
+      "jobs": 45
     },
     {
       "company": "Asana",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 114
+      "jobs": 112
     },
     {
       "company": "Pinterest",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 160
+      "jobs": 162
     },
     {
       "company": "Reddit",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 162
+      "jobs": 163
     },
     {
       "company": "Cloudflare",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 461
+      "jobs": 460
     },
     {
       "company": "Affirm",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 243
+      "jobs": 242
     },
     {
       "company": "Instacart",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 94
+      "jobs": 93
     },
     {
       "company": "Datadog",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 398
+      "jobs": 396
     },
     {
       "company": "GitLab",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 238
+      "jobs": 232
     },
     {
       "company": "Dropbox",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 21
+      "jobs": 19
     },
     {
       "company": "Twitch",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 62
+      "jobs": 60
     },
     {
       "company": "Anthropic",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 678
+      "jobs": 680
     },
     {
       "company": "Databricks",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 895
+      "jobs": 902
     },
     {
       "company": "Samsara",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 321
+      "jobs": 323
     },
     {
       "company": "Brex",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 261
+      "jobs": 262
     },
     {
       "company": "Flexport",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 186
+      "jobs": 192
     },
     {
       "company": "Squarespace",
@@ -695,7 +694,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 15
+      "jobs": 13
     },
     {
       "company": "Lyft",
@@ -709,7 +708,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 271
+      "jobs": 267
     },
     {
       "company": "Okta",
@@ -723,28 +722,28 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 406
+      "jobs": 404
     },
     {
       "company": "MongoDB",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 366
+      "jobs": 370
     },
     {
       "company": "Twilio",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 135
+      "jobs": 131
     },
     {
       "company": "Zscaler",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 353
+      "jobs": 355
     },
     {
       "company": "Udemy",
@@ -758,28 +757,28 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 55
+      "jobs": 57
     },
     {
       "company": "Carta",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 74
+      "jobs": 77
     },
     {
       "company": "Checkr",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 45
+      "jobs": 46
     },
     {
       "company": "Duolingo",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 58
+      "jobs": 59
     },
     {
       "company": "Faire",
@@ -807,14 +806,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 169
+      "jobs": 171
     },
     {
       "company": "Vercel",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 93
+      "jobs": 92
     },
     {
       "company": "Webflow",
@@ -828,7 +827,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 4
+      "jobs": 5
     },
     {
       "company": "Calendly",
@@ -842,14 +841,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 48
+      "jobs": 49
     },
     {
       "company": "Gusto",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 93
+      "jobs": 88
     },
     {
       "company": "Chime",
@@ -863,21 +862,21 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 339
+      "jobs": 342
     },
     {
       "company": "LaunchDarkly",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 52
+      "jobs": 51
     },
     {
       "company": "Justworks",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 97
+      "jobs": 99
     },
     {
       "company": "Smartsheet",
@@ -891,7 +890,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 23
+      "jobs": 21
     },
     {
       "company": "Betterment",
@@ -905,7 +904,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 62
+      "jobs": 63
     },
     {
       "company": "N",
@@ -933,21 +932,21 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 132
+      "jobs": 130
     },
     {
       "company": "Anduril",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 2532
+      "jobs": 2546
     },
     {
       "company": "Jane Street",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 220
+      "jobs": 222
     },
     {
       "company": "Blend",
@@ -968,14 +967,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 30
+      "jobs": 31
     },
     {
       "company": "Braze",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 339
+      "jobs": 338
     },
     {
       "company": "Iterable",
@@ -996,7 +995,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 25
+      "jobs": 26
     },
     {
       "company": "Fastly",
@@ -1045,7 +1044,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 101
+      "jobs": 103
     },
     {
       "company": "Typeform",
@@ -1087,28 +1086,28 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 121
+      "jobs": 118
     },
     {
       "company": "Proton",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 20
+      "jobs": 13
     },
     {
       "company": "Bitwarden",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 35
+      "jobs": 36
     },
     {
       "company": "Wiz",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 123
+      "jobs": 122
     },
     {
       "company": "Tailscale",
@@ -1122,21 +1121,21 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 68
+      "jobs": 70
     },
     {
       "company": "Chainguard",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 90
+      "jobs": 93
     },
     {
       "company": "Oura",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 92
+      "jobs": 95
     },
     {
       "company": "Maven Clinic",
@@ -1157,28 +1156,28 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 331
+      "jobs": 336
     },
     {
       "company": "Rubrik",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 150
+      "jobs": 152
     },
     {
       "company": "SambaNova Systems",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 69
+      "jobs": 71
     },
     {
       "company": "CoreWeave",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 312
+      "jobs": 311
     },
     {
       "company": "Nuro",
@@ -1192,7 +1191,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 555
+      "jobs": 551
     },
     {
       "company": "Varda Space",
@@ -1206,7 +1205,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 135
+      "jobs": 134
     },
     {
       "company": "Motive",
@@ -1220,7 +1219,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 1667
+      "jobs": 1664
     },
     {
       "company": "Highnote",
@@ -1234,20 +1233,21 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 11
+      "jobs": 10
     },
     {
       "company": "TripActions",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 221
+      "jobs": 222
     },
     {
       "company": "Prisma",
       "platform": "greenhouse",
-      "attempt": 1,
-      "status": "ok",
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": null,
       "jobs": 0
     },
     {
@@ -1262,14 +1262,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 78
+      "jobs": 74
     },
     {
       "company": "Honeycomb",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 25
+      "jobs": 24
     },
     {
       "company": "Pendo",
@@ -1297,7 +1297,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 157
+      "jobs": 155
     },
     {
       "company": "Narvar",
@@ -1339,7 +1339,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 9
+      "jobs": 11
     },
     {
       "company": "Culture Amp",
@@ -1374,7 +1374,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 30
+      "jobs": 28
     },
     {
       "company": "Karat",
@@ -1388,7 +1388,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 43
+      "jobs": 45
     },
     {
       "company": "Upwork",
@@ -1402,14 +1402,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 444
+      "jobs": 439
     },
     {
       "company": "Netskope",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 131
+      "jobs": 127
     },
     {
       "company": "Orca Security",
@@ -1423,14 +1423,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 32
+      "jobs": 31
     },
     {
       "company": "Abnormal Security",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 90
+      "jobs": 89
     },
     {
       "company": "Axonius",
@@ -1444,7 +1444,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 104
+      "jobs": 103
     },
     {
       "company": "KnowBe",
@@ -1458,28 +1458,28 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 52
+      "jobs": 54
     },
     {
       "company": "Censys",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 27
+      "jobs": 26
     },
     {
       "company": "BigID",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 8
+      "jobs": 9
     },
     {
       "company": "OneTrust",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 78
+      "jobs": 77
     },
     {
       "company": "Osano",
@@ -1507,7 +1507,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 9
+      "jobs": 10
     },
     {
       "company": "Snorkel AI",
@@ -1521,7 +1521,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 23
+      "jobs": 21
     },
     {
       "company": "Arize AI",
@@ -1535,28 +1535,28 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 49
+      "jobs": 50
     },
     {
       "company": "Sumo Logic",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 12
+      "jobs": 11
     },
     {
       "company": "Globalization Partners",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 56
+      "jobs": 60
     },
     {
       "company": "Epic Games",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 144
+      "jobs": 141
     },
     {
       "company": "Riot Games",
@@ -1570,7 +1570,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 180
+      "jobs": 181
     },
     {
       "company": "Gemini",
@@ -1640,7 +1640,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 30
+      "jobs": 34
     },
     {
       "company": "Knock",
@@ -1682,7 +1682,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 25
+      "jobs": 27
     },
     {
       "company": "Ginkgo Bioworks",
@@ -1717,7 +1717,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 23
+      "jobs": 25
     },
     {
       "company": "Calico Labs",
@@ -1731,7 +1731,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 42
+      "jobs": 41
     },
     {
       "company": "Sword Health",
@@ -1745,14 +1745,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 21
+      "jobs": 20
     },
     {
       "company": "One Medical",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 383
+      "jobs": 390
     },
     {
       "company": "Parsley Health",
@@ -1780,7 +1780,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 24
+      "jobs": 27
     },
     {
       "company": "Modern Health",
@@ -1794,7 +1794,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 9
+      "jobs": 8
     },
     {
       "company": "Tempo Fit",
@@ -1815,7 +1815,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 33
+      "jobs": 32
     },
     {
       "company": "Mindbody",
@@ -1829,14 +1829,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 85
+      "jobs": 88
     },
     {
       "company": "Coursera",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 27
+      "jobs": 29
     },
     {
       "company": "Udacity",
@@ -1850,7 +1850,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 5
+      "jobs": 4
     },
     {
       "company": "MasterClass",
@@ -1878,7 +1878,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 119
+      "jobs": 120
     },
     {
       "company": "GoGuardian",
@@ -1906,56 +1906,56 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 6
+      "jobs": 4
     },
     {
       "company": "Relativity",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 405
+      "jobs": 404
     },
     {
       "company": "Everlaw",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 33
+      "jobs": 34
     },
     {
       "company": "Alloy",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 29
+      "jobs": 30
     },
     {
       "company": "Forter",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 21
+      "jobs": 20
     },
     {
       "company": "Riskified",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 38
+      "jobs": 37
     },
     {
       "company": "Feedzai",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 16
+      "jobs": 17
     },
     {
       "company": "ComplyAdvantage",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 14
+      "jobs": 13
     },
     {
       "company": "Nova Credit",
@@ -1990,7 +1990,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 19
+      "jobs": 20
     },
     {
       "company": "Instawork",
@@ -2004,7 +2004,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 30
+      "jobs": 31
     },
     {
       "company": "Bloomreach",
@@ -2025,21 +2025,21 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 21
+      "jobs": 20
     },
     {
       "company": "Turing",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 37
+      "jobs": 34
     },
     {
       "company": "Wrike",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 68
+      "jobs": 72
     },
     {
       "company": "Aha!",
@@ -2074,7 +2074,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 27
+      "jobs": 31
     },
     {
       "company": "Filecoin Foundation",
@@ -2095,28 +2095,28 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 54
+      "jobs": 53
     },
     {
       "company": "Celigo",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 21
+      "jobs": 20
     },
     {
       "company": "Appian",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 164
+      "jobs": 160
     },
     {
       "company": "Mercury",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 78
+      "jobs": 79
     },
     {
       "company": "TrueLayer",
@@ -2130,7 +2130,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 266
+      "jobs": 281
     },
     {
       "company": "Luno",
@@ -2151,7 +2151,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 372
+      "jobs": 373
     },
     {
       "company": "Bybit",
@@ -2193,7 +2193,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 88
+      "jobs": 89
     },
     {
       "company": "Observe.AI",
@@ -2221,14 +2221,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 30
+      "jobs": 31
     },
     {
       "company": "ZoomInfo",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 99
+      "jobs": 101
     },
     {
       "company": "Apollo.io",
@@ -2242,7 +2242,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 18
+      "jobs": 19
     },
     {
       "company": "Mercari",
@@ -2284,7 +2284,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 33
+      "jobs": 31
     },
     {
       "company": "Thrive Market",
@@ -2305,14 +2305,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 21
+      "jobs": 20
     },
     {
       "company": "Palantir",
       "platform": "lever",
       "attempt": 1,
       "status": "ok",
-      "jobs": 303
+      "jobs": 304
     },
     {
       "company": "Ro",
@@ -2326,7 +2326,7 @@
       "platform": "lever",
       "attempt": 1,
       "status": "ok",
-      "jobs": 887
+      "jobs": 889
     },
     {
       "company": "Tala",
@@ -2354,7 +2354,7 @@
       "platform": "lever",
       "attempt": 1,
       "status": "ok",
-      "jobs": 26
+      "jobs": 25
     },
     {
       "company": "Zoox",
@@ -2389,7 +2389,7 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 172
+      "jobs": 168
     },
     {
       "company": "Linear",
@@ -2403,14 +2403,14 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 806
+      "jobs": 812
     },
     {
       "company": "Watershed",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 39
+      "jobs": 40
     },
     {
       "company": "Substack",
@@ -2424,7 +2424,7 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 141
+      "jobs": 143
     },
     {
       "company": "Runway",
@@ -2452,7 +2452,7 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 32
+      "jobs": 33
     },
     {
       "company": "Modal",
@@ -2473,42 +2473,42 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 16
+      "jobs": 18
     },
     {
       "company": "Vanta",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 78
+      "jobs": 79
     },
     {
       "company": "Abridge",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 38
+      "jobs": 39
     },
     {
       "company": "Sardine",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 47
+      "jobs": 46
     },
     {
       "company": "Decagon",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 132
+      "jobs": 133
     },
     {
       "company": "Harvey",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 368
+      "jobs": 365
     },
     {
       "company": "Sierra",
@@ -2529,7 +2529,7 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 355
+      "jobs": 358
     },
     {
       "company": "Rilla",
@@ -2543,14 +2543,14 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 71
+      "jobs": 70
     },
     {
       "company": "ElevenLabs",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 158
+      "jobs": 153
     },
     {
       "company": "Baseten",
@@ -2571,7 +2571,7 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 82
+      "jobs": 84
     },
     {
       "company": "Bland",
@@ -2585,7 +2585,7 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 12
+      "jobs": 11
     },
     {
       "company": "Warp",
@@ -2606,14 +2606,14 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 107
+      "jobs": 108
     },
     {
       "company": "Persona",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 13
+      "jobs": 15
     },
     {
       "company": "Anrok",
@@ -2634,7 +2634,7 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 101
+      "jobs": 99
     },
     {
       "company": "Pinecone",
@@ -2676,14 +2676,14 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 4
+      "jobs": 0
     },
     {
       "company": "Drata",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 29
+      "jobs": 28
     },
     {
       "company": "Secureframe",
@@ -2732,35 +2732,35 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 35
+      "jobs": 33
     },
     {
       "company": "Skydio",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 174
+      "jobs": 175
     },
     {
       "company": "Saronic",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 246
+      "jobs": 247
     },
     {
       "company": "Whoop",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 136
+      "jobs": 134
     },
     {
       "company": "Superpower",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 29
+      "jobs": 30
     },
     {
       "company": "Eight Sleep",
@@ -2774,14 +2774,14 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 27
+      "jobs": 26
     },
     {
       "company": "Gamma",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 21
+      "jobs": 20
     },
     {
       "company": "Zapier",
@@ -2865,7 +2865,7 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 122
+      "jobs": 118
     },
     {
       "company": "Visa",
@@ -2886,14 +2886,14 @@
       "platform": "smartrecruiters",
       "attempt": 1,
       "status": "ok",
-      "jobs": 228
+      "jobs": 227
     },
     {
       "company": "Version 1",
       "platform": "smartrecruiters",
       "attempt": 1,
       "status": "ok",
-      "jobs": 162
+      "jobs": 164
     },
     {
       "company": "Bosch Group",
@@ -2928,7 +2928,7 @@
       "platform": "workable",
       "attempt": 1,
       "status": "ok",
-      "jobs": 2
+      "jobs": 3
     },
     {
       "company": "Mondu",
@@ -2942,7 +2942,7 @@
       "platform": "recruitee",
       "attempt": 1,
       "status": "ok",
-      "jobs": 5
+      "jobs": 6
     },
     {
       "company": "Channable",
@@ -2963,7 +2963,7 @@
       "platform": "recruitee",
       "attempt": 1,
       "status": "ok",
-      "jobs": 21
+      "jobs": 22
     },
     {
       "company": "CM.com",
@@ -3027,49 +3027,49 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 769
+      "jobs": 776
     },
     {
       "company": "Salesforce",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 1000
+      "jobs": 1003
     },
     {
       "company": "Adobe",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 225
+      "jobs": 229
     },
     {
       "company": "CVS Health",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 699
+      "jobs": 705
     },
     {
       "company": "Vanguard",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 234
+      "jobs": 232
     },
     {
       "company": "Autodesk",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 166
+      "jobs": 165
     },
     {
       "company": "Target",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 640
+      "jobs": 651
     },
     {
       "company": "PayPal",
@@ -3083,21 +3083,21 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 1761
+      "jobs": 1767
     },
     {
       "company": "Workday Inc",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 333
+      "jobs": 348
     },
     {
       "company": "Upstart",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 88
+      "jobs": 87
     },
     {
       "company": "Spark Advisors",
@@ -3111,14 +3111,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 14
+      "jobs": 15
     },
     {
       "company": "Dragos",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 49
+      "jobs": 47
     },
     {
       "company": "Canonical",
@@ -3146,14 +3146,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 61
+      "jobs": 60
     },
     {
       "company": "iFIT",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 29
+      "jobs": 25
     },
     {
       "company": "HopSkipDrive",
@@ -3174,21 +3174,21 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 19
+      "jobs": 18
     },
     {
       "company": "Skylight",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 14
+      "jobs": 15
     },
     {
       "company": "Datavant",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 141
+      "jobs": 149
     },
     {
       "company": "Headspace",
@@ -3230,7 +3230,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 32
+      "jobs": 30
     },
     {
       "company": "Imagine Pediatrics",
@@ -3244,21 +3244,21 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 22
+      "jobs": 21
     },
     {
       "company": "Lyra Health",
       "platform": "lever",
       "attempt": 1,
       "status": "ok",
-      "jobs": 465
+      "jobs": 469
     },
     {
       "company": "Zeta Global",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 116
+      "jobs": 112
     },
     {
       "company": "Appfire",
@@ -3272,14 +3272,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 20
+      "jobs": 21
     },
     {
       "company": "Lucid",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 31
+      "jobs": 26
     },
     {
       "company": "Wavelo",
@@ -3363,7 +3363,7 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 26
+      "jobs": 25
     },
     {
       "company": "Angle Health",
@@ -3384,7 +3384,7 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 207
+      "jobs": 208
     },
     {
       "company": "Materialize",
@@ -3412,28 +3412,28 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 89
+      "jobs": 88
     },
     {
       "company": "Horizon3.ai",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 157
+      "jobs": 159
     },
     {
       "company": "Cohere",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 118
+      "jobs": 119
     },
     {
       "company": "Delinea",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 61
+      "jobs": 66
     },
     {
       "company": "Metabase",
@@ -3468,14 +3468,14 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 191
+      "jobs": 186
     },
     {
       "company": "CrowdStrike",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 352
+      "jobs": 350
     },
     {
       "company": "Deckers Brands",
@@ -3489,21 +3489,21 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 35
+      "jobs": 34
     },
     {
       "company": "Ferguson",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 412
+      "jobs": 411
     },
     {
       "company": "Mastercard",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 747
+      "jobs": 751
     },
     {
       "company": "ModMed",
@@ -3517,14 +3517,14 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 76
+      "jobs": 74
     },
     {
       "company": "Teladoc Health",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 54
+      "jobs": 56
     },
     {
       "company": "Sentry",
@@ -3545,7 +3545,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 69
+      "jobs": 67
     },
     {
       "company": "Snyk",
@@ -3566,21 +3566,21 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 104
+      "jobs": 101
     },
     {
       "company": "DigitalOcean",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 180
+      "jobs": 178
     },
     {
       "company": "Fivetran",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 162
+      "jobs": 160
     },
     {
       "company": "Buildkite",
@@ -3601,7 +3601,7 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 14
+      "jobs": 13
     },
     {
       "company": "Redis",
@@ -3636,35 +3636,35 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 46
+      "jobs": 52
     },
     {
       "company": "Elevance Health",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 65
+      "jobs": 62
     },
     {
       "company": "Humana",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 117
+      "jobs": 120
     },
     {
       "company": "The Cigna Group",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 295
+      "jobs": 283
     },
     {
       "company": "Abbott",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 1078
+      "jobs": 1088
     },
     {
       "company": "Medtronic",
@@ -3678,14 +3678,14 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 775
+      "jobs": 772
     },
     {
       "company": "Oscar Health",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 224
+      "jobs": 220
     },
     {
       "company": "Pearl Health",
@@ -3706,42 +3706,42 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 1194
+      "jobs": 1191
     },
     {
       "company": "Coder",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 28
+      "jobs": 27
     },
     {
       "company": "Sonatype",
       "platform": "lever",
       "attempt": 1,
       "status": "ok",
-      "jobs": 15
+      "jobs": 14
     },
     {
       "company": "Healthie",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 23
+      "jobs": 21
     },
     {
       "company": "Commure",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 83
+      "jobs": 84
     },
     {
       "company": "Innovaccer",
       "platform": "workable",
       "attempt": 1,
       "status": "ok",
-      "jobs": 92
+      "jobs": 91
     },
     {
       "company": "Automattic",
@@ -3769,14 +3769,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 74
+      "jobs": 72
     },
     {
       "company": "PatientPoint",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 41
+      "jobs": 42
     },
     {
       "company": "PerfectServe",
@@ -3881,7 +3881,7 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 150
+      "jobs": 148
     },
     {
       "company": "WellTheory",
@@ -3895,42 +3895,42 @@
       "platform": "workable",
       "attempt": 1,
       "status": "ok",
-      "jobs": 17
+      "jobs": 18
     },
     {
       "company": "Solventum",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 240
+      "jobs": 237
     },
     {
       "company": "Palo Alto Networks",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 933
+      "jobs": 932
     },
     {
       "company": "Axon",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 466
+      "jobs": 458
     },
     {
       "company": "ServiceNow",
       "platform": "smartrecruiters",
       "attempt": 1,
       "status": "ok",
-      "jobs": 713
+      "jobs": 720
     },
     {
       "company": "BD",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 590
+      "jobs": 582
     },
     {
       "company": "Novartis",
@@ -3944,35 +3944,35 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 284
+      "jobs": 292
     },
     {
       "company": "PNC",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 182
+      "jobs": 181
     },
     {
       "company": "BlackRock",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 287
+      "jobs": 285
     },
     {
       "company": "Fidelity Investments",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 323
+      "jobs": 325
     },
     {
       "company": "Mass General Brigham",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 749
+      "jobs": 750
     },
     {
       "company": "athenahealth",
@@ -3993,14 +3993,14 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 143
+      "jobs": 147
     },
     {
       "company": "Highmark Health",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 298
+      "jobs": 292
     },
     {
       "company": "Blue Cross and Blue Shield of Kansas City",
@@ -4014,7 +4014,7 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 669
+      "jobs": 675
     },
     {
       "company": "SeatGeek",
@@ -4063,28 +4063,28 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 75
+      "jobs": 76
     },
     {
       "company": "WellSky",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 42
+      "jobs": 41
     },
     {
       "company": "EquipmentShare",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 1042
+      "jobs": 1045
     },
     {
       "company": "SmithRx",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 24
+      "jobs": 23
     },
     {
       "company": "Form Health",
@@ -4098,77 +4098,77 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 11
+      "jobs": 12
     },
     {
       "company": "Federal Reserve System",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 157
+      "jobs": 158
     },
     {
       "company": "Capital One",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 869
+      "jobs": 876
     },
     {
       "company": "Thomson Reuters",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 198
+      "jobs": 196
     },
     {
       "company": "The Hartford",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 112
+      "jobs": 106
     },
     {
       "company": "TransUnion",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 97
+      "jobs": 105
     },
     {
       "company": "Wells Fargo",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 162
+      "jobs": 154
     },
     {
       "company": "Bank of America",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 164
+      "jobs": 163
     },
     {
       "company": "GEICO",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 98
+      "jobs": 99
     },
     {
       "company": "Nationwide",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 27
+      "jobs": 32
     },
     {
       "company": "Allstate",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 107
+      "jobs": 111
     },
     {
       "company": "Travelers",
@@ -4182,35 +4182,35 @@
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 83
+      "jobs": 80
     },
     {
       "company": "Thermo Fisher Scientific",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 756
+      "jobs": 760
     },
     {
       "company": "General Motors",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 639
+      "jobs": 638
     },
     {
       "company": "Comcast",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 84
+      "jobs": 86
     },
     {
       "company": "Raymond James",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 57
+      "jobs": 55
     },
     {
       "company": "Hewlett Packard Enterprise",
@@ -4231,14 +4231,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 37
+      "jobs": 39
     },
     {
       "company": "Podium",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 64
+      "jobs": 68
     },
     {
       "company": "Infisical",
@@ -4259,14 +4259,14 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 19
+      "jobs": 20
     },
     {
       "company": "Aledade",
       "platform": "lever",
       "attempt": 1,
       "status": "ok",
-      "jobs": 45
+      "jobs": 44
     },
     {
       "company": "Turnkey (Greenhouse)",
