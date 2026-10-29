@@ -179,13 +179,6 @@
       "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
     },
     {
-      "id": "ashby-f6b05632-b694-49bf-9464-0af5430c8c6c",
-      "company": "Confluent",
-      "title": "Senior Engineering Manager, Flink Control Plane",
-      "url": "https://careers.confluent.io/open-positions/job/f6b05632-b694-49bf-9464-0af5430c8c6c",
-      "why": "applied 07/18: Confluent's Ashby board returns no jobs to the feed, and its own careers site uses the same job ids"
-    },
-    {
       "id": "lever-5bf3233d-a162-47b2-8d85-d3650b176c6e",
       "company": "Metabase",
       "title": "Engineering Manager",
@@ -313,13 +306,6 @@
       "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=site%20reliability&location=United%20States",
       "why": "DTCC posts on Oracle Recruiting Cloud, which the feed cannot read and which renders only in a browser",
       "linkPattern": "ebxr\\.fa\\.us2\\.oraclecloud\\.com/hcmUI/CandidateExperience/en/sites/CX_1/job/\\d+"
-    },
-    {
-      "id": "board-confluent-engineering",
-      "company": "Confluent",
-      "url": "https://careers.confluent.io/open-positions/engineering",
-      "linkPattern": "careers\\.confluent\\.io/open-positions/job/[0-9a-f-]{36}",
-      "why": "Confluent's Ashby board returns no jobs to the feed, so its own careers site is read in a browser (added 10/28)"
     }
   ],
   "robotsAudit": [
