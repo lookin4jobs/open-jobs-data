@@ -1,6 +1,6 @@
 {
   "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-10-28",
+  "updated": "2026-10-31",
   "targets": [
     {
       "id": "x-clinician-nexus-manager-devops",
@@ -38,14 +38,6 @@
       "why": "standing control: a known-closed iCIMS req. Read as gone (HTTP 410) on 10/23. If it ever reads live, distrust that night's results"
     },
     {
-      "id": "x-oracle-principal-site-reliability-engineer-348662",
-      "company": "Oracle",
-      "title": "Principal Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/348662/",
-      "why": "Oracle posting found on the Oracle board; renders only in a browser",
-      "captureText": true
-    },
-    {
       "id": "x-oracle-senior-site-reliability-engineer-337734",
       "company": "Oracle",
       "title": "Senior Site Reliability Engineer",
@@ -70,22 +62,6 @@
       "captureText": true
     },
     {
-      "id": "x-oracle-senior-site-reliability-developer-348431",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Developer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/348431/",
-      "why": "Oracle posting found on the Oracle board; renders only in a browser",
-      "captureText": true
-    },
-    {
-      "id": "x-remote-com-team-leader-site-reliability-engineering",
-      "company": "Remote.com",
-      "title": "Team Leader, Site Reliability Engineering",
-      "url": "https://apply.remote.com/jobs/700bb10e-3aaa-4cf8-ae4d-1ec6e2291160",
-      "why": "listed on remote.com/openings; Remote's own job pages render only in a browser",
-      "captureText": true
-    },
-    {
       "id": "ashby-aefd66e4-d812-48b3-a9f6-160e19882136",
       "company": "ClickHouse",
       "title": "Engineering Manager - Control Plane Platform Engineer",
@@ -102,66 +78,10 @@
       "captureText": true
     },
     {
-      "id": "x-oracle-senior-engineering-manager-ohai-reimbursement",
-      "company": "Oracle",
-      "title": "Senior Engineering Manager - OHAI Reimbursement",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/334068/",
-      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
-    },
-    {
-      "id": "x-oracle-senior-application-software-engineering-manag",
-      "company": "Oracle",
-      "title": "Senior Application Software Engineering Manager",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/337860/",
-      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
-    },
-    {
       "id": "x-oracle-software-development-manager-authorization-ia",
       "company": "Oracle",
       "title": "Software Development Manager, Authorization (IAM)",
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/335818/",
-      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
-    },
-    {
-      "id": "x-oracle-senior-manager-application-software-engineeri",
-      "company": "Oracle",
-      "title": "Senior Manager, Application Software Engineering",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/337988/",
-      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
-    },
-    {
-      "id": "x-onebrief-manager-platform-engineering",
-      "company": "Onebrief",
-      "title": "Manager, Platform Engineering",
-      "url": "https://jobs.insightpartners.com/companies/onebrief/jobs/62541415-manager-platform-engineering",
-      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
-    },
-    {
-      "id": "x-illumia-sr-systems-engineer",
-      "company": "Illumia",
-      "title": "Senior Systems Engineer",
-      "url": "https://transact-campus.breezy.hr/p/9d4fccc47e7e-senior-systems-engineer",
-      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
-    },
-    {
-      "id": "x-nationsbenefits-manager-site-reliability-engineering",
-      "company": "NationsBenefits",
-      "title": "Site Reliability Engineering Manager",
-      "url": "https://nationsbenefits.breezy.hr/p/47131d11e4a3-site-reliability-engineering-manager",
-      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
-    },
-    {
-      "id": "x-tango-analytics-platform-engineering-manager",
-      "company": "Tango Analytics",
-      "title": "Platform Engineering Manager",
-      "url": "https://tangoanalytics.hire.trakstar.com/jobs/fk0zzk6/",
-      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
-    },
-    {
-      "id": "rippling-008fe5e9-5324-44b1-9fb6-35b2c0b56cd9",
-      "company": "Shippo",
-      "title": "Site Reliability Engineering Manager",
-      "url": "https://ats.rippling.com/shippo/jobs/008fe5e9-5324-44b1-9fb6-35b2c0b56cd9",
       "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
     },
     {
@@ -235,19 +155,132 @@
       "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
     },
     {
-      "id": "x-chainlink-labs-engineering-manager-infrastructure",
-      "company": "Chainlink Labs",
-      "title": "Engineering Manager, Infrastructure",
-      "url": "https://jobs.ashbyhq.com/chainlink-labs/3a03a10f-0c5d-4999-97b1-4212b274addc",
-      "why": "applied 08/12 with no saved link. Kevin found this posting 10/28 and is not sure it is the same one",
+      "id": "wd-centene-1671808-1",
+      "company": "Centene",
+      "title": "Senior Manager, Technical Platform Management",
+      "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-FL/Senior-Manager--Technical-Platform-Management_1671808-1",
+      "why": "Workday cxs JSON refused and the page returns only metadata to the fetch tool",
       "captureText": true
     },
     {
-      "id": "x-aledade-senior-engineering-manager-ai-enablement-ehr-",
-      "company": "Aledade",
-      "title": "Senior Engineering Manager- AI Enablement & EHR Agents",
-      "url": "https://jobs.lever.co/aledade/c9a8393b-3821-4ad4-85f2-a1196844ceb1",
-      "why": "applied 08/11: missing from Aledade's Lever list on 10/28 while the job page still loaded, so the page is read in a browser to settle it"
+      "id": "x-dtcc-principal-site-reliability-engineer-214287",
+      "company": "DTCC",
+      "title": "Principal Site Reliability Engineer (Cloud, Observability & Automation)",
+      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214287/",
+      "why": "Oracle Recruiting Cloud page renders only in a browser",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-senior-site-reliability-engineer-340122",
+      "company": "Oracle",
+      "title": "Senior Site Reliability Engineer",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/340122/",
+      "why": "Oracle job pages render only in a browser; requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-senior-site-reliability-engineer-348474",
+      "company": "Oracle",
+      "title": "Senior Site Reliability Engineer",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/348474/",
+      "why": "Oracle job pages render only in a browser; requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-senior-site-reliability-engineer-database-services-348770",
+      "company": "Oracle",
+      "title": "Senior Site Reliability Engineer - Database Services",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/348770/",
+      "why": "Oracle job pages render only in a browser; requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "lever-1181d421-2adb-4586-ac11-853d865965bd",
+      "company": "PointClickCare",
+      "title": "Senior Site Reliability Engineer",
+      "url": "https://jobs.lever.co/pointclickcare/1181d421-2adb-4586-ac11-853d865965bd",
+      "why": "fetch tool could not read the Lever page",
+      "captureText": true
+    },
+    {
+      "id": "ashby-880c222b-faa8-4e86-8fe9-989b5cd2bd46",
+      "company": "Harvey",
+      "title": "Senior Infrastructure Engineer",
+      "url": "https://jobs.ashbyhq.com/harvey/880c222b-faa8-4e86-8fe9-989b5cd2bd46",
+      "why": "Ashby body renders only in a browser; requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "ashby-25d66321-50b1-4590-ab56-439180333ff1",
+      "company": "Hims & Hers",
+      "title": "Sr. Staff Platform Engineer",
+      "url": "https://jobs.ashbyhq.com/hims-and-hers/25d66321-50b1-4590-ab56-439180333ff1",
+      "why": "Ashby body renders only in a browser; requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "ashby-b105bcfb-d13b-4ff3-969d-75c5f3442b93",
+      "company": "Hims & Hers",
+      "title": "Sr. Reliability Engineer",
+      "url": "https://jobs.ashbyhq.com/hims-and-hers/b105bcfb-d13b-4ff3-969d-75c5f3442b93",
+      "why": "Ashby body renders only in a browser; requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "gh-5249667007",
+      "company": "Harness",
+      "title": "Staff/Senior Software Engineer - Cloud Platform Engineering",
+      "url": "https://www.harness.io/company/jobs/apply?gh_jid=5249667007",
+      "why": "apply page renders only in a browser; requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "ashby-c091b2c9-d12d-4b28-b413-aab6248bd100",
+      "company": "Delinea",
+      "title": "Senior Site Reliability Engineer - FedRAMP",
+      "url": "https://jobs.ashbyhq.com/delinea/c091b2c9-d12d-4b28-b413-aab6248bd100",
+      "why": "Ashby body renders only in a browser; requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "ashby-caf49f06-ed35-4637-9372-f4df114e852f",
+      "company": "ClickHouse",
+      "title": "Senior Software Engineer - Cloud Infrastructure (US Remote)",
+      "url": "https://jobs.ashbyhq.com/clickhouse/caf49f06-ed35-4637-9372-f4df114e852f",
+      "why": "Ashby body renders only in a browser; requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "ashby-cad55156-d34b-4071-9c0f-c730a1d09d55",
+      "company": "ClickHouse",
+      "title": "Senior Infrastructure Engineer - Postgres",
+      "url": "https://jobs.ashbyhq.com/clickhouse/cad55156-d34b-4071-9c0f-c730a1d09d55",
+      "why": "Ashby body renders only in a browser; requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "wd-nvidia-jr2028678-1",
+      "company": "Nvidia",
+      "title": "Senior Manager, AI and HPC Cluster Engineering Enablement",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--AI-and-HPC-Cluster-Engineering-Enablement_JR2028678-1",
+      "why": "locations unnamed ('6 Locations'); need the page text to settle remote",
+      "captureText": true
+    },
+    {
+      "id": "wd-nvidia-jr2028236",
+      "company": "Nvidia",
+      "title": "Senior Site Reliability Engineer",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Site-Reliability-Engineer_JR2028236",
+      "why": "remote eligibility unresolved (US-wide or California only)",
+      "captureText": true
+    },
+    {
+      "id": "ashby-4c6614a8-4b44-4044-a9bf-4c59c4475b18",
+      "company": "Coder",
+      "title": "Software Engineering Manager (Agentic Engineering, US Eastern)",
+      "url": "https://jobs.ashbyhq.com/coder/4c6614a8-4b44-4044-a9bf-4c59c4475b18",
+      "why": "Ashby body renders only in a browser; Eastern time zone and Go requirement unconfirmed",
+      "captureText": true
     }
   ],
   "boards": [
