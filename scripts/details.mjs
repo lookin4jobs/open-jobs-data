@@ -99,7 +99,8 @@ async function getJson(url, headers = {}, retry403 = false) {
 function decode(s) {
   return String(s ?? '')
     .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'")
-    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&');
+    .replace(/&nbsp;/g, ' ').replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16))).replace(/&amp;/g, '&');
 }
 function plain(html) {
   if (!html) return '';
@@ -185,8 +186,8 @@ const readers = {
       description: p.descriptionPlain || plain(p.descriptionHtml),
       locationDetail: [p.location, ...(p.secondaryLocations ?? []).map((l) => l.location), p.address?.postalAddress ? Object.values(p.address.postalAddress).join(', ') : null].filter(Boolean),
       workplaceType: p.workplaceType ?? (p.isRemote ? 'Remote' : null),
-      pay: comp
-        ? { text: comp.compensationTierSummary ?? comp.scrapeableCompensationSalarySummary ?? null, ranges: [], source: 'ashby compensation' }
+      pay: comp?.compensationTierSummary || comp?.scrapeableCompensationSalarySummary
+        ? { text: comp.compensationTierSummary ?? comp.scrapeableCompensationSalarySummary, ranges: [], source: 'ashby compensation' }
         : null,
     };
   },
