@@ -434,14 +434,21 @@ const platforms = {
     }
     if (!items) return { jobs: [], notFound: true, status: lastStatus };
     const label = (v) => (typeof v === 'string' ? v : v?.label ?? v?.name ?? v?.value ?? null);
+    // The list repeats a posting once per location; merge those into one row.
+    const merged = new Map();
+    for (const job of items) {
+      const id = String(job.uuid ?? job.id);
+      const seen = merged.get(id);
+      if (!seen) merged.set(id, { ...job, _locs: [label(job.workLocation), label(job.location)] });
+      else seen._locs.push(label(job.workLocation), label(job.location));
+    }
     return {
-      jobs: items.map((job) => {
+      jobs: [...merged.values()].map((job) => {
         const id = job.uuid ?? job.id;
         const locs = [
           ...(Array.isArray(job.locations) ? job.locations.map(label) : []),
           ...(Array.isArray(job.workLocations) ? job.workLocations.map(label) : []),
-          label(job.workLocation),
-          label(job.location),
+          ...job._locs,
         ].filter(Boolean);
         const locations = [...new Set(locs)];
         return baseJob({
