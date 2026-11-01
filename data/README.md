@@ -12,7 +12,22 @@ This directory holds the current snapshot of the dataset, regenerated daily by
 - `new-jobs.xml` — the same postings as an RSS 2.0 feed, for use in a feed reader.
 - `summary.json` — counts by platform and by company, total row count, run duration,
   new-since-last-snapshot count, and a per-company status list (useful for spotting a
-  company that dropped out or an ATS that changed shape).
+  company that dropped out or an ATS that changed shape). Since 11/2026 each status entry
+  also has `elapsedMs`, and `companiesEmpty` lists boards that answered "ok" with no jobs
+  (with `emptySince`, the first run that recorded it), which usually means the company
+  moved to another ATS.
+- `gone-jobs.json` (11/2026) — postings in the previous snapshot that are missing now,
+  each with `lastSeenAt`. Only companies that read "ok" in both runs are compared, since a
+  failed or partial board says nothing about a single posting (those companies are named in
+  `summary.json` `goneSkippedCompanies`). For search-filtered Workday tenants a posting can
+  also drop out when it falls past the 500-result cap of a search.
+- `matches.json` (11/2026, written by `scripts/details.mjs`) — for postings whose title fits
+  the search (platform, infrastructure, SRE, DevOps, release and similar roles, and their
+  managers), the posting's own detail record: location and remote fields, pay where the ATS
+  publishes it, description text, and extracted `signals` lines (years asked, work-setup
+  wording, pay wording, languages named). Details are reused for 7 days, and a nightly time
+  budget leaves any remainder `pending` for the next run. The title filter only decides which
+  postings get details; `jobs.json` is unaffected.
 
 ## What "new" means (read this before relying on new-jobs.json/xml)
 
@@ -49,7 +64,7 @@ Every row, regardless of source platform, has this shape:
 | Field | Type | Notes |
 |---|---|---|
 | `company` | string | Display name from `companies.json` |
-| `platform` | string | One of `greenhouse`, `lever`, `ashby`, `workday`, `smartrecruiters`, `workable`, `recruitee`, `personio`, `bamboohr` |
+| `platform` | string | One of `greenhouse`, `lever`, `ashby`, `workday`, `smartrecruiters`, `workable`, `recruitee`, `personio`, `bamboohr`, `rippling` |
 | `jobId` | string | Platform-native posting ID |
 | `title` | string | Job title, as published |
 | `department` | string \| null | Not exposed by every platform |

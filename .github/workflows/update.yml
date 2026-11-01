@@ -11,6 +11,14 @@ on:
         description: 'Skip the dataset refresh and run only the browser liveness check'
         type: boolean
         default: false
+      details_only:
+        description: 'Skip the dataset refresh and only rebuild data/matches.json from the current jobs.json'
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Try companies without writing anything: fetch.mjs arguments, e.g. --only=rippling or --company=EDO'
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -19,7 +27,8 @@ jobs:
   update:
     if: ${{ github.event_name != 'workflow_dispatch' || !inputs.liveness_only }}
     runs-on: ubuntu-24.04
-    timeout-minutes: 120
+    # Raised from 120 (11/2026) to leave room for the details step below.
+    timeout-minutes: 150
     steps:
       - name: Check out repo
         uses: actions/checkout@v6
@@ -30,18 +39,38 @@ jobs:
           node-version: '24'
 
       - name: Run fetcher
+        if: ${{ !inputs.details_only && !inputs.dry_run }}
         run: node scripts/fetch.mjs
 
+      - name: Dry run (writes nothing)
+        if: ${{ inputs.dry_run != '' && inputs.dry_run != null }}
+        env:
+          DRY_ARGS: ${{ inputs.dry_run }}
+        run: node scripts/fetch.mjs --dry-run $DRY_ARGS
+
+      # Posting details for title matches (scripts/details.mjs). Additive: a
+      # failure or timeout here leaves the refreshed dataset to be committed.
+      - name: Read posting details for matches
+        if: ${{ !inputs.dry_run }}
+        continue-on-error: true
+        timeout-minutes: 30
+        run: node scripts/details.mjs
+
       - name: Commit and push changes
+        if: ${{ !inputs.dry_run }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/jobs.json data/jobs.csv data/summary.json data/new-jobs.json data/new-jobs.xml
+          for f in data/gone-jobs.json data/matches.json; do [ -f "$f" ] && git add "$f"; done
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "chore(data): daily jobs dataset refresh [skip ci]"
-            git push
+            for i in 1 2 3; do
+              git pull --rebase origin "${{ github.ref_name }}" && git push && break
+              sleep 15
+            done
           fi
 
   # Opens the few postings listed in data/liveness-targets.json in a real
@@ -51,7 +80,7 @@ jobs:
   # check, and cannot fail the dataset refresh.
   liveness:
     needs: update
-    if: ${{ !cancelled() }}
+    if: ${{ !cancelled() && !inputs.details_only && !inputs.dry_run }}
     runs-on: ubuntu-24.04
     timeout-minutes: 25
     continue-on-error: true

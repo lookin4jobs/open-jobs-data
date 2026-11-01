@@ -309,14 +309,21 @@ function classify(base, u, want, { status, finalUrl, pageTitle, text, html, ld, 
   if (status === 404 || status === 410) {
     return { ...out, outcome: 'gone', evidence: clip(`HTTP ${status} ${text.match(CLOSED_PATTERNS.find(r => r.test(text)) || /$^/)?.[0] || pageTitle}`) };
   }
-  const challenged = CHALLENGE_TEXT.some(r => r.test(pageTitle) || r.test(text.slice(0, 3000)))
-    || (CHALLENGE_HTML.some(r => r.test(html)) && !norm(text).includes(want));
-  if (challenged || [401, 403, 429].includes(status)) {
+  const challengedText = CHALLENGE_TEXT.some(r => r.test(pageTitle) || r.test(text.slice(0, 3000)));
+  if (challengedText || [401, 403, 429].includes(status)) {
     return { ...out, outcome: 'blocked', evidence: clip(`HTTP ${status} ${pageTitle} ${text.slice(0, 120)}`) };
   }
 
+  // The page's own visible text saying the posting is closed is read before
+  // CAPTCHA script markers in the HTML (11/2026): Rippling's closed-job page
+  // carries a reCAPTCHA script but shows "This job post is no longer
+  // available", and was being recorded as blocked.
   const closed = CLOSED_PATTERNS.map(r => text.match(r)).find(Boolean);
   if (closed) return { ...out, outcome: 'closed_text', evidence: clip(closed[0]) };
+
+  if (CHALLENGE_HTML.some(r => r.test(html)) && !norm(text).includes(want)) {
+    return { ...out, outcome: 'blocked', evidence: clip(`HTTP ${status} ${pageTitle} ${text.slice(0, 120)}`) };
+  }
 
   if (jsonLd && jsonLd.validThrough && Date.parse(jsonLd.validThrough) < Date.now()) {
     return { ...out, outcome: 'closed_text', evidence: `JobPosting validThrough ${jsonLd.validThrough} is past` };

@@ -31,6 +31,12 @@ const WORKDAY_DELAY_MS = 400;
 const WORKDAY_403_BACKOFF_MS = 5000;
 // Companies that fail on the first pass get one more try at the end of the run.
 const RETRY_PASS_WAIT_MS = 60000;
+const ARGS = process.argv.slice(2);
+const argList = (name) =>
+  (ARGS.find((a) => a.startsWith(`--${name}=`)) ?? '').split('=').slice(1).join('=').split(',').map((s) => s.trim().toLowerCase()).filter(Boolean);
+const DRY_RUN = ARGS.includes('--dry-run');
+const ONLY_PLATFORMS = argList('only');
+const ONLY_COMPANIES = argList('company');
 
 // ---------------------------------------------------------------------------
 // HTTP helpers
@@ -393,6 +399,67 @@ const platforms = {
     };
   },
 
+  // Rippling (added 11/2026). Its public job-board API is not documented, so
+  // two known shapes are tried in turn: the platform API list and the ATS
+  // board list. Either one answering with a list counts as the board.
+  async rippling(company) {
+    const slug = company.slug;
+    const attempts = [
+      `https://api.rippling.com/platform/api/ats/v1/board/${encodeURIComponent(slug)}/jobs`,
+      `https://ats.rippling.com/api/v2/board/${encodeURIComponent(slug)}/jobs?page=0&pageSize=100`,
+    ];
+    let items = null;
+    let lastStatus = null;
+    for (const url of attempts) {
+      const { data, notFound, status } = await getJson(url);
+      if (notFound) {
+        lastStatus = status;
+        continue;
+      }
+      const list = Array.isArray(data) ? data : data?.items ?? data?.results ?? data?.jobs ?? data?.content ?? null;
+      if (Array.isArray(list)) {
+        items = list;
+        // The ATS list is paged; follow later pages when it says there are more.
+        const pages = data?.totalPages ?? data?.numPages ?? 1;
+        for (let p = 1; p < Math.min(pages, 20) && url.includes('page=0'); p++) {
+          const more = await getJson(url.replace('page=0', `page=${p}`));
+          const next = more.data?.items ?? more.data?.results ?? more.data?.jobs ?? more.data?.content;
+          if (!Array.isArray(next) || !next.length) break;
+          items.push(...next);
+          await sleep(REQUEST_DELAY_MS);
+        }
+        break;
+      }
+      lastStatus = 'bad-shape';
+    }
+    if (!items) return { jobs: [], notFound: true, status: lastStatus };
+    const label = (v) => (typeof v === 'string' ? v : v?.label ?? v?.name ?? v?.value ?? null);
+    return {
+      jobs: items.map((job) => {
+        const id = job.uuid ?? job.id;
+        const locs = [
+          ...(Array.isArray(job.locations) ? job.locations.map(label) : []),
+          ...(Array.isArray(job.workLocations) ? job.workLocations.map(label) : []),
+          label(job.workLocation),
+          label(job.location),
+        ].filter(Boolean);
+        const locations = [...new Set(locs)];
+        return baseJob({
+          company: company.name,
+          platform: 'rippling',
+          jobId: String(id),
+          title: (job.name ?? job.title ?? '').trim(),
+          department: label(job.department),
+          locations,
+          isRemote: detectRemote(locations, typeof job.isRemote === 'boolean' ? job.isRemote : null),
+          employmentType: label(job.employmentType),
+          applyUrl: job.url ?? `https://ats.rippling.com/${slug}/jobs/${id}`,
+          postedAt: job.createdAt ?? job.postedAt ?? null,
+        });
+      }),
+    };
+  },
+
   async workable(company) {
     const slug = company.slug;
     const url = `https://apply.workable.com/api/v1/widget/accounts/${encodeURIComponent(slug)}?details=false`;
@@ -669,18 +736,37 @@ async function main() {
     const fetcher = platforms[company.platform];
     const entry = { company: company.name, platform: company.platform, attempt };
     if (!fetcher) return { entry: { ...entry, status: 'unsupported-platform', jobs: 0 }, jobs: [] };
+    // elapsedMs (added 11/2026) is how long this company took, including any
+    // wait for the Workday queue, so slow boards are visible in summary.json.
+    const t0 = Date.now();
     try {
       const { jobs, notFound, status, failedSearches } = await fetcher(company);
-      if (notFound) return { entry: { ...entry, status: 'not-found', httpStatus: status ?? null, jobs: 0 }, jobs: [] };
-      const ok = { ...entry, status: 'ok', jobs: jobs.length };
+      if (notFound) return { entry: { ...entry, status: 'not-found', httpStatus: status ?? null, jobs: 0, elapsedMs: Date.now() - t0 }, jobs: [] };
+      const ok = { ...entry, status: 'ok', jobs: jobs.length, elapsedMs: Date.now() - t0 };
       if (failedSearches && failedSearches.length) {
         ok.status = 'partial';
         ok.failedSearches = failedSearches;
       }
       return { entry: ok, jobs };
     } catch (err) {
-      return { entry: { ...entry, status: `error: ${err.message}`, jobs: 0 }, jobs: [] };
+      return { entry: { ...entry, status: `error: ${err.message}`, jobs: 0, elapsedMs: Date.now() - t0 }, jobs: [] };
     }
+  }
+
+  // --dry-run [--only=platform,platform] [--company=Name,Name] fetches the
+  // chosen companies, prints what came back and writes nothing. It is for
+  // trying a new company or platform without waiting for the nightly run.
+  if (DRY_RUN) {
+    const picked = companies.filter(
+      (c) => (!ONLY_PLATFORMS.length || ONLY_PLATFORMS.includes(c.platform)) && (!ONLY_COMPANIES.length || ONLY_COMPANIES.includes(c.name.toLowerCase()))
+    );
+    console.log(`Dry run: ${picked.length} companies, nothing is written.`);
+    for (const c of picked) {
+      const r = await runOne(c, 1);
+      console.log(JSON.stringify(r.entry));
+      for (const j of r.jobs.slice(0, 5)) console.log(`   ${j.title} | ${j.locations.join('; ')} | ${j.applyUrl}`);
+    }
+    return;
   }
 
   const firstPass = await mapWithConcurrency(companies, CONCURRENCY, (company) => runOne(company, 1));
@@ -740,6 +826,28 @@ async function main() {
       .map((job) => ({ ...job, firstSeenAt: generatedAt }));
   }
 
+  // gone-jobs.json (added 11/2026): postings in the previous snapshot that are
+  // missing now, listed only for companies that read cleanly ("ok") in both
+  // runs, since a failed or partial board says nothing about one posting. It
+  // only adds information; nothing else in the dataset depends on it.
+  let goneJobs = [];
+  const goneSkipped = [];
+  if (!firstRun) {
+    const currentKeys = new Set(allJobs.map(jobKey));
+    const statusNow = new Map(perCompanyStatus.map((s) => [s.company, s.status]));
+    const statusBefore = new Map((previousSummary?.perCompanyStatus ?? []).map((s) => [s.company, s.status]));
+    const goneAt = nowIso();
+    for (const job of previousJobs) {
+      if (currentKeys.has(jobKey(job))) continue;
+      if (statusNow.get(job.company) !== 'ok' || (statusBefore.size && statusBefore.get(job.company) !== 'ok')) {
+        if (!goneSkipped.includes(job.company)) goneSkipped.push(job.company);
+        continue;
+      }
+      goneJobs.push({ ...job, lastSeenAt: previousSnapshotAt, goneDetectedAt: goneAt });
+    }
+  }
+  await writeFile(path.join(ROOT, 'data', 'gone-jobs.json'), JSON.stringify(goneJobs, null, 2) + '\n');
+
   await writeFile(path.join(ROOT, 'data', 'jobs.json'), JSON.stringify(allJobs, null, 2) + '\n');
   await writeFile(path.join(ROOT, 'data', 'jobs.csv'), toCsv(allJobs));
 
@@ -777,6 +885,19 @@ async function main() {
     newSinceLastSnapshot: newJobs.length,
     previousSnapshotAt,
     newSinceLastSnapshotFirstRun: firstRun,
+    // Added 11/2026, all informational: a board that answers but lists no
+    // jobs still counts as "ok" above, so it is also listed here with the
+    // first run it was seen empty (a long streak usually means the company
+    // moved to another ATS). goneSinceLastSnapshot counts data/gone-jobs.json.
+    companiesEmpty: perCompanyStatus
+      .filter((s) => s.status === 'ok' && s.jobs === 0)
+      .map((s) => ({
+        company: s.company,
+        platform: s.platform,
+        emptySince: (previousSummary?.companiesEmpty ?? []).find((e) => e.company === s.company)?.emptySince ?? nowIso(),
+      })),
+    goneSinceLastSnapshot: goneJobs.length,
+    goneSkippedCompanies: goneSkipped,
     perCompanyStatus,
   };
   await writeFile(path.join(ROOT, 'data', 'summary.json'), JSON.stringify(summary, null, 2) + '\n');
