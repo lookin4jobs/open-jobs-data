@@ -3585,5 +3585,20 @@
     "name": "Shippo",
     "platform": "rippling",
     "slug": "shippo"
+  },
+  {
+    "name": "Iterable (Ashby)",
+    "platform": "ashby",
+    "slug": "iterable"
+  },
+  {
+    "name": "ManyChat (Ashby)",
+    "platform": "ashby",
+    "slug": "manychat"
+  },
+  {
+    "name": "Webflow (Ashby)",
+    "platform": "ashby",
+    "slug": "webflow"
   }
 ]
