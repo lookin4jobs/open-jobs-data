@@ -1,409 +1,383 @@
 {
-  "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-10-31",
-  "targets": [
-    {
-      "id": "x-clinician-nexus-manager-devops",
-      "company": "Clinician Nexus",
-      "title": "Manager, DevOps",
-      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7ad3398c-57a1-4ace-b31b-dd2ee184d67e&ccId=9200265979191_2&jobId=9200941983638_1&lang=en_US",
-      "why": "shakedown: ADP Workforce Now page that only renders in a browser"
-    },
-    {
-      "id": "x-sprezzatura-software-development-manager",
-      "company": "Sprezzatura",
-      "title": "Software Development Manager",
-      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
-      "why": "shakedown: second ADP board, short jobId form"
-    },
-    {
-      "id": "x-jack-henry-infrastructure-engineering-manager",
-      "company": "Jack Henry",
-      "title": "Infrastructure Engineering Manager",
-      "url": "https://careers.jackhenry.com/job/lenexa/infrastructure-engineering-manager/42859/100136307824",
-      "why": "shakedown: employer careers site"
-    },
-    {
-      "id": "icims-docusign-29787",
-      "company": "DocuSign",
-      "title": "Senior Manager, Site Reliability Engineering",
-      "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
-      "why": "iCIMS page renders only in a browser (the uscareers host is robots-disallowed); read live through its frame on 10/23"
-    },
-    {
-      "id": "calib-icims-navitus-6474",
-      "company": "Navitus Health Solutions",
-      "title": "Manager, Platform Engineering and FinOps",
-      "url": "https://careers-navitus.icims.com/jobs/6474/manager,-platform-engineering-and-finops/job",
-      "why": "standing control: a known-closed iCIMS req. Read as gone (HTTP 410) on 10/23. If it ever reads live, distrust that night's results"
-    },
-    {
-      "id": "x-oracle-senior-site-reliability-engineer-337734",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/337734/",
-      "why": "Oracle posting found on the Oracle board; renders only in a browser",
-      "captureText": true
-    },
-    {
-      "id": "x-oracle-senior-site-reliability-engineer-340273",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/340273/",
-      "why": "Oracle posting found on the Oracle board; renders only in a browser",
-      "captureText": true
-    },
-    {
-      "id": "x-oracle-senior-site-reliability-developer-330218",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Developer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/330218/",
-      "why": "Oracle posting found on the Oracle board; renders only in a browser",
-      "captureText": true
-    },
-    {
-      "id": "ashby-aefd66e4-d812-48b3-a9f6-160e19882136",
-      "company": "ClickHouse",
-      "title": "Engineering Manager - Control Plane Platform Engineer",
-      "url": "https://jobs.ashbyhq.com/clickhouse/aefd66e4-d812-48b3-a9f6-160e19882136",
-      "why": "Ashby page whose description loads only in a browser",
-      "captureText": true
-    },
-    {
-      "id": "ashby-e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
-      "company": "Horizon3.ai",
-      "title": "Staff Software Engineer, Image Build & Release",
-      "url": "https://jobs.ashbyhq.com/horizon3ai/e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
-      "why": "Ashby page whose description loads only in a browser",
-      "captureText": true
-    },
-    {
-      "id": "x-oracle-software-development-manager-authorization-ia",
-      "company": "Oracle",
-      "title": "Software Development Manager, Authorization (IAM)",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/335818/",
-      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
-    },
-    {
-      "id": "x-prealize-health-sr-engineering-manager-cloud-platform-devseco",
-      "company": "Prealize Health",
-      "title": "Sr. Engineering Manager, Cloud Platform & DevSecOps",
-      "url": "https://prealize.applytojob.com/apply/qe9mSbVBRi/Sr-Engineering-Manager-Cloud-Platform-DevSecOps",
-      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
-    },
-    {
-      "id": "icims-atlassian-27216",
-      "company": "Atlassian",
-      "title": "Senior Engineering Manager - Atlassian Government Cloud",
-      "url": "https://careers-americas.icims.com/jobs/27216/senior-engineering-manager---atlassian-government-cloud/job",
-      "why": "applied, awaiting reply: posting not in the feed, checked for the 10/28 applications cleanup"
-    },
-    {
-      "id": "lever-5bf3233d-a162-47b2-8d85-d3650b176c6e",
-      "company": "Metabase",
-      "title": "Engineering Manager",
-      "url": "https://jobs.lever.co/metabase/5bf3233d-a162-47b2-8d85-d3650b176c6e",
-      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
-    },
-    {
-      "id": "gh-4676649",
-      "company": "Canonical",
-      "title": "Cloud Engineering Manager",
-      "url": "https://job-boards.greenhouse.io/canonical/jobs/4676649",
-      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
-    },
-    {
-      "id": "gh-8297124002",
-      "company": "Honor",
-      "title": "Platform Engineering Manager",
-      "url": "https://job-boards.greenhouse.io/honor/jobs/8297124002",
-      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
-    },
-    {
-      "id": "gh-5137153008",
-      "company": "Cresta",
-      "title": "Senior Infrastructure Engineer",
-      "url": "https://job-boards.greenhouse.io/cresta/jobs/5137153008",
-      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
-    },
-    {
-      "id": "ashby-b9119961-806c-40d9-a38f-b9df69ecf684",
-      "company": "Sardine",
-      "title": "Support Engineering Lead",
-      "url": "https://jobs.ashbyhq.com/sardine/b9119961-806c-40d9-a38f-b9df69ecf684",
-      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
-    },
-    {
-      "id": "gh-5324752008",
-      "company": "Outside Inc.",
-      "title": "Engineering Manager - Foundational Services",
-      "url": "https://job-boards.greenhouse.io/outside/jobs/5324752008",
-      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
-    },
-    {
-      "id": "wd-crowdstrike-r30005",
-      "company": "CrowdStrike",
-      "title": "Engineering Manager - Core Infrastructure",
-      "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Engineering-Manager---Core-Infrastructure--Remote-_R30005",
-      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
-    },
-    {
-      "id": "wd-cdw-r26-00002670",
-      "company": "CDW",
-      "title": "Manager, Engineering, Managed Services",
-      "url": "https://cdw.wd5.myworkdayjobs.com/careers/job/remote--usa/manager--engineering--managed-services---aix--unix---linux_r26_00002670",
-      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
-    },
-    {
-      "id": "wd-centene-1671808-1",
-      "company": "Centene",
-      "title": "Senior Manager, Technical Platform Management",
-      "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-FL/Senior-Manager--Technical-Platform-Management_1671808-1",
-      "why": "Workday cxs JSON refused and the page returns only metadata to the fetch tool",
-      "captureText": true
-    },
-    {
-      "id": "x-oracle-senior-site-reliability-engineer-database-services-348770",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Engineer - Database Services",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/348770/",
-      "why": "Oracle job pages render only in a browser; requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "lever-1181d421-2adb-4586-ac11-853d865965bd",
-      "company": "PointClickCare",
-      "title": "Senior Site Reliability Engineer",
-      "url": "https://jobs.lever.co/pointclickcare/1181d421-2adb-4586-ac11-853d865965bd",
-      "why": "fetch tool could not read the Lever page",
-      "captureText": true
-    },
-    {
-      "id": "ashby-880c222b-faa8-4e86-8fe9-989b5cd2bd46",
-      "company": "Harvey",
-      "title": "Senior Infrastructure Engineer",
-      "url": "https://jobs.ashbyhq.com/harvey/880c222b-faa8-4e86-8fe9-989b5cd2bd46",
-      "why": "Ashby body renders only in a browser; requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "ashby-25d66321-50b1-4590-ab56-439180333ff1",
-      "company": "Hims & Hers",
-      "title": "Sr. Staff Platform Engineer",
-      "url": "https://jobs.ashbyhq.com/hims-and-hers/25d66321-50b1-4590-ab56-439180333ff1",
-      "why": "Ashby body renders only in a browser; requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "ashby-b105bcfb-d13b-4ff3-969d-75c5f3442b93",
-      "company": "Hims & Hers",
-      "title": "Sr. Reliability Engineer",
-      "url": "https://jobs.ashbyhq.com/hims-and-hers/b105bcfb-d13b-4ff3-969d-75c5f3442b93",
-      "why": "Ashby body renders only in a browser; requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "gh-5249667007",
-      "company": "Harness",
-      "title": "Staff/Senior Software Engineer - Cloud Platform Engineering",
-      "url": "https://www.harness.io/company/jobs/apply?gh_jid=5249667007",
-      "why": "apply page renders only in a browser; requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "ashby-c091b2c9-d12d-4b28-b413-aab6248bd100",
-      "company": "Delinea",
-      "title": "Senior Site Reliability Engineer - FedRAMP",
-      "url": "https://jobs.ashbyhq.com/delinea/c091b2c9-d12d-4b28-b413-aab6248bd100",
-      "why": "Ashby body renders only in a browser; requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "ashby-cad55156-d34b-4071-9c0f-c730a1d09d55",
-      "company": "ClickHouse",
-      "title": "Senior Infrastructure Engineer - Postgres",
-      "url": "https://jobs.ashbyhq.com/clickhouse/cad55156-d34b-4071-9c0f-c730a1d09d55",
-      "why": "Ashby body renders only in a browser; requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "wd-nvidia-jr2028678-1",
-      "company": "Nvidia",
-      "title": "Senior Manager, AI and HPC Cluster Engineering Enablement",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--AI-and-HPC-Cluster-Engineering-Enablement_JR2028678-1",
-      "why": "locations unnamed ('6 Locations'); need the page text to settle remote",
-      "captureText": true
-    }
-  ],
-  "boards": [
-    {
-      "id": "board-burnsmcd-it",
-      "company": "Burns & McDonnell",
-      "url": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
-      "linkPattern": "burnsmcd\\.jobs/[^?#]+/[0-9A-F]{32}/job/?$",
-      "why": "Kansas City employer; its .jobs site lists jobs only in a browser (robots.txt allows all but feeds)"
-    },
-    {
-      "id": "board-burnsmcd-programming",
-      "company": "Burns & McDonnell",
-      "url": "https://burnsmcd.jobs/job-function/programming/jobs/",
-      "linkPattern": "burnsmcd\\.jobs/[^?#]+/[0-9A-F]{32}/job/?$",
-      "why": "second IT-side function page on the same site"
-    },
-    {
-      "id": "board-hntb-it",
-      "company": "HNTB",
-      "url": "https://hntb.jobs/job-category/information-technology-group/jobs/",
-      "linkPattern": "hntb\\.jobs/[^?#]+/[0-9A-F]{32}/job/?$",
-      "why": "Kansas City engineering firm (construction watch); .jobs site lists jobs only in a browser"
-    },
-    {
-      "id": "board-oracle-sre",
-      "company": "Oracle (incl. Oracle Health, Kansas City)",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
-      "why": "Oracle's career site renders only in a browser; Kevin's former employer, big KC presence (Oracle Health)",
-      "linkPattern": "careers\\.oracle\\.com/en/sites/jobsearch/job/\\d+"
-    },
-    {
-      "id": "board-oracle-em",
-      "company": "Oracle (incl. Oracle Health, Kansas City)",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
-      "why": "Oracle software development manager roles near Kansas City",
-      "linkPattern": "careers\\.oracle\\.com/en/sites/jobsearch/job/\\d+"
-    },
-    {
-      "id": "board-dell-sre",
-      "company": "Dell Technologies",
-      "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=site%20reliability&location=United%20States",
-      "why": "Dell moved its jobs to Oracle Recruiting Cloud, which the feed cannot read and which renders only in a browser",
-      "linkPattern": "enterpriseplatform\\.dell\\.com/hcmUI/CandidateExperience/en/sites/careers/job/\\d+"
-    },
-    {
-      "id": "board-dell-em",
-      "company": "Dell Technologies",
-      "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=engineering%20manager&location=United%20States",
-      "why": "Dell engineering manager roles on Oracle Recruiting Cloud",
-      "linkPattern": "enterpriseplatform\\.dell\\.com/hcmUI/CandidateExperience/en/sites/careers/job/\\d+"
-    },
-    {
-      "id": "board-dtcc-sre",
-      "company": "DTCC",
-      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=site%20reliability&location=United%20States",
-      "why": "DTCC posts on Oracle Recruiting Cloud, which the feed cannot read and which renders only in a browser",
-      "linkPattern": "ebxr\\.fa\\.us2\\.oraclecloud\\.com/hcmUI/CandidateExperience/en/sites/CX_1/job/\\d+"
-    }
-  ],
-  "robotsAudit": [
-    {
-      "host": "https://careers.jacobs.com",
-      "paths": [
-        "/",
-        "/job/19771462/",
-        "/api/jobs?keywords=devops"
-      ],
-      "why": "fetch tool reported robots_disallowed on 10/24"
-    },
-    {
-      "host": "https://careers-hrblock.icims.com",
-      "paths": [
-        "/jobs/search?ss=1&searchKeyword=engineer&in_iframe=1",
-        "/jobs/1/job"
-      ],
-      "why": "fetch tool reported robots_disallowed on 10/24"
-    },
-    {
-      "host": "https://careers.hrblock.com",
-      "paths": [
-        "/",
-        "/careers-home/jobs",
-        "/api/jobs?keywords=devops"
-      ],
-      "why": "H&R Block careers site; refused the browser check with HTTP 403 on 10/23"
-    },
-    {
-      "host": "https://careers.garmin.com",
-      "paths": [
-        "/",
-        "/api/jobs?keywords=devops",
-        "/jobs/20147"
-      ],
-      "why": "refused the browser check with HTTP 403 on 10/23"
-    },
-    {
-      "host": "https://www.garmin.com",
-      "paths": [
-        "/en-US/careers/"
-      ],
-      "why": "Garmin's careers page since careers.garmin.com redirects there"
-    },
-    {
-      "host": "https://api.smartrecruiters.com",
-      "paths": [
-        "/v1/companies/abbvie/postings/1"
-      ],
-      "why": "fetch tool reported robots_disallowed on 10/24 (job pages still read)"
-    },
-    {
-      "host": "https://jobs.smartrecruiters.com",
-      "paths": [
-        "/abbvie/1"
-      ],
-      "why": "comparison: SmartRecruiters job pages"
-    },
-    {
-      "host": "https://boards-api.eu.greenhouse.io",
-      "paths": [
-        "/v1/boards/airship/jobs"
-      ],
-      "why": "fetch tool reported robots_disallowed on 10/24"
-    },
-    {
-      "host": "https://boards-api.greenhouse.io",
-      "paths": [
-        "/v1/boards/arine/jobs"
-      ],
-      "why": "comparison: the US Greenhouse API"
-    },
-    {
-      "host": "https://apply.workable.com",
-      "paths": [
-        "/api/v1/widget/accounts/pennmutual",
-        "/pennmutual/"
-      ],
-      "why": "fetch tool reported robots_disallowed on 10/25"
-    },
-    {
-      "host": "https://www.indeed.com",
-      "paths": [
-        "/jobs?q=x",
-        "/viewjob?jk=1"
-      ],
-      "why": "job pages refused the fetch tool from 10/22 to 10/24"
-    },
-    {
-      "host": "https://hiring.cafe",
-      "paths": [
-        "/",
-        "/jobs",
-        "/recently-posted-jobs",
-        "/?searchState=x"
-      ],
-      "why": "listed as blocked by robots.txt in the daily check; re-check"
-    },
-    {
-      "host": "https://www.linkedin.com",
-      "paths": [
-        "/jobs/view/1",
-        "/jobs/search"
-      ],
-      "why": "listed as blocked by robots.txt in the daily check; re-check"
-    },
-    {
-      "host": "https://careers-libertymutual.icims.com",
-      "paths": [
-        "/jobs/search?ss=1&searchKeyword=devops&in_iframe=1"
-      ],
-      "why": "comparison: an iCIMS site that reads"
-    }
-  ]
+ "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
+ "updated": "2026-10-31",
+ "targets": [
+  {
+   "id": "x-sprezzatura-software-development-manager",
+   "company": "Sprezzatura",
+   "title": "Software Development Manager",
+   "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
+   "why": "shakedown: second ADP board, short jobId form"
+  },
+  {
+   "id": "icims-docusign-29787",
+   "company": "DocuSign",
+   "title": "Senior Manager, Site Reliability Engineering",
+   "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
+   "why": "iCIMS page renders only in a browser (the uscareers host is robots-disallowed); read live through its frame on 10/23"
+  },
+  {
+   "id": "calib-icims-navitus-6474",
+   "company": "Navitus Health Solutions",
+   "title": "Manager, Platform Engineering and FinOps",
+   "url": "https://careers-navitus.icims.com/jobs/6474/manager,-platform-engineering-and-finops/job",
+   "why": "standing control: a known-closed iCIMS req. Read as gone (HTTP 410) on 10/23. If it ever reads live, distrust that night's results"
+  },
+  {
+   "id": "x-oracle-senior-site-reliability-engineer-337734",
+   "company": "Oracle",
+   "title": "Senior Site Reliability Engineer",
+   "url": "https://careers.oracle.com/en/sites/jobsearch/job/337734/",
+   "why": "Oracle posting found on the Oracle board; renders only in a browser",
+   "captureText": true
+  },
+  {
+   "id": "x-oracle-senior-site-reliability-engineer-340273",
+   "company": "Oracle",
+   "title": "Senior Site Reliability Engineer",
+   "url": "https://careers.oracle.com/en/sites/jobsearch/job/340273/",
+   "why": "Oracle posting found on the Oracle board; renders only in a browser",
+   "captureText": true
+  },
+  {
+   "id": "ashby-aefd66e4-d812-48b3-a9f6-160e19882136",
+   "company": "ClickHouse",
+   "title": "Engineering Manager - Control Plane Platform Engineer",
+   "url": "https://jobs.ashbyhq.com/clickhouse/aefd66e4-d812-48b3-a9f6-160e19882136",
+   "why": "Ashby page whose description loads only in a browser",
+   "captureText": true
+  },
+  {
+   "id": "ashby-e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
+   "company": "Horizon3.ai",
+   "title": "Staff Software Engineer, Image Build & Release",
+   "url": "https://jobs.ashbyhq.com/horizon3ai/e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
+   "why": "Ashby page whose description loads only in a browser",
+   "captureText": true
+  },
+  {
+   "id": "lever-5bf3233d-a162-47b2-8d85-d3650b176c6e",
+   "company": "Metabase",
+   "title": "Engineering Manager",
+   "url": "https://jobs.lever.co/metabase/5bf3233d-a162-47b2-8d85-d3650b176c6e",
+   "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+  },
+  {
+   "id": "gh-4676649",
+   "company": "Canonical",
+   "title": "Cloud Engineering Manager",
+   "url": "https://job-boards.greenhouse.io/canonical/jobs/4676649",
+   "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+  },
+  {
+   "id": "gh-8297124002",
+   "company": "Honor",
+   "title": "Platform Engineering Manager",
+   "url": "https://job-boards.greenhouse.io/honor/jobs/8297124002",
+   "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+  },
+  {
+   "id": "gh-5137153008",
+   "company": "Cresta",
+   "title": "Senior Infrastructure Engineer",
+   "url": "https://job-boards.greenhouse.io/cresta/jobs/5137153008",
+   "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+  },
+  {
+   "id": "ashby-b9119961-806c-40d9-a38f-b9df69ecf684",
+   "company": "Sardine",
+   "title": "Support Engineering Lead",
+   "url": "https://jobs.ashbyhq.com/sardine/b9119961-806c-40d9-a38f-b9df69ecf684",
+   "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+  },
+  {
+   "id": "gh-5324752008",
+   "company": "Outside Inc.",
+   "title": "Engineering Manager - Foundational Services",
+   "url": "https://job-boards.greenhouse.io/outside/jobs/5324752008",
+   "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+  },
+  {
+   "id": "wd-cdw-r26-00002670",
+   "company": "CDW",
+   "title": "Manager, Engineering, Managed Services",
+   "url": "https://cdw.wd5.myworkdayjobs.com/careers/job/remote--usa/manager--engineering--managed-services---aix--unix---linux_r26_00002670",
+   "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+  },
+  {
+   "id": "wd-centene-1671808-1",
+   "company": "Centene",
+   "title": "Senior Manager, Technical Platform Management",
+   "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-FL/Senior-Manager--Technical-Platform-Management_1671808-1",
+   "why": "Workday cxs JSON refused and the page returns only metadata to the fetch tool",
+   "captureText": true
+  },
+  {
+   "id": "x-oracle-senior-site-reliability-engineer-database-services-348770",
+   "company": "Oracle",
+   "title": "Senior Site Reliability Engineer - Database Services",
+   "url": "https://careers.oracle.com/en/sites/jobsearch/job/348770/",
+   "why": "Oracle job pages render only in a browser; requirements unread",
+   "captureText": true
+  },
+  {
+   "id": "lever-1181d421-2adb-4586-ac11-853d865965bd",
+   "company": "PointClickCare",
+   "title": "Senior Site Reliability Engineer",
+   "url": "https://jobs.lever.co/pointclickcare/1181d421-2adb-4586-ac11-853d865965bd",
+   "why": "fetch tool could not read the Lever page",
+   "captureText": true
+  },
+  {
+   "id": "ashby-880c222b-faa8-4e86-8fe9-989b5cd2bd46",
+   "company": "Harvey",
+   "title": "Senior Infrastructure Engineer",
+   "url": "https://jobs.ashbyhq.com/harvey/880c222b-faa8-4e86-8fe9-989b5cd2bd46",
+   "why": "Ashby body renders only in a browser; requirements unread",
+   "captureText": true
+  },
+  {
+   "id": "ashby-25d66321-50b1-4590-ab56-439180333ff1",
+   "company": "Hims & Hers",
+   "title": "Sr. Staff Platform Engineer",
+   "url": "https://jobs.ashbyhq.com/hims-and-hers/25d66321-50b1-4590-ab56-439180333ff1",
+   "why": "Ashby body renders only in a browser; requirements unread",
+   "captureText": true
+  },
+  {
+   "id": "ashby-b105bcfb-d13b-4ff3-969d-75c5f3442b93",
+   "company": "Hims & Hers",
+   "title": "Sr. Reliability Engineer",
+   "url": "https://jobs.ashbyhq.com/hims-and-hers/b105bcfb-d13b-4ff3-969d-75c5f3442b93",
+   "why": "Ashby body renders only in a browser; requirements unread",
+   "captureText": true
+  },
+  {
+   "id": "gh-5249667007",
+   "company": "Harness",
+   "title": "Staff/Senior Software Engineer - Cloud Platform Engineering",
+   "url": "https://www.harness.io/company/jobs/apply?gh_jid=5249667007",
+   "why": "apply page renders only in a browser; requirements unread",
+   "captureText": true
+  },
+  {
+   "id": "ashby-c091b2c9-d12d-4b28-b413-aab6248bd100",
+   "company": "Delinea",
+   "title": "Senior Site Reliability Engineer - FedRAMP",
+   "url": "https://jobs.ashbyhq.com/delinea/c091b2c9-d12d-4b28-b413-aab6248bd100",
+   "why": "Ashby body renders only in a browser; requirements unread",
+   "captureText": true
+  },
+  {
+   "id": "ashby-cad55156-d34b-4071-9c0f-c730a1d09d55",
+   "company": "ClickHouse",
+   "title": "Senior Infrastructure Engineer - Postgres",
+   "url": "https://jobs.ashbyhq.com/clickhouse/cad55156-d34b-4071-9c0f-c730a1d09d55",
+   "why": "Ashby body renders only in a browser; requirements unread",
+   "captureText": true
+  },
+  {
+   "id": "wd-nvidia-jr2028678-1",
+   "company": "Nvidia",
+   "title": "Senior Manager, AI and HPC Cluster Engineering Enablement",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--AI-and-HPC-Cluster-Engineering-Enablement_JR2028678-1",
+   "why": "locations unnamed ('6 Locations'); need the page text to settle remote",
+   "captureText": true
+  },
+  {
+   "id": "rippling-bd802924-69c3-41bd-98e7-f698f41dc4c8",
+   "company": "ai2io",
+   "title": "Manager, Software Engineering, Engineering Tools",
+   "url": "https://ats.rippling.com/ai2io/jobs/bd802924-69c3-41bd-98e7-f698f41dc4c8",
+   "why": "Rippling API dropped its status field on 11/01, so the browser page is the liveness check",
+   "captureText": true
+  },
+  {
+   "id": "rippling-dd088c7a-21b5-4510-905f-ad13c90e207f",
+   "company": "Taivo",
+   "title": "Senior Site Reliability Engineer",
+   "url": "https://ats.rippling.com/mergeco/jobs/dd088c7a-21b5-4510-905f-ad13c90e207f",
+   "why": "Rippling API dropped its status field on 11/01, so the browser page is the liveness check",
+   "captureText": true
+  },
+  {
+   "id": "calib-rippling-shippo-008fe5e9",
+   "company": "Shippo",
+   "title": "closed Rippling req (control)",
+   "url": "https://ats.rippling.com/shippo/jobs/008fe5e9-5324-44b1-9fb6-35b2c0b56cd9",
+   "why": "calibration control for the Rippling browser route: a req already marked closed on the record. It should read gone",
+   "captureText": true
+  }
+ ],
+ "boards": [
+  {
+   "id": "board-burnsmcd-it",
+   "company": "Burns & McDonnell",
+   "url": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
+   "linkPattern": "burnsmcd\\.jobs/[^?#]+/[0-9A-F]{32}/job/?$",
+   "why": "Kansas City employer; its .jobs site lists jobs only in a browser (robots.txt allows all but feeds)"
+  },
+  {
+   "id": "board-burnsmcd-programming",
+   "company": "Burns & McDonnell",
+   "url": "https://burnsmcd.jobs/job-function/programming/jobs/",
+   "linkPattern": "burnsmcd\\.jobs/[^?#]+/[0-9A-F]{32}/job/?$",
+   "why": "second IT-side function page on the same site"
+  },
+  {
+   "id": "board-hntb-it",
+   "company": "HNTB",
+   "url": "https://hntb.jobs/job-category/information-technology-group/jobs/",
+   "linkPattern": "hntb\\.jobs/[^?#]+/[0-9A-F]{32}/job/?$",
+   "why": "Kansas City engineering firm (construction watch); .jobs site lists jobs only in a browser"
+  },
+  {
+   "id": "board-oracle-sre",
+   "company": "Oracle (incl. Oracle Health, Kansas City)",
+   "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
+   "why": "Oracle's career site renders only in a browser; Kevin's former employer, big KC presence (Oracle Health)",
+   "linkPattern": "careers\\.oracle\\.com/en/sites/jobsearch/job/\\d+"
+  },
+  {
+   "id": "board-oracle-em",
+   "company": "Oracle (incl. Oracle Health, Kansas City)",
+   "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
+   "why": "Oracle software development manager roles near Kansas City",
+   "linkPattern": "careers\\.oracle\\.com/en/sites/jobsearch/job/\\d+"
+  },
+  {
+   "id": "board-dell-sre",
+   "company": "Dell Technologies",
+   "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=site%20reliability&location=United%20States",
+   "why": "Dell moved its jobs to Oracle Recruiting Cloud, which the feed cannot read and which renders only in a browser",
+   "linkPattern": "enterpriseplatform\\.dell\\.com/hcmUI/CandidateExperience/en/sites/careers/job/\\d+"
+  },
+  {
+   "id": "board-dell-em",
+   "company": "Dell Technologies",
+   "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=engineering%20manager&location=United%20States",
+   "why": "Dell engineering manager roles on Oracle Recruiting Cloud",
+   "linkPattern": "enterpriseplatform\\.dell\\.com/hcmUI/CandidateExperience/en/sites/careers/job/\\d+"
+  },
+  {
+   "id": "board-dtcc-sre",
+   "company": "DTCC",
+   "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=site%20reliability&location=United%20States",
+   "why": "DTCC posts on Oracle Recruiting Cloud, which the feed cannot read and which renders only in a browser",
+   "linkPattern": "ebxr\\.fa\\.us2\\.oraclecloud\\.com/hcmUI/CandidateExperience/en/sites/CX_1/job/\\d+"
+  }
+ ],
+ "robotsAudit": [
+  {
+   "host": "https://careers.jacobs.com",
+   "paths": [
+    "/",
+    "/job/19771462/",
+    "/api/jobs?keywords=devops"
+   ],
+   "why": "fetch tool reported robots_disallowed on 10/24"
+  },
+  {
+   "host": "https://careers-hrblock.icims.com",
+   "paths": [
+    "/jobs/search?ss=1&searchKeyword=engineer&in_iframe=1",
+    "/jobs/1/job"
+   ],
+   "why": "fetch tool reported robots_disallowed on 10/24"
+  },
+  {
+   "host": "https://careers.hrblock.com",
+   "paths": [
+    "/",
+    "/careers-home/jobs",
+    "/api/jobs?keywords=devops"
+   ],
+   "why": "H&R Block careers site; refused the browser check with HTTP 403 on 10/23"
+  },
+  {
+   "host": "https://careers.garmin.com",
+   "paths": [
+    "/",
+    "/api/jobs?keywords=devops",
+    "/jobs/20147"
+   ],
+   "why": "refused the browser check with HTTP 403 on 10/23"
+  },
+  {
+   "host": "https://www.garmin.com",
+   "paths": [
+    "/en-US/careers/"
+   ],
+   "why": "Garmin's careers page since careers.garmin.com redirects there"
+  },
+  {
+   "host": "https://api.smartrecruiters.com",
+   "paths": [
+    "/v1/companies/abbvie/postings/1"
+   ],
+   "why": "fetch tool reported robots_disallowed on 10/24 (job pages still read)"
+  },
+  {
+   "host": "https://jobs.smartrecruiters.com",
+   "paths": [
+    "/abbvie/1"
+   ],
+   "why": "comparison: SmartRecruiters job pages"
+  },
+  {
+   "host": "https://boards-api.eu.greenhouse.io",
+   "paths": [
+    "/v1/boards/airship/jobs"
+   ],
+   "why": "fetch tool reported robots_disallowed on 10/24"
+  },
+  {
+   "host": "https://boards-api.greenhouse.io",
+   "paths": [
+    "/v1/boards/arine/jobs"
+   ],
+   "why": "comparison: the US Greenhouse API"
+  },
+  {
+   "host": "https://apply.workable.com",
+   "paths": [
+    "/api/v1/widget/accounts/pennmutual",
+    "/pennmutual/"
+   ],
+   "why": "fetch tool reported robots_disallowed on 10/25"
+  },
+  {
+   "host": "https://www.indeed.com",
+   "paths": [
+    "/jobs?q=x",
+    "/viewjob?jk=1"
+   ],
+   "why": "job pages refused the fetch tool from 10/22 to 10/24"
+  },
+  {
+   "host": "https://hiring.cafe",
+   "paths": [
+    "/",
+    "/jobs",
+    "/recently-posted-jobs",
+    "/?searchState=x"
+   ],
+   "why": "listed as blocked by robots.txt in the daily check; re-check"
+  },
+  {
+   "host": "https://www.linkedin.com",
+   "paths": [
+    "/jobs/view/1",
+    "/jobs/search"
+   ],
+   "why": "listed as blocked by robots.txt in the daily check; re-check"
+  },
+  {
+   "host": "https://careers-libertymutual.icims.com",
+   "paths": [
+    "/jobs/search?ss=1&searchKeyword=devops&in_iframe=1"
+   ],
+   "why": "comparison: an iCIMS site that reads"
+  }
+ ]
 }
