@@ -37,6 +37,7 @@ const argList = (name) =>
 const DRY_RUN = ARGS.includes('--dry-run');
 const ONLY_PLATFORMS = argList('only');
 const ONLY_COMPANIES = argList('company');
+const PROBE_SLUGS = argList('probe');
 
 // ---------------------------------------------------------------------------
 // HTTP helpers
@@ -763,6 +764,19 @@ async function main() {
   // --dry-run [--only=platform,platform] [--company=Name,Name] fetches the
   // chosen companies, prints what came back and writes nothing. It is for
   // trying a new company or platform without waiting for the nightly run.
+  // --probe=slug,slug tries each slug on every board platform that needs only
+  // a slug, to find where a company's jobs moved. Writes nothing.
+  if (PROBE_SLUGS.length) {
+    for (const slug of PROBE_SLUGS) {
+      for (const platform of ['greenhouse', 'lever', 'ashby', 'workable', 'smartrecruiters', 'recruitee', 'rippling']) {
+        const r = await runOne({ name: slug, platform, slug }, 1);
+        if (r.entry.status === 'ok' && r.jobs.length) console.log(`FOUND ${slug} on ${platform}: ${r.jobs.length} jobs, e.g. ${r.jobs[0].title}`);
+        else console.log(`  ${slug} on ${platform}: ${r.entry.status} ${r.jobs.length}`);
+      }
+    }
+    return;
+  }
+
   if (DRY_RUN) {
     const picked = companies.filter(
       (c) => (!ONLY_PLATFORMS.length || ONLY_PLATFORMS.includes(c.platform)) && (!ONLY_COMPANIES.length || ONLY_COMPANIES.includes(c.name.toLowerCase()))
