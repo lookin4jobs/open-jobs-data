@@ -47,6 +47,8 @@ const DOMAIN = /(platform|infrastructure|infra\b|\bsre\b|site reliability|devops
 const GENERIC_MGMT = /(engineering manager|manager,? (software|engineering|technology)|software development manager)/i;
 const IC_LEVEL = /(senior|sr\.?|staff|principal|lead|architect)/i;
 const TOO_SENIOR = /(director|\bvp\b|vice president|\bintern\b|internship)/i;
+const ENGINEERING = /(engineer|architect|developer|administrator|\bsre\b|devops|specialist)/i;
+const JUNIOR = /(junior|\bjr\.?\b|associate|entry[- ]level|new grad|graduate|apprentice|\b(i|1)\s*$)/i;
 const NON_US_ONLY = /(canada|india|\buk\b|united kingdom|ireland|poland|germany|costa rica|mexico|philippines|singapore|malaysia|pakistan|sweden|switzerland|chile|denmark|new zealand|hungary|argentina|australia|israel|netherlands|japan|china|brazil|colombia|romania|czech|spain|france|bulgaria|latvia|lithuania|portugal|turkey|serbia|ukraine|london|toronto|bengaluru|bangalore|hyderabad|pune|chennai|prague|sofia|emea|apac|latam|europe|vietnam|ontario)/i;
 const US_NAMED = /(united states|\busa\b|u\.s\.|\bus\b|north america|amer\b|remote)/i;
 
@@ -58,6 +60,9 @@ function matchKind(job) {
   if (LEAD_TITLE.test(t) && DOMAIN.test(t)) return 'lead';
   if (MGMT_TITLE.test(t) && (DOMAIN.test(t) || GENERIC_MGMT.test(t))) return 'mgmt';
   if (IC_LEVEL.test(t) && DOMAIN.test(t)) return 'ic';
+  // Titles with no stated level are read too (11/2026): a level in the title
+  // is a targeting hint, not a gate. Explicitly junior titles are skipped.
+  if (DOMAIN.test(t) && ENGINEERING.test(t) && !JUNIOR.test(t)) return 'ic';
   return null;
 }
 
