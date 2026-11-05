@@ -1,6 +1,6 @@
 {
   "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-11-01",
+  "updated": "2026-11-04",
   "targets": [
     {
       "id": "x-sprezzatura-software-development-manager",
@@ -40,14 +40,6 @@
       "captureText": true
     },
     {
-      "id": "ashby-aefd66e4-d812-48b3-a9f6-160e19882136",
-      "company": "ClickHouse",
-      "title": "Engineering Manager - Control Plane Platform Engineer",
-      "url": "https://jobs.ashbyhq.com/clickhouse/aefd66e4-d812-48b3-a9f6-160e19882136",
-      "why": "Ashby page whose description loads only in a browser",
-      "captureText": true
-    },
-    {
       "id": "ashby-e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
       "company": "Horizon3.ai",
       "title": "Staff Software Engineer, Image Build & Release",
@@ -67,13 +59,6 @@
       "company": "Canonical",
       "title": "Cloud Engineering Manager",
       "url": "https://job-boards.greenhouse.io/canonical/jobs/4676649",
-      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
-    },
-    {
-      "id": "gh-8297124002",
-      "company": "Honor",
-      "title": "Platform Engineering Manager",
-      "url": "https://job-boards.greenhouse.io/honor/jobs/8297124002",
       "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
     },
     {
@@ -103,14 +88,6 @@
       "title": "Manager, Engineering, Managed Services",
       "url": "https://cdw.wd5.myworkdayjobs.com/careers/job/remote--usa/manager--engineering--managed-services---aix--unix---linux_r26_00002670",
       "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
-    },
-    {
-      "id": "wd-centene-1671808-1",
-      "company": "Centene",
-      "title": "Senior Manager, Technical Platform Management",
-      "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-FL/Senior-Manager--Technical-Platform-Management_1671808-1",
-      "why": "Workday cxs JSON refused and the page returns only metadata to the fetch tool",
-      "captureText": true
     },
     {
       "id": "x-oracle-senior-site-reliability-engineer-database-services-348770",
@@ -206,6 +183,30 @@
       "title": "closed Rippling req (control)",
       "url": "https://ats.rippling.com/shippo/jobs/008fe5e9-5324-44b1-9fb6-35b2c0b56cd9",
       "why": "calibration control for the Rippling browser route: a req already marked closed on the record. It should read gone",
+      "captureText": true
+    },
+    {
+      "id": "wd-cvs-health-r1080318",
+      "company": "CVS Health",
+      "title": "Manager, Cloud and Data Platform Engineer",
+      "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/RI---Work-from-home/Manager--Cloud-and-Data-Platform-Engineer_R1080318",
+      "why": "needs_check since 11/04: Workday JSON and jobs.cvshealth.com client_error and the title matches no CVS feed search phrase",
+      "captureText": true
+    },
+    {
+      "id": "ashby-6b2709a0-ee6b-481a-b72c-87a669acd055",
+      "company": "ClickHouse",
+      "title": "Senior Site Reliability Engineer (US-Remote)",
+      "url": "https://jobs.ashbyhq.com/clickhouse/6b2709a0-ee6b-481a-b72c-87a669acd055",
+      "why": "Ashby body renders only in a browser; requirements unread (earlier versions required production ClickHouse experience)",
+      "captureText": true
+    },
+    {
+      "id": "ashby-a22230e6-803d-4e2e-82f8-ff5f500cdc3d",
+      "company": "Render",
+      "title": "Cloud - Bare Metal Infrastructure Engineer",
+      "url": "https://jobs.ashbyhq.com/render/a22230e6-803d-4e2e-82f8-ff5f500cdc3d",
+      "why": "Ashby body renders only in a browser; requirements read only from the feed record",
       "captureText": true
     }
   ],
