@@ -411,7 +411,9 @@ async function scanBoard(browser, b) {
         sampleLinks: [...new Set(sample)].filter(h => /job|career|opening|position/i.test(h)).slice(0, 25),
         ...(rejected.length ? { untitledLinks: rejected } : {}) };
     }
-    return { ...out, outcome: 'listed', count: jobs.length, truncated: jobs.length > MAX_BOARD_LINKS || undefined, jobs: jobs.slice(0, MAX_BOARD_LINKS) };
+    // evidence spells out the count so a reader of liveness.json never takes a
+    // listed board (jobs array, no evidence line) for an empty one (11/06/2026).
+    return { ...out, outcome: 'listed', evidence: `${jobs.length} job links listed (see "jobs")`, count: jobs.length, truncated: jobs.length > MAX_BOARD_LINKS || undefined, jobs: jobs.slice(0, MAX_BOARD_LINKS) };
   } finally {
     await ctx.close().catch(() => {});
   }
