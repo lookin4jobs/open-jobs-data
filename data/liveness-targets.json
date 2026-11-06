@@ -1,6 +1,6 @@
 {
   "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-11-04",
+  "updated": "2026-11-06",
   "targets": [
     {
       "id": "x-sprezzatura-software-development-manager",
@@ -71,9 +71,9 @@
     {
       "id": "ashby-b9119961-806c-40d9-a38f-b9df69ecf684",
       "company": "Sardine",
-      "title": "Support Engineering Lead",
+      "title": "Support Engineering Manager",
       "url": "https://jobs.ashbyhq.com/sardine/b9119961-806c-40d9-a38f-b9df69ecf684",
-      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
+      "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale | 11/06: title corrected from Support Engineering Lead to the current page title (the old title made the Ashby page read blocked)"
     },
     {
       "id": "gh-5324752008",
@@ -92,9 +92,9 @@
     {
       "id": "x-oracle-senior-site-reliability-engineer-database-services-348770",
       "company": "Oracle",
-      "title": "Senior Site Reliability Engineer - Database Services",
+      "title": "Senior Database Site Reliability Engineer - Oracle Database and GoldenGate (IC3)",
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/348770/",
-      "why": "Oracle job pages render only in a browser; requirements unread",
+      "why": "Oracle job pages render only in a browser. Title corrected 11/06 to the page title (the old stored title made every night read unclear)",
       "captureText": true
     },
     {
@@ -186,14 +186,6 @@
       "captureText": true
     },
     {
-      "id": "wd-cvs-health-r1080318",
-      "company": "CVS Health",
-      "title": "Manager, Cloud and Data Platform Engineer",
-      "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/RI---Work-from-home/Manager--Cloud-and-Data-Platform-Engineer_R1080318",
-      "why": "needs_check since 11/04: Workday JSON and jobs.cvshealth.com client_error and the title matches no CVS feed search phrase",
-      "captureText": true
-    },
-    {
       "id": "ashby-6b2709a0-ee6b-481a-b72c-87a669acd055",
       "company": "ClickHouse",
       "title": "Senior Site Reliability Engineer (US-Remote)",
@@ -207,6 +199,62 @@
       "title": "Cloud - Bare Metal Infrastructure Engineer",
       "url": "https://jobs.ashbyhq.com/render/a22230e6-803d-4e2e-82f8-ff5f500cdc3d",
       "why": "Ashby body renders only in a browser; requirements read only from the feed record",
+      "captureText": true
+    },
+    {
+      "id": "wd-humana-r-435201",
+      "company": "Humana",
+      "title": "Lead Kubernetes Architect (AKS and GKE)",
+      "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Nationwide/Lead-Kubernetes-Architect--AKS-and-GKE-_R-435201",
+      "why": "needs_check since 11/06: Humana cxs endpoint client_errors and the title carries no Humana feed search phrase, so feed absence decides nothing",
+      "captureText": true
+    },
+    {
+      "id": "ashby-f0100f8b-ca22-4cf3-abd8-fda500de8d9e",
+      "company": "1Password",
+      "title": "Engineering Manager, Infrastructure (Device Trust)",
+      "url": "https://jobs.ashbyhq.com/1password/f0100f8b-ca22-4cf3-abd8-fda500de8d9e",
+      "why": "Ashby body renders only in a browser; pay and the full requirement list are unread",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-lead-principal-site-reliability-engineer-349270",
+      "company": "Oracle",
+      "title": "Lead Principal Site Reliability Engineer",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/349270/",
+      "why": "new 11/06 from the Oracle SRE board (United States and 1 more); Oracle job pages render only in a browser, location and requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-senior-site-reliability-engineer-341027",
+      "company": "Oracle",
+      "title": "Senior Site Reliability Engineer",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/341027/",
+      "why": "new 11/06 from the Oracle SRE board (Reston VA and 1 more, OCI); location and requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "ashby-057e613a-e6fa-4445-a6c6-132ddd091c65",
+      "company": "Quilter",
+      "title": "Senior/Staff Platform Engineer, Enterprise Deployments",
+      "url": "https://jobs.ashbyhq.com/quilter/057e613a-e6fa-4445-a6c6-132ddd091c65",
+      "why": "Ashby body renders only in a browser; pay and the full requirement list are unread",
+      "captureText": true
+    },
+    {
+      "id": "x-garmin-software-engineer-devops-18673",
+      "company": "Garmin",
+      "title": "Software Engineer - DevOps",
+      "url": "https://careers.garmin.com/jobs/18673?lang=en-us",
+      "why": "Garmin job pages render only in a browser; level, years, language gate and Olathe office expectation unread",
+      "captureText": true
+    },
+    {
+      "id": "ashby-079c71cc-2203-46da-97d2-e39a6e9eb8c9",
+      "company": "Horizon3.ai",
+      "title": "Senior/Staff Platform Engineer",
+      "url": "https://jobs.ashbyhq.com/horizon3ai/079c71cc-2203-46da-97d2-e39a6e9eb8c9",
+      "why": "Ashby body renders only in a browser; remote eligibility versus the Chicago office is unread",
       "captureText": true
     }
   ],
