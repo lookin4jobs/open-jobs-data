@@ -505,11 +505,6 @@
     "slug": "tripactions"
   },
   {
-    "name": "Prisma",
-    "platform": "greenhouse",
-    "slug": "prisma"
-  },
-  {
     "name": "Descope",
     "platform": "greenhouse",
     "slug": "descope"
@@ -1291,8 +1286,8 @@
   },
   {
     "name": "Aircall",
-    "platform": "lever",
-    "slug": "aircall"
+    "platform": "greenhouse",
+    "slug": "aircallioinc"
   },
   {
     "name": "BrightEdge",
@@ -1373,11 +1368,6 @@
     "name": "Modal",
     "platform": "ashby",
     "slug": "modal"
-  },
-  {
-    "name": "Levels",
-    "platform": "ashby",
-    "slug": "levels"
   },
   {
     "name": "Middesk",
@@ -1738,11 +1728,6 @@
     "name": "CM.com",
     "platform": "recruitee",
     "slug": "cmcom"
-  },
-  {
-    "name": "Personio",
-    "platform": "personio",
-    "slug": "personio"
   },
   {
     "name": "Clark",
@@ -3500,11 +3485,6 @@
     "name": "Turnkey (Greenhouse)",
     "platform": "greenhouse",
     "slug": "turnkeycareers"
-  },
-  {
-    "name": "Chainlink Labs",
-    "platform": "ashby",
-    "slug": "chainlink-labs"
   },
   {
     "name": "Babylist",
