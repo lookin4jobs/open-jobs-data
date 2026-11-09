@@ -211,9 +211,9 @@
     {
       "id": "workable-FE8E2BAA25",
       "company": "Murmuration",
-      "title": "Senior Engineering Manager (Platform Team, level M4)",
+      "title": "Senior Manager, Software Engineering",
       "url": "https://apply.workable.com/murmuration/j/FE8E2BAA25",
-      "why": "needs_check since 11/09, Workable api/v1 client_errored; the years clause wording needs the page text",
+      "why": "needs_check since 11/09; the req was retitled from Senior Engineering Manager, so the 11/09 rerun read blocked on the stale title; requirements text still needed",
       "captureText": true
     },
     {
