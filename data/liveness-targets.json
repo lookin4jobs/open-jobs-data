@@ -1,6 +1,6 @@
 {
   "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-11-06",
+  "updated": "2026-11-09",
   "targets": [
     {
       "id": "x-sprezzatura-software-development-manager",
@@ -114,46 +114,6 @@
       "captureText": true
     },
     {
-      "id": "ashby-25d66321-50b1-4590-ab56-439180333ff1",
-      "company": "Hims & Hers",
-      "title": "Sr. Staff Platform Engineer",
-      "url": "https://jobs.ashbyhq.com/hims-and-hers/25d66321-50b1-4590-ab56-439180333ff1",
-      "why": "Ashby body renders only in a browser; requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "ashby-b105bcfb-d13b-4ff3-969d-75c5f3442b93",
-      "company": "Hims & Hers",
-      "title": "Sr. Reliability Engineer",
-      "url": "https://jobs.ashbyhq.com/hims-and-hers/b105bcfb-d13b-4ff3-969d-75c5f3442b93",
-      "why": "Ashby body renders only in a browser; requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "gh-5249667007",
-      "company": "Harness",
-      "title": "Staff/Senior Software Engineer - Cloud Platform Engineering",
-      "url": "https://www.harness.io/company/jobs/apply?gh_jid=5249667007",
-      "why": "apply page renders only in a browser; requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "ashby-c091b2c9-d12d-4b28-b413-aab6248bd100",
-      "company": "Delinea",
-      "title": "Senior Site Reliability Engineer - FedRAMP",
-      "url": "https://jobs.ashbyhq.com/delinea/c091b2c9-d12d-4b28-b413-aab6248bd100",
-      "why": "Ashby body renders only in a browser; requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "ashby-cad55156-d34b-4071-9c0f-c730a1d09d55",
-      "company": "ClickHouse",
-      "title": "Senior Infrastructure Engineer - Postgres",
-      "url": "https://jobs.ashbyhq.com/clickhouse/cad55156-d34b-4071-9c0f-c730a1d09d55",
-      "why": "Ashby body renders only in a browser; requirements unread",
-      "captureText": true
-    },
-    {
       "id": "wd-nvidia-jr2028678-1",
       "company": "Nvidia",
       "title": "Senior Manager, AI and HPC Cluster Engineering Enablement",
@@ -231,6 +191,85 @@
       "title": "Senior/Staff Platform Engineer",
       "url": "https://jobs.ashbyhq.com/horizon3ai/079c71cc-2203-46da-97d2-e39a6e9eb8c9",
       "why": "Ashby body renders only in a browser; remote eligibility versus the Chicago office is unread",
+      "captureText": true
+    },
+    {
+      "id": "wd-humana-r-434886",
+      "company": "Humana",
+      "title": "SRE Lead Technical Leadership Professional",
+      "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Nationwide/SRE-Lead-Technical-Leadership-Professional_R-434886",
+      "why": "in gone-jobs.json 11/09 while wday/cxs client_errored and the page served an empty shell; the title has no feed search phrase, so only a browser read settles it (application deadline was 11/08)"
+    },
+    {
+      "id": "gh-8188432",
+      "company": "Code for America",
+      "title": "Engineering Manager",
+      "url": "https://boards.greenhouse.io/codeforamerica/jobs/8188432",
+      "why": "needs_check since 11/09 after Greenhouse boards-api 429s; not in the job feed",
+      "captureText": true
+    },
+    {
+      "id": "workable-FE8E2BAA25",
+      "company": "Murmuration",
+      "title": "Senior Engineering Manager (Platform Team, level M4)",
+      "url": "https://apply.workable.com/murmuration/j/FE8E2BAA25",
+      "why": "needs_check since 11/09, Workable api/v1 client_errored; the years clause wording needs the page text",
+      "captureText": true
+    },
+    {
+      "id": "x-happy-returns-engineering-manager-platform-data",
+      "company": "Happy Returns",
+      "title": "Engineering Manager - Platform & Data",
+      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=bf55e92f-ce60-4ee6-beee-7d65eb04d2dd&ccId=19000101_000001&jobId=637745",
+      "why": "ADP portal renders only in a browser; ADP record says Atlanta while the posting text says remote US",
+      "captureText": true
+    },
+    {
+      "id": "x-happy-returns-software-engineering-manager-i",
+      "company": "Happy Returns",
+      "title": "Software Engineering Manager I",
+      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=bf55e92f-ce60-4ee6-beee-7d65eb04d2dd&ccId=19000101_000001&jobId=645343",
+      "why": "ADP portal renders only in a browser; requirements, pay and work setup all unread",
+      "captureText": true
+    },
+    {
+      "id": "x-priority-technology-holdings-manager-engineering",
+      "company": "Priority Technology Holdings",
+      "title": "Manager, Engineering",
+      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=94f16522-9f0f-4a13-b72c-b0eaf60d119d&ccId=19000101_000001&jobId=613656",
+      "why": "ADP portal renders only in a browser; requirements and scope unread",
+      "captureText": true
+    },
+    {
+      "id": "x-priority-technology-holdings-site-reliability-engineer",
+      "company": "Priority Technology Holdings",
+      "title": "Site Reliability Engineer",
+      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=94f16522-9f0f-4a13-b72c-b0eaf60d119d&ccId=19000101_000001&jobId=613438",
+      "why": "ADP portal renders only in a browser; requirements, level and work setup unread",
+      "captureText": true
+    },
+    {
+      "id": "x-mirantis-cloud-infrastructure-engineer-kubernetes-kubevirt",
+      "company": "Mirantis",
+      "title": "Cloud Infrastructure Engineer - Kubernetes & KubeVirt",
+      "url": "https://jobs.smartrecruiters.com/Mirantis/744000156759549",
+      "why": "work setup (Austin vs remote) and years bar unread",
+      "captureText": true
+    },
+    {
+      "id": "ashby-d52dc923-1641-4386-b8ba-5c15e1d7028d",
+      "company": "Render",
+      "title": "Software Engineer, Infrastructure (all levels)",
+      "url": "https://jobs.ashbyhq.com/render/d52dc923-1641-4386-b8ba-5c15e1d7028d",
+      "why": "Ashby body renders only in a browser; confirm requirements for a new IC Tier 1",
+      "captureText": true
+    },
+    {
+      "id": "ashby-1d14340c-c9bd-4754-80f4-5c83980cd413",
+      "company": "Runpod",
+      "title": "Site Reliability Engineer",
+      "url": "https://jobs.ashbyhq.com/runpod/1d14340c-c9bd-4754-80f4-5c83980cd413",
+      "why": "Ashby body renders only in a browser; confirm requirements for a new IC Tier 1",
       "captureText": true
     }
   ],
