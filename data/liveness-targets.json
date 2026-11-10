@@ -1,6 +1,6 @@
 {
   "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "targets": [
     {
       "id": "x-sprezzatura-software-development-manager",
@@ -194,13 +194,6 @@
       "captureText": true
     },
     {
-      "id": "wd-humana-r-434886",
-      "company": "Humana",
-      "title": "SRE Lead Technical Leadership Professional",
-      "url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Remote-Nationwide/SRE-Lead-Technical-Leadership-Professional_R-434886",
-      "why": "in gone-jobs.json 11/09 while wday/cxs client_errored and the page served an empty shell; the title has no feed search phrase, so only a browser read settles it (application deadline was 11/08)"
-    },
-    {
       "id": "gh-8188432",
       "company": "Code for America",
       "title": "Engineering Manager",
@@ -233,14 +226,6 @@
       "captureText": true
     },
     {
-      "id": "x-mirantis-cloud-infrastructure-engineer-kubernetes-kubevirt",
-      "company": "Mirantis",
-      "title": "Cloud Infrastructure Engineer - Kubernetes & KubeVirt",
-      "url": "https://jobs.smartrecruiters.com/Mirantis/744000156759549",
-      "why": "work setup (Austin vs remote) and years bar unread",
-      "captureText": true
-    },
-    {
       "id": "ashby-d52dc923-1641-4386-b8ba-5c15e1d7028d",
       "company": "Render",
       "title": "Software Engineer, Infrastructure (all levels)",
@@ -254,6 +239,30 @@
       "title": "Site Reliability Engineer",
       "url": "https://jobs.ashbyhq.com/runpod/1d14340c-c9bd-4754-80f4-5c83980cd413",
       "why": "Ashby body renders only in a browser; confirm requirements for a new IC Tier 1",
+      "captureText": true
+    },
+    {
+      "id": "icims-rti-international-13966",
+      "company": "RTI International",
+      "title": "Senior Platform Engineer",
+      "url": "https://uscareers-rtiinc.icims.com/jobs/13966/senior-platform-engineer/job",
+      "why": "iCIMS page is robots_disallowed to the fetch tool; confirm live and capture requirements and location",
+      "captureText": true
+    },
+    {
+      "id": "ashby-a665fa1f-2a88-46e6-b3f2-94efc3ca9be1",
+      "company": "0G Labs",
+      "title": "Senior DevOps Engineer",
+      "url": "https://jobs.ashbyhq.com/0g/a665fa1f-2a88-46e6-b3f2-94efc3ca9be1",
+      "why": "Ashby body renders only in a browser; requirements and location read only from an aggregator",
+      "captureText": true
+    },
+    {
+      "id": "wd-cloudera-261389",
+      "company": "Cloudera",
+      "title": "Sr. Manager, Infrastructure Engineering",
+      "url": "https://cloudera.wd5.myworkdayjobs.com/External_Career/job/US-Georgia-Remote/Sr-Manager--Infrastructure-Engineering_261389",
+      "why": "Workday JSON client_errors and Cloudera is not in the job feed; confirm live",
       "captureText": true
     }
   ],
