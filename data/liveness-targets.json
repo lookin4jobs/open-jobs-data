@@ -240,30 +240,6 @@
       "url": "https://jobs.ashbyhq.com/runpod/1d14340c-c9bd-4754-80f4-5c83980cd413",
       "why": "Ashby body renders only in a browser; confirm requirements for a new IC Tier 1",
       "captureText": true
-    },
-    {
-      "id": "icims-rti-international-13966",
-      "company": "RTI International",
-      "title": "Senior Platform Engineer",
-      "url": "https://uscareers-rtiinc.icims.com/jobs/13966/senior-platform-engineer/job",
-      "why": "iCIMS page is robots_disallowed to the fetch tool; confirm live and capture requirements and location",
-      "captureText": true
-    },
-    {
-      "id": "ashby-a665fa1f-2a88-46e6-b3f2-94efc3ca9be1",
-      "company": "0G Labs",
-      "title": "Senior DevOps Engineer",
-      "url": "https://jobs.ashbyhq.com/0g/a665fa1f-2a88-46e6-b3f2-94efc3ca9be1",
-      "why": "Ashby body renders only in a browser; requirements and location read only from an aggregator",
-      "captureText": true
-    },
-    {
-      "id": "wd-cloudera-261389",
-      "company": "Cloudera",
-      "title": "Sr. Manager, Infrastructure Engineering",
-      "url": "https://cloudera.wd5.myworkdayjobs.com/External_Career/job/US-Georgia-Remote/Sr-Manager--Infrastructure-Engineering_261389",
-      "why": "Workday JSON client_errors and Cloudera is not in the job feed; confirm live",
-      "captureText": true
     }
   ],
   "boards": [
