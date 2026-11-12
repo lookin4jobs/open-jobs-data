@@ -1,6 +1,6 @@
 {
   "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-11-10",
+  "updated": "2026-11-12",
   "targets": [
     {
       "id": "x-sprezzatura-software-development-manager",
@@ -239,6 +239,30 @@
       "title": "Site Reliability Engineer",
       "url": "https://jobs.ashbyhq.com/runpod/1d14340c-c9bd-4754-80f4-5c83980cd413",
       "why": "Ashby body renders only in a browser; confirm requirements for a new IC Tier 1",
+      "captureText": true
+    },
+    {
+      "id": "gh-8936789002",
+      "company": "Honor",
+      "title": "Staff Platform Engineer - Infra + DevOps",
+      "url": "https://boards.greenhouse.io/honor/jobs/8936789002",
+      "why": "boards-api rate-limited (429) on every try; confirm live",
+      "captureText": true
+    },
+    {
+      "id": "ashby-21ed0b81-f2e7-47cf-8f8b-74d2fd2790c1",
+      "company": "1Password",
+      "title": "Senior Manager, Infrastructure Security",
+      "url": "https://jobs.ashbyhq.com/1password/21ed0b81-f2e7-47cf-8f8b-74d2fd2790c1",
+      "why": "Ashby serves only metadata to the fetch tool; capture requirements and pay",
+      "captureText": true
+    },
+    {
+      "id": "x-servicenow-744000160985589",
+      "company": "ServiceNow",
+      "title": "Senior Staff DevOps Engineer - Flow",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000160985589",
+      "why": "work setup (Waltham listed, persona Flexible or Remote) unclear; capture location text",
       "captureText": true
     }
   ],
