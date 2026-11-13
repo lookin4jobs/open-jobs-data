@@ -266,51 +266,11 @@
       "captureText": true
     },
     {
-      "id": "gh-5163507007",
-      "company": "Defense Unicorns",
-      "title": "Senior Platform Engineer (Commercial Delivery Engineering)",
-      "url": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5163507007",
-      "why": "boards-api client_error with no status on two tries while sibling 5169709007 read live; confirm live or closed",
-      "captureText": true
-    },
-    {
-      "id": "gh-6180042004",
-      "company": "Garner Health",
-      "title": "Senior Site Reliability Engineer",
-      "url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6180042004",
-      "why": "boards-api client_error with no status 11/13; confirm live or closed",
-      "captureText": true
-    },
-    {
-      "id": "wd-cvs-health-r0694233",
-      "company": "CVS Health",
-      "title": "Principal Engineer - Cloud Infrastructure",
-      "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/RI---Woonsocket/Principal-Engineer---Cloud-Infrastructure_R0694233",
-      "why": "Workday cxs client_error 11/13; posting said the window closes 11/13",
-      "captureText": true
-    },
-    {
-      "id": "wd-nvidia-jr2029901",
-      "company": "Nvidia",
-      "title": "Senior AI Infrastructure Engineer - DGX Cloud",
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-Remote/Senior-AI-Infrastructure-Engineer---DGX-Cloud_JR2029901",
-      "why": "Workday cxs client_error 11/13; applications accepted at least until 11/14",
-      "captureText": true
-    },
-    {
-      "id": "wd-thomson-reuters-jreq204669",
-      "company": "Thomson Reuters",
-      "title": "Site Reliability Engineer, Reuters",
-      "url": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-New-York-New-York/Site-Reliability-Engineer--Reuters_JREQ204669",
-      "why": "Workday cxs client_error 11/13; closes 11/15; capture the location text for the remote question",
-      "captureText": true
-    },
-    {
-      "id": "ashby-1ddd1eb8-9b2d-4f2a-9e70-4f76bb764e7f",
-      "company": "Phantom",
-      "title": "Staff DevOps Engineer (Platform)",
-      "url": "https://jobs.ashbyhq.com/phantom/1ddd1eb8-9b2d-4f2a-9e70-4f76bb764e7f",
-      "why": "Ashby serves only the title tag; capture requirements, pay and location",
+      "id": "ashby-39e42a38-1cbf-40c7-b373-717b4cdddbac",
+      "company": "ClickHouse (Langfuse)",
+      "title": "Langfuse - Senior Cloud Infra Engineer",
+      "url": "https://jobs.ashbyhq.com/clickhouse/39e42a38-1cbf-40c7-b373-717b4cdddbac",
+      "why": "Ashby serves only the title tag; capture the location line (New York vs remote US)",
       "captureText": true
     }
   ],
