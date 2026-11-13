@@ -5,6 +5,12 @@ on:
     # Daily at 09:17 UTC (4:17am CDT, 3:17am CST). Off the top of the hour,
     # when GitHub's scheduled runs are busiest, and still well before the 7am CT check.
     - cron: '17 9 * * *'
+    # Backups (11/2026): from 11/10 GitHub started the 09:17 run 7-8 hours late
+    # (created around 17:00 UTC, after the 7am CT check). Two earlier slots give
+    # GitHub more chances to start a run in time. The gate job below lets only
+    # the first scheduled run of each UTC day refresh the data; later ones skip.
+    - cron: '23 2 * * *'
+    - cron: '23 5 * * *'
   workflow_dispatch:
     inputs:
       liveness_only:
@@ -23,9 +29,45 @@ on:
 permissions:
   contents: write
 
+# One run at a time, so a late scheduled run and a manual run never push over
+# each other. A run that arrives while one is going waits in the queue.
+concurrency:
+  group: update-jobs-dataset
+  cancel-in-progress: false
+
 jobs:
+  # Decides whether a scheduled run should refresh. Manual runs always go
+  # ahead. A scheduled run skips (update and liveness) when data/summary.json
+  # on the branch was already generated today (UTC), which happens when an
+  # earlier slot's run has finished.
+  gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref_name }}
+          sparse-checkout: data/summary.json
+          sparse-checkout-cone-mode: false
+      - name: Skip a scheduled run if today's refresh already landed
+        id: check
+        run: |
+          run=true
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f data/summary.json ]; then
+            gen=$(node -e "try{console.log(String(require('./data/summary.json').generatedAt||'').slice(0,10))}catch(e){console.log('')}")
+            today=$(date -u +%Y-%m-%d)
+            echo "summary generatedAt date: ${gen:-none}, today (UTC): $today"
+            if [ "$gen" = "$today" ]; then run=false; fi
+          fi
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+          echo "run=$run"
+
   update:
-    if: ${{ github.event_name != 'workflow_dispatch' || !inputs.liveness_only }}
+    needs: gate
+    if: ${{ needs.gate.outputs.run == 'true' && (github.event_name != 'workflow_dispatch' || !inputs.liveness_only) }}
     runs-on: ubuntu-24.04
     # Raised from 120 (11/2026) to leave room for the details step below.
     timeout-minutes: 150
@@ -79,8 +121,8 @@ jobs:
   # sees both. It honors robots.txt, never tries to get past a CAPTCHA or bot
   # check, and cannot fail the dataset refresh.
   liveness:
-    needs: update
-    if: ${{ !cancelled() && !inputs.details_only && !inputs.dry_run }}
+    needs: [gate, update]
+    if: ${{ !cancelled() && needs.gate.outputs.run == 'true' && !inputs.details_only && !inputs.dry_run }}
     runs-on: ubuntu-24.04
     timeout-minutes: 25
     continue-on-error: true
