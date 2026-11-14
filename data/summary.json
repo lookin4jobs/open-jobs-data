@@ -1,90 +1,90 @@
 {
-  "generatedAt": "2026-11-13T17:37:34.736Z",
-  "total": 64168,
+  "generatedAt": "2026-11-14T09:15:04.039Z",
+  "total": 44845,
   "byPlatform": {
-    "greenhouse": 29570,
-    "lever": 2459,
-    "ashby": 6713,
-    "smartrecruiters": 2740,
-    "workable": 175,
+    "greenhouse": 29583,
+    "lever": 2466,
+    "ashby": 6723,
+    "smartrecruiters": 2759,
+    "workable": 174,
     "recruitee": 71,
     "personio": 15,
     "bamboohr": 14,
-    "workday": 22387,
+    "workday": 3016,
     "rippling": 24
   },
   "byCompany": {
-    "Stripe": 785,
+    "Stripe": 786,
     "Airbnb": 214,
-    "Coinbase": 268,
-    "Robinhood": 160,
-    "Figma": 143,
-    "Discord": 25,
+    "Coinbase": 265,
+    "Robinhood": 165,
+    "Figma": 139,
+    "Discord": 26,
     "Asana": 109,
-    "Pinterest": 166,
-    "Reddit": 146,
+    "Pinterest": 163,
+    "Reddit": 145,
     "Cloudflare": 479,
-    "Affirm": 219,
-    "Instacart": 90,
-    "Datadog": 386,
+    "Affirm": 217,
+    "Instacart": 85,
+    "Datadog": 384,
     "GitLab": 251,
-    "Dropbox": 42,
-    "Twitch": 57,
+    "Dropbox": 44,
+    "Twitch": 58,
     "Anthropic": 670,
-    "Databricks": 909,
-    "Samsara": 312,
-    "Brex": 283,
-    "Flexport": 201,
+    "Databricks": 896,
+    "Samsara": 313,
+    "Brex": 286,
+    "Flexport": 204,
     "Squarespace": 17,
     "Doximity": 13,
-    "Lyft": 151,
-    "Roblox": 273,
-    "Okta": 360,
-    "Elastic": 399,
-    "MongoDB": 387,
+    "Lyft": 148,
+    "Roblox": 271,
+    "Okta": 362,
+    "Elastic": 400,
+    "MongoDB": 391,
     "Twilio": 115,
-    "Zscaler": 375,
+    "Zscaler": 373,
     "Udemy": 2,
-    "Peloton": 42,
-    "Carta": 77,
-    "Checkr": 39,
+    "Peloton": 40,
+    "Carta": 78,
+    "Checkr": 40,
     "Duolingo": 59,
-    "Faire": 69,
+    "Faire": 71,
     "Mixpanel": 41,
     "Remote": 2,
-    "Scale AI": 169,
-    "Vercel": 87,
+    "Scale AI": 170,
+    "Vercel": 86,
     "Airtable": 9,
-    "Calendly": 6,
-    "PagerDuty": 47,
-    "Gusto": 76,
-    "Chime": 68,
-    "Toast": 358,
-    "LaunchDarkly": 39,
-    "Justworks": 110,
+    "Calendly": 5,
+    "PagerDuty": 46,
+    "Gusto": 75,
+    "Chime": 71,
+    "Toast": 355,
+    "LaunchDarkly": 38,
+    "Justworks": 109,
     "Smartsheet": 73,
     "Nextdoor": 21,
     "Betterment": 28,
     "SoFi": 48,
     "N": 34,
     "GoCardless": 29,
-    "Monzo": 58,
+    "Monzo": 57,
     "Grafana Labs": 140,
-    "Anduril": 2586,
+    "Anduril": 2597,
     "Jane Street": 217,
-    "Blend": 9,
+    "Blend": 10,
     "Bill.com": 36,
-    "Attentive": 27,
-    "Braze": 349,
-    "Contentful": 40,
+    "Attentive": 30,
+    "Braze": 345,
+    "Contentful": 46,
     "Algolia": 30,
-    "Fastly": 56,
+    "Fastly": 54,
     "Netlify": 5,
     "CircleCI": 15,
     "PlanetScale": 12,
-    "Together AI": 78,
-    "Glean": 120,
-    "Intercom": 115,
+    "Together AI": 80,
+    "Glean": 121,
+    "Intercom": 114,
     "Typeform": 6,
     "StockX": 35,
     "Cameo": 1,
@@ -92,233 +92,233 @@
     "Wikimedia Foundation": 16,
     "Mozilla": 121,
     "Proton": 13,
-    "Bitwarden": 37,
-    "Wiz": 111,
-    "Tailscale": 74,
+    "Bitwarden": 36,
+    "Wiz": 110,
+    "Tailscale": 79,
     "JFrog": 76,
-    "Chainguard": 110,
+    "Chainguard": 113,
     "Oura": 93,
     "Maven Clinic": 27,
     "Recursion Pharmaceuticals": 18,
-    "Verkada": 346,
+    "Verkada": 347,
     "Rubrik": 182,
-    "SambaNova Systems": 72,
-    "CoreWeave": 305,
-    "Nuro": 99,
-    "Rocket Lab": 550,
-    "Varda Space": 129,
+    "SambaNova Systems": 75,
+    "CoreWeave": 307,
+    "Nuro": 100,
+    "Rocket Lab": 544,
+    "Varda Space": 131,
     "Redwood Materials": 119,
-    "Motive": 181,
-    "Carvana": 1638,
+    "Motive": 182,
+    "Carvana": 1660,
     "Highnote": 5,
-    "Lithic": 11,
-    "TripActions": 229,
+    "Lithic": 12,
+    "TripActions": 233,
     "Descope": 5,
-    "Cribl": 79,
-    "Honeycomb": 23,
-    "Pendo": 20,
+    "Cribl": 77,
+    "Honeycomb": 22,
+    "Pendo": 21,
     "Airship": 8,
-    "Customer.io": 27,
-    "Klaviyo": 147,
+    "Customer.io": 26,
+    "Klaviyo": 146,
     "Narvar": 2,
     "Flexe": 2,
     "project": 22,
     "FourKites": 12,
     "Bringg": 2,
     "Lattice": 4,
-    "Culture Amp": 31,
-    "Greenhouse Software": 19,
+    "Culture Amp": 33,
+    "Greenhouse Software": 20,
     "Textio": 2,
     "SeekOut": 3,
     "HackerRank": 31,
-    "Karat": 10,
+    "Karat": 12,
     "ZipRecruiter": 57,
     "Upwork": 4,
-    "DoorDash": 432,
+    "DoorDash": 427,
     "Netskope": 122,
-    "Orca Security": 11,
-    "Huntress": 43,
-    "Abnormal Security": 89,
-    "Axonius": 20,
+    "Orca Security": 10,
+    "Huntress": 48,
+    "Abnormal Security": 88,
+    "Axonius": 22,
     "Cato Networks": 118,
-    "KnowBe": 52,
+    "KnowBe": 58,
     "Recorded Future": 49,
     "Censys": 28,
     "BigID": 10,
-    "OneTrust": 83,
-    "Osano": 11,
+    "OneTrust": 84,
+    "Osano": 12,
     "Starburst": 36,
     "Imply": 5,
-    "Labelbox": 10,
-    "Snorkel AI": 42,
+    "Labelbox": 11,
+    "Snorkel AI": 43,
     "Domino Data Lab": 18,
     "Arize AI": 26,
-    "New Relic": 41,
+    "New Relic": 44,
     "Sumo Logic": 23,
     "Globalization Partners": 62,
-    "Epic Games": 144,
-    "Riot Games": 199,
-    "Scopely": 177,
+    "Epic Games": 142,
+    "Riot Games": 195,
+    "Scopely": 179,
     "Gemini": 28,
     "Fireblocks": 22,
     "BitGo": 58,
     "Consensys": 12,
-    "Figure Technologies": 25,
+    "Figure Technologies": 27,
     "Current": 4,
     "Public.com": 3,
     "Trade Republic": 39,
     "Homelight": 7,
     "Orchard": 36,
-    "Knock": 5,
+    "Knock": 3,
     "Human Interest": 62,
-    "Vestwell": 34,
-    "Alpaca": 68,
-    "Cleo": 11,
-    "Earnin": 26,
+    "Vestwell": 36,
+    "Alpaca": 67,
+    "Cleo": 12,
+    "Earnin": 27,
     "Ginkgo Bioworks": 18,
     "Freenome": 29,
     "Natera": 212,
-    "Truveta": 34,
+    "Truveta": 33,
     "Flatiron Health": 21,
-    "Calico Labs": 17,
+    "Calico Labs": 18,
     "Beam Therapeutics": 36,
     "Sword Health": 49,
-    "Omada Health": 23,
+    "Omada Health": 24,
     "One Medical": 346,
     "Parsley Health": 6,
     "Calm": 1,
-    "BetterHelp": 191,
+    "BetterHelp": 190,
     "Talkspace": 20,
-    "Modern Health": 2,
-    "MyFitnessPal": 12,
-    "Tempo Fit": 3,
+    "Modern Health": 3,
+    "MyFitnessPal": 6,
+    "Tempo Fit": 5,
     "Future Fit": 7,
-    "Gympass": 85,
-    "Coursera": 40,
+    "Gympass": 83,
+    "Coursera": 38,
     "Udacity": 23,
     "Khan Academy": 3,
     "Springboard": 7,
     "Newsela": 11,
-    "IXL Learning": 114,
+    "IXL Learning": 112,
     "GoGuardian": 13,
     "Imbue": 2,
     "Inflection AI": 4,
     "Stability AI": 2,
-    "Relativity": 403,
+    "Relativity": 396,
     "Everlaw": 34,
-    "Alloy": 33,
+    "Alloy": 32,
     "Forter": 19,
     "Riskified": 42,
     "Feedzai": 10,
     "ComplyAdvantage": 19,
     "Nova Credit": 7,
     "Homeward": 4,
-    "Kasa Living": 24,
+    "Kasa Living": 25,
     "TaskRabbit": 17,
     "Instawork": 53,
     "Movable Ink": 34,
     "Bloomreach": 63,
     "Invisible Technologies": 20,
     "Turing": 48,
-    "Wrike": 59,
-    "Qualtrics": 139,
+    "Wrike": 66,
+    "Qualtrics": 149,
     "Backblaze": 33,
     "Wasabi Technologies": 12,
-    "MinIO": 48,
+    "MinIO": 47,
     "Filecoin Foundation": 1,
     "Prismatic": 2,
     "Workato": 63,
     "Celigo": 18,
-    "Appian": 157,
-    "Mercury": 77,
+    "Appian": 154,
+    "Mercury": 79,
     "TrueLayer": 4,
-    "Sezzle": 266,
+    "Sezzle": 258,
     "Luno": 3,
-    "Bitpanda": 44,
-    "OKX": 392,
+    "Bitpanda": 45,
+    "OKX": 391,
     "Bybit": 153,
     "Vectara": 4,
     "AssemblyAI": 19,
     "Speechmatics": 10,
-    "Otter.ai": 22,
-    "Cresta": 87,
+    "Otter.ai": 18,
+    "Cresta": 88,
     "Observe.AI": 11,
     "PolyAI": 3,
-    "6sense": 34,
+    "6sense": 35,
     "ZoomInfo": 92,
     "Apollo.io": 44,
     "Cognism": 18,
     "OfferUp": 4,
-    "StitchFix": 13,
-    "HelloFresh": 379,
-    "Home Chef": 34,
-    "Thrive Market": 19,
+    "StitchFix": 12,
+    "HelloFresh": 380,
+    "Home Chef": 33,
+    "Thrive Market": 20,
     "Misfits Market": 67,
     "Weee!": 18,
-    "Palantir": 301,
+    "Palantir": 302,
     "Ro": 56,
-    "Veeva Systems": 860,
+    "Veeva Systems": 861,
     "Tala": 11,
     "Wattpad": 17,
-    "Aircall": 87,
+    "Aircall": 88,
     "BrightEdge": 21,
-    "Zoox": 237,
+    "Zoox": 241,
     "Outreach": 16,
     "Ramp": 180,
     "Linear": 33,
-    "OpenAI": 832,
+    "OpenAI": 838,
     "Watershed": 40,
     "Substack": 19,
     "Notion": 166,
     "Runway": 3,
     "Synthesia": 31,
-    "Cursor (Anysphere)": 115,
-    "Replit": 31,
+    "Cursor (Anysphere)": 99,
+    "Replit": 30,
     "Modal": 43,
     "Middesk": 17,
     "Vanta": 80,
-    "Abridge": 22,
+    "Abridge": 24,
     "Sardine": 39,
-    "Decagon": 128,
-    "Harvey": 376,
+    "Decagon": 124,
+    "Harvey": 387,
     "Sierra": 198,
-    "Speak": 32,
-    "Crusoe": 321,
+    "Speak": 31,
+    "Crusoe": 318,
     "Rilla": 25,
-    "Suno": 66,
-    "ElevenLabs": 127,
-    "Baseten": 101,
+    "Suno": 63,
+    "ElevenLabs": 128,
+    "Baseten": 102,
     "Braintrust": 32,
-    "Lovable": 78,
-    "Bland": 16,
+    "Lovable": 79,
+    "Bland": 17,
     "PostHog": 10,
     "Warp": 17,
     "Rho": 49,
-    "Mercor": 92,
+    "Mercor": 91,
     "Persona": 14,
-    "Anrok": 13,
-    "LangChain": 100,
+    "Anrok": 12,
+    "LangChain": 99,
     "Pinecone": 6,
     "Weaviate": 2,
     "Runpod": 22,
     "Merge": 18,
-    "Nango": 8,
+    "Nango": 5,
     "Drata": 23,
     "Secureframe": 8,
     "Headway": 92,
     "Cedar": 1,
-    "Aurora Solar": 7,
+    "Aurora Solar": 5,
     "Resend": 14,
     "Trigger.dev": 5,
-    "Rula": 29,
-    "Skydio": 191,
+    "Rula": 31,
+    "Skydio": 189,
     "Saronic": 274,
-    "Whoop": 114,
+    "Whoop": 115,
     "Superpower": 29,
-    "Eight Sleep": 34,
+    "Eight Sleep": 33,
     "Attio": 22,
     "Gamma": 20,
-    "Zapier": 9,
+    "Zapier": 10,
     "Unit": 1,
     "Column": 23,
     "Modern Treasury": 7,
@@ -326,13 +326,13 @@
     "Reflection AI": 45,
     "Character AI": 13,
     "Krea AI": 13,
-    "Zilch": 15,
+    "Zilch": 14,
     "Griffin": 5,
-    "Snowflake": 375,
+    "Snowflake": 376,
     "Preply": 120,
     "Equinox": 500,
-    "The Wonderful Company": 219,
-    "Version 1": 151,
+    "The Wonderful Company": 225,
+    "Version 1": 149,
     "Bosch Group": 500,
     "Delivery Hero": 500,
     "Hugging Face": 6,
@@ -348,39 +348,30 @@
     "ottonova": 9,
     "Fly.io": 10,
     "Bitcoin.com": 4,
-    "Intel": 864,
-    "Salesforce": 1027,
-    "Adobe": 210,
-    "CVS Health": 693,
-    "Vanguard": 209,
-    "Autodesk": 3,
-    "Target": 641,
-    "PayPal": 231,
-    "Nvidia": 1776,
-    "Workday Inc": 314,
-    "Upstart": 78,
+    "Salesforce": 1025,
+    "Upstart": 77,
     "Spark Advisors": 11,
     "Honor": 16,
-    "Dragos": 49,
+    "Dragos": 50,
     "Canonical": 316,
-    "Altana": 34,
+    "Altana": 33,
     "Outside": 7,
     "Zocdoc": 67,
     "iFIT": 29,
     "HopSkipDrive": 8,
     "Code for America": 10,
     "Nava PBC": 20,
-    "Skylight": 16,
-    "Datavant": 135,
+    "Skylight": 17,
+    "Datavant": 136,
     "Headspace": 4,
-    "Pathstream": 2,
-    "Accela": 7,
+    "Pathstream": 1,
+    "Accela": 6,
     "Vannevar Labs": 31,
-    "First Due": 21,
+    "First Due": 19,
     "GiveDirectly": 30,
-    "Imagine Pediatrics": 20,
-    "Abacus Insights": 15,
-    "Lyra Health": 489,
+    "Imagine Pediatrics": 19,
+    "Abacus Insights": 14,
+    "Lyra Health": 487,
     "Zeta Global": 106,
     "Appfire": 19,
     "SmartBear": 11,
@@ -388,44 +379,38 @@
     "Prolific": 30,
     "Pilot": 10,
     "Kard": 8,
-    "Sprout Social": 20,
+    "Sprout Social": 21,
     "Turnkey": 13,
     "Camunda": 51,
     "Forma": 3,
     "Ignite Reading": 6,
     "Render": 38,
     "Valon": 31,
-    "Virta Health": 22,
+    "Virta Health": 23,
     "Angle Health": 1,
     "Temporal": 84,
-    "ClickHouse": 200,
+    "ClickHouse": 205,
     "Materialize": 4,
     "Tempo": 14,
     "Aditude": 1,
     "1Password": 80,
-    "Horizon3.ai": 193,
-    "Cohere": 120,
+    "Horizon3.ai": 200,
+    "Cohere": 121,
     "Delinea": 70,
     "Metabase": 20,
     "Zencore": 21,
     "Mirantis": 102,
     "Alteryx": 45,
-    "CDW": 208,
-    "CrowdStrike": 355,
-    "Deckers Brands": 50,
     "Experity": 42,
-    "Ferguson": 437,
-    "Mastercard": 587,
-    "ModMed": 90,
-    "ServiceTitan": 73,
-    "Teladoc Health": 59,
+    "ModMed": 92,
+    "Teladoc Health": 60,
     "Sentry": 39,
-    "Harness": 68,
+    "Harness": 67,
     "Snyk": 38,
     "Docker": 53,
     "Kong": 116,
-    "DigitalOcean": 141,
-    "Fivetran": 191,
+    "DigitalOcean": 136,
+    "Fivetran": 197,
     "Buildkite": 8,
     "Sourcegraph": 6,
     "Cockroach Labs": 13,
@@ -433,26 +418,18 @@
     "Supabase": 77,
     "Pulumi": 4,
     "Railway": 7,
-    "Centene": 61,
-    "Elevance Health": 48,
-    "Humana": 133,
-    "The Cigna Group": 271,
-    "Abbott": 1066,
-    "Medtronic": 701,
-    "Stryker": 738,
-    "Oscar Health": 190,
+    "Oscar Health": 183,
     "Pearl Health": 7,
     "Arcadia": 15,
-    "Cisco": 1167,
-    "Coder": 27,
+    "Coder": 28,
     "Sonatype": 14,
     "Healthie": 17,
-    "Commure": 71,
-    "Innovaccer": 100,
-    "CentralReach": 19,
+    "Commure": 72,
+    "Innovaccer": 99,
+    "CentralReach": 20,
     "Dscout": 15,
-    "Garner Health": 58,
-    "PatientPoint": 35,
+    "Garner Health": 59,
+    "PatientPoint": 34,
     "PerfectServe": 12,
     "RxSense": 7,
     "Verantos": 8,
@@ -466,68 +443,39 @@
     "Notable": 9,
     "CareMessage": 5,
     "Vetcove": 28,
-    "KAYAK": 43,
-    "Hims & Hers": 142,
+    "KAYAK": 47,
+    "Hims & Hers": 144,
     "WellTheory": 12,
     "Stellar Cyber": 9,
-    "Solventum": 210,
-    "Palo Alto Networks": 916,
-    "Axon": 503,
-    "ServiceNow": 768,
-    "BD": 545,
-    "Novartis": 455,
-    "U.S. Bank": 306,
-    "PNC": 163,
-    "BlackRock": 281,
-    "Fidelity Investments": 361,
-    "Mass General Brigham": 760,
-    "athenahealth": 60,
+    "Axon": 502,
+    "ServiceNow": 783,
+    "Novartis": 449,
     "McKesson": 346,
-    "Red Hat": 129,
-    "Highmark Health": 287,
-    "GE HealthCare": 695,
-    "SeatGeek": 37,
+    "SeatGeek": 41,
     "Cohere Health": 64,
-    "BeyondTrust": 37,
+    "BeyondTrust": 36,
     "eVisit": 5,
-    "Netsmart": 60,
-    "WellSky": 33,
-    "EquipmentShare": 1071,
-    "SmithRx": 13,
-    "Form Health": 33,
+    "EquipmentShare": 1077,
+    "SmithRx": 12,
+    "Form Health": 14,
     "Prove": 11,
-    "Federal Reserve System": 168,
     "Capital One": 883,
-    "Thomson Reuters": 215,
-    "The Hartford": 79,
-    "TransUnion": 81,
-    "Wells Fargo": 91,
-    "Bank of America": 143,
-    "GEICO": 93,
-    "Nationwide": 47,
-    "Allstate": 84,
-    "Travelers": 83,
-    "Equifax": 84,
-    "Thermo Fisher Scientific": 816,
-    "General Motors": 556,
-    "Comcast": 69,
-    "Raymond James": 60,
-    "Hewlett Packard Enterprise": 1129,
-    "TailorCare": 9,
-    "Penn Interactive": 36,
+    "Comcast": 74,
+    "TailorCare": 8,
+    "Penn Interactive": 34,
     "Podium": 72,
     "Infisical": 12,
     "Fluxx": 3,
     "Rocket Money": 19,
-    "Aledade": 35,
+    "Aledade": 38,
     "Turnkey (Greenhouse)": 4,
-    "Babylist": 37,
-    "Capital Technology Group": 13,
+    "Babylist": 35,
+    "Capital Technology Group": 14,
     "Counterpart Health": 12,
     "Defense Unicorns": 47,
     "EDO": 5,
-    "Encoura": 11,
-    "Fingerprint": 20,
+    "Encoura": 12,
+    "Fingerprint": 21,
     "Juvare": 5,
     "Reltio": 31,
     "AHEAD": 136,
@@ -537,17 +485,17 @@
     "Supplier.io": 5,
     "CData Software": 6,
     "Shippo": 3,
-    "Iterable (Ashby)": 20,
+    "Iterable (Ashby)": 19,
     "ManyChat (Ashby)": 18,
-    "Webflow (Ashby)": 24
+    "Webflow (Ashby)": 25
   },
   "companiesAttempted": 549,
-  "companiesOk": 546,
+  "companiesOk": 493,
   "companiesPartial": 0,
-  "companiesFailed": 3,
-  "elapsedMs": 4111728,
-  "newSinceLastSnapshot": 2028,
-  "previousSnapshotAt": "2026-11-12T18:46:33.197Z",
+  "companiesFailed": 56,
+  "elapsedMs": 551687,
+  "newSinceLastSnapshot": 739,
+  "previousSnapshotAt": "2026-11-13T17:37:34.736Z",
   "newSinceLastSnapshotFirstRun": false,
   "companiesEmpty": [
     {
@@ -636,20 +584,65 @@
       "emptySince": "2026-11-02T11:25:31.102Z"
     },
     {
-      "company": "Blue Cross and Blue Shield of Kansas City",
-      "platform": "workday",
-      "emptySince": "2026-11-03T11:10:48.511Z"
-    },
-    {
       "company": "Penn Mutual",
       "platform": "workable",
       "emptySince": "2026-11-02T11:25:31.102Z"
     }
   ],
-  "goneSinceLastSnapshot": 2139,
+  "goneSinceLastSnapshot": 691,
   "goneSkippedCompanies": [
-    "ClassPass",
-    "Mindbody"
+    "Intel",
+    "Adobe",
+    "CVS Health",
+    "Vanguard",
+    "Autodesk",
+    "Target",
+    "PayPal",
+    "Nvidia",
+    "Workday Inc",
+    "CDW",
+    "CrowdStrike",
+    "Deckers Brands",
+    "Ferguson",
+    "Mastercard",
+    "ServiceTitan",
+    "Centene",
+    "Elevance Health",
+    "Humana",
+    "The Cigna Group",
+    "Abbott",
+    "Medtronic",
+    "Stryker",
+    "Cisco",
+    "Solventum",
+    "Palo Alto Networks",
+    "BD",
+    "U.S. Bank",
+    "PNC",
+    "BlackRock",
+    "Fidelity Investments",
+    "Mass General Brigham",
+    "athenahealth",
+    "Red Hat",
+    "Highmark Health",
+    "GE HealthCare",
+    "Netsmart",
+    "WellSky",
+    "Federal Reserve System",
+    "Thomson Reuters",
+    "The Hartford",
+    "TransUnion",
+    "Wells Fargo",
+    "Bank of America",
+    "GEICO",
+    "Nationwide",
+    "Allstate",
+    "Travelers",
+    "Equifax",
+    "Thermo Fisher Scientific",
+    "General Motors",
+    "Raymond James",
+    "Hewlett Packard Enterprise"
   ],
   "perCompanyStatus": [
     {
@@ -657,8 +650,8 @@
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 785,
-      "elapsedMs": 267
+      "jobs": 786,
+      "elapsedMs": 235
     },
     {
       "company": "Airbnb",
@@ -666,39 +659,39 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 214,
-      "elapsedMs": 217
+      "elapsedMs": 176
     },
     {
       "company": "Coinbase",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 268,
-      "elapsedMs": 220
+      "jobs": 265,
+      "elapsedMs": 182
     },
     {
       "company": "Robinhood",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 160,
-      "elapsedMs": 212
+      "jobs": 165,
+      "elapsedMs": 172
     },
     {
       "company": "Figma",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 143,
-      "elapsedMs": 210
+      "jobs": 139,
+      "elapsedMs": 169
     },
     {
       "company": "Discord",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 25,
-      "elapsedMs": 39
+      "jobs": 26,
+      "elapsedMs": 64
     },
     {
       "company": "Asana",
@@ -706,23 +699,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 109,
-      "elapsedMs": 107
+      "elapsedMs": 63
     },
     {
       "company": "Pinterest",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 166,
-      "elapsedMs": 43
+      "jobs": 163,
+      "elapsedMs": 65
     },
     {
       "company": "Reddit",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 146,
-      "elapsedMs": 57
+      "jobs": 145,
+      "elapsedMs": 69
     },
     {
       "company": "Cloudflare",
@@ -730,31 +723,31 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 479,
-      "elapsedMs": 55
+      "elapsedMs": 97
     },
     {
       "company": "Affirm",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 219,
-      "elapsedMs": 42
+      "jobs": 217,
+      "elapsedMs": 61
     },
     {
       "company": "Instacart",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 90,
-      "elapsedMs": 51
+      "jobs": 85,
+      "elapsedMs": 72
     },
     {
       "company": "Datadog",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 386,
-      "elapsedMs": 58
+      "jobs": 384,
+      "elapsedMs": 138
     },
     {
       "company": "GitLab",
@@ -762,23 +755,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 251,
-      "elapsedMs": 56
+      "elapsedMs": 161
     },
     {
       "company": "Dropbox",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 42,
-      "elapsedMs": 43
+      "jobs": 44,
+      "elapsedMs": 90
     },
     {
       "company": "Twitch",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 57,
-      "elapsedMs": 54
+      "jobs": 58,
+      "elapsedMs": 64
     },
     {
       "company": "Anthropic",
@@ -786,39 +779,39 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 670,
-      "elapsedMs": 48
+      "elapsedMs": 75
     },
     {
       "company": "Databricks",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 909,
-      "elapsedMs": 216
+      "jobs": 896,
+      "elapsedMs": 146
     },
     {
       "company": "Samsara",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 312,
-      "elapsedMs": 50
+      "jobs": 313,
+      "elapsedMs": 74
     },
     {
       "company": "Brex",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 283,
-      "elapsedMs": 46
+      "jobs": 286,
+      "elapsedMs": 112
     },
     {
       "company": "Flexport",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 201,
-      "elapsedMs": 47
+      "jobs": 204,
+      "elapsedMs": 97
     },
     {
       "company": "Squarespace",
@@ -826,7 +819,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 17,
-      "elapsedMs": 59
+      "elapsedMs": 79
     },
     {
       "company": "Doximity",
@@ -834,47 +827,47 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 13,
-      "elapsedMs": 41
+      "elapsedMs": 62
     },
     {
       "company": "Lyft",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 151,
-      "elapsedMs": 45
+      "jobs": 148,
+      "elapsedMs": 65
     },
     {
       "company": "Roblox",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 273,
-      "elapsedMs": 42
+      "jobs": 271,
+      "elapsedMs": 67
     },
     {
       "company": "Okta",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 360,
-      "elapsedMs": 44
+      "jobs": 362,
+      "elapsedMs": 68
     },
     {
       "company": "Elastic",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 399,
-      "elapsedMs": 51
+      "jobs": 400,
+      "elapsedMs": 69
     },
     {
       "company": "MongoDB",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 387,
-      "elapsedMs": 65
+      "jobs": 391,
+      "elapsedMs": 85
     },
     {
       "company": "Twilio",
@@ -882,15 +875,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 115,
-      "elapsedMs": 40
+      "elapsedMs": 64
     },
     {
       "company": "Zscaler",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 375,
-      "elapsedMs": 48
+      "jobs": 373,
+      "elapsedMs": 70
     },
     {
       "company": "Udemy",
@@ -898,31 +891,31 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 2,
-      "elapsedMs": 42
+      "elapsedMs": 56
     },
     {
       "company": "Peloton",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 42,
-      "elapsedMs": 45
+      "jobs": 40,
+      "elapsedMs": 62
     },
     {
       "company": "Carta",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 77,
-      "elapsedMs": 39
+      "jobs": 78,
+      "elapsedMs": 58
     },
     {
       "company": "Checkr",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 39,
-      "elapsedMs": 42
+      "jobs": 40,
+      "elapsedMs": 67
     },
     {
       "company": "Duolingo",
@@ -930,15 +923,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 59,
-      "elapsedMs": 43
+      "elapsedMs": 77
     },
     {
       "company": "Faire",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 69,
-      "elapsedMs": 41
+      "jobs": 71,
+      "elapsedMs": 73
     },
     {
       "company": "Mixpanel",
@@ -946,7 +939,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 41,
-      "elapsedMs": 47
+      "elapsedMs": 61
     },
     {
       "company": "Remote",
@@ -954,23 +947,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 2,
-      "elapsedMs": 39
+      "elapsedMs": 65
     },
     {
       "company": "Scale AI",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 169,
-      "elapsedMs": 45
+      "jobs": 170,
+      "elapsedMs": 62
     },
     {
       "company": "Vercel",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 87,
-      "elapsedMs": 40
+      "jobs": 86,
+      "elapsedMs": 113
     },
     {
       "company": "Webflow",
@@ -978,7 +971,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 34
+      "elapsedMs": 60
     },
     {
       "company": "Airtable",
@@ -986,63 +979,63 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 9,
-      "elapsedMs": 36
+      "elapsedMs": 59
     },
     {
       "company": "Calendly",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 6,
-      "elapsedMs": 39
+      "jobs": 5,
+      "elapsedMs": 61
     },
     {
       "company": "PagerDuty",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 47,
-      "elapsedMs": 73
+      "jobs": 46,
+      "elapsedMs": 86
     },
     {
       "company": "Gusto",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 76,
-      "elapsedMs": 39
+      "jobs": 75,
+      "elapsedMs": 61
     },
     {
       "company": "Chime",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 68,
-      "elapsedMs": 41
+      "jobs": 71,
+      "elapsedMs": 60
     },
     {
       "company": "Toast",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 358,
-      "elapsedMs": 49
+      "jobs": 355,
+      "elapsedMs": 98
     },
     {
       "company": "LaunchDarkly",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 39,
-      "elapsedMs": 45
+      "jobs": 38,
+      "elapsedMs": 71
     },
     {
       "company": "Justworks",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 110,
-      "elapsedMs": 48
+      "jobs": 109,
+      "elapsedMs": 73
     },
     {
       "company": "Smartsheet",
@@ -1050,7 +1043,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 73,
-      "elapsedMs": 39
+      "elapsedMs": 65
     },
     {
       "company": "Nextdoor",
@@ -1058,7 +1051,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 21,
-      "elapsedMs": 51
+      "elapsedMs": 60
     },
     {
       "company": "Betterment",
@@ -1066,7 +1059,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 28,
-      "elapsedMs": 39
+      "elapsedMs": 77
     },
     {
       "company": "SoFi",
@@ -1074,7 +1067,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 48,
-      "elapsedMs": 41
+      "elapsedMs": 231
     },
     {
       "company": "N",
@@ -1082,7 +1075,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 34,
-      "elapsedMs": 44
+      "elapsedMs": 58
     },
     {
       "company": "GoCardless",
@@ -1090,15 +1083,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 29,
-      "elapsedMs": 39
+      "elapsedMs": 68
     },
     {
       "company": "Monzo",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 58,
-      "elapsedMs": 41
+      "jobs": 57,
+      "elapsedMs": 59
     },
     {
       "company": "Grafana Labs",
@@ -1106,15 +1099,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 140,
-      "elapsedMs": 37
+      "elapsedMs": 59
     },
     {
       "company": "Anduril",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 2586,
-      "elapsedMs": 223
+      "jobs": 2597,
+      "elapsedMs": 125
     },
     {
       "company": "Jane Street",
@@ -1122,15 +1115,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 217,
-      "elapsedMs": 51
+      "elapsedMs": 88
     },
     {
       "company": "Blend",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 9,
-      "elapsedMs": 39
+      "jobs": 10,
+      "elapsedMs": 60
     },
     {
       "company": "Bill.com",
@@ -1138,31 +1131,31 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 36,
-      "elapsedMs": 53
+      "elapsedMs": 83
     },
     {
       "company": "Attentive",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 27,
-      "elapsedMs": 51
+      "jobs": 30,
+      "elapsedMs": 58
     },
     {
       "company": "Braze",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 349,
-      "elapsedMs": 46
+      "jobs": 345,
+      "elapsedMs": 65
     },
     {
       "company": "Contentful",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 40,
-      "elapsedMs": 40
+      "jobs": 46,
+      "elapsedMs": 77
     },
     {
       "company": "Algolia",
@@ -1170,15 +1163,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 30,
-      "elapsedMs": 36
+      "elapsedMs": 60
     },
     {
       "company": "Fastly",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 56,
-      "elapsedMs": 40
+      "jobs": 54,
+      "elapsedMs": 59
     },
     {
       "company": "Netlify",
@@ -1186,7 +1179,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 5,
-      "elapsedMs": 43
+      "elapsedMs": 59
     },
     {
       "company": "CircleCI",
@@ -1194,7 +1187,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 15,
-      "elapsedMs": 38
+      "elapsedMs": 59
     },
     {
       "company": "PlanetScale",
@@ -1202,31 +1195,31 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 12,
-      "elapsedMs": 39
+      "elapsedMs": 63
     },
     {
       "company": "Together AI",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 78,
-      "elapsedMs": 37
+      "jobs": 80,
+      "elapsedMs": 61
     },
     {
       "company": "Glean",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 120,
-      "elapsedMs": 39
+      "jobs": 121,
+      "elapsedMs": 58
     },
     {
       "company": "Intercom",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 115,
-      "elapsedMs": 43
+      "jobs": 114,
+      "elapsedMs": 60
     },
     {
       "company": "Typeform",
@@ -1234,7 +1227,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 6,
-      "elapsedMs": 47
+      "elapsedMs": 63
     },
     {
       "company": "StockX",
@@ -1242,7 +1235,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 35,
-      "elapsedMs": 43
+      "elapsedMs": 63
     },
     {
       "company": "Cameo",
@@ -1250,7 +1243,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 1,
-      "elapsedMs": 35
+      "elapsedMs": 60
     },
     {
       "company": "Kickstarter",
@@ -1258,7 +1251,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 57
+      "elapsedMs": 58
     },
     {
       "company": "Wikimedia Foundation",
@@ -1266,7 +1259,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 16,
-      "elapsedMs": 33
+      "elapsedMs": 60
     },
     {
       "company": "Mozilla",
@@ -1274,7 +1267,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 121,
-      "elapsedMs": 62
+      "elapsedMs": 63
     },
     {
       "company": "Proton",
@@ -1282,31 +1275,31 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 13,
-      "elapsedMs": 36
+      "elapsedMs": 57
     },
     {
       "company": "Bitwarden",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 37,
-      "elapsedMs": 35
+      "jobs": 36,
+      "elapsedMs": 56
     },
     {
       "company": "Wiz",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 111,
-      "elapsedMs": 42
+      "jobs": 110,
+      "elapsedMs": 64
     },
     {
       "company": "Tailscale",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 74,
-      "elapsedMs": 58
+      "jobs": 79,
+      "elapsedMs": 61
     },
     {
       "company": "JFrog",
@@ -1314,15 +1307,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 76,
-      "elapsedMs": 36
+      "elapsedMs": 61
     },
     {
       "company": "Chainguard",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 110,
-      "elapsedMs": 40
+      "jobs": 113,
+      "elapsedMs": 66
     },
     {
       "company": "Oura",
@@ -1330,7 +1323,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 93,
-      "elapsedMs": 37
+      "elapsedMs": 60
     },
     {
       "company": "Maven Clinic",
@@ -1338,7 +1331,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 27,
-      "elapsedMs": 39
+      "elapsedMs": 58
     },
     {
       "company": "Recursion Pharmaceuticals",
@@ -1346,15 +1339,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 18,
-      "elapsedMs": 43
+      "elapsedMs": 61
     },
     {
       "company": "Verkada",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 346,
-      "elapsedMs": 49
+      "jobs": 347,
+      "elapsedMs": 67
     },
     {
       "company": "Rubrik",
@@ -1362,47 +1355,47 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 182,
-      "elapsedMs": 41
+      "elapsedMs": 65
     },
     {
       "company": "SambaNova Systems",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 72,
-      "elapsedMs": 42
+      "jobs": 75,
+      "elapsedMs": 65
     },
     {
       "company": "CoreWeave",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 305,
-      "elapsedMs": 44
+      "jobs": 307,
+      "elapsedMs": 101
     },
     {
       "company": "Nuro",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 99,
-      "elapsedMs": 35
+      "jobs": 100,
+      "elapsedMs": 62
     },
     {
       "company": "Rocket Lab",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 550,
-      "elapsedMs": 55
+      "jobs": 544,
+      "elapsedMs": 70
     },
     {
       "company": "Varda Space",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 129,
-      "elapsedMs": 37
+      "jobs": 131,
+      "elapsedMs": 62
     },
     {
       "company": "Redwood Materials",
@@ -1410,23 +1403,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 119,
-      "elapsedMs": 37
+      "elapsedMs": 64
     },
     {
       "company": "Motive",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 181,
-      "elapsedMs": 49
+      "jobs": 182,
+      "elapsedMs": 61
     },
     {
       "company": "Carvana",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 1638,
-      "elapsedMs": 7972
+      "jobs": 1660,
+      "elapsedMs": 109
     },
     {
       "company": "Highnote",
@@ -1434,23 +1427,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 5,
-      "elapsedMs": 36
+      "elapsedMs": 59
     },
     {
       "company": "Lithic",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 11,
-      "elapsedMs": 49
+      "jobs": 12,
+      "elapsedMs": 59
     },
     {
       "company": "TripActions",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 229,
-      "elapsedMs": 42
+      "jobs": 233,
+      "elapsedMs": 126
     },
     {
       "company": "Descope",
@@ -1458,31 +1451,31 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 5,
-      "elapsedMs": 40
+      "elapsedMs": 58
     },
     {
       "company": "Cribl",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 79,
-      "elapsedMs": 70
+      "jobs": 77,
+      "elapsedMs": 63
     },
     {
       "company": "Honeycomb",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 23,
-      "elapsedMs": 51
+      "jobs": 22,
+      "elapsedMs": 61
     },
     {
       "company": "Pendo",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 20,
-      "elapsedMs": 51
+      "jobs": 21,
+      "elapsedMs": 58
     },
     {
       "company": "Airship",
@@ -1490,23 +1483,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 8,
-      "elapsedMs": 45
+      "elapsedMs": 59
     },
     {
       "company": "Customer.io",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 27,
-      "elapsedMs": 124
+      "jobs": 26,
+      "elapsedMs": 59
     },
     {
       "company": "Klaviyo",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 147,
-      "elapsedMs": 124
+      "jobs": 146,
+      "elapsedMs": 60
     },
     {
       "company": "Narvar",
@@ -1514,7 +1507,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 2,
-      "elapsedMs": 110
+      "elapsedMs": 73
     },
     {
       "company": "Flexe",
@@ -1522,7 +1515,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 2,
-      "elapsedMs": 67
+      "elapsedMs": 59
     },
     {
       "company": "project",
@@ -1530,7 +1523,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 22,
-      "elapsedMs": 38
+      "elapsedMs": 62
     },
     {
       "company": "FourKites",
@@ -1538,7 +1531,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 12,
-      "elapsedMs": 41
+      "elapsedMs": 61
     },
     {
       "company": "Bringg",
@@ -1546,7 +1539,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 2,
-      "elapsedMs": 48
+      "elapsedMs": 62
     },
     {
       "company": "Lattice",
@@ -1554,23 +1547,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 39
+      "elapsedMs": 60
     },
     {
       "company": "Culture Amp",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 31,
-      "elapsedMs": 36
+      "jobs": 33,
+      "elapsedMs": 59
     },
     {
       "company": "Greenhouse Software",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 19,
-      "elapsedMs": 37
+      "jobs": 20,
+      "elapsedMs": 62
     },
     {
       "company": "Textio",
@@ -1578,7 +1571,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 2,
-      "elapsedMs": 80
+      "elapsedMs": 59
     },
     {
       "company": "SeekOut",
@@ -1586,7 +1579,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 3,
-      "elapsedMs": 40
+      "elapsedMs": 60
     },
     {
       "company": "HackerRank",
@@ -1594,15 +1587,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 31,
-      "elapsedMs": 40
+      "elapsedMs": 60
     },
     {
       "company": "Karat",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 10,
-      "elapsedMs": 41
+      "jobs": 12,
+      "elapsedMs": 64
     },
     {
       "company": "ZipRecruiter",
@@ -1610,7 +1603,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 57,
-      "elapsedMs": 35
+      "elapsedMs": 61
     },
     {
       "company": "Upwork",
@@ -1618,15 +1611,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 36
+      "elapsedMs": 60
     },
     {
       "company": "DoorDash",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 432,
-      "elapsedMs": 118
+      "jobs": 427,
+      "elapsedMs": 116
     },
     {
       "company": "Netskope",
@@ -1634,39 +1627,39 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 122,
-      "elapsedMs": 41
+      "elapsedMs": 64
     },
     {
       "company": "Orca Security",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 11,
-      "elapsedMs": 43
+      "jobs": 10,
+      "elapsedMs": 60
     },
     {
       "company": "Huntress",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 43,
-      "elapsedMs": 39
+      "jobs": 48,
+      "elapsedMs": 132
     },
     {
       "company": "Abnormal Security",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 89,
-      "elapsedMs": 37
+      "jobs": 88,
+      "elapsedMs": 164
     },
     {
       "company": "Axonius",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 20,
-      "elapsedMs": 34
+      "jobs": 22,
+      "elapsedMs": 60
     },
     {
       "company": "Cato Networks",
@@ -1674,15 +1667,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 118,
-      "elapsedMs": 44
+      "elapsedMs": 65
     },
     {
       "company": "KnowBe",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 52,
-      "elapsedMs": 40
+      "jobs": 58,
+      "elapsedMs": 60
     },
     {
       "company": "Recorded Future",
@@ -1690,7 +1683,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 49,
-      "elapsedMs": 47
+      "elapsedMs": 171
     },
     {
       "company": "Censys",
@@ -1698,7 +1691,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 28,
-      "elapsedMs": 40
+      "elapsedMs": 59
     },
     {
       "company": "BigID",
@@ -1706,23 +1699,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 10,
-      "elapsedMs": 41
+      "elapsedMs": 64
     },
     {
       "company": "OneTrust",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 83,
-      "elapsedMs": 79
+      "jobs": 84,
+      "elapsedMs": 172
     },
     {
       "company": "Osano",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 11,
-      "elapsedMs": 41
+      "jobs": 12,
+      "elapsedMs": 59
     },
     {
       "company": "Starburst",
@@ -1730,7 +1723,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 36,
-      "elapsedMs": 38
+      "elapsedMs": 57
     },
     {
       "company": "Imply",
@@ -1738,23 +1731,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 5,
-      "elapsedMs": 36
+      "elapsedMs": 58
     },
     {
       "company": "Labelbox",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 10,
-      "elapsedMs": 35
+      "jobs": 11,
+      "elapsedMs": 59
     },
     {
       "company": "Snorkel AI",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 42,
-      "elapsedMs": 41
+      "jobs": 43,
+      "elapsedMs": 59
     },
     {
       "company": "Domino Data Lab",
@@ -1762,7 +1755,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 18,
-      "elapsedMs": 36
+      "elapsedMs": 55
     },
     {
       "company": "Arize AI",
@@ -1770,15 +1763,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 26,
-      "elapsedMs": 36
+      "elapsedMs": 60
     },
     {
       "company": "New Relic",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 41,
-      "elapsedMs": 42
+      "jobs": 44,
+      "elapsedMs": 63
     },
     {
       "company": "Sumo Logic",
@@ -1786,7 +1779,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 23,
-      "elapsedMs": 105
+      "elapsedMs": 61
     },
     {
       "company": "Globalization Partners",
@@ -1794,31 +1787,31 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 62,
-      "elapsedMs": 45
+      "elapsedMs": 61
     },
     {
       "company": "Epic Games",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 144,
-      "elapsedMs": 58
+      "jobs": 142,
+      "elapsedMs": 63
     },
     {
       "company": "Riot Games",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 199,
-      "elapsedMs": 47
+      "jobs": 195,
+      "elapsedMs": 65
     },
     {
       "company": "Scopely",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 177,
-      "elapsedMs": 46
+      "jobs": 179,
+      "elapsedMs": 99
     },
     {
       "company": "Gemini",
@@ -1826,7 +1819,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 28,
-      "elapsedMs": 38
+      "elapsedMs": 59
     },
     {
       "company": "Fireblocks",
@@ -1842,7 +1835,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 58,
-      "elapsedMs": 39
+      "elapsedMs": 162
     },
     {
       "company": "Consensys",
@@ -1850,15 +1843,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 12,
-      "elapsedMs": 35
+      "elapsedMs": 57
     },
     {
       "company": "Figure Technologies",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 25,
-      "elapsedMs": 50
+      "jobs": 27,
+      "elapsedMs": 61
     },
     {
       "company": "Current",
@@ -1866,7 +1859,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 39
+      "elapsedMs": 60
     },
     {
       "company": "Public.com",
@@ -1874,7 +1867,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 3,
-      "elapsedMs": 39
+      "elapsedMs": 61
     },
     {
       "company": "Trade Republic",
@@ -1882,7 +1875,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 39,
-      "elapsedMs": 44
+      "elapsedMs": 68
     },
     {
       "company": "Homelight",
@@ -1890,7 +1883,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 7,
-      "elapsedMs": 39
+      "elapsedMs": 63
     },
     {
       "company": "Orchard",
@@ -1898,15 +1891,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 36,
-      "elapsedMs": 39
+      "elapsedMs": 59
     },
     {
       "company": "Knock",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 5,
-      "elapsedMs": 39
+      "jobs": 3,
+      "elapsedMs": 64
     },
     {
       "company": "Human Interest",
@@ -1914,39 +1907,39 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 62,
-      "elapsedMs": 40
+      "elapsedMs": 59
     },
     {
       "company": "Vestwell",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 34,
-      "elapsedMs": 40
+      "jobs": 36,
+      "elapsedMs": 58
     },
     {
       "company": "Alpaca",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 68,
-      "elapsedMs": 38
+      "jobs": 67,
+      "elapsedMs": 196
     },
     {
       "company": "Cleo",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 11,
-      "elapsedMs": 44
+      "jobs": 12,
+      "elapsedMs": 61
     },
     {
       "company": "Earnin",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 26,
-      "elapsedMs": 47
+      "jobs": 27,
+      "elapsedMs": 64
     },
     {
       "company": "Ginkgo Bioworks",
@@ -1954,7 +1947,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 18,
-      "elapsedMs": 41
+      "elapsedMs": 60
     },
     {
       "company": "Freenome",
@@ -1970,15 +1963,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 212,
-      "elapsedMs": 40
+      "elapsedMs": 63
     },
     {
       "company": "Truveta",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 34,
-      "elapsedMs": 36
+      "jobs": 33,
+      "elapsedMs": 59
     },
     {
       "company": "Flatiron Health",
@@ -1986,15 +1979,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 21,
-      "elapsedMs": 39
+      "elapsedMs": 57
     },
     {
       "company": "Calico Labs",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 17,
-      "elapsedMs": 37
+      "jobs": 18,
+      "elapsedMs": 57
     },
     {
       "company": "Beam Therapeutics",
@@ -2002,7 +1995,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 36,
-      "elapsedMs": 57
+      "elapsedMs": 65
     },
     {
       "company": "Sword Health",
@@ -2010,15 +2003,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 49,
-      "elapsedMs": 37
+      "elapsedMs": 59
     },
     {
       "company": "Omada Health",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 23,
-      "elapsedMs": 39
+      "jobs": 24,
+      "elapsedMs": 57
     },
     {
       "company": "One Medical",
@@ -2026,7 +2019,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 346,
-      "elapsedMs": 65
+      "elapsedMs": 1828
     },
     {
       "company": "Parsley Health",
@@ -2034,7 +2027,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 6,
-      "elapsedMs": 42
+      "elapsedMs": 58
     },
     {
       "company": "Calm",
@@ -2042,7 +2035,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 1,
-      "elapsedMs": 36
+      "elapsedMs": 66
     },
     {
       "company": "BetterHelp",
@@ -2050,7 +2043,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 175,
-      "elapsedMs": 43
+      "elapsedMs": 60
     },
     {
       "company": "Talkspace",
@@ -2058,31 +2051,31 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 20,
-      "elapsedMs": 36
+      "elapsedMs": 59
     },
     {
       "company": "Modern Health",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 2,
-      "elapsedMs": 47
+      "jobs": 3,
+      "elapsedMs": 58
     },
     {
       "company": "MyFitnessPal",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 12,
-      "elapsedMs": 37
+      "jobs": 6,
+      "elapsedMs": 61
     },
     {
       "company": "Tempo Fit",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 3,
-      "elapsedMs": 38
+      "jobs": 5,
+      "elapsedMs": 57
     },
     {
       "company": "Future Fit",
@@ -2090,7 +2083,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 7,
-      "elapsedMs": 41
+      "elapsedMs": 61
     },
     {
       "company": "ClassPass",
@@ -2099,7 +2092,7 @@
       "status": "not-found",
       "httpStatus": null,
       "jobs": 0,
-      "elapsedMs": 110
+      "elapsedMs": 114
     },
     {
       "company": "Mindbody",
@@ -2108,23 +2101,23 @@
       "status": "not-found",
       "httpStatus": null,
       "jobs": 0,
-      "elapsedMs": 173
+      "elapsedMs": 124
     },
     {
       "company": "Gympass",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 85,
-      "elapsedMs": 40
+      "jobs": 83,
+      "elapsedMs": 59
     },
     {
       "company": "Coursera",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 40,
-      "elapsedMs": 37
+      "jobs": 38,
+      "elapsedMs": 75
     },
     {
       "company": "Udacity",
@@ -2132,7 +2125,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 23,
-      "elapsedMs": 51
+      "elapsedMs": 60
     },
     {
       "company": "Khan Academy",
@@ -2140,7 +2133,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 3,
-      "elapsedMs": 38
+      "elapsedMs": 61
     },
     {
       "company": "MasterClass",
@@ -2148,7 +2141,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 43
+      "elapsedMs": 69
     },
     {
       "company": "Springboard",
@@ -2156,7 +2149,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 7,
-      "elapsedMs": 34
+      "elapsedMs": 58
     },
     {
       "company": "Newsela",
@@ -2164,15 +2157,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 11,
-      "elapsedMs": 38
+      "elapsedMs": 57
     },
     {
       "company": "IXL Learning",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 114,
-      "elapsedMs": 42
+      "jobs": 112,
+      "elapsedMs": 59
     },
     {
       "company": "GoGuardian",
@@ -2180,7 +2173,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 13,
-      "elapsedMs": 38
+      "elapsedMs": 60
     },
     {
       "company": "Imbue",
@@ -2188,7 +2181,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 2,
-      "elapsedMs": 33
+      "elapsedMs": 59
     },
     {
       "company": "Inflection AI",
@@ -2196,7 +2189,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 37
+      "elapsedMs": 61
     },
     {
       "company": "Stability AI",
@@ -2204,15 +2197,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 2,
-      "elapsedMs": 88
+      "elapsedMs": 60
     },
     {
       "company": "Relativity",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 403,
-      "elapsedMs": 45
+      "jobs": 396,
+      "elapsedMs": 66
     },
     {
       "company": "Everlaw",
@@ -2220,15 +2213,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 34,
-      "elapsedMs": 58
+      "elapsedMs": 57
     },
     {
       "company": "Alloy",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 33,
-      "elapsedMs": 38
+      "jobs": 32,
+      "elapsedMs": 61
     },
     {
       "company": "Forter",
@@ -2236,7 +2229,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 19,
-      "elapsedMs": 40
+      "elapsedMs": 57
     },
     {
       "company": "Riskified",
@@ -2244,7 +2237,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 42,
-      "elapsedMs": 43
+      "elapsedMs": 60
     },
     {
       "company": "Feedzai",
@@ -2252,7 +2245,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 10,
-      "elapsedMs": 34
+      "elapsedMs": 63
     },
     {
       "company": "ComplyAdvantage",
@@ -2260,7 +2253,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 19,
-      "elapsedMs": 40
+      "elapsedMs": 59
     },
     {
       "company": "Nova Credit",
@@ -2268,7 +2261,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 7,
-      "elapsedMs": 42
+      "elapsedMs": 57
     },
     {
       "company": "Homeward",
@@ -2276,7 +2269,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 40
+      "elapsedMs": 58
     },
     {
       "company": "Vacasa",
@@ -2284,14 +2277,14 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 39
+      "elapsedMs": 60
     },
     {
       "company": "Kasa Living",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 24,
+      "jobs": 25,
       "elapsedMs": 55
     },
     {
@@ -2300,7 +2293,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 17,
-      "elapsedMs": 37
+      "elapsedMs": 59
     },
     {
       "company": "Instawork",
@@ -2308,7 +2301,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 53,
-      "elapsedMs": 57
+      "elapsedMs": 93
     },
     {
       "company": "Movable Ink",
@@ -2316,7 +2309,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 34,
-      "elapsedMs": 37
+      "elapsedMs": 60
     },
     {
       "company": "Bloomreach",
@@ -2324,7 +2317,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 63,
-      "elapsedMs": 41
+      "elapsedMs": 58
     },
     {
       "company": "QuillBot",
@@ -2332,7 +2325,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 39
+      "elapsedMs": 60
     },
     {
       "company": "Invisible Technologies",
@@ -2340,7 +2333,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 20,
-      "elapsedMs": 56
+      "elapsedMs": 58
     },
     {
       "company": "Turing",
@@ -2348,15 +2341,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 48,
-      "elapsedMs": 37
+      "elapsedMs": 58
     },
     {
       "company": "Wrike",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 59,
-      "elapsedMs": 59
+      "jobs": 66,
+      "elapsedMs": 60
     },
     {
       "company": "Aha!",
@@ -2364,15 +2357,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 54
+      "elapsedMs": 59
     },
     {
       "company": "Qualtrics",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 139,
-      "elapsedMs": 44
+      "jobs": 149,
+      "elapsedMs": 62
     },
     {
       "company": "Backblaze",
@@ -2380,7 +2373,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 33,
-      "elapsedMs": 46
+      "elapsedMs": 59
     },
     {
       "company": "Wasabi Technologies",
@@ -2388,15 +2381,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 12,
-      "elapsedMs": 34
+      "elapsedMs": 58
     },
     {
       "company": "MinIO",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 48,
-      "elapsedMs": 40
+      "jobs": 47,
+      "elapsedMs": 170
     },
     {
       "company": "Filecoin Foundation",
@@ -2404,7 +2397,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 1,
-      "elapsedMs": 41
+      "elapsedMs": 60
     },
     {
       "company": "Prismatic",
@@ -2412,7 +2405,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 2,
-      "elapsedMs": 47
+      "elapsedMs": 54
     },
     {
       "company": "Workato",
@@ -2420,7 +2413,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 63,
-      "elapsedMs": 36
+      "elapsedMs": 64
     },
     {
       "company": "Celigo",
@@ -2428,23 +2421,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 18,
-      "elapsedMs": 40
+      "elapsedMs": 59
     },
     {
       "company": "Appian",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 157,
-      "elapsedMs": 89
+      "jobs": 154,
+      "elapsedMs": 62
     },
     {
       "company": "Mercury",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 77,
-      "elapsedMs": 40
+      "jobs": 79,
+      "elapsedMs": 60
     },
     {
       "company": "TrueLayer",
@@ -2452,15 +2445,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 43
+      "elapsedMs": 58
     },
     {
       "company": "Sezzle",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 266,
-      "elapsedMs": 48
+      "jobs": 258,
+      "elapsedMs": 64
     },
     {
       "company": "Luno",
@@ -2468,23 +2461,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 3,
-      "elapsedMs": 36
+      "elapsedMs": 56
     },
     {
       "company": "Bitpanda",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 44,
-      "elapsedMs": 39
+      "jobs": 45,
+      "elapsedMs": 168
     },
     {
       "company": "OKX",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 392,
-      "elapsedMs": 56
+      "jobs": 391,
+      "elapsedMs": 66
     },
     {
       "company": "Bybit",
@@ -2492,7 +2485,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 153,
-      "elapsedMs": 40
+      "elapsedMs": 62
     },
     {
       "company": "Vectara",
@@ -2500,7 +2493,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 42
+      "elapsedMs": 57
     },
     {
       "company": "AssemblyAI",
@@ -2508,7 +2501,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 19,
-      "elapsedMs": 114
+      "elapsedMs": 172
     },
     {
       "company": "Speechmatics",
@@ -2516,23 +2509,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 10,
-      "elapsedMs": 40
+      "elapsedMs": 64
     },
     {
       "company": "Otter.ai",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 22,
-      "elapsedMs": 34
+      "jobs": 18,
+      "elapsedMs": 59
     },
     {
       "company": "Cresta",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 87,
-      "elapsedMs": 38
+      "jobs": 88,
+      "elapsedMs": 58
     },
     {
       "company": "Observe.AI",
@@ -2540,7 +2533,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 11,
-      "elapsedMs": 176
+      "elapsedMs": 62
     },
     {
       "company": "PolyAI",
@@ -2548,7 +2541,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 3,
-      "elapsedMs": 39
+      "elapsedMs": 61
     },
     {
       "company": "ManyChat",
@@ -2556,15 +2549,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 36
+      "elapsedMs": 58
     },
     {
       "company": "6sense",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 34,
-      "elapsedMs": 38
+      "jobs": 35,
+      "elapsedMs": 60
     },
     {
       "company": "ZoomInfo",
@@ -2572,7 +2565,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 92,
-      "elapsedMs": 42
+      "elapsedMs": 64
     },
     {
       "company": "Apollo.io",
@@ -2580,7 +2573,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 44,
-      "elapsedMs": 40
+      "elapsedMs": 59
     },
     {
       "company": "Cognism",
@@ -2588,7 +2581,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 18,
-      "elapsedMs": 38
+      "elapsedMs": 63
     },
     {
       "company": "Mercari",
@@ -2596,7 +2589,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 38
+      "elapsedMs": 58
     },
     {
       "company": "OfferUp",
@@ -2604,15 +2597,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 135
+      "elapsedMs": 59
     },
     {
       "company": "StitchFix",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 13,
-      "elapsedMs": 105
+      "jobs": 12,
+      "elapsedMs": 63
     },
     {
       "company": "Grailed",
@@ -2620,31 +2613,31 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 36
+      "elapsedMs": 58
     },
     {
       "company": "HelloFresh",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 379,
-      "elapsedMs": 86
+      "jobs": 380,
+      "elapsedMs": 98
     },
     {
       "company": "Home Chef",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 34,
-      "elapsedMs": 47
+      "jobs": 33,
+      "elapsedMs": 61
     },
     {
       "company": "Thrive Market",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 19,
-      "elapsedMs": 36
+      "jobs": 20,
+      "elapsedMs": 58
     },
     {
       "company": "Misfits Market",
@@ -2652,7 +2645,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 67,
-      "elapsedMs": 42
+      "elapsedMs": 60
     },
     {
       "company": "Weee!",
@@ -2660,15 +2653,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 18,
-      "elapsedMs": 40
+      "elapsedMs": 71
     },
     {
       "company": "Palantir",
       "platform": "lever",
       "attempt": 1,
       "status": "ok",
-      "jobs": 301,
-      "elapsedMs": 294
+      "jobs": 302,
+      "elapsedMs": 518
     },
     {
       "company": "Ro",
@@ -2676,15 +2669,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 56,
-      "elapsedMs": 167
+      "elapsedMs": 552
     },
     {
       "company": "Veeva Systems",
       "platform": "lever",
       "attempt": 1,
       "status": "ok",
-      "jobs": 860,
-      "elapsedMs": 538
+      "jobs": 861,
+      "elapsedMs": 885
     },
     {
       "company": "Tala",
@@ -2692,7 +2685,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 11,
-      "elapsedMs": 780
+      "elapsedMs": 303
     },
     {
       "company": "Wattpad",
@@ -2700,15 +2693,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 17,
-      "elapsedMs": 29
+      "elapsedMs": 415
     },
     {
       "company": "Aircall",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 87,
-      "elapsedMs": 39
+      "jobs": 88,
+      "elapsedMs": 63
     },
     {
       "company": "BrightEdge",
@@ -2716,15 +2709,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 21,
-      "elapsedMs": 426
+      "elapsedMs": 69
     },
     {
       "company": "Zoox",
       "platform": "lever",
       "attempt": 1,
       "status": "ok",
-      "jobs": 237,
-      "elapsedMs": 81
+      "jobs": 241,
+      "elapsedMs": 164
     },
     {
       "company": "Outreach",
@@ -2732,7 +2725,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 16,
-      "elapsedMs": 151
+      "elapsedMs": 10510
     },
     {
       "company": "Highspot",
@@ -2740,7 +2733,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 22
+      "elapsedMs": 47
     },
     {
       "company": "Kapwing",
@@ -2748,7 +2741,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 20
+      "elapsedMs": 58
     },
     {
       "company": "Ramp",
@@ -2756,7 +2749,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 180,
-      "elapsedMs": 115
+      "elapsedMs": 139
     },
     {
       "company": "Linear",
@@ -2764,15 +2757,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 33,
-      "elapsedMs": 48
+      "elapsedMs": 55
     },
     {
       "company": "OpenAI",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 832,
-      "elapsedMs": 204
+      "jobs": 838,
+      "elapsedMs": 208
     },
     {
       "company": "Watershed",
@@ -2780,7 +2773,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 40,
-      "elapsedMs": 26
+      "elapsedMs": 30
     },
     {
       "company": "Substack",
@@ -2788,7 +2781,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 19,
-      "elapsedMs": 21
+      "elapsedMs": 78
     },
     {
       "company": "Notion",
@@ -2796,7 +2789,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 166,
-      "elapsedMs": 61
+      "elapsedMs": 151
     },
     {
       "company": "Runway",
@@ -2804,7 +2797,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 3,
-      "elapsedMs": 22
+      "elapsedMs": 21
     },
     {
       "company": "Synthesia",
@@ -2812,23 +2805,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 31,
-      "elapsedMs": 21
+      "elapsedMs": 25
     },
     {
       "company": "Cursor (Anysphere)",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 115,
-      "elapsedMs": 40
+      "jobs": 99,
+      "elapsedMs": 44
     },
     {
       "company": "Replit",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 31,
-      "elapsedMs": 29
+      "jobs": 30,
+      "elapsedMs": 27
     },
     {
       "company": "Modal",
@@ -2836,7 +2829,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 43,
-      "elapsedMs": 25
+      "elapsedMs": 26
     },
     {
       "company": "Middesk",
@@ -2844,7 +2837,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 17,
-      "elapsedMs": 99
+      "elapsedMs": 24
     },
     {
       "company": "Vanta",
@@ -2852,15 +2845,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 80,
-      "elapsedMs": 31
+      "elapsedMs": 38
     },
     {
       "company": "Abridge",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 22,
-      "elapsedMs": 24
+      "jobs": 24,
+      "elapsedMs": 26
     },
     {
       "company": "Sardine",
@@ -2868,23 +2861,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 39,
-      "elapsedMs": 23
+      "elapsedMs": 55
     },
     {
       "company": "Decagon",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 128,
-      "elapsedMs": 37
+      "jobs": 124,
+      "elapsedMs": 40
     },
     {
       "company": "Harvey",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 376,
-      "elapsedMs": 92
+      "jobs": 387,
+      "elapsedMs": 98
     },
     {
       "company": "Sierra",
@@ -2899,16 +2892,16 @@
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 32,
-      "elapsedMs": 20
+      "jobs": 31,
+      "elapsedMs": 28
     },
     {
       "company": "Crusoe",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 321,
-      "elapsedMs": 164
+      "jobs": 318,
+      "elapsedMs": 100
     },
     {
       "company": "Rilla",
@@ -2916,31 +2909,31 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 25,
-      "elapsedMs": 124
+      "elapsedMs": 44
     },
     {
       "company": "Suno",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 66,
-      "elapsedMs": 27
+      "jobs": 63,
+      "elapsedMs": 35
     },
     {
       "company": "ElevenLabs",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 127,
-      "elapsedMs": 72
+      "jobs": 128,
+      "elapsedMs": 41
     },
     {
       "company": "Baseten",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 101,
-      "elapsedMs": 35
+      "jobs": 102,
+      "elapsedMs": 44
     },
     {
       "company": "Braintrust",
@@ -2948,23 +2941,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 32,
-      "elapsedMs": 89
+      "elapsedMs": 26
     },
     {
       "company": "Lovable",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 78,
-      "elapsedMs": 34
+      "jobs": 79,
+      "elapsedMs": 33
     },
     {
       "company": "Bland",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 16,
-      "elapsedMs": 21
+      "jobs": 17,
+      "elapsedMs": 30
     },
     {
       "company": "PostHog",
@@ -2972,7 +2965,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 10,
-      "elapsedMs": 15
+      "elapsedMs": 23
     },
     {
       "company": "Warp",
@@ -2980,7 +2973,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 17,
-      "elapsedMs": 21
+      "elapsedMs": 23
     },
     {
       "company": "Rho",
@@ -2988,15 +2981,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 49,
-      "elapsedMs": 32
+      "elapsedMs": 27
     },
     {
       "company": "Mercor",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 92,
-      "elapsedMs": 41
+      "jobs": 91,
+      "elapsedMs": 38
     },
     {
       "company": "Persona",
@@ -3004,15 +2997,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 14,
-      "elapsedMs": 87
+      "elapsedMs": 22
     },
     {
       "company": "Anrok",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 13,
-      "elapsedMs": 97
+      "jobs": 12,
+      "elapsedMs": 21
     },
     {
       "company": "Orb",
@@ -3020,15 +3013,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 87
+      "elapsedMs": 19
     },
     {
       "company": "LangChain",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 100,
-      "elapsedMs": 38
+      "jobs": 99,
+      "elapsedMs": 35
     },
     {
       "company": "Pinecone",
@@ -3036,7 +3029,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 6,
-      "elapsedMs": 27
+      "elapsedMs": 19
     },
     {
       "company": "Weaviate",
@@ -3052,7 +3045,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 22,
-      "elapsedMs": 21
+      "elapsedMs": 25
     },
     {
       "company": "Merge",
@@ -3060,15 +3053,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 18,
-      "elapsedMs": 93
+      "elapsedMs": 24
     },
     {
       "company": "Nango",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 8,
-      "elapsedMs": 18
+      "jobs": 5,
+      "elapsedMs": 19
     },
     {
       "company": "Endgame",
@@ -3076,7 +3069,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 93
+      "elapsedMs": 20
     },
     {
       "company": "Drata",
@@ -3084,7 +3077,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 23,
-      "elapsedMs": 31
+      "elapsedMs": 24
     },
     {
       "company": "Secureframe",
@@ -3092,7 +3085,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 8,
-      "elapsedMs": 89
+      "elapsedMs": 21
     },
     {
       "company": "Headway",
@@ -3100,7 +3093,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 92,
-      "elapsedMs": 39
+      "elapsedMs": 41
     },
     {
       "company": "Cedar",
@@ -3108,15 +3101,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 1,
-      "elapsedMs": 18
+      "elapsedMs": 21
     },
     {
       "company": "Aurora Solar",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 7,
-      "elapsedMs": 21
+      "jobs": 5,
+      "elapsedMs": 22
     },
     {
       "company": "Resend",
@@ -3124,7 +3117,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 14,
-      "elapsedMs": 19
+      "elapsedMs": 22
     },
     {
       "company": "Trigger.dev",
@@ -3132,23 +3125,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 5,
-      "elapsedMs": 94
+      "elapsedMs": 24
     },
     {
       "company": "Rula",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 29,
-      "elapsedMs": 24
+      "jobs": 31,
+      "elapsedMs": 25
     },
     {
       "company": "Skydio",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 191,
-      "elapsedMs": 62
+      "jobs": 189,
+      "elapsedMs": 66
     },
     {
       "company": "Saronic",
@@ -3156,15 +3149,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 274,
-      "elapsedMs": 77
+      "elapsedMs": 109
     },
     {
       "company": "Whoop",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 114,
-      "elapsedMs": 108
+      "jobs": 115,
+      "elapsedMs": 50
     },
     {
       "company": "Superpower",
@@ -3172,15 +3165,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 29,
-      "elapsedMs": 102
+      "elapsedMs": 28
     },
     {
       "company": "Eight Sleep",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 34,
-      "elapsedMs": 26
+      "jobs": 33,
+      "elapsedMs": 29
     },
     {
       "company": "Attio",
@@ -3188,7 +3181,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 22,
-      "elapsedMs": 92
+      "elapsedMs": 22
     },
     {
       "company": "Gamma",
@@ -3196,15 +3189,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 20,
-      "elapsedMs": 19
+      "elapsedMs": 24
     },
     {
       "company": "Zapier",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 9,
-      "elapsedMs": 21
+      "jobs": 10,
+      "elapsedMs": 22
     },
     {
       "company": "Unit",
@@ -3212,7 +3205,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 1,
-      "elapsedMs": 87
+      "elapsedMs": 23
     },
     {
       "company": "Column",
@@ -3220,7 +3213,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 23,
-      "elapsedMs": 24
+      "elapsedMs": 29
     },
     {
       "company": "Modern Treasury",
@@ -3228,7 +3221,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 7,
-      "elapsedMs": 96
+      "elapsedMs": 23
     },
     {
       "company": "Poolside",
@@ -3236,7 +3229,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 88
+      "elapsedMs": 28
     },
     {
       "company": "Reflection AI",
@@ -3244,7 +3237,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 45,
-      "elapsedMs": 30
+      "elapsedMs": 93
     },
     {
       "company": "Character AI",
@@ -3252,7 +3245,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 13,
-      "elapsedMs": 19
+      "elapsedMs": 22
     },
     {
       "company": "Krea AI",
@@ -3260,15 +3253,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 13,
-      "elapsedMs": 94
+      "elapsedMs": 23
     },
     {
       "company": "Zilch",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 15,
-      "elapsedMs": 97
+      "jobs": 14,
+      "elapsedMs": 24
     },
     {
       "company": "Griffin",
@@ -3276,15 +3269,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 5,
-      "elapsedMs": 16
+      "elapsedMs": 83
     },
     {
       "company": "Snowflake",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 375,
-      "elapsedMs": 75
+      "jobs": 376,
+      "elapsedMs": 119
     },
     {
       "company": "Preply",
@@ -3292,7 +3285,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 120,
-      "elapsedMs": 45
+      "elapsedMs": 113
     },
     {
       "company": "Visa",
@@ -3300,7 +3293,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 491
+      "elapsedMs": 481
     },
     {
       "company": "Equinox",
@@ -3308,23 +3301,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 500,
-      "elapsedMs": 3072
+      "elapsedMs": 3300
     },
     {
       "company": "The Wonderful Company",
       "platform": "smartrecruiters",
       "attempt": 1,
       "status": "ok",
-      "jobs": 219,
-      "elapsedMs": 1950
+      "jobs": 225,
+      "elapsedMs": 2097
     },
     {
       "company": "Version 1",
       "platform": "smartrecruiters",
       "attempt": 1,
       "status": "ok",
-      "jobs": 151,
-      "elapsedMs": 1239
+      "jobs": 149,
+      "elapsedMs": 1241
     },
     {
       "company": "Bosch Group",
@@ -3332,7 +3325,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 500,
-      "elapsedMs": 3228
+      "elapsedMs": 3325
     },
     {
       "company": "Delivery Hero",
@@ -3340,7 +3333,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 500,
-      "elapsedMs": 2937
+      "elapsedMs": 3085
     },
     {
       "company": "Hugging Face",
@@ -3348,7 +3341,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 6,
-      "elapsedMs": 145
+      "elapsedMs": 174
     },
     {
       "company": "EQL Tech",
@@ -3356,7 +3349,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 47,
-      "elapsedMs": 118
+      "elapsedMs": 121
     },
     {
       "company": "I-Tech People",
@@ -3364,7 +3357,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 8,
-      "elapsedMs": 118
+      "elapsedMs": 219
     },
     {
       "company": "Mondu",
@@ -3372,7 +3365,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 126
+      "elapsedMs": 116
     },
     {
       "company": "Helloprint",
@@ -3380,7 +3373,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 5,
-      "elapsedMs": 284
+      "elapsedMs": 299
     },
     {
       "company": "Channable",
@@ -3388,7 +3381,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 11,
-      "elapsedMs": 285
+      "elapsedMs": 352
     },
     {
       "company": "Trusted Shops",
@@ -3396,7 +3389,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 14,
-      "elapsedMs": 457
+      "elapsedMs": 445
     },
     {
       "company": "bunq",
@@ -3404,7 +3397,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 23,
-      "elapsedMs": 525
+      "elapsedMs": 546
     },
     {
       "company": "CM.com",
@@ -3412,7 +3405,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 18,
-      "elapsedMs": 278
+      "elapsedMs": 352
     },
     {
       "company": "Clark",
@@ -3420,7 +3413,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 3,
-      "elapsedMs": 908
+      "elapsedMs": 783
     },
     {
       "company": "orderbird",
@@ -3428,7 +3421,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 3,
-      "elapsedMs": 961
+      "elapsedMs": 1003
     },
     {
       "company": "Ratepay",
@@ -3437,7 +3430,7 @@
       "status": "not-found",
       "httpStatus": null,
       "jobs": 0,
-      "elapsedMs": 790
+      "elapsedMs": 602
     },
     {
       "company": "ottonova",
@@ -3445,7 +3438,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 9,
-      "elapsedMs": 1094
+      "elapsedMs": 1201
     },
     {
       "company": "Fly.io",
@@ -3453,7 +3446,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 10,
-      "elapsedMs": 453
+      "elapsedMs": 473
     },
     {
       "company": "Bitcoin.com",
@@ -3461,95 +3454,104 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 467
+      "elapsedMs": 485
     },
     {
       "company": "Intel",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 864,
-      "elapsedMs": 213209
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1614
     },
     {
       "company": "Salesforce",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 1027,
-      "elapsedMs": 370321
+      "jobs": 1025,
+      "elapsedMs": 116948
     },
     {
       "company": "Adobe",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 210,
-      "elapsedMs": 424166
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1894
     },
     {
       "company": "CVS Health",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 693,
-      "elapsedMs": 474064
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2186
     },
     {
       "company": "Vanguard",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 209,
-      "elapsedMs": 570082
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2385
     },
     {
       "company": "Autodesk",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 3,
-      "elapsedMs": 367686
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2371
     },
     {
       "company": "Target",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 641,
-      "elapsedMs": 316037
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2124
     },
     {
       "company": "PayPal",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 231,
-      "elapsedMs": 344749
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2392
     },
     {
       "company": "Nvidia",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 1776,
-      "elapsedMs": 563967
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2434
     },
     {
       "company": "Workday Inc",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 314,
-      "elapsedMs": 689778
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1839
     },
     {
       "company": "Upstart",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 78,
-      "elapsedMs": 152
+      "jobs": 77,
+      "elapsedMs": 149
     },
     {
       "company": "Spark Advisors",
@@ -3557,7 +3559,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 11,
-      "elapsedMs": 46
+      "elapsedMs": 58
     },
     {
       "company": "Honor",
@@ -3565,15 +3567,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 16,
-      "elapsedMs": 50
+      "elapsedMs": 62
     },
     {
       "company": "Dragos",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 49,
-      "elapsedMs": 50
+      "jobs": 50,
+      "elapsedMs": 60
     },
     {
       "company": "Canonical",
@@ -3581,15 +3583,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 316,
-      "elapsedMs": 62
+      "elapsedMs": 71
     },
     {
       "company": "Altana",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 34,
-      "elapsedMs": 41
+      "jobs": 33,
+      "elapsedMs": 58
     },
     {
       "company": "Outside",
@@ -3597,7 +3599,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 7,
-      "elapsedMs": 40
+      "elapsedMs": 89
     },
     {
       "company": "Zocdoc",
@@ -3605,7 +3607,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 67,
-      "elapsedMs": 40
+      "elapsedMs": 67
     },
     {
       "company": "iFIT",
@@ -3613,7 +3615,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 29,
-      "elapsedMs": 96
+      "elapsedMs": 60
     },
     {
       "company": "HopSkipDrive",
@@ -3621,7 +3623,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 8,
-      "elapsedMs": 43
+      "elapsedMs": 64
     },
     {
       "company": "Code for America",
@@ -3629,7 +3631,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 10,
-      "elapsedMs": 37
+      "elapsedMs": 145
     },
     {
       "company": "Nava PBC",
@@ -3637,23 +3639,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 20,
-      "elapsedMs": 70
+      "elapsedMs": 62
     },
     {
       "company": "Skylight",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 16,
-      "elapsedMs": 35
+      "jobs": 17,
+      "elapsedMs": 61
     },
     {
       "company": "Datavant",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 135,
-      "elapsedMs": 489
+      "jobs": 136,
+      "elapsedMs": 429
     },
     {
       "company": "Headspace",
@@ -3661,23 +3663,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 38
+      "elapsedMs": 63
     },
     {
       "company": "Pathstream",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 2,
-      "elapsedMs": 39
+      "jobs": 1,
+      "elapsedMs": 58
     },
     {
       "company": "Accela",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 7,
-      "elapsedMs": 46
+      "jobs": 6,
+      "elapsedMs": 61
     },
     {
       "company": "Vannevar Labs",
@@ -3685,15 +3687,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 31,
-      "elapsedMs": 40
+      "elapsedMs": 59
     },
     {
       "company": "First Due",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 21,
-      "elapsedMs": 37
+      "jobs": 19,
+      "elapsedMs": 61
     },
     {
       "company": "GiveDirectly",
@@ -3701,31 +3703,31 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 30,
-      "elapsedMs": 40
+      "elapsedMs": 61
     },
     {
       "company": "Imagine Pediatrics",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 20,
-      "elapsedMs": 48
+      "jobs": 19,
+      "elapsedMs": 69
     },
     {
       "company": "Abacus Insights",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 15,
-      "elapsedMs": 51
+      "jobs": 14,
+      "elapsedMs": 82
     },
     {
       "company": "Lyra Health",
       "platform": "lever",
       "attempt": 1,
       "status": "ok",
-      "jobs": 489,
-      "elapsedMs": 2169
+      "jobs": 487,
+      "elapsedMs": 632
     },
     {
       "company": "Zeta Global",
@@ -3733,7 +3735,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 106,
-      "elapsedMs": 44
+      "elapsedMs": 62
     },
     {
       "company": "Appfire",
@@ -3741,7 +3743,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 19,
-      "elapsedMs": 37
+      "elapsedMs": 60
     },
     {
       "company": "SmartBear",
@@ -3749,7 +3751,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 11,
-      "elapsedMs": 56
+      "elapsedMs": 60
     },
     {
       "company": "Lucid",
@@ -3757,7 +3759,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 24,
-      "elapsedMs": 40
+      "elapsedMs": 60
     },
     {
       "company": "Wavelo",
@@ -3765,7 +3767,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 43
+      "elapsedMs": 62
     },
     {
       "company": "Prolific",
@@ -3773,7 +3775,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 30,
-      "elapsedMs": 155
+      "elapsedMs": 59
     },
     {
       "company": "Pilot",
@@ -3781,7 +3783,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 10,
-      "elapsedMs": 43
+      "elapsedMs": 58
     },
     {
       "company": "Kard",
@@ -3789,15 +3791,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 8,
-      "elapsedMs": 41
+      "elapsedMs": 57
     },
     {
       "company": "Sprout Social",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 20,
-      "elapsedMs": 41
+      "jobs": 21,
+      "elapsedMs": 170
     },
     {
       "company": "Turnkey",
@@ -3805,7 +3807,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 13,
-      "elapsedMs": 94
+      "elapsedMs": 47
     },
     {
       "company": "Camunda",
@@ -3813,7 +3815,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 51,
-      "elapsedMs": 59
+      "elapsedMs": 77
     },
     {
       "company": "Forma",
@@ -3821,7 +3823,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 3,
-      "elapsedMs": 24
+      "elapsedMs": 77
     },
     {
       "company": "Ignite Reading",
@@ -3829,7 +3831,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 6,
-      "elapsedMs": 42
+      "elapsedMs": 23
     },
     {
       "company": "Render",
@@ -3837,7 +3839,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 38,
-      "elapsedMs": 38
+      "elapsedMs": 61
     },
     {
       "company": "Valon",
@@ -3845,15 +3847,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 31,
-      "elapsedMs": 34
+      "elapsedMs": 47
     },
     {
       "company": "Virta Health",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 22,
-      "elapsedMs": 48
+      "jobs": 23,
+      "elapsedMs": 33
     },
     {
       "company": "Angle Health",
@@ -3861,7 +3863,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 1,
-      "elapsedMs": 35
+      "elapsedMs": 86
     },
     {
       "company": "Temporal",
@@ -3869,15 +3871,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 84,
-      "elapsedMs": 50
+      "elapsedMs": 46
     },
     {
       "company": "ClickHouse",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 200,
-      "elapsedMs": 71
+      "jobs": 205,
+      "elapsedMs": 64
     },
     {
       "company": "Materialize",
@@ -3885,7 +3887,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 32
+      "elapsedMs": 24
     },
     {
       "company": "Tempo",
@@ -3893,7 +3895,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 14,
-      "elapsedMs": 35
+      "elapsedMs": 24
     },
     {
       "company": "Aditude",
@@ -3901,7 +3903,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 1,
-      "elapsedMs": 26
+      "elapsedMs": 223
     },
     {
       "company": "1Password",
@@ -3909,23 +3911,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 80,
-      "elapsedMs": 62
+      "elapsedMs": 64
     },
     {
       "company": "Horizon3.ai",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 193,
-      "elapsedMs": 120
+      "jobs": 200,
+      "elapsedMs": 147
     },
     {
       "company": "Cohere",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 120,
-      "elapsedMs": 58
+      "jobs": 121,
+      "elapsedMs": 64
     },
     {
       "company": "Delinea",
@@ -3933,7 +3935,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 70,
-      "elapsedMs": 47
+      "elapsedMs": 48
     },
     {
       "company": "Metabase",
@@ -3941,7 +3943,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 20,
-      "elapsedMs": 171
+      "elapsedMs": 156
     },
     {
       "company": "Zencore",
@@ -3949,7 +3951,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 21,
-      "elapsedMs": 98
+      "elapsedMs": 288
     },
     {
       "company": "Mirantis",
@@ -3957,7 +3959,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 102,
-      "elapsedMs": 1264
+      "elapsedMs": 1250
     },
     {
       "company": "Alteryx",
@@ -3965,31 +3967,34 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 45,
-      "elapsedMs": 667625
+      "elapsedMs": 2536
     },
     {
       "company": "CDW",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 208,
-      "elapsedMs": 589701
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1027
     },
     {
       "company": "CrowdStrike",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 355,
-      "elapsedMs": 584006
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1021
     },
     {
       "company": "Deckers Brands",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 50,
-      "elapsedMs": 329708
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1852
     },
     {
       "company": "Experity",
@@ -3997,47 +4002,50 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 42,
-      "elapsedMs": 109991
+      "elapsedMs": 5502
     },
     {
       "company": "Ferguson",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 437,
-      "elapsedMs": 157966
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2316
     },
     {
       "company": "Mastercard",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 587,
-      "elapsedMs": 320287
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2768
     },
     {
       "company": "ModMed",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 90,
-      "elapsedMs": 246984
+      "jobs": 92,
+      "elapsedMs": 9885
     },
     {
       "company": "ServiceTitan",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 73,
-      "elapsedMs": 236961
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1613
     },
     {
       "company": "Teladoc Health",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 59,
-      "elapsedMs": 237346
+      "jobs": 60,
+      "elapsedMs": 9823
     },
     {
       "company": "Sentry",
@@ -4045,7 +4053,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 39,
-      "elapsedMs": 66
+      "elapsedMs": 64
     },
     {
       "company": "Confluent",
@@ -4053,15 +4061,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 18
+      "elapsedMs": 19
     },
     {
       "company": "Harness",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 68,
-      "elapsedMs": 147
+      "jobs": 67,
+      "elapsedMs": 74
     },
     {
       "company": "Snyk",
@@ -4069,7 +4077,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 38,
-      "elapsedMs": 25
+      "elapsedMs": 34
     },
     {
       "company": "Docker",
@@ -4077,7 +4085,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 53,
-      "elapsedMs": 38
+      "elapsedMs": 53
     },
     {
       "company": "Kong",
@@ -4085,23 +4093,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 116,
-      "elapsedMs": 39
+      "elapsedMs": 36
     },
     {
       "company": "DigitalOcean",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 141,
-      "elapsedMs": 46
+      "jobs": 136,
+      "elapsedMs": 60
     },
     {
       "company": "Fivetran",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 191,
-      "elapsedMs": 43
+      "jobs": 197,
+      "elapsedMs": 77
     },
     {
       "company": "Buildkite",
@@ -4109,7 +4117,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 8,
-      "elapsedMs": 38
+      "elapsedMs": 61
     },
     {
       "company": "Sourcegraph",
@@ -4117,7 +4125,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 6,
-      "elapsedMs": 40
+      "elapsedMs": 79
     },
     {
       "company": "Cockroach Labs",
@@ -4125,7 +4133,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 13,
-      "elapsedMs": 40
+      "elapsedMs": 61
     },
     {
       "company": "Redis",
@@ -4133,7 +4141,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 28,
-      "elapsedMs": 31
+      "elapsedMs": 88
     },
     {
       "company": "Supabase",
@@ -4141,7 +4149,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 77,
-      "elapsedMs": 37
+      "elapsedMs": 36
     },
     {
       "company": "Pulumi",
@@ -4149,7 +4157,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 45
+      "elapsedMs": 58
     },
     {
       "company": "Railway",
@@ -4157,71 +4165,78 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 7,
-      "elapsedMs": 20
+      "elapsedMs": 22
     },
     {
       "company": "Centene",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 61,
-      "elapsedMs": 198573
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1145
     },
     {
       "company": "Elevance Health",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 48,
-      "elapsedMs": 35462
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2620
     },
     {
       "company": "Humana",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 133,
-      "elapsedMs": 75035
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2736
     },
     {
       "company": "The Cigna Group",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 271,
-      "elapsedMs": 130229
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2109
     },
     {
       "company": "Abbott",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 1066,
-      "elapsedMs": 305397
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2236
     },
     {
       "company": "Medtronic",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 701,
-      "elapsedMs": 500179
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2374
     },
     {
       "company": "Stryker",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 738,
-      "elapsedMs": 616296
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2965
     },
     {
       "company": "Oscar Health",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 190,
-      "elapsedMs": 135
+      "jobs": 183,
+      "elapsedMs": 110
     },
     {
       "company": "Pearl Health",
@@ -4229,7 +4244,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 7,
-      "elapsedMs": 111
+      "elapsedMs": 54
     },
     {
       "company": "Arcadia",
@@ -4237,23 +4252,24 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 15,
-      "elapsedMs": 169
+      "elapsedMs": 1265
     },
     {
       "company": "Cisco",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 1167,
-      "elapsedMs": 710155
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2739
     },
     {
       "company": "Coder",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 27,
-      "elapsedMs": 60
+      "jobs": 28,
+      "elapsedMs": 27
     },
     {
       "company": "Sonatype",
@@ -4261,7 +4277,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 14,
-      "elapsedMs": 166
+      "elapsedMs": 49
     },
     {
       "company": "Healthie",
@@ -4269,23 +4285,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 17,
-      "elapsedMs": 116
+      "elapsedMs": 61
     },
     {
       "company": "Commure",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 71,
-      "elapsedMs": 48
+      "jobs": 72,
+      "elapsedMs": 43
     },
     {
       "company": "Innovaccer",
       "platform": "workable",
       "attempt": 1,
       "status": "ok",
-      "jobs": 100,
-      "elapsedMs": 166
+      "jobs": 99,
+      "elapsedMs": 149
     },
     {
       "company": "Automattic",
@@ -4293,15 +4309,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 128
+      "elapsedMs": 132
     },
     {
       "company": "CentralReach",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 19,
-      "elapsedMs": 40
+      "jobs": 20,
+      "elapsedMs": 60
     },
     {
       "company": "Dscout",
@@ -4309,23 +4325,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 15,
-      "elapsedMs": 60
+      "elapsedMs": 61
     },
     {
       "company": "Garner Health",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 58,
-      "elapsedMs": 41
+      "jobs": 59,
+      "elapsedMs": 123
     },
     {
       "company": "PatientPoint",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 35,
-      "elapsedMs": 41
+      "jobs": 34,
+      "elapsedMs": 64
     },
     {
       "company": "PerfectServe",
@@ -4333,7 +4349,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 12,
-      "elapsedMs": 35
+      "elapsedMs": 60
     },
     {
       "company": "RxSense",
@@ -4341,7 +4357,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 7,
-      "elapsedMs": 40
+      "elapsedMs": 62
     },
     {
       "company": "Verantos",
@@ -4349,7 +4365,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 8,
-      "elapsedMs": 62
+      "elapsedMs": 67
     },
     {
       "company": "Filevine",
@@ -4357,7 +4373,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 115,
-      "elapsedMs": 202
+      "elapsedMs": 1144
     },
     {
       "company": "Fleetio",
@@ -4365,7 +4381,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 21,
-      "elapsedMs": 39
+      "elapsedMs": 74
     },
     {
       "company": "Engine",
@@ -4373,7 +4389,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 73,
-      "elapsedMs": 40
+      "elapsedMs": 65
     },
     {
       "company": "Bellese Technologies",
@@ -4381,7 +4397,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 9,
-      "elapsedMs": 30
+      "elapsedMs": 1174
     },
     {
       "company": "Swiftly",
@@ -4389,7 +4405,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 1,
-      "elapsedMs": 1382
+      "elapsedMs": 688
     },
     {
       "company": "Loop Returns",
@@ -4397,7 +4413,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 26
+      "elapsedMs": 193
     },
     {
       "company": "Turquoise Health",
@@ -4405,7 +4421,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 11,
-      "elapsedMs": 110
+      "elapsedMs": 22
     },
     {
       "company": "Notable",
@@ -4413,7 +4429,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 9,
-      "elapsedMs": 19
+      "elapsedMs": 20
     },
     {
       "company": "CareMessage",
@@ -4421,7 +4437,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 5,
-      "elapsedMs": 25
+      "elapsedMs": 82
     },
     {
       "company": "Vetcove",
@@ -4429,23 +4445,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 28,
-      "elapsedMs": 93
+      "elapsedMs": 153
     },
     {
       "company": "KAYAK",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 43,
-      "elapsedMs": 25
+      "jobs": 47,
+      "elapsedMs": 136
     },
     {
       "company": "Hims & Hers",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 142,
-      "elapsedMs": 127
+      "jobs": 144,
+      "elapsedMs": 150
     },
     {
       "company": "WellTheory",
@@ -4453,7 +4469,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 12,
-      "elapsedMs": 97
+      "elapsedMs": 113
     },
     {
       "company": "Stellar Cyber",
@@ -4461,103 +4477,112 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 9,
-      "elapsedMs": 150
+      "elapsedMs": 102
     },
     {
       "company": "Solventum",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 210,
-      "elapsedMs": 679850
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2887
     },
     {
       "company": "Palo Alto Networks",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 916,
-      "elapsedMs": 621003
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2897
     },
     {
       "company": "Axon",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 503,
-      "elapsedMs": 141
+      "jobs": 502,
+      "elapsedMs": 99
     },
     {
       "company": "ServiceNow",
       "platform": "smartrecruiters",
       "attempt": 1,
       "status": "ok",
-      "jobs": 768,
-      "elapsedMs": 24542
+      "jobs": 783,
+      "elapsedMs": 23910
     },
     {
       "company": "BD",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 545,
-      "elapsedMs": 513532
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2734
     },
     {
       "company": "Novartis",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 455,
-      "elapsedMs": 489900
+      "jobs": 449,
+      "elapsedMs": 74940
     },
     {
       "company": "U.S. Bank",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 306,
-      "elapsedMs": 407894
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 3194
     },
     {
       "company": "PNC",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 163,
-      "elapsedMs": 419009
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2399
     },
     {
       "company": "BlackRock",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 281,
-      "elapsedMs": 351399
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2294
     },
     {
       "company": "Fidelity Investments",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 361,
-      "elapsedMs": 301057
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 3054
     },
     {
       "company": "Mass General Brigham",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 760,
-      "elapsedMs": 303722
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 3157
     },
     {
       "company": "athenahealth",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 60,
-      "elapsedMs": 272528
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2749
     },
     {
       "company": "McKesson",
@@ -4565,55 +4590,59 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 346,
-      "elapsedMs": 309293
+      "elapsedMs": 82823
     },
     {
       "company": "Red Hat",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 129,
-      "elapsedMs": 304390
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2178
     },
     {
       "company": "Highmark Health",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 287,
-      "elapsedMs": 274833
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2210
     },
     {
       "company": "Blue Cross and Blue Shield of Kansas City",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
       "jobs": 0,
-      "elapsedMs": 203173
+      "elapsedMs": 2755
     },
     {
       "company": "GE HealthCare",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 695,
-      "elapsedMs": 244261
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2537
     },
     {
       "company": "SeatGeek",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 37,
-      "elapsedMs": 134
+      "jobs": 41,
+      "elapsedMs": 95
     },
     {
       "company": "BetterHelp",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 16,
-      "elapsedMs": 42
+      "jobs": 15,
+      "elapsedMs": 60
     },
     {
       "company": "Cohere Health",
@@ -4621,15 +4650,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 64,
-      "elapsedMs": 80
+      "elapsedMs": 64
     },
     {
       "company": "BeyondTrust",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 37,
-      "elapsedMs": 40
+      "jobs": 36,
+      "elapsedMs": 63
     },
     {
       "company": "eVisit",
@@ -4637,7 +4666,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 5,
-      "elapsedMs": 215
+      "elapsedMs": 151
     },
     {
       "company": "Penn Mutual",
@@ -4645,47 +4674,49 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 0,
-      "elapsedMs": 124
+      "elapsedMs": 135
     },
     {
       "company": "Netsmart",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 60,
-      "elapsedMs": 161948
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1228
     },
     {
       "company": "WellSky",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 33,
-      "elapsedMs": 126679
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 316
     },
     {
       "company": "EquipmentShare",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 1071,
-      "elapsedMs": 6946
+      "jobs": 1077,
+      "elapsedMs": 93
     },
     {
       "company": "SmithRx",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 13,
-      "elapsedMs": 54
+      "jobs": 12,
+      "elapsedMs": 61
     },
     {
       "company": "Form Health",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 33,
-      "elapsedMs": 44
+      "jobs": 14,
+      "elapsedMs": 68
     },
     {
       "company": "Prove",
@@ -4693,15 +4724,16 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 11,
-      "elapsedMs": 41
+      "elapsedMs": 58
     },
     {
       "company": "Federal Reserve System",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 168,
-      "elapsedMs": 81216
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 285
     },
     {
       "company": "Capital One",
@@ -4709,143 +4741,157 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 883,
-      "elapsedMs": 149525
+      "elapsedMs": 72752
     },
     {
       "company": "Thomson Reuters",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 215,
-      "elapsedMs": 126340
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 627
     },
     {
       "company": "The Hartford",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 79,
-      "elapsedMs": 140042
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1155
     },
     {
       "company": "TransUnion",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 81,
-      "elapsedMs": 153140
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1213
     },
     {
       "company": "Wells Fargo",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 91,
-      "elapsedMs": 167333
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1886
     },
     {
       "company": "Bank of America",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 143,
-      "elapsedMs": 116222
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 2117
     },
     {
       "company": "GEICO",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 93,
-      "elapsedMs": 105413
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1820
     },
     {
       "company": "Nationwide",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 47,
-      "elapsedMs": 100392
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1683
     },
     {
       "company": "Allstate",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 84,
-      "elapsedMs": 102126
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1266
     },
     {
       "company": "Travelers",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 83,
-      "elapsedMs": 95337
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1143
     },
     {
       "company": "Equifax",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 84,
-      "elapsedMs": 106812
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1120
     },
     {
       "company": "Thermo Fisher Scientific",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 816,
-      "elapsedMs": 124079
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1248
     },
     {
       "company": "General Motors",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 556,
-      "elapsedMs": 202507
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1330
     },
     {
       "company": "Comcast",
       "platform": "workday",
       "attempt": 1,
       "status": "ok",
-      "jobs": 69,
-      "elapsedMs": 193741
+      "jobs": 74,
+      "elapsedMs": 11072
     },
     {
       "company": "Raymond James",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 60,
-      "elapsedMs": 191495
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1575
     },
     {
       "company": "Hewlett Packard Enterprise",
       "platform": "workday",
-      "attempt": 1,
-      "status": "ok",
-      "jobs": 1129,
-      "elapsedMs": 411158
+      "attempt": 2,
+      "status": "not-found",
+      "httpStatus": 303,
+      "jobs": 0,
+      "elapsedMs": 1621
     },
     {
       "company": "TailorCare",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 9,
-      "elapsedMs": 231
+      "jobs": 8,
+      "elapsedMs": 136
     },
     {
       "company": "Penn Interactive",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 36,
-      "elapsedMs": 66
+      "jobs": 34,
+      "elapsedMs": 61
     },
     {
       "company": "Podium",
@@ -4853,7 +4899,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 72,
-      "elapsedMs": 39
+      "elapsedMs": 59
     },
     {
       "company": "Infisical",
@@ -4861,7 +4907,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 12,
-      "elapsedMs": 50
+      "elapsedMs": 168
     },
     {
       "company": "Fluxx",
@@ -4869,7 +4915,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 3,
-      "elapsedMs": 42
+      "elapsedMs": 58
     },
     {
       "company": "Rocket Money",
@@ -4877,15 +4923,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 19,
-      "elapsedMs": 40
+      "elapsedMs": 62
     },
     {
       "company": "Aledade",
       "platform": "lever",
       "attempt": 1,
       "status": "ok",
-      "jobs": 35,
-      "elapsedMs": 199
+      "jobs": 38,
+      "elapsedMs": 384
     },
     {
       "company": "Turnkey (Greenhouse)",
@@ -4893,23 +4939,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 37
+      "elapsedMs": 62
     },
     {
       "company": "Babylist",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 37,
-      "elapsedMs": 52
+      "jobs": 35,
+      "elapsedMs": 68
     },
     {
       "company": "Capital Technology Group",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 13,
-      "elapsedMs": 53
+      "jobs": 14,
+      "elapsedMs": 58
     },
     {
       "company": "Counterpart Health",
@@ -4917,7 +4963,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 12,
-      "elapsedMs": 46
+      "elapsedMs": 94
     },
     {
       "company": "Defense Unicorns",
@@ -4925,7 +4971,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 47,
-      "elapsedMs": 46
+      "elapsedMs": 67
     },
     {
       "company": "EDO",
@@ -4933,23 +4979,23 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 5,
-      "elapsedMs": 38
+      "elapsedMs": 60
     },
     {
       "company": "Encoura",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 11,
-      "elapsedMs": 192
+      "jobs": 12,
+      "elapsedMs": 69
     },
     {
       "company": "Fingerprint",
       "platform": "greenhouse",
       "attempt": 1,
       "status": "ok",
-      "jobs": 20,
-      "elapsedMs": 45
+      "jobs": 21,
+      "elapsedMs": 62
     },
     {
       "company": "Juvare",
@@ -4957,7 +5003,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 5,
-      "elapsedMs": 43
+      "elapsedMs": 56
     },
     {
       "company": "Reltio",
@@ -4965,7 +5011,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 31,
-      "elapsedMs": 42
+      "elapsedMs": 59
     },
     {
       "company": "AHEAD",
@@ -4973,7 +5019,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 136,
-      "elapsedMs": 168
+      "elapsedMs": 284
     },
     {
       "company": "PointClickCare",
@@ -4981,7 +5027,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 81,
-      "elapsedMs": 91
+      "elapsedMs": 449
     },
     {
       "company": "ai2io",
@@ -4989,7 +5035,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 6,
-      "elapsedMs": 128
+      "elapsedMs": 239
     },
     {
       "company": "Taivo",
@@ -4997,7 +5043,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 4,
-      "elapsedMs": 87
+      "elapsedMs": 200
     },
     {
       "company": "Supplier.io",
@@ -5005,7 +5051,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 5,
-      "elapsedMs": 93
+      "elapsedMs": 109
     },
     {
       "company": "CData Software",
@@ -5013,7 +5059,7 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 6,
-      "elapsedMs": 107
+      "elapsedMs": 110
     },
     {
       "company": "Shippo",
@@ -5021,15 +5067,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 3,
-      "elapsedMs": 86
+      "elapsedMs": 109
     },
     {
       "company": "Iterable (Ashby)",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 20,
-      "elapsedMs": 46
+      "jobs": 19,
+      "elapsedMs": 87
     },
     {
       "company": "ManyChat (Ashby)",
@@ -5037,15 +5083,15 @@
       "attempt": 1,
       "status": "ok",
       "jobs": 18,
-      "elapsedMs": 100
+      "elapsedMs": 154
     },
     {
       "company": "Webflow (Ashby)",
       "platform": "ashby",
       "attempt": 1,
       "status": "ok",
-      "jobs": 24,
-      "elapsedMs": 23
+      "jobs": 25,
+      "elapsedMs": 90
     }
   ]
 }
