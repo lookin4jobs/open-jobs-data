@@ -1,6 +1,6 @@
 {
   "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "targets": [
     {
       "id": "x-sprezzatura-software-development-manager",
@@ -210,27 +210,11 @@
       "captureText": true
     },
     {
-      "id": "x-happy-returns-engineering-manager-platform-data",
-      "company": "Happy Returns",
-      "title": "Engineering Manager - Platform & Data",
-      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=bf55e92f-ce60-4ee6-beee-7d65eb04d2dd&ccId=19000101_000001&jobId=637745",
-      "why": "ADP portal renders only in a browser; ADP record says Atlanta while the posting text says remote US",
-      "captureText": true
-    },
-    {
       "id": "x-priority-technology-holdings-manager-engineering",
       "company": "Priority Technology Holdings",
       "title": "Manager, Engineering",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=94f16522-9f0f-4a13-b72c-b0eaf60d119d&ccId=19000101_000001&jobId=613656",
       "why": "ADP portal renders only in a browser; requirements and scope unread",
-      "captureText": true
-    },
-    {
-      "id": "ashby-d52dc923-1641-4386-b8ba-5c15e1d7028d",
-      "company": "Render",
-      "title": "Software Engineer, Infrastructure (all levels)",
-      "url": "https://jobs.ashbyhq.com/render/d52dc923-1641-4386-b8ba-5c15e1d7028d",
-      "why": "Ashby body renders only in a browser; confirm requirements for a new IC Tier 1",
       "captureText": true
     },
     {
@@ -271,6 +255,38 @@
       "title": "Langfuse - Senior Cloud Infra Engineer",
       "url": "https://jobs.ashbyhq.com/clickhouse/39e42a38-1cbf-40c7-b373-717b4cdddbac",
       "why": "Ashby serves only the title tag; capture the location line (New York vs remote US)",
+      "captureText": true
+    },
+    {
+      "id": "workable-DE00C95D83",
+      "company": "Dispel",
+      "title": "Engineering Manager",
+      "url": "https://apply.workable.com/dispel/j/DE00C95D83",
+      "why": "needs_check since 11/14; the Workable API returns client_error to the fetch tool (same as Murmuration); body reads Senior Engineering Manager",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-site-reliability-engineer-2-340136",
+      "company": "Oracle",
+      "title": "Site Reliability Engineer 2",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/340136/",
+      "why": "screened 10/23 on title alone; read the page for level, years, location and requirements; Oracle job pages render only in a browser",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-site-reliability-engineer-2-348476",
+      "company": "Oracle",
+      "title": "Site Reliability Engineer 2",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/348476/",
+      "why": "screened 10/28 on title alone; read the page for level, years, location and requirements; Oracle job pages render only in a browser",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-senior-support-engineer-343417",
+      "company": "Oracle",
+      "title": "Senior Support Engineer",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/343417/",
+      "why": "screened 10/23 on title alone; read the page for scope, location and requirements; Oracle job pages render only in a browser",
       "captureText": true
     }
   ],
