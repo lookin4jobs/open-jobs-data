@@ -33,6 +33,12 @@ const WORKDAY_403_BACKOFF_MS = 5000;
 const RETRY_PASS_WAIT_MS = 60000;
 // Longest Retry-After wait honored for one request.
 const RETRY_AFTER_CAP_MS = 60000;
+// Circuit breaker: once this many Workday tenants in a row end on HTTP 429,
+// the rest of that pass skips Workday at once instead of waiting out every
+// backoff (62 tenants x long retries could run past the job time limit).
+// The retry pass starts with the breaker reset.
+const WORKDAY_429_TRIP = 3;
+let workday429Streak = 0;
 const ARGS = process.argv.slice(2);
 const argList = (name) =>
   (ARGS.find((a) => a.startsWith(`--${name}=`)) ?? '').split('=').slice(1).join('=').split(',').map((s) => s.trim().toLowerCase()).filter(Boolean);
@@ -90,6 +96,7 @@ async function fetchWithRetryText(url, options = {}) {
       }
       const text = await res.text();
       clearTimeout(timeout);
+      if (options.retry403) workday429Streak = 0;
       return { text };
     } catch (err) {
       clearTimeout(timeout);
@@ -108,6 +115,7 @@ async function fetchWithRetryText(url, options = {}) {
   // A 403 that never cleared is reported as not-found with its status, so the
   // summary shows that the board refused us rather than that it is gone.
   if (lastStatus === 403) return { notFound: true, status: 403 };
+  if (options.retry403 && lastStatus === 429) workday429Streak += 1;
   throw lastErr ?? new Error('fetch failed');
 }
 
@@ -294,6 +302,7 @@ const platforms = {
     if (!tenant || !site || !shard) return { jobs: [], notFound: true, status: 'bad-config' };
     const release = await workdayGate();
     try {
+    if (workday429Streak >= WORKDAY_429_TRIP) throw new Error('HTTP 429 (skipped: Workday rate limit breaker open)');
     const origin = `https://${tenant}.${shard}.myworkdayjobs.com`;
     const reqOpts = {
       retry403: true,
@@ -810,6 +819,7 @@ async function main() {
   if (retry.length) {
     console.log(`Retrying ${retry.length} companies after ${RETRY_PASS_WAIT_MS / 1000}s: ${retry.map((c) => c.name).join(', ')}`);
     await sleep(RETRY_PASS_WAIT_MS);
+    workday429Streak = 0;
     const second = await mapWithConcurrency(retry, 2, (company) => runOne(company, 2));
     retry.forEach((c, i) => {
       const before = outcome.get(c);
