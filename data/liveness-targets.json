@@ -1,6 +1,6 @@
 {
   "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "targets": [
     {
       "id": "x-sprezzatura-software-development-manager",
@@ -255,6 +255,62 @@
       "title": "Langfuse - Senior Cloud Infra Engineer",
       "url": "https://jobs.ashbyhq.com/clickhouse/39e42a38-1cbf-40c7-b373-717b4cdddbac",
       "why": "Ashby serves only the title tag; capture the location line (New York vs remote US)",
+      "captureText": true
+    },
+    {
+      "id": "x-garmin-software-engineer-devops-18673",
+      "company": "Garmin",
+      "title": "Software Engineer - DevOps",
+      "url": "https://careers.garmin.com/jobs/18673?lang=en-us",
+      "why": "Garmin api/jobs read failed (client_error) on 11/16; job pages render only in a browser, need level and office expectation",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-senior-site-reliability-engineer-349930",
+      "company": "Oracle",
+      "title": "Senior Site Reliability Engineer",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/349930/",
+      "why": "Oracle board find 11/16; renders only in a browser, requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-senior-site-reliability-engineer-340915",
+      "company": "Oracle",
+      "title": "Senior Site Reliability Engineer",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/340915/",
+      "why": "Oracle board find 11/16; renders only in a browser, requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-site-reliability-engineer-2-340135",
+      "company": "Oracle",
+      "title": "Site Reliability Engineer 2",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/340135/",
+      "why": "Oracle board find 11/16; renders only in a browser, requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "x-dtcc-systems-engineering-principal-213437",
+      "company": "DTCC",
+      "title": "Systems Engineering Principal",
+      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213437/",
+      "why": "DTCC board find 11/16; Oracle Recruiting Cloud renders only in a browser, requirements and work setup unread",
+      "captureText": true
+    },
+    {
+      "id": "x-dtcc-platform-engineering-senior-associate-215117",
+      "company": "DTCC",
+      "title": "Platform Engineering Senior Associate",
+      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/215117/",
+      "why": "DTCC board find 11/16; Oracle Recruiting Cloud renders only in a browser, requirements and work setup unread",
+      "captureText": true
+    },
+    {
+      "id": "x-dtcc-release-management-senior-associate-214695",
+      "company": "DTCC",
+      "title": "Release Management Senior Associate",
+      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214695/",
+      "why": "DTCC board find 11/16; Oracle Recruiting Cloud renders only in a browser, requirements and work setup unread",
       "captureText": true
     }
   ],
