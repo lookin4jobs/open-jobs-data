@@ -31,6 +31,8 @@ const WORKDAY_DELAY_MS = 400;
 const WORKDAY_403_BACKOFF_MS = 5000;
 // Companies that fail on the first pass get one more try at the end of the run.
 const RETRY_PASS_WAIT_MS = 60000;
+// Longest Retry-After wait honored for one request.
+const RETRY_AFTER_CAP_MS = 60000;
 const ARGS = process.argv.slice(2);
 const argList = (name) =>
   (ARGS.find((a) => a.startsWith(`--${name}=`)) ?? '').split('=').slice(1).join('=').split(',').map((s) => s.trim().toLowerCase()).filter(Boolean);
@@ -53,6 +55,7 @@ const PROBE_SLUGS = argList('probe');
 async function fetchWithRetryText(url, options = {}) {
   let lastErr;
   let lastStatus = null;
+  let retryAfterMs = 0;
   const { retry403, ...fetchOptions } = options;
   for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     const controller = new AbortController();
@@ -76,6 +79,9 @@ async function fetchWithRetryText(url, options = {}) {
       }
       if (res.status === 429 || res.status >= 500 || (options.retry403 && res.status === 403)) {
         lastStatus = res.status;
+        // Honor a Retry-After header (seconds) when the server sends one, capped.
+        const ra = Number(res.headers.get('retry-after'));
+        retryAfterMs = Number.isFinite(ra) && ra > 0 ? Math.min(ra * 1000, RETRY_AFTER_CAP_MS) : 0;
         throw new Error(`HTTP ${res.status}`);
       }
       if (!res.ok) {
@@ -89,9 +95,12 @@ async function fetchWithRetryText(url, options = {}) {
       clearTimeout(timeout);
       lastErr = err;
       if (attempt < MAX_RETRIES) {
-        const base = lastStatus === 403 ? WORKDAY_403_BACKOFF_MS : RETRY_BASE_MS;
+        // Workday (retry403) gets the long backoff for 429 as well as 403: every
+        // tenant shares Workday's rate limit, so a short retry only burns attempts.
+        const slow = lastStatus === 403 || (options.retry403 && lastStatus === 429);
+        const base = slow ? WORKDAY_403_BACKOFF_MS : RETRY_BASE_MS;
         const backoff = base * 2 ** attempt + Math.random() * 200;
-        await sleep(backoff);
+        await sleep(Math.max(backoff, retryAfterMs));
         continue;
       }
     }

@@ -901,12 +901,12 @@
   },
   {
     "name": "ClassPass",
-    "platform": "greenhouse",
+    "platform": "ashby",
     "slug": "classpass"
   },
   {
     "name": "Mindbody",
-    "platform": "greenhouse",
+    "platform": "ashby",
     "slug": "mindbody"
   },
   {
@@ -1733,11 +1733,6 @@
     "name": "orderbird",
     "platform": "personio",
     "slug": "orderbird"
-  },
-  {
-    "name": "Ratepay",
-    "platform": "personio",
-    "slug": "ratepay"
   },
   {
     "name": "ottonova",
