@@ -1,14 +1,7 @@
 {
   "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-11-16",
+  "updated": "2026-11-18",
   "targets": [
-    {
-      "id": "x-sprezzatura-software-development-manager",
-      "company": "Sprezzatura",
-      "title": "Software Development Manager",
-      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
-      "why": "shakedown: second ADP board, short jobId form"
-    },
     {
       "id": "icims-docusign-29787",
       "company": "DocuSign",
@@ -28,14 +21,6 @@
       "company": "Oracle",
       "title": "Senior Site Reliability Engineer",
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/337734/",
-      "why": "Oracle posting found on the Oracle board; renders only in a browser",
-      "captureText": true
-    },
-    {
-      "id": "x-oracle-senior-site-reliability-engineer-340273",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/340273/",
       "why": "Oracle posting found on the Oracle board; renders only in a browser",
       "captureText": true
     },
@@ -88,14 +73,6 @@
       "title": "Manager, Engineering, Managed Services",
       "url": "https://cdw.wd5.myworkdayjobs.com/careers/job/remote--usa/manager--engineering--managed-services---aix--unix---linux_r26_00002670",
       "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
-    },
-    {
-      "id": "x-oracle-senior-site-reliability-engineer-database-services-348770",
-      "company": "Oracle",
-      "title": "Senior Database Site Reliability Engineer - Oracle Database and GoldenGate (IC3)",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/348770/",
-      "why": "Oracle job pages render only in a browser. Title corrected 11/06 to the page title (the old stored title made every night read unclear)",
-      "captureText": true
     },
     {
       "id": "lever-1181d421-2adb-4586-ac11-853d865965bd",
@@ -266,30 +243,6 @@
       "captureText": true
     },
     {
-      "id": "x-oracle-senior-site-reliability-engineer-349930",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/349930/",
-      "why": "Oracle board find 11/16; renders only in a browser, requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "x-oracle-senior-site-reliability-engineer-340915",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/340915/",
-      "why": "Oracle board find 11/16; renders only in a browser, requirements unread",
-      "captureText": true
-    },
-    {
-      "id": "x-oracle-site-reliability-engineer-2-340135",
-      "company": "Oracle",
-      "title": "Site Reliability Engineer 2",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/340135/",
-      "why": "Oracle board find 11/16; renders only in a browser, requirements unread",
-      "captureText": true
-    },
-    {
       "id": "x-dtcc-systems-engineering-principal-213437",
       "company": "DTCC",
       "title": "Systems Engineering Principal",
@@ -311,6 +264,54 @@
       "title": "Release Management Senior Associate",
       "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214695/",
       "why": "DTCC board find 11/16; Oracle Recruiting Cloud renders only in a browser, requirements and work setup unread",
+      "captureText": true
+    },
+    {
+      "id": "wd-teladoc-health-jr21112",
+      "company": "Teladoc Health",
+      "title": "Manager, Release & Change Engineering",
+      "url": "https://teladoc.wd503.myworkdayjobs.com/teladochealth_is_hiring/job/USA---Any-Location-Remote/Manager--Release---Change-Engineering_JR21112",
+      "why": "11/18: Workday cxs client_error and the feed's Workday tenants read 429; endDate was 11/17, confirm closed or still live",
+      "captureText": true
+    },
+    {
+      "id": "wd-wellsky-jr5220",
+      "company": "WellSky",
+      "title": "Sr. Manager, Engineering",
+      "url": "https://wellsky.wd1.myworkdayjobs.com/WellSkyCareers/job/Overland-Park-KS/Sr-Manager--Engineering_JR5220",
+      "why": "11/18: Workday cxs client_error and feed Workday 429; KC employer, work setup unsettled",
+      "captureText": true
+    },
+    {
+      "id": "x-t-mobile-manager-product-engineering-req382219",
+      "company": "T-Mobile",
+      "title": "Manager, Product & Engineering",
+      "url": "https://careers.t-mobile.com/manager-product-engineering/job/46FDAD7478BBC564639D280029D4D71C",
+      "why": "new 11/18: careers.t-mobile.com client_error in chat; need liveness and the onsite cadence for Overland Park",
+      "captureText": true
+    },
+    {
+      "id": "x-hard-rock-digital-senior-manager-devops",
+      "company": "Hard Rock Digital",
+      "title": "Senior Manager - DevOps",
+      "url": "https://hardrockdigital.recruitee.com/o/senior-manager-devops-1",
+      "why": "11/18: Recruitee single-offer API client_error; need liveness and whether remote is Florida only",
+      "captureText": true
+    },
+    {
+      "id": "lever-6955f35c-59f3-41f8-ae5b-d25df098ebe2",
+      "company": "Shield AI",
+      "title": "Staff DevOps Engineer",
+      "url": "https://jobs.lever.co/shieldai/6955f35c-59f3-41f8-ae5b-d25df098ebe2",
+      "why": "11/17-11/18: Lever API SERVER_ERROR; requirements, clearance and work setup unread",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-senior-site-reliability-engineer-349999",
+      "company": "Oracle",
+      "title": "Senior Site Reliability Engineer",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/349999/",
+      "why": "Oracle board find 11/18; renders only in a browser, requirements unread",
       "captureText": true
     }
   ],
