@@ -1,26 +1,13 @@
 {
-  "generatedAt": "2026-11-18T10:27:34.556Z",
+  "generatedAt": "2026-11-18T16:44:13.956Z",
   "runner": "github-actions",
   "results": [
-    {
-      "id": "x-sprezzatura-software-development-manager",
-      "company": "Sprezzatura",
-      "title": "Software Development Manager",
-      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
-      "checkedAt": "2026-11-18T10:27:35.103Z",
-      "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1e214623-c126-4ee7-a61f-d40253fd1123&ccId=19000101_000001&jobId=25808",
-      "httpStatus": 200,
-      "pageTitle": "Career Center | Recruitment",
-      "jsonLd": null,
-      "outcome": "closed_text",
-      "evidence": "no longer accepting applications"
-    },
     {
       "id": "icims-docusign-29787",
       "company": "DocuSign",
       "title": "Senior Manager, Site Reliability Engineering",
       "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
-      "checkedAt": "2026-11-18T10:27:42.655Z",
+      "checkedAt": "2026-11-18T16:44:15.825Z",
       "finalUrl": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job?mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 200,
       "pageTitle": "Senior Manager, Site Reliability Engineering in Remote | Careers at United States Remote",
@@ -33,7 +20,7 @@
       "company": "Navitus Health Solutions",
       "title": "Manager, Platform Engineering and FinOps",
       "url": "https://careers-navitus.icims.com/jobs/6474/manager,-platform-engineering-and-finops/job",
-      "checkedAt": "2026-11-18T10:27:48.756Z",
+      "checkedAt": "2026-11-18T16:44:23.407Z",
       "finalUrl": "https://careers-navitus.icims.com/jobs/search?ss=1&notFound=1&mobile=false&width=1264&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 410,
       "pageTitle": "Job Listings at Navitus Health Solutions, LLC",
@@ -46,7 +33,7 @@
       "company": "Oracle",
       "title": "Senior Site Reliability Engineer",
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/337734/",
-      "checkedAt": "2026-11-18T10:27:53.853Z",
+      "checkedAt": "2026-11-18T16:44:29.607Z",
       "captureText": true,
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/337734/",
       "httpStatus": 200,
@@ -57,26 +44,11 @@
       "evidence": "title \"Senior Site Reliability Engineer\" shown on the page"
     },
     {
-      "id": "x-oracle-senior-site-reliability-engineer-340273",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/340273/",
-      "checkedAt": "2026-11-18T10:28:03.979Z",
-      "captureText": true,
-      "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/340273/",
-      "httpStatus": 200,
-      "pageTitle": "Oracle Careers",
-      "jsonLd": null,
-      "pageText": "Skip to main content. This job is no longer available. You may also SEARCH FOR JOBS. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S. Oracle’s U.S. affirmative action plan for people with disabilities and military veterans is available by contacting +1 888 404 2494. Need Help? Contact us and include a detailed description of the issue. Oracle's Pre-employment Screening Process Oracle's Equal Employment Opportunity and Pay Transparency © 2026 Oracle Privacy / Do Not Sell My Info Ad Choices Careers Policy",
-      "outcome": "closed_text",
-      "evidence": "no longer available"
-    },
-    {
       "id": "ashby-e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
       "company": "Horizon3.ai",
       "title": "Staff Software Engineer, Image Build & Release",
       "url": "https://jobs.ashbyhq.com/horizon3ai/e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
-      "checkedAt": "2026-11-18T10:28:11.252Z",
+      "checkedAt": "2026-11-18T16:44:39.704Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/horizon3ai/e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
       "httpStatus": 200,
@@ -95,7 +67,7 @@
       "company": "Metabase",
       "title": "Engineering Manager",
       "url": "https://jobs.lever.co/metabase/5bf3233d-a162-47b2-8d85-d3650b176c6e",
-      "checkedAt": "2026-11-18T10:28:16.123Z",
+      "checkedAt": "2026-11-18T16:44:44.981Z",
       "finalUrl": "https://jobs.lever.co/metabase/5bf3233d-a162-47b2-8d85-d3650b176c6e",
       "httpStatus": 200,
       "pageTitle": "Metabase - Engineering Manager",
@@ -112,7 +84,7 @@
       "company": "Canonical",
       "title": "Cloud Engineering Manager",
       "url": "https://job-boards.greenhouse.io/canonical/jobs/4676649",
-      "checkedAt": "2026-11-18T10:28:20.579Z",
+      "checkedAt": "2026-11-18T16:44:49.621Z",
       "finalUrl": "https://job-boards.greenhouse.io/canonical/jobs/4676649",
       "httpStatus": 200,
       "pageTitle": "Job Application for Cloud Engineering Manager at Canonical",
@@ -125,7 +97,7 @@
       "company": "Cresta",
       "title": "Senior Infrastructure Engineer",
       "url": "https://job-boards.greenhouse.io/cresta/jobs/5137153008",
-      "checkedAt": "2026-11-18T10:28:25.153Z",
+      "checkedAt": "2026-11-18T16:44:54.041Z",
       "finalUrl": "https://job-boards.greenhouse.io/cresta/jobs/5137153008",
       "httpStatus": 200,
       "pageTitle": "Job Application for Senior Infrastructure Engineer/SRE at Cresta",
@@ -138,7 +110,7 @@
       "company": "Sardine",
       "title": "Support Engineering Manager",
       "url": "https://jobs.ashbyhq.com/sardine/b9119961-806c-40d9-a38f-b9df69ecf684",
-      "checkedAt": "2026-11-18T10:28:29.416Z",
+      "checkedAt": "2026-11-18T16:44:58.304Z",
       "finalUrl": "https://jobs.ashbyhq.com/sardine/b9119961-806c-40d9-a38f-b9df69ecf684",
       "httpStatus": 200,
       "pageTitle": "Support Engineering Manager @ Sardine",
@@ -155,7 +127,7 @@
       "company": "Outside Inc.",
       "title": "Engineering Manager - Foundational Services",
       "url": "https://job-boards.greenhouse.io/outside/jobs/5324752008",
-      "checkedAt": "2026-11-18T10:28:34.194Z",
+      "checkedAt": "2026-11-18T16:45:03.366Z",
       "finalUrl": "https://www.outsideinc.com/openings/?gh_jid=5324752008",
       "httpStatus": 200,
       "pageTitle": "Outside Inc.",
@@ -168,7 +140,7 @@
       "company": "CDW",
       "title": "Manager, Engineering, Managed Services",
       "url": "https://cdw.wd5.myworkdayjobs.com/careers/job/remote--usa/manager--engineering--managed-services---aix--unix---linux_r26_00002670",
-      "checkedAt": "2026-11-18T10:28:39.315Z",
+      "checkedAt": "2026-11-18T16:45:09.226Z",
       "finalUrl": "https://cdw.wd5.myworkdayjobs.com/careers/job/remote--usa/manager--engineering--managed-services---aix--unix---linux_r26_00002670",
       "httpStatus": 200,
       "pageTitle": "Manager, Engineering, Managed Services – AIX, Unix & Linux",
@@ -181,26 +153,11 @@
       "evidence": "title \"Manager, Engineering, Managed Services\" shown on the page"
     },
     {
-      "id": "x-oracle-senior-site-reliability-engineer-database-services-348770",
-      "company": "Oracle",
-      "title": "Senior Database Site Reliability Engineer - Oracle Database and GoldenGate (IC3)",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/348770/",
-      "checkedAt": "2026-11-18T10:28:45.633Z",
-      "captureText": true,
-      "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/348770/",
-      "httpStatus": 200,
-      "pageTitle": "Oracle Careers",
-      "jsonLd": null,
-      "pageText": "Skip to main content. This job is no longer available. You may also SEARCH FOR JOBS. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S. Oracle’s U.S. affirmative action plan for people with disabilities and military veterans is available by contacting +1 888 404 2494. Need Help? Contact us and include a detailed description of the issue. Oracle's Pre-employment Screening Process Oracle's Equal Employment Opportunity and Pay Transparency © 2026 Oracle Privacy / Do Not Sell My Info Ad Choices Careers Policy",
-      "outcome": "closed_text",
-      "evidence": "no longer available"
-    },
-    {
       "id": "lever-1181d421-2adb-4586-ac11-853d865965bd",
       "company": "PointClickCare",
       "title": "Senior Site Reliability Engineer",
       "url": "https://jobs.lever.co/pointclickcare/1181d421-2adb-4586-ac11-853d865965bd",
-      "checkedAt": "2026-11-18T10:28:53.320Z",
+      "checkedAt": "2026-11-18T16:45:15.562Z",
       "captureText": true,
       "finalUrl": "https://jobs.lever.co/pointclickcare/1181d421-2adb-4586-ac11-853d865965bd",
       "httpStatus": 200,
@@ -219,7 +176,7 @@
       "company": "Harvey",
       "title": "Senior Infrastructure Engineer",
       "url": "https://jobs.ashbyhq.com/harvey/880c222b-faa8-4e86-8fe9-989b5cd2bd46",
-      "checkedAt": "2026-11-18T10:28:57.735Z",
+      "checkedAt": "2026-11-18T16:45:44.626Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/harvey/880c222b-faa8-4e86-8fe9-989b5cd2bd46",
       "httpStatus": 200,
@@ -238,7 +195,7 @@
       "company": "Nvidia",
       "title": "Senior Manager, AI and HPC Cluster Engineering Enablement",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--AI-and-HPC-Cluster-Engineering-Enablement_JR2028678-1",
-      "checkedAt": "2026-11-18T10:29:02.521Z",
+      "checkedAt": "2026-11-18T16:45:49.435Z",
       "captureText": true,
       "finalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--AI-and-HPC-Cluster-Engineering-Enablement_JR2028678-1",
       "httpStatus": 200,
@@ -257,7 +214,7 @@
       "company": "ai2io",
       "title": "Manager, Software Engineering, Engineering Tools",
       "url": "https://ats.rippling.com/ai2io/jobs/bd802924-69c3-41bd-98e7-f698f41dc4c8",
-      "checkedAt": "2026-11-18T10:29:08.725Z",
+      "checkedAt": "2026-11-18T16:45:55.486Z",
       "captureText": true,
       "finalUrl": "https://ats.rippling.com/ai2io/jobs/bd802924-69c3-41bd-98e7-f698f41dc4c8",
       "httpStatus": 200,
@@ -272,7 +229,7 @@
       "company": "Taivo",
       "title": "Senior Site Reliability Engineer",
       "url": "https://ats.rippling.com/mergeco/jobs/dd088c7a-21b5-4510-905f-ad13c90e207f",
-      "checkedAt": "2026-11-18T10:29:13.926Z",
+      "checkedAt": "2026-11-18T16:46:00.477Z",
       "captureText": true,
       "finalUrl": "https://ats.rippling.com/mergeco/jobs/dd088c7a-21b5-4510-905f-ad13c90e207f",
       "httpStatus": 200,
@@ -287,7 +244,7 @@
       "company": "Shippo",
       "title": "closed Rippling req (control)",
       "url": "https://ats.rippling.com/shippo/jobs/008fe5e9-5324-44b1-9fb6-35b2c0b56cd9",
-      "checkedAt": "2026-11-18T10:29:18.984Z",
+      "checkedAt": "2026-11-18T16:46:05.468Z",
       "captureText": true,
       "finalUrl": "https://ats.rippling.com/shippo/jobs",
       "httpStatus": 200,
@@ -302,7 +259,7 @@
       "company": "ClickHouse",
       "title": "Senior Site Reliability Engineer (US-Remote)",
       "url": "https://jobs.ashbyhq.com/clickhouse/6b2709a0-ee6b-481a-b72c-87a669acd055",
-      "checkedAt": "2026-11-18T10:29:24.739Z",
+      "checkedAt": "2026-11-18T16:46:10.899Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/clickhouse/6b2709a0-ee6b-481a-b72c-87a669acd055",
       "httpStatus": 200,
@@ -321,7 +278,7 @@
       "company": "Render",
       "title": "Cloud - Bare Metal Infrastructure Engineer",
       "url": "https://jobs.ashbyhq.com/render/a22230e6-803d-4e2e-82f8-ff5f500cdc3d",
-      "checkedAt": "2026-11-18T10:29:29.668Z",
+      "checkedAt": "2026-11-18T16:46:15.900Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/render/a22230e6-803d-4e2e-82f8-ff5f500cdc3d",
       "httpStatus": 200,
@@ -340,7 +297,7 @@
       "company": "1Password",
       "title": "Engineering Manager, Infrastructure (Device Trust)",
       "url": "https://jobs.ashbyhq.com/1password/f0100f8b-ca22-4cf3-abd8-fda500de8d9e",
-      "checkedAt": "2026-11-18T10:29:34.438Z",
+      "checkedAt": "2026-11-18T16:46:20.875Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/1password/f0100f8b-ca22-4cf3-abd8-fda500de8d9e",
       "httpStatus": 200,
@@ -359,12 +316,16 @@
       "company": "Oracle",
       "title": "Lead Principal Site Reliability Engineer",
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/349270/",
-      "checkedAt": "2026-11-18T10:29:39.304Z",
+      "checkedAt": "2026-11-18T16:46:25.827Z",
       "captureText": true,
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/349270/",
       "httpStatus": 200,
       "pageTitle": "Lead Principal Site Reliability Engineer - Oracle Careers",
-      "jsonLd": null,
+      "jsonLd": {
+        "title": "Lead Principal Site Reliability Engineer",
+        "datePosted": "2026-10-30T00:48:57.000Z",
+        "validThrough": null
+      },
       "pageText": "Skip to main content. View More Jobs Lead Principal Site Reliability Engineer United States Nashville, TN, United States TRENDING Job Identification 349270 Job Category Product and Research Posting Date 10/30/2026, 12:48 AM Role Individual Contributor Job Type Regular Employee Does this position require a security clearance? No Years 6 to 10+ years Additional Info Visa / work permit sponsorship is not available for this position Applicants are required to read, write, and speak the following languages English Job Description Serves as a consultant and leads the design and architecture of infrastructure and service, ensuring alignment with reliability and functionality standards. Takes full ownership of forecasting of demands and responding to capacity needs. Owns collaborations with software development teams to develop reliable and scalable infrastructures. Recommends methods for performing data collection to maintain and optimize operations and reliability. Oversees incident response and/or maintenance tasks. Provides strategic, future-oriented health and performance reporting. Contributes to strategies for automation and reviews the development and implementation of automation. Provides expert-level communication about services and anticipates, analyzes, and explains the impact of changes, considering strategic goals. Serves as a role model in providing support for technology and reviews documentation for accuracy. Leads the implementation of innovative tools and provides expertise in site reliability trends. Responsibilities Key Responsibilities Reliability Strategy and Technical Leadership Define and drive the site reliability engineering strategy for large-scale, distributed, and business-critical platforms. Establish reliability standards, engineering practices, and operational readiness requirements across multiple teams. Serve as a senior technical authority for system reliability, scalability, resilience, performance, and production operations. Influence architecture and design decisions to ensure systems are supportable, observable, fault tolerant, and capable of meeting availability objectives. Identify systemic reliability risks and lead cross-functional initiatives to address them. Provide technical direction and mentorship to site reliability engineers, software engineers, platform engineers, and operations teams. Lead technical reviews and promote consistent engineering practices across the organization. Service Reliability and Observability Define and implement service-level indicators, service-level objectives, error budgets, and operational health metrics. Develop comprehensive monitoring, logging, tracing, alerting, and observability strategies. Improve the quality and actionability of alerts while reducing unnecessary operational noise. Establish dashboards and reporting mechanisms that clearly communicate service health, performance, capacity, and risk. Use production data and reliability trends to prioritize engineering investments and continuous-improvement initiatives. Automation and Platform Engineering Design and implement automation that reduces manual intervention, operational toil, and human error. Build or enhance tools for deployment, configuration management, infrastructure provisioning, incident response, and service recovery. Promote infrastructure-as-code, policy-as-code, automated testing, and repeatable deployment practices. Partner with development teams to improve continuous integration and continuous delivery pipelines. Develop self-healing and automated remediation capabilities where appropriate. Contribute production-quality software and reusable platform components using modern programming and scripting languages. Incident Management and Problem Resolution Provide technical leadership during complex, high-severity production incidents. Coordinate diagnosis, containment, recovery, and stakeholder communication during service disruptions. Lead blameless post-incident reviews and ensure that corrective actions address root causes rather than symptoms. Identify recurring failure patterns and develop long-term engineering solutions. Improve incident-management processes, escalation procedures, runbooks, and recovery playbooks. Participate in an on-call rotation or provide senior escalation support for critical services, as required. Capacity, Performance, and Resilience Lead capacity planning, performance analysis, load testing, and demand forecasting for critical platforms. Identify performance bottlenecks and recommend architectural or operational improvements. Design and validate high-availability, disaster-recovery, backup, and business-continuity capabilities. Lead resilience testing, failure-mode analysis, game days, and controlled fault-injection exercises. Ensure recovery-time and recovery-point objectives are defined, tested, and achievable. Security and Operational Governance Partner with security and compliance teams to embed security into infrastructure, automation, and operational practices. Support vulnerability remediation, access-control improvements, audit readiness, and secure configuration management. Ensure production environments meet organizational standards for change management, data protection, and operational governance. Balance reliability, security, delivery speed, cost, and business priorities when recommending technical solutions. Required Qualifications Extensive professional experience in site reliability engineering, software engineering, cloud infrastructure, platform engineering, systems engineering, or a related technical discipline. Demonstrated experience designing, operating, and improving highly available production systems at significant scale. Deep knowledge of distributed systems, cloud architecture, networking, operating systems, storage, databases, and service dependencies. Advanced experience with at least one major cloud platform, such as Oracle Cloud Infrastructure, Amazon Web Services, Microsoft Azure, or Google Cloud Platform. Strong experience with containerization and orchestration technologies, including Docker and Kubernetes. Proven expertise with infrastructure-as-code and configuration-management technologies such as Terraform, Ansible, Chef, Puppet, or equivalent tools. Experience implementing observability solutions using metrics, logs, traces, dashboards, and automated alerting. Strong programming or scripting skills in one or more languages such as Python, Go, Java, JavaScript, Bash, or similar. Experience with continuous integration, continuous delivery, automated testing, and modern release-management practices. Demonstrated leadership during critical production incidents and complex technical investigations. Ability to diagnose difficult system issues across applications, infrastructure, networks, databases, and cloud services. Strong written and verbal communication skills, including the ability to explain technical risk and recommendations to engineering leaders and business stakeholders. Proven ability to lead cross-functional technical initiatives without relying solely on formal authority. Preferred Qualifications Experience supporting enterprise-scale cloud services, software-as-a-service platforms, or other high-availability customer-facing systems. Experience defining and operating service-level objectives, error budgets, and reliability scorecards. Knowledge of chaos engineering, resilience testing, and automated recovery techniques. Experience with multi-region, hybrid-cloud, or multi-cloud architectures. Familiarity with security frameworks, compliance requirements, and regulated operating environments. Experience improving cloud cost efficiency, capacity utilization, or infrastructure performance. Contributions to internal engineering standards, technical communities, open-source projects, or industry publications. Bachelor’s or advanced degree in computer science, engineering, information systems, or a related field, or equivalent prac",
       "outcome": "live",
       "evidence": "title \"Lead Principal Site Reliability Engineer\" shown on the page"
@@ -374,7 +335,7 @@
       "company": "Quilter",
       "title": "Senior/Staff Platform Engineer, Enterprise Deployments",
       "url": "https://jobs.ashbyhq.com/quilter/057e613a-e6fa-4445-a6c6-132ddd091c65",
-      "checkedAt": "2026-11-18T10:29:46.658Z",
+      "checkedAt": "2026-11-18T16:46:34.624Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/quilter/057e613a-e6fa-4445-a6c6-132ddd091c65",
       "httpStatus": 200,
@@ -393,7 +354,7 @@
       "company": "Horizon3.ai",
       "title": "Senior/Staff Platform Engineer",
       "url": "https://jobs.ashbyhq.com/horizon3ai/079c71cc-2203-46da-97d2-e39a6e9eb8c9",
-      "checkedAt": "2026-11-18T10:29:51.412Z",
+      "checkedAt": "2026-11-18T16:46:39.716Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/horizon3ai/079c71cc-2203-46da-97d2-e39a6e9eb8c9",
       "httpStatus": 200,
@@ -412,7 +373,7 @@
       "company": "Code for America",
       "title": "Engineering Manager",
       "url": "https://boards.greenhouse.io/codeforamerica/jobs/8188432",
-      "checkedAt": "2026-11-18T10:29:56.173Z",
+      "checkedAt": "2026-11-18T16:46:44.750Z",
       "captureText": true,
       "finalUrl": "https://job-boards.greenhouse.io/codeforamerica/jobs/8188432",
       "httpStatus": 200,
@@ -427,7 +388,7 @@
       "company": "Murmuration",
       "title": "Senior Manager, Software Engineering",
       "url": "https://apply.workable.com/murmuration/j/FE8E2BAA25",
-      "checkedAt": "2026-11-18T10:30:00.849Z",
+      "checkedAt": "2026-11-18T16:46:49.205Z",
       "captureText": true,
       "finalUrl": "https://apply.workable.com/murmuration/j/FE8E2BAA25",
       "httpStatus": 200,
@@ -446,7 +407,7 @@
       "company": "Priority Technology Holdings",
       "title": "Manager, Engineering",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=94f16522-9f0f-4a13-b72c-b0eaf60d119d&ccId=19000101_000001&jobId=613656",
-      "checkedAt": "2026-11-18T10:30:06.021Z",
+      "checkedAt": "2026-11-18T16:46:54.312Z",
       "captureText": true,
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=94f16522-9f0f-4a13-b72c-b0eaf60d119d&ccId=19000101_000001&jobId=613656",
       "httpStatus": 200,
@@ -461,7 +422,7 @@
       "company": "Runpod",
       "title": "Site Reliability Engineer",
       "url": "https://jobs.ashbyhq.com/runpod/1d14340c-c9bd-4754-80f4-5c83980cd413",
-      "checkedAt": "2026-11-18T10:30:12.963Z",
+      "checkedAt": "2026-11-18T16:47:03.127Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/runpod/1d14340c-c9bd-4754-80f4-5c83980cd413",
       "httpStatus": 200,
@@ -480,7 +441,7 @@
       "company": "Honor",
       "title": "Staff Platform Engineer - Infra + DevOps",
       "url": "https://boards.greenhouse.io/honor/jobs/8936789002",
-      "checkedAt": "2026-11-18T10:30:17.734Z",
+      "checkedAt": "2026-11-18T16:47:08.005Z",
       "captureText": true,
       "finalUrl": "https://job-boards.greenhouse.io/honor/jobs/8936789002",
       "httpStatus": 200,
@@ -495,7 +456,7 @@
       "company": "1Password",
       "title": "Senior Manager, Infrastructure Security",
       "url": "https://jobs.ashbyhq.com/1password/21ed0b81-f2e7-47cf-8f8b-74d2fd2790c1",
-      "checkedAt": "2026-11-18T10:30:22.062Z",
+      "checkedAt": "2026-11-18T16:47:12.646Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/1password/21ed0b81-f2e7-47cf-8f8b-74d2fd2790c1",
       "httpStatus": 200,
@@ -514,7 +475,7 @@
       "company": "ServiceNow",
       "title": "Senior Staff DevOps Engineer - Flow",
       "url": "https://jobs.smartrecruiters.com/ServiceNow/744000160985589",
-      "checkedAt": "2026-11-18T10:30:26.861Z",
+      "checkedAt": "2026-11-18T16:47:17.684Z",
       "captureText": true,
       "finalUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000160985589",
       "httpStatus": 200,
@@ -529,7 +490,7 @@
       "company": "ClickHouse (Langfuse)",
       "title": "Langfuse - Senior Cloud Infra Engineer",
       "url": "https://jobs.ashbyhq.com/clickhouse/39e42a38-1cbf-40c7-b373-717b4cdddbac",
-      "checkedAt": "2026-11-18T10:30:31.653Z",
+      "checkedAt": "2026-11-18T16:47:22.403Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/clickhouse/39e42a38-1cbf-40c7-b373-717b4cdddbac",
       "httpStatus": 200,
@@ -548,7 +509,7 @@
       "company": "Garmin",
       "title": "Software Engineer - DevOps",
       "url": "https://careers.garmin.com/jobs/18673?lang=en-us",
-      "checkedAt": "2026-11-18T10:30:36.442Z",
+      "checkedAt": "2026-11-18T16:47:27.400Z",
       "captureText": true,
       "finalUrl": "https://careers.garmin.com/jobs/18673?lang=en-us",
       "httpStatus": 403,
@@ -559,60 +520,11 @@
       "evidence": "HTTP 403 403 Forbidden 403 Forbidden"
     },
     {
-      "id": "x-oracle-senior-site-reliability-engineer-349930",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/349930/",
-      "checkedAt": "2026-11-18T10:30:55.690Z",
-      "captureText": true,
-      "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/349930/",
-      "httpStatus": 200,
-      "pageTitle": "Senior Site Reliability Engineer - Oracle Careers",
-      "jsonLd": {
-        "title": "Senior Site Reliability Engineer",
-        "datePosted": "2026-11-06T20:48:16.000Z",
-        "validThrough": null
-      },
-      "pageText": "Skip to main content. View More Jobs Senior Site Reliability Engineer United States TRENDING Job Identification 349930 Job Category Product and Research Posting Date 11/06/2026, 08:48 PM Role Individual Contributor Job Type Regular Employee Does this position require a security clearance? No Years 3 to 5+ years Additional Info Visa / work permit sponsorship is not available for this position Applicants are required to read, write, and speak the following languages English Job Description Takes proactive steps to design and architect infrastructure and service to ensure reliability and functionality. Forecasts demands and responds to capacity needs. Collaborates with software development teams to develop reliable and scalable infrastructures. Performs data collection to maintain and optimize operations and reliability. Leverages knowledge to perform incident response and/or maintenance tasks. Provides health and performance reporting. Identifies opportunities for automation. Communicates about services and identifies and explains the potential impact of changes. Provides support for technology and documents incidents. Experiments with new tools and assesses potential impact and develops knowledge of site reliability trends. Responsibilities Key Responsibilities Administer and support Windows Server and Linux systems in production and non-production environments. Perform post-deployment configuration, application installation, service validation, and environment-readiness checks. Execute structured build and deployment activities using approved runbooks, deployment guides, and change procedures. Run, review, and troubleshoot scripts used for system configuration, deployments, patching, and validation. Investigate operating system, service, application, installation, patching, startup, and connectivity issues. Review logs, Windows Event Viewer, service status, permissions, processes, ports, certificates, and configuration files to identify and resolve problems. Apply operating system, middleware, and application patches, including pre-maintenance checks, post-patch validation, and rollback support. Support vulnerability remediation, system hardening, STIG implementation, and other compliance-driven configuration activities. Troubleshoot network and service-connectivity issues involving DNS, routing, firewalls, load balancers, ports, and certificates. Use diagnostic tools such as ping, traceroute, telnet, netcat, curl, nslookup, and netstat. Support cloud-hosted infrastructure involving compute, storage, networking, identity, access management, and environment provisioning. Participate in incident response, root-cause analysis, and service-restoration activities. Create and maintain technical documentation, runbooks, implementation records, validation results, and escalation notes. Identify opportunities to automate repetitive work, improve operational processes, and reduce recurring incidents. Participate in scheduled maintenance windows, after-hours support, or an on-call rotation as required. Required Qualifications Bachelor’s degree in Computer Science, Information Technology, Engineering, or a related field, or equivalent practical experience. Three or more years of experience in site reliability engineering, systems administration, infrastructure operations, DevOps, cloud operations, production support, or a related technical field. Hands-on experience administering Windows Server, Linux, or both. Experience installing, configuring, validating, and troubleshooting applications in hosted environments. Experience completing structured build, deployment, configuration, or maintenance activities from technical runbooks. Ability to run, modify, or troubleshoot scripts using one or more of the following: PowerShell Bash Python Ansible Chef Experience applying operating system, middleware, or application patches. Understanding of maintenance windows, change control, rollback planning, and post-maintenance validation. Working knowledge of networking concepts, including DNS, routing, firewalls, load balancers, ports, and certificates. Familiarity with cloud-hosted infrastructure and services. Experience with ticketing, incident-management, or change-management systems. Strong troubleshooting, documentation, and problem-solving skills. Clear written and verbal communication skills. Ability to collaborate effectively across technical and client-facing teams. Preferred Qualifications Experience with Oracle Cloud Infrastructure. Experience supporting Oracle Health Millennium or Cerner applications and environments. Experience supporting federal clients, government-hosted systems, or regulated environments. Familiarity with STIGs, vulnerability remediation, cybersecurity hardening, and federal compliance workflows. Familiarity with OCI, Scripting, federal compliance, healthcare or Millennium environments Experience with Citrix technologies. Experience supporting legacy systems or complex application architectures. Experience with infrastructure-as-code or configuration-management tools. Familiarity with production monitoring, alerting, centralized logging, and observability practices. Experience with incident response, root-cause analysis, and SRE operational practices. Knowledge of Oracle Database, SQL, middleware, or related Oracle technologies. Relevant certifications in Oracle Cloud Infrastructure, Windows Server, Linux, networking, cybersecurity, or cloud computing. Experience with creating CI/CD pipelines Qualifications Disclaimer: Certain U.S. based or U.S. customer or client-facing roles may be required to comply with applicable requirements, such as immunization/occupational health mandates, and/or drug testing requirements. Range and benefit information provided in this posting are specific to the stated locations only US: Hiring Range in USD from: $81,100 to $187,000 per annum. May be eligible for bonus and equity. Oracle maintains broad salary ranges for its roles in order to account for variations in knowledge, skills, experience, market conditions and locations, as well as reflect Oracle's differing products, industries and lines of business. Candidates are typically placed into the range based on the preceding factors as well as internal peer equity. Oracle US offers a comprehensive benefits package which includes the following: 1. Medical, dental, and vision insurance, including expert medical opinion 2. Short term disability and long term disability 3. Life insurance and AD&D 4. Supplemental life insurance (Employee/Spouse/Child) 5. Health care and dependent care Flexible Spending Accounts 6. Pre-tax commuter and parking benefits 7. 401(k) Savings and Investment Plan with company match 8. Paid time off: Flexible Vacation is provided to all eligible employees assigned to a salaried (non-overtime eligible) position. Accrued Vacation is provided to all other employees eligible for vacation benefits. For employees working at least 35 hours per week, the vacation accrual rate is 13 days annually for the first three years of employment and 18 days annually for subsequent years of employment. Vacation accrual is prorated for employees working between 20 and 34 hours per week. Employees working fewer than 20 hours per week are not eligible for vacation. 9. 11 paid holidays 10. Paid sick leave: 72 hours of paid sick leave upon date of hire. Refreshes each calendar year. Unused balance will carry over each year up to a maximum cap of 112 hours. 11. Paid parental leave 12. Adoption assistance 13. Employee Stock Purchase Plan 14. Financial planning and group legal 15. Voluntary benefits including auto, homeowner and pet insurance The role will generally accept applications for at least three calendar days from the posting date or as long as the job remains posted. As part of Oracle's onboarding process and consistent with applicable law, US-based employees are required to complete identity verification, which involves the collection and processing of thei",
-      "outcome": "live",
-      "evidence": "title \"Senior Site Reliability Engineer\" shown on the page"
-    },
-    {
-      "id": "x-oracle-senior-site-reliability-engineer-340915",
-      "company": "Oracle",
-      "title": "Senior Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/340915/",
-      "checkedAt": "2026-11-18T10:31:03.956Z",
-      "captureText": true,
-      "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/340915/",
-      "httpStatus": 200,
-      "pageTitle": "Senior Site Reliability Engineer - Oracle Careers",
-      "jsonLd": null,
-      "pageText": "Skip to main content. View More Jobs Senior Site Reliability Engineer Reston, VA, United States Austin, TX, United States Job Identification 340915 Job Category Product and Research Posting Date 11/10/2026, 09:53 PM Role Individual Contributor Job Type Regular Employee Does this position require a security clearance? Yes Years 3 to 5+ years Applicants Less than 10 applicants Additional Info Visa / work permit sponsorship is not available for this position Applicants are required to read, write, and speak the following languages English Job Description Solve complex problems related to infrastructure cloud services and build automation to prevent problem recurrence. Design, write, and deploy software to improve the availability, scalability, and efficiency of Oracle products and services. Design and develop designs, architectures, standards, and methods for large-scale distributed systems. Facilitate service capacity planning and demand forecasting, software performance analysis, and system tuning You will provide cloud operations for Oracle National Security Realms. You’ll be part of a dynamic team with a broad knowledge of how Oracle’s cloud platform works. You’ll partner with customer support, service owners, and engineering teams around the globe to ensure high-quality service for customers. Note - this role is not a Monday to Friday core hours role – it will involve working a 24/7 shift rotation with on-call duties, including nights, weekends and public holidays. Responsibilities Escalation points for junior Site Reliability Engineers during complex or high-impact incidents. Manage and execute complex manual Change Management tickets, by working closely with the service teams to ensure safety and minimal disruption to services. Support the on-boarding of new services and tools, ensuring they are operationally ready and properly integrated. Provide mentorship and training to SREs, helping build team capability and confidence. Create and maintain clear, useful documentation for operational processes and system support. Identify areas of manual work and drive automation to reduce toil and improve efficiency. Automate tasks to enable continuous delivery and ensure continuous availability with minimal human overhead Recognize unsafe or inefficient practices and work with teams to design safer, more effective solutions. Complete change requests to enable new functionality and maintain realm compliance Ensure timely resolution of incidents, service requests, and change requests Collaborate with global service and engineering teams Define and drive change management, continuous integration, and deployment best practices Help create and maintain real-world production architectures, scalability, and system design Use a methodical approach to troubleshoot, large, complex, interconnected systems We also use… Linux and Unix operating systems Docker, Kubernetes, and Terraform Scripting languages such as Shell, Perl, Python, Java, and Go Citizenship/location requirements - i.e. US Citizenship, U.S. Citizenship and possess and maintain TS/SCI w/Poly security clearance, reside in Austin, TX or Reston, VA. Technology related bachelor’s degree and/or equivalent work experience A desire to learn and keep up with modern technologies Proficient with writing services/task automation in Python, Bash, Ruby, Perl, JavaScript, or Java Familiarity with core protocols (DNS, DHCP, HTTP, TCP) Deep knowledge of Linux internals and host-based networking Knowledge of Linux and/or Unix operating systems Familiarity with configuration management solutions such as Chef, Puppet, etc Experience with devising, managing, and extending monitoring solutions for large scale environments. Knowledge of cloud computing concepts Experience working in a mission-critical environment (Operations, Technical Support, NOC etc) Proficient with communication skills (writing, organization, learning exchange) Experience executing tasks under change management procedures Experience resolving auto-cut and manual alarms following runbooks A focus on customer satisfaction Specific experience working with deployment of AI infrastructure to include clustered GPU's, LLM deployment and maintenance, and understanding of model integration integration for customer solutions. Qualifications Disclaimer: Certain U.S. based or U.S. customer or client-facing roles may be required to comply with applicable requirements, such as immunization/occupational health mandates, and/or drug testing requirements. Range and benefit information provided in this posting are specific to the stated locations only US: Hiring Range in USD from: $81,100 to $187,000 per annum. May be eligible for bonus and equity. Oracle maintains broad salary ranges for its roles in order to account for variations in knowledge, skills, experience, market conditions and locations, as well as reflect Oracle's differing products, industries and lines of business. Candidates are typically placed into the range based on the preceding factors as well as internal peer equity. Oracle US offers a comprehensive benefits package which includes the following: 1. Medical, dental, and vision insurance, including expert medical opinion 2. Short term disability and long term disability 3. Life insurance and AD&D 4. Supplemental life insurance (Employee/Spouse/Child) 5. Health care and dependent care Flexible Spending Accounts 6. Pre-tax commuter and parking benefits 7. 401(k) Savings and Investment Plan with company match 8. Paid time off: Flexible Vacation is provided to all eligible employees assigned to a salaried (non-overtime eligible) position. Accrued Vacation is provided to all other employees eligible for vacation benefits. For employees working at least 35 hours per week, the vacation accrual rate is 13 days annually for the first three years of employment and 18 days annually for subsequent years of employment. Vacation accrual is prorated for employees working between 20 and 34 hours per week. Employees working fewer than 20 hours per week are not eligible for vacation. 9. 11 paid holidays 10. Paid sick leave: 72 hours of paid sick leave upon date of hire. Refreshes each calendar year. Unused balance will carry over each year up to a maximum cap of 112 hours. 11. Paid parental leave 12. Adoption assistance 13. Employee Stock Purchase Plan 14. Financial planning and group legal 15. Voluntary benefits including auto, homeowner and pet insurance The role will generally accept applications for at least three calendar days from the posting date or as long as the job remains posted. Career Level - IC3 About Us Only Oracle brings together the data, infrastructure, applications, and expertise to power everything from industry innovations to life-saving care. And with AI embedded across our products and services, we help customers turn that promise into a better future for all. Discover your potential at a company leading the way in AI and cloud solutions that impact billions of lives. True innovation starts when everyone is empowered to contribute. That’s why we’re committed to growing a workforce that promotes opportunities for all with competitive benefits that support our people with flexible medical, life insurance, and retirement options. We also encourage employees to give back to their communities through our volunteer programs. We’re committed to including people with disabilities at all stages of the employment process. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling 1-888-404-2494 in the United States. Oracle is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans’ status, or any other characteristic protected by law. Oracle will consider for employment qu",
-      "outcome": "live",
-      "evidence": "title \"Senior Site Reliability Engineer\" shown on the page"
-    },
-    {
-      "id": "x-oracle-site-reliability-engineer-2-340135",
-      "company": "Oracle",
-      "title": "Site Reliability Engineer 2",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/340135/",
-      "checkedAt": "2026-11-18T10:31:11.629Z",
-      "captureText": true,
-      "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/340135/",
-      "httpStatus": 200,
-      "pageTitle": "Site Reliability Engineer 2 - Oracle Careers",
-      "jsonLd": null,
-      "pageText": "Skip to main content. View More Jobs Site Reliability Engineer 2 Nashville, TN, United States TRENDING Job Identification 340135 Job Category Product and Research Posting Date 11/16/2026, 05:50 AM Role Individual Contributor Job Type Regular Employee Does this position require a security clearance? No Years 3 to 5+ years Additional Info Visa / work permit sponsorship is not available for this position Applicants are required to read, write, and speak the following languages English Job Description Contributes to the design and architecture of infrastructure and service to ensure reliability and functionality. Responds to infrastructure demands and capacity needs. Collaborates with software development teams to develop of reliable and scalable infrastructures. Contributes to data collection to maintain and optimize operations and reliability. Performs incident response and/or maintenance tasks. Contributes to health and performance reporting. Contributes to identifying opportunities for automation. Communicates relevant details about services and identifies and communicates changes. Provides support for technology and documents incidents. Experiments with new tools and develops working knowledge of site reliability trends. Responsibilities Key Responsibilities Administer and support Windows Server and Linux systems in production and non-production environments. Perform post-deployment configuration, application installation, service validation, and environment-readiness checks. Execute structured build and deployment activities using approved runbooks, deployment guides, and change procedures. Run, review, and troubleshoot scripts used for system configuration, deployments, patching, and validation. Investigate operating system, service, application, installation, patching, startup, and connectivity issues. Review logs, Windows Event Viewer, service status, permissions, processes, ports, certificates, and configuration files to identify and resolve problems. Apply operating system, middleware, and application patches, including pre-maintenance checks, post-patch validation, and rollback support. Support vulnerability remediation, system hardening, STIG implementation, and other compliance-driven configuration activities. Troubleshoot network and service-connectivity issues involving DNS, routing, firewalls, load balancers, ports, and certificates. Use diagnostic tools such as ping, traceroute, telnet, netcat, curl, nslookup, and netstat. Support cloud-hosted infrastructure involving compute, storage, networking, identity, access management, and environment provisioning. Participate in incident response, root-cause analysis, and service-restoration activities. Create and maintain technical documentation, runbooks, implementation records, validation results, and escalation notes. Identify opportunities to automate repetitive work, improve operational processes, and reduce recurring incidents. Participate in scheduled maintenance windows, after-hours support, or an on-call rotation as required. Required Qualifications Bachelor’s degree in Computer Science, Information Technology, Engineering, or a related field, or equivalent practical experience. Three or more years of experience in site reliability engineering, systems administration, infrastructure operations, DevOps, cloud operations, production support, or a related technical field. Hands-on experience administering Windows Server, Linux, or both. Experience installing, configuring, validating, and troubleshooting applications in hosted environments. Experience completing structured build, deployment, configuration, or maintenance activities from technical runbooks. Ability to run, modify, or troubleshoot scripts using one or more of the following: PowerShell Bash Python Ansible Chef Experience applying operating system, middleware, or application patches. Understanding of maintenance windows, change control, rollback planning, and post-maintenance validation. Working knowledge of networking concepts, including DNS, routing, firewalls, load balancers, ports, and certificates. Familiarity with cloud-hosted infrastructure and services. Experience with ticketing, incident-management, or change-management systems. Strong troubleshooting, documentation, and problem-solving skills. Clear written and verbal communication skills. Ability to collaborate effectively across technical and client-facing teams. Preferred Qualifications Experience with Oracle Cloud Infrastructure. Experience supporting Oracle Health Millennium or Cerner applications and environments. Experience supporting federal clients, government-hosted systems, or regulated environments. Familiarity with STIGs, vulnerability remediation, cybersecurity hardening, and federal compliance workflows. Familiarity with OCI, Scripting, federal compliance, healthcare or Millennium environments Experience with Citrix technologies. Experience supporting legacy systems or complex application architectures. Experience with infrastructure-as-code or configuration-management tools. Familiarity with production monitoring, alerting, centralized logging, and observability practices. Experience with incident response, root-cause analysis, and SRE operational practices. Knowledge of Oracle Database, SQL, middleware, or related Oracle technologies. Relevant certifications in Oracle Cloud Infrastructure, Windows Server, Linux, networking, cybersecurity, or cloud computing. Experience with creating CI/CD pipelines Qualifications Disclaimer: Certain U.S. based or U.S. customer or client-facing roles may be required to comply with applicable requirements, such as immunization/occupational health mandates, and/or drug testing requirements. Range and benefit information provided in this posting are specific to the stated locations only US: Hiring Range in USD from: $69,800 to $148,300 per annum. May be eligible for bonus and equity. Oracle maintains broad salary ranges for its roles in order to account for variations in knowledge, skills, experience, market conditions and locations, as well as reflect Oracle's differing products, industries and lines of business. Candidates are typically placed into the range based on the preceding factors as well as internal peer equity. Oracle US offers a comprehensive benefits package which includes the following: 1. Medical, dental, and vision insurance, including expert medical opinion 2. Short term disability and long term disability 3. Life insurance and AD&D 4. Supplemental life insurance (Employee/Spouse/Child) 5. Health care and dependent care Flexible Spending Accounts 6. Pre-tax commuter and parking benefits 7. 401(k) Savings and Investment Plan with company match 8. Paid time off: Flexible Vacation is provided to all eligible employees assigned to a salaried (non-overtime eligible) position. Accrued Vacation is provided to all other employees eligible for vacation benefits. For employees working at least 35 hours per week, the vacation accrual rate is 13 days annually for the first three years of employment and 18 days annually for subsequent years of employment. Vacation accrual is prorated for employees working between 20 and 34 hours per week. Employees working fewer than 20 hours per week are not eligible for vacation. 9. 11 paid holidays 10. Paid sick leave: 72 hours of paid sick leave upon date of hire. Refreshes each calendar year. Unused balance will carry over each year up to a maximum cap of 112 hours. 11. Paid parental leave 12. Adoption assistance 13. Employee Stock Purchase Plan 14. Financial planning and group legal 15. Voluntary benefits including auto, homeowner and pet insurance The role will generally accept applications for at least three calendar days from the posting date or as long as the job remains posted. Career Level - IC2 About Us Only Oracle brings together the data, infrastructure, applications, and expertise to power everything from industry innovations to life-saving care. And with AI embedd",
-      "outcome": "live",
-      "evidence": "title \"Site Reliability Engineer 2\" shown on the page"
-    },
-    {
       "id": "x-dtcc-systems-engineering-principal-213437",
       "company": "DTCC",
       "title": "Systems Engineering Principal",
       "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213437/",
-      "checkedAt": "2026-11-18T10:31:21.663Z",
+      "checkedAt": "2026-11-18T16:47:46.797Z",
       "captureText": true,
       "finalUrl": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213437/",
       "httpStatus": 200,
@@ -622,7 +534,7 @@
         "datePosted": "2026-09-23T14:52:16.000Z",
         "validThrough": null
       },
-      "pageText": "Skip to main content. View More Jobs Systems Engineering Principal Dallas, TX, United States and 1 more APPLY NOW JOB INFO Job Identification 213437 Job Category Information Technology Posting Date 09/23/2026, 02:52 PM Locations 1333 Crestside Drive, Coppell, TX, 75019, US Job Schedule Full time Salary Range Associate Director-95,000-180,000-USD Featured Opportunities Yes FLSA Status Exempt JOB DESCRIPTION Are you ready to make an impact at DTCC? Do you want to work on innovative projects, collaborate with a dynamic and supportive team, and receive investment in your professional development? At DTCC, we are at the forefront of innovation in the financial markets. We are committed to helping our employees grow and succeed. We believe that you have the skills and drive to make a real impact. We foster a thriving internal community and are committed to creating a workplace that looks like the world that we serve. The Information Technology group delivers secure, reliable technology solutions that enable DTCC to be the trusted infrastructure of the global capital markets. The team delivers high-quality information through activities that include development of essential, building infrastructure capabilities to meet client needs and implementing data standards and governance. Pay and Benefits: Competitive compensation, including base pay and annual incentive Comprehensive health and life insurance and well-being benefits, based on location Pension / Retirement benefits Paid Time Off and Personal/Family Care, and other leaves of absence when needed to support your physical, financial, and emotional well-being. DTCC offers a flexible/hybrid model of 3 days onsite and 2 days remote (onsite Tuesdays, Wednesdays and a third day unique to each team or employee). The Impact You Will Have in This Role As a Principal Systems Engineer – Messaging Platforms, you will serve as the technical authority and architect for our modernized enterprise messaging ecosystem. In this role, you will define platform strategy, reference architecture, and engineering standards for IBM MQ across cloud‑native and OpenShift‑based container platforms. You will operate as a hands‑on senior technical leader, shaping architectural direction, driving automation and reliability engineering practices, and guiding the evolution of messaging platforms that support mission‑critical business services at scale. You’ll partner closely with domain architects, application owners, infrastructure teams, and operations leadership to ensure messaging platforms are resilient, secure, scalable, and future‑ready Your Primary Responsibilities: Define and drive the technical architecture and long‑term strategy for enterprise IBM MQ platforms Design modern, scalable messaging solutions aligned to business, resiliency, and regulatory requirements Lead the design, deployment, and operation of IBM MQ environments supporting high availability and disaster recovery Deploy and operate IBM MQ and App Connect Enterprise (ACE) on OpenShift container platforms and cloud / hybrid environments (AWS) Design and implement Infrastructure‑as‑Code (IaC) and automation frameworks using Terraform, Ansible, and Chef Establish platform standards, reference architectures, and operational patterns for enterprise MQ usage Conduct proof‑of‑technology and proof‑of‑concept initiatives to evaluate and adopt modern messaging and platform capabilities Drive a Site Reliability Engineering (SRE) mindset, emphasizing reliability, scalability, automation, and proactive operations over reactive support Monitor, analyze, and optimize platform performance and stability using tools such as Prometheus, Grafana, and MeshIQ (APM6) Mentor and technically guide L2/L3 engineers, promoting best practices in automation, observability, and reliability engineering Author and maintain architecture standards, implementation guidelines, operational procedures, and transition documentation for support teams Qualifications 10+ years of experience supporting engineering enterprise messaging or middleware platforms Demonstrated experience operating in a senior or principal‑level individual contributor role Bachelor’s degree preferred or equivalent practical experience Experience supporting large‑scale, mission‑critical production systems in regulated or complex environments preferred Talent Needed for Success IBM MQ & Messaging Expertise 10+ years of hands‑on IBM MQ administration and engineering experience Deep expertise in queue managers, channels, clustering, and HA/DR architecture Proven experience operating and evolving enterprise‑scale messaging platforms Cloud, Containers & Automation Strong experience with containerized messaging platforms on OpenShift and/or Kubernetes Demonstrated success deploying and supporting MQ in cloud or hybrid environments (AWS preferred) Advanced experience with Infrastructure as Code and automation (Terraform, Ansible, Chef) Reliability, Standards & Leadership Strong background in Linux/Unix environments Ability to define platform standards, best practices, and reference architectures Proven ability to drive technical outcomes independently and influence across engineering and infrastructure teams Strong ownership mindset with a focus on long‑term platform stability and evolution Nice to Have Skills Experience with IBM App Connect Enterprise (ACE) Exposure to MQ Native HA and MQ Internet Pass‑Thru (MQ IPT) Strong scripting skills (Bash); programming experience in C/C++ or Java is a plus Familiarity with advanced observability and performance tooling Cloud and/or container certifications (AWS, OpenShift, Kubernetes) The salary range is indicative for roles at the same level within DTCC across all US locations. Actual salary is determined based on the role, location, individual experience, skills, and other considerations. We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, or disability status. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation. APPLY NOW Legend © Oracle CorporationTermsLegal Notices Use control and scroll to zoom the map 1333 Crestside Drive, Coppell, TX, 75019, US Copy to Clipboard TERMS & CONDITIONS PRIVACY POLICY VISIT DTCC.COM © 2020 DTCC. ALL RIGHTS RESERVED. This website sets cookies on your device. By continuing to use our site, you consent to our use of cookies in accordance with our Privacy Policy. Learn more CLICK HERE TO ACCEPT. Page Systems Engineering Principal - DTCC Candidate Experience Site Careers loaded",
+      "pageText": "Skip to main content. View More Jobs Systems Engineering Principal Dallas, TX, United States and 1 more APPLY NOW JOB INFO Job Identification 213437 Job Category Information Technology Posting Date 09/23/2026, 02:52 PM Locations 1333 Crestside Drive, Coppell, TX, 75019, US Job Schedule Full time Salary Range Associate Director-95,000-180,000-USD Featured Opportunities Yes FLSA Status Exempt JOB DESCRIPTION Are you ready to make an impact at DTCC? Do you want to work on innovative projects, collaborate with a dynamic and supportive team, and receive investment in your professional development? At DTCC, we are at the forefront of innovation in the financial markets. We are committed to helping our employees grow and succeed. We believe that you have the skills and drive to make a real impact. We foster a thriving internal community and are committed to creating a workplace that looks like the world that we serve. The Information Technology group delivers secure, reliable technology solutions that enable DTCC to be the trusted infrastructure of the global capital markets. The team delivers high-quality information through activities that include development of essential, building infrastructure capabilities to meet client needs and implementing data standards and governance. Pay and Benefits: Competitive compensation, including base pay and annual incentive Comprehensive health and life insurance and well-being benefits, based on location Pension / Retirement benefits Paid Time Off and Personal/Family Care, and other leaves of absence when needed to support your physical, financial, and emotional well-being. DTCC offers a flexible/hybrid model of 3 days onsite and 2 days remote (onsite Tuesdays, Wednesdays and a third day unique to each team or employee). The Impact You Will Have in This Role As a Principal Systems Engineer – Messaging Platforms, you will serve as the technical authority and architect for our modernized enterprise messaging ecosystem. In this role, you will define platform strategy, reference architecture, and engineering standards for IBM MQ across cloud‑native and OpenShift‑based container platforms. You will operate as a hands‑on senior technical leader, shaping architectural direction, driving automation and reliability engineering practices, and guiding the evolution of messaging platforms that support mission‑critical business services at scale. You’ll partner closely with domain architects, application owners, infrastructure teams, and operations leadership to ensure messaging platforms are resilient, secure, scalable, and future‑ready Your Primary Responsibilities: Define and drive the technical architecture and long‑term strategy for enterprise IBM MQ platforms Design modern, scalable messaging solutions aligned to business, resiliency, and regulatory requirements Lead the design, deployment, and operation of IBM MQ environments supporting high availability and disaster recovery Deploy and operate IBM MQ and App Connect Enterprise (ACE) on OpenShift container platforms and cloud / hybrid environments (AWS) Design and implement Infrastructure‑as‑Code (IaC) and automation frameworks using Terraform, Ansible, and Chef Establish platform standards, reference architectures, and operational patterns for enterprise MQ usage Conduct proof‑of‑technology and proof‑of‑concept initiatives to evaluate and adopt modern messaging and platform capabilities Drive a Site Reliability Engineering (SRE) mindset, emphasizing reliability, scalability, automation, and proactive operations over reactive support Monitor, analyze, and optimize platform performance and stability using tools such as Prometheus, Grafana, and MeshIQ (APM6) Mentor and technically guide L2/L3 engineers, promoting best practices in automation, observability, and reliability engineering Author and maintain architecture standards, implementation guidelines, operational procedures, and transition documentation for support teams Qualifications 10+ years of experience supporting engineering enterprise messaging or middleware platforms Demonstrated experience operating in a senior or principal‑level individual contributor role Bachelor’s degree preferred or equivalent practical experience Experience supporting large‑scale, mission‑critical production systems in regulated or complex environments preferred Talent Needed for Success IBM MQ & Messaging Expertise 10+ years of hands‑on IBM MQ administration and engineering experience Deep expertise in queue managers, channels, clustering, and HA/DR architecture Proven experience operating and evolving enterprise‑scale messaging platforms Cloud, Containers & Automation Strong experience with containerized messaging platforms on OpenShift and/or Kubernetes Demonstrated success deploying and supporting MQ in cloud or hybrid environments (AWS preferred) Advanced experience with Infrastructure as Code and automation (Terraform, Ansible, Chef) Reliability, Standards & Leadership Strong background in Linux/Unix environments Ability to define platform standards, best practices, and reference architectures Proven ability to drive technical outcomes independently and influence across engineering and infrastructure teams Strong ownership mindset with a focus on long‑term platform stability and evolution Nice to Have Skills Experience with IBM App Connect Enterprise (ACE) Exposure to MQ Native HA and MQ Internet Pass‑Thru (MQ IPT) Strong scripting skills (Bash); programming experience in C/C++ or Java is a plus Familiarity with advanced observability and performance tooling Cloud and/or container certifications (AWS, OpenShift, Kubernetes) The salary range is indicative for roles at the same level within DTCC across all US locations. Actual salary is determined based on the role, location, individual experience, skills, and other considerations. We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, or disability status. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation. APPLY NOW Legend © Oracle CorporationTermsLegal Notices Use control and scroll to zoom the map 1333 Crestside Drive, Coppell, TX, 75019, US Copy to Clipboard SEE MORE JOBS TERMS & CONDITIONS PRIVACY POLICY VISIT DTCC.COM © 2020 DTCC. ALL RIGHTS RESERVED. This website sets cookies on your device. By continuing to use our site, you consent to our use of cookies in accordance with our Privacy Policy. Learn more CLICK HERE TO ACCEPT. Page Systems Engineering Principal - DTCC Candidate Experience Site Careers loaded",
       "outcome": "live",
       "evidence": "title \"Systems Engineering Principal\" shown on the page"
     },
@@ -631,7 +543,7 @@
       "company": "DTCC",
       "title": "Platform Engineering Senior Associate",
       "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/215117/",
-      "checkedAt": "2026-11-18T10:31:29.633Z",
+      "checkedAt": "2026-11-18T16:47:53.869Z",
       "captureText": true,
       "finalUrl": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/215117/",
       "httpStatus": 200,
@@ -650,7 +562,7 @@
       "company": "DTCC",
       "title": "Release Management Senior Associate",
       "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214695/",
-      "checkedAt": "2026-11-18T10:31:36.692Z",
+      "checkedAt": "2026-11-18T16:48:01.111Z",
       "captureText": true,
       "finalUrl": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214695/",
       "httpStatus": 200,
@@ -660,9 +572,103 @@
         "datePosted": "2026-09-18T15:35:33.000Z",
         "validThrough": null
       },
-      "pageText": "Skip to main content. View More Jobs Release Management Senior Associate Boston, MA, United States and 1 more APPLY NOW JOB INFO Job Identification 214695 Job Category Information Technology Posting Date 09/18/2026, 03:35 PM Locations 55 Thomson Place, Boston, MA, 02210, US 570 Washington Blvd, Jersey City, NJ, 07310, US 18301 Bermuda Green Dr, Tampa, FL, 33647, US 1315 S Belt Line Road, Coppell, TX, 75019, US Job Schedule Full time Salary Range Senior Associate-75,000-150,000-USD Featured Opportunities No FLSA Status Exempt JOB DESCRIPTION Are you ready to make an impact at DTCC? Do you want to work on innovative projects, collaborate with a dynamic and supportive team, and receive investment in your professional development? At DTCC, we are at the forefront of innovation in the financial markets. We are committed to helping our employees grow and succeed. We believe that you have the skills and drive to make a real impact. We foster a thriving internal community and are committed to creating a workplace that looks like the world that we serve. The Information Technology group delivers secure, reliable technology solutions that enable DTCC to be the trusted infrastructure of the global capital markets. The team delivers high-quality information through activities that include development of essential, building infrastructure capabilities to meet client needs and implementing data standards and governance. Pay and Benefits: Competitive compensation, including base pay and annual incentive Comprehensive health and life insurance and well-being benefits, based on location Pension / Retirement benefits Paid Time Off and Personal/Family Care, and other leaves of absence when needed to support your physical, financial, and emotional well-being. DTCC offers a flexible/hybrid model of 3 days onsite and 2 days remote (onsite Tuesdays, Wednesdays and a third day unique to each team or employee). The Impact you will have in this role: The Release Management Senior Associate is responsible for coordinating, controlling, and executing software deployments across Production and PSE environments while ensuring adherence to Change Management and Release Management policies, operational controls, and audit requirements. This role serves as a key member of the Release Management team, supporting both planned migrations and emergency implementation activities for critical business applications. The successful candidate will work closely with Application Development, Infrastructure, Change Management, Production Support, and Business stakeholders to ensure timely and accurate code migrations while maintaining platform stability and minimizing operational risk. Your Primary Responsibilities: Coordinate and execute software deployments across multiple environments in accordance with Change Management and Release Management procedures. Support Normal and Emergency implementations for Production and PSE distributed platforms. Validate implementation readiness, deployment plans, rollback procedures, approvals, and testing evidence. Monitor and document deployment activities to ensure successful execution and compliance with operational controls. Perform deployment rollback and recovery activities when required. Support incident response, Major Incident Management (MIM), and troubleshooting efforts during deployment-related issues. Maintain operational documentation, procedures, and audit evidence. Leverage Microsoft Copilot, Kiro, and approved AI technologies to improve deployment planning, troubleshooting, documentation, reporting, and operational efficiency. Assist with training and provide guidance to team members and new hires. Support post-implementation reviews, root cause analysis activities, and corrective action initiatives. Participate in audits, regulatory reviews, and operational risk assessments. Contribute to strategic Change & Release Management modernization initiatives. Qualifications: Minimum of 6 years of related experience Bachelor's degree preferred or equivalent experience Talents Needed for Success: 6+ years of experience in Release Management, Change Management, Production Support, DevOps, Site Reliability Engineering, or a related technology discipline. Strong understanding of software release management, deployment methodologies, and SDLC practices. Experience supporting mission-critical production environments. Strong troubleshooting, analytical, and problem-solving skills. Knowledge of operational risk controls, governance practices, and audit requirements. Excellent communication and stakeholder management skills. Ability to coordinate activities across multiple technical teams in a fast-paced operational environment. ServiceNow Linux/Unix administration and command-line operations. Shell scripting, Bash, PowerShell, Python, or similar scripting languages. Jenkins GitHub, Bitbucket, or Azure DevOps Ansible Kubernetes, OpenShift, Docker Jira and Confluence SonarQube Artifactory Microsoft Copilot and Microsoft 365 Copilot Kiro CI/CD concepts and deployment automation practices. Source code management and version control systems. Application, infrastructure, and deployment troubleshooting. Log analysis and operational diagnostics. Experience supporting financial services or other highly regulated industries. Experience with ServiceNow Change and Release Management processes. Familiarity with DevSecOps practices and secure software delivery pipelines. Experience supporting distributed and/or mainframe deployment environments. ITIL, DevOps, Agile, Cloud, or related industry certifications. Successful execution of deployments with minimal business or customer impact. Adherence to Change Management, Release Execution, audit, and risk controls. Reduction in deployment-related incidents and implementation failures. Increased adoption of automation and AI-enabled operational capabilities. Timely resolution of deployment issues and operational incidents. Positive audit outcomes and high-quality operational documentation. Demonstrated leadership, mentoring, and continuous improvement contributions. The salary range is indicative for roles at the same level within DTCC across all US locations. Actual salary is determined based on the role, location, individual experience, skills, and other considerations. We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, or disability status. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation. ABOUT US With over 50 years of experience, DTCC is the premier post-trade market infrastructure for the global financial services industry. From 20 locations around the world, DTCC, through its subsidiaries, automates, centralizes, and standardizes the processing of financial transactions, mitigating risk, increasing transparency, enhancing performance and driving efficiency for thousands of broker/dealers, custodian banks and asset managers. Industry owned and governed, the firm innovates purposefully, simplifying the complexities of clearing, settlement, asset servicing, transaction processing, trade reporting and data services across asset classes, bringing enhanced resilience and soundness to existing financial markets while advancing the digital asset ecosystem. In 2024, DTCC’s subsidiaries processed securities transactions valued at U.S. $3.7 quadrillion and its depository subsidiary provided custody and asset servicing for securities issues from over 150 countries and territories valued at U.S. $99 trillion. DTCC’s Global Trade Repository service, through locally registered, licensed, or approved trade repos",
+      "pageText": "Skip to main content. View More Jobs Release Management Senior Associate Boston, MA, United States and 1 more BE THE FIRST TO APPLY APPLY NOW JOB INFO Job Identification 214695 Job Category Information Technology Posting Date 09/18/2026, 03:35 PM Locations 55 Thomson Place, Boston, MA, 02210, US 570 Washington Blvd, Jersey City, NJ, 07310, US 18301 Bermuda Green Dr, Tampa, FL, 33647, US 1315 S Belt Line Road, Coppell, TX, 75019, US Job Schedule Full time Salary Range Senior Associate-75,000-150,000-USD Featured Opportunities No FLSA Status Exempt JOB DESCRIPTION Are you ready to make an impact at DTCC? Do you want to work on innovative projects, collaborate with a dynamic and supportive team, and receive investment in your professional development? At DTCC, we are at the forefront of innovation in the financial markets. We are committed to helping our employees grow and succeed. We believe that you have the skills and drive to make a real impact. We foster a thriving internal community and are committed to creating a workplace that looks like the world that we serve. The Information Technology group delivers secure, reliable technology solutions that enable DTCC to be the trusted infrastructure of the global capital markets. The team delivers high-quality information through activities that include development of essential, building infrastructure capabilities to meet client needs and implementing data standards and governance. Pay and Benefits: Competitive compensation, including base pay and annual incentive Comprehensive health and life insurance and well-being benefits, based on location Pension / Retirement benefits Paid Time Off and Personal/Family Care, and other leaves of absence when needed to support your physical, financial, and emotional well-being. DTCC offers a flexible/hybrid model of 3 days onsite and 2 days remote (onsite Tuesdays, Wednesdays and a third day unique to each team or employee). The Impact you will have in this role: The Release Management Senior Associate is responsible for coordinating, controlling, and executing software deployments across Production and PSE environments while ensuring adherence to Change Management and Release Management policies, operational controls, and audit requirements. This role serves as a key member of the Release Management team, supporting both planned migrations and emergency implementation activities for critical business applications. The successful candidate will work closely with Application Development, Infrastructure, Change Management, Production Support, and Business stakeholders to ensure timely and accurate code migrations while maintaining platform stability and minimizing operational risk. Your Primary Responsibilities: Coordinate and execute software deployments across multiple environments in accordance with Change Management and Release Management procedures. Support Normal and Emergency implementations for Production and PSE distributed platforms. Validate implementation readiness, deployment plans, rollback procedures, approvals, and testing evidence. Monitor and document deployment activities to ensure successful execution and compliance with operational controls. Perform deployment rollback and recovery activities when required. Support incident response, Major Incident Management (MIM), and troubleshooting efforts during deployment-related issues. Maintain operational documentation, procedures, and audit evidence. Leverage Microsoft Copilot, Kiro, and approved AI technologies to improve deployment planning, troubleshooting, documentation, reporting, and operational efficiency. Assist with training and provide guidance to team members and new hires. Support post-implementation reviews, root cause analysis activities, and corrective action initiatives. Participate in audits, regulatory reviews, and operational risk assessments. Contribute to strategic Change & Release Management modernization initiatives. Qualifications: Minimum of 6 years of related experience Bachelor's degree preferred or equivalent experience Talents Needed for Success: 6+ years of experience in Release Management, Change Management, Production Support, DevOps, Site Reliability Engineering, or a related technology discipline. Strong understanding of software release management, deployment methodologies, and SDLC practices. Experience supporting mission-critical production environments. Strong troubleshooting, analytical, and problem-solving skills. Knowledge of operational risk controls, governance practices, and audit requirements. Excellent communication and stakeholder management skills. Ability to coordinate activities across multiple technical teams in a fast-paced operational environment. ServiceNow Linux/Unix administration and command-line operations. Shell scripting, Bash, PowerShell, Python, or similar scripting languages. Jenkins GitHub, Bitbucket, or Azure DevOps Ansible Kubernetes, OpenShift, Docker Jira and Confluence SonarQube Artifactory Microsoft Copilot and Microsoft 365 Copilot Kiro CI/CD concepts and deployment automation practices. Source code management and version control systems. Application, infrastructure, and deployment troubleshooting. Log analysis and operational diagnostics. Experience supporting financial services or other highly regulated industries. Experience with ServiceNow Change and Release Management processes. Familiarity with DevSecOps practices and secure software delivery pipelines. Experience supporting distributed and/or mainframe deployment environments. ITIL, DevOps, Agile, Cloud, or related industry certifications. Successful execution of deployments with minimal business or customer impact. Adherence to Change Management, Release Execution, audit, and risk controls. Reduction in deployment-related incidents and implementation failures. Increased adoption of automation and AI-enabled operational capabilities. Timely resolution of deployment issues and operational incidents. Positive audit outcomes and high-quality operational documentation. Demonstrated leadership, mentoring, and continuous improvement contributions. The salary range is indicative for roles at the same level within DTCC across all US locations. Actual salary is determined based on the role, location, individual experience, skills, and other considerations. We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, or disability status. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation. ABOUT US With over 50 years of experience, DTCC is the premier post-trade market infrastructure for the global financial services industry. From 20 locations around the world, DTCC, through its subsidiaries, automates, centralizes, and standardizes the processing of financial transactions, mitigating risk, increasing transparency, enhancing performance and driving efficiency for thousands of broker/dealers, custodian banks and asset managers. Industry owned and governed, the firm innovates purposefully, simplifying the complexities of clearing, settlement, asset servicing, transaction processing, trade reporting and data services across asset classes, bringing enhanced resilience and soundness to existing financial markets while advancing the digital asset ecosystem. In 2024, DTCC’s subsidiaries processed securities transactions valued at U.S. $3.7 quadrillion and its depository subsidiary provided custody and asset servicing for securities issues from over 150 countries and territories valued at U.S. $99 trillion. DTCC’s Global Trade Repository service, through locally registered, licensed, o",
       "outcome": "live",
       "evidence": "title \"Release Management Senior Associate\" shown on the page"
+    },
+    {
+      "id": "wd-teladoc-health-jr21112",
+      "company": "Teladoc Health",
+      "title": "Manager, Release & Change Engineering",
+      "url": "https://teladoc.wd503.myworkdayjobs.com/teladochealth_is_hiring/job/USA---Any-Location-Remote/Manager--Release---Change-Engineering_JR21112",
+      "checkedAt": "2026-11-18T16:48:07.943Z",
+      "captureText": true,
+      "finalUrl": "https://teladoc.wd503.myworkdayjobs.com/teladochealth_is_hiring/job/USA---Any-Location-Remote/Manager--Release---Change-Engineering_JR21112",
+      "httpStatus": 200,
+      "pageTitle": "Work With Us",
+      "jsonLd": null,
+      "pageText": "Skip to main content NOTICE OF PRIVACY PRACTICES FOR US EMPLOYEES' PERSONAL INFORMATION Effective: 11/1/2021 1.Introduction Teladoc respects your privacy and is committed to maintaining the confidentiality and security of your Personal Information. In furtherance of your employment relationship with Teladoc, we collect Personal Information responsibly and in accordance with applicable data privacy laws, including but not limited to, the California Consumer Privacy Act (“CCPA”). For purposes of this Notice, Personal Information is defined as: any information or set of information relating to you, including (a) all information that identifies you or could reasonably be used to identify you, and (b) all information that any Applicable Law treats as Personal Information. The purpose of this Notice of Privacy Practices for US Employees’ Personal Information (“Notice”) is to provide notification to potential, former, and current full-time and part-time employees, volunteers, contractors, and interns (collectively referred to throughout this Notice as “you”, “your”, “their”, or “Employees”) as to how Teladoc Health, Inc. uses and discloses your Personal Information. For the purposes of this Notice, “Employee” also refers to consultants and contractors engaged by Teladoc, even though they are not otherwise employees. It is important that you read and understand this Privacy Notice. If you have questions or do not understand it fully, please seek additional information by contacting the Privacy Officer at privacy@teladochealth.com or by contacting your HR Representative. This Privacy Notice is not a contract and does not create any contract of employment or other rights or obligations. 2.Scope Teladoc Health, Inc. is made up of different legal entities, including U.S. and international subsidiaries listed in Teladoc Health Subsidiaries and Affiliates. When we mention “Teladoc”, “we”, “us” or “our” in this Notice, we are referring to the relevant legal entity of Teladoc Health, Inc. that is responsible for processing your Personal Information as your employer. This Notice applies to how Teladoc collects and uses your Personal Information as part of your employment relationship with Teladoc. To the extent that you use any of Teladoc’s suite of medical services, such as telehealth, chronic condition management, or expert medical services, or Teladoc’s websites, this Notice does not apply to the information that is collected during your use of those services. To avoid doubt, the information collected during your use of those services, if any, will not be accessed or used for employment purposes. See the Privacy Notice that is applicable for the services you are using in order to understand what Personal Information is collected and processed by Teladoc during the course of your use of those services. 3.Categories of Personal Information We Collect We may collect the following categories of Personal Information about you: Category | Examples Identifiers: Real name, alias, postal address, unique personal identifier, online identifier, internet protocol address, email address, account name, social security number, driver’s license number, passport number, telephone numbers, date of birth, other similar identifiers. Categories of Personal Information described in Section 1798.80(e) of the California Civil Code: Name, signature, social security number, physical characteristics or description, address, telephone number, passport number, driver’s license or state identification card number, insurance policy number, education, employment, employment history, financial information, medical information, health insurance information. Characteristics of protected classifications under California or federal law: Age, race, national origin, citizenship, marital status, medical condition, physical or mental disability, sex (including gender, gender identity, gender expression, pregnancy or childbirth and related medical conditions), sexual orientation, veteran, or military status. Biometric information: Fingerprint, voice recording. Internet or other electronic network activity information: Your access to and use of Teladoc’s communication systems, applications, and software including your access to and modification of the information contained therein (e.g. corporate, client, and member information). This includes your Teladoc email account, and applies whether you access such information, systems, applications, software, and communication systems through company issued equipment or your personal device. User logs and access control related information, including physical access to Teladoc’s premises. CCTV footage and other information obtained through electronic means such as swipe card records. Location information, including through GPS tracking technology on Teladoc-owned devices (e.g., laptops to locate and/or wipe lost or stolen laptops), or other devices owned by you which you use in connection with your employment with Teladoc. Browsing history, search history, and information regarding interaction with an Internet website, application, or advertisements on Teladoc-provided devices. Geographic data: GPS tracking on Teladoc-provided devices as well as through swipe card records. Audio, electronic, visual, thermal, olfactory, or similar information: Photograph, temperature, CCTV footage, voice recording. Professional or employment-related information: Title(s), position description(s), working location(s), years of service, salary, work hours, vacation and absences; copy of driving license (if relevant for your position); copy of passport or identity card, and information related to immigration and right-to-work (e.g., work permit / visa application information); travelling and travel expenses data; termination date and reason for termination. CV/resume details, employment history, and any information you provide to us on an application and during interviews, as well as information we gather from reference persons whose contact details you have provided to us, written or verbally, and background check reports. Information required for payroll purposes (e.g., bank account details, tax information); Information related to benefit entitlements and schemes such as insurance and stock options, e.g., details of participation and contributions made. Benefits information, compensation information. Emergency contact information, and names of dependents. Performance related information (e.g., assessments of your performance, objectives and goals, feedback, and tests results); information relating to misconduct, investigations, and disciplinary actions; attendance; qualifications and personal development information, and competence assessments; learning and development records, certificates, licenses, and vocational records; records of career and succession planning; ongoing background check reports and security data. Education information: Degrees, schools attended, certificates, licenses, spoken languages, vocational records, and professional qualifications. Inferences: Inferences drawn from any of the above types of information that may reflect your characteristics, behavior, intelligence, abilities, and aptitudes related to the purposes outlined in Section 4 below. Personal Information that you provide directly to us either verbally or in writing 4.Purposes for which Personal Information is Used As an employer, Teladoc collects, uses and discloses your Personal Information in connection with your working relationship with us and in order to comply with Teladoc’s legal obligations. We use, and may disclose to third parties who assist us with these functions, Personal Information for the following purposes: Recruitment, interviewing, and vetting of candidates for employment Background checks for employment and client engagement services Onboarding and decisions about continued employment or engagement Managing and documenting your employment, attendance, and job performance Pro",
+      "outcome": "unclear",
+      "evidence": "title not found; page starts: Skip to main content NOTICE OF PRIVACY PRACTICES FOR US EMPLOYEES' PERSONAL INFORMATION Effective: 11/1/2021 1.Intr"
+    },
+    {
+      "id": "wd-wellsky-jr5220",
+      "company": "WellSky",
+      "title": "Sr. Manager, Engineering",
+      "url": "https://wellsky.wd1.myworkdayjobs.com/WellSkyCareers/job/Overland-Park-KS/Sr-Manager--Engineering_JR5220",
+      "checkedAt": "2026-11-18T16:48:27.596Z",
+      "captureText": true,
+      "finalUrl": "https://wellsky.wd1.myworkdayjobs.com/WellSkyCareers/job/Overland-Park-KS/Sr-Manager--Engineering_JR5220",
+      "httpStatus": 200,
+      "pageTitle": "Careers",
+      "jsonLd": null,
+      "pageText": "Skip to main content Sign In Visit Us Search for Jobs Introduce Yourself The page you are looking for doesn't exist. Search for Jobs Follow Us WellSky Privacy Policy © 2026 Workday, Inc. All rights reserved.",
+      "outcome": "unclear",
+      "evidence": "title not found; page starts: Skip to main content Sign In Visit Us Search for Jobs Introduce Yourself The page you are looking for doesn't exist. Sea"
+    },
+    {
+      "id": "x-t-mobile-manager-product-engineering-req382219",
+      "company": "T-Mobile",
+      "title": "Manager, Product & Engineering",
+      "url": "https://careers.t-mobile.com/manager-product-engineering/job/46FDAD7478BBC564639D280029D4D71C",
+      "checkedAt": "2026-11-18T16:48:47.594Z",
+      "captureText": true,
+      "finalUrl": "https://careers.t-mobile.com/manager-product-engineering/job/46FDAD7478BBC564639D280029D4D71C",
+      "httpStatus": 404,
+      "pageTitle": "404 Page Not Found |",
+      "jsonLd": null,
+      "pageText": "Skip to main content WIRELESS BUSINESS PREPAID INTERNET TV BANKING Our story Responsibility Newsroom Investors Careers Home Culture & Benefits Talent Network Search Jobs Oops! It looks like you're lost. Don't worry, it happens to the best of us! The page you're looking for might have moved, or the job you’re interested in may no longer be available. But no need to worry—let's get you back on track! Here are a few things you can do: Search for Jobs Visit the Homepage Talk with CASS Thanks for your interest in joining our team, and happy exploring! Connect with T-Mobile Careers T-Mobile USA, Inc. is an Equal Opportunity Employer. Legal Disability Accommodations Current Employees Login Connect with T-Mobile Contact us Contact information Check order status View return policy Get a rebate Find a store Trade-in program Support Device support Questions about your bill Plans & services Activate your prepaid phone or device Refill your prepaid account International rates T-Mobile Wireless Cell phone plans Cell phones Phone & device deals 5G & 4G coverage map How to switch T-Mobile for Business Business plans Internet of Things About Investor relations Press Careers Deutsche Telekom Puerto Rico Privacy Notice Trust Center Privacy Center Consumer information Public safety/911 Terms & conditions Terms of use Accessibility Open Internet Do Not Sell or Share My Personal Information © 2026 T-Mobile USA, Inc.",
+      "outcome": "gone",
+      "evidence": "HTTP 404 404 Page Not Found |"
+    },
+    {
+      "id": "x-hard-rock-digital-senior-manager-devops",
+      "company": "Hard Rock Digital",
+      "title": "Senior Manager - DevOps",
+      "url": "https://hardrockdigital.recruitee.com/o/senior-manager-devops-1",
+      "checkedAt": "2026-11-18T16:49:07.313Z",
+      "captureText": true,
+      "finalUrl": "https://hardrockdigital.recruitee.com/o/senior-manager-devops-1",
+      "httpStatus": 200,
+      "pageTitle": "Hard Rock Digital - Senior Manager - DevOps",
+      "jsonLd": null,
+      "pageText": "Skip to content Homepage Home Jobs Senior Manager - DevOps Remote United States, Florida, United States Technology Job details Apply Job description What are we building? Hard Rock Digital is a fiercely focused team working to become the best online sportsbook, casino, and social gaming company in the world. We’re building a deeply curious team with a passion for learning, operating, and building new products and technologies for millions of consumers. We’re customer-obsessed — we care about each customer interaction, experience, behavior, and insight, and strive to ensure we’re always acting authentically. Rooted in the kindred spirits of Hard Rock and the Seminole Tribe of Florida, Hard Rock Digital taps a brand known the world over as the leader in gaming, entertainment, and hospitality. We’re taking that foundation of success and bringing it to the digital space — ready to join us? What’s the position? We are looking for a Senior Manager, DevOps to join our growing Product & Technology organization. You will work alongside our existing Senior Managers in DevOps, leading a talented team of DevOps engineers across US-based operations. You’ll provide leadership coverage during evenings and weekends, and during standard business hours you’ll drive improvements in how work is planned, coordinated, and executed. You will oversee the design, scaling, and security of the cloud and platform infrastructure behind our gaming and entertainment platforms, managing highly available, compliant, and automated hybrid-cloud infrastructure in regulated environments. You will partner closely with our data engineering and data infrastructure teams so the foundations their platforms rely on are reliable, secure, and cost-effective. You will also help lead how new platforms and environments are onboarded, from assessing requirements to aligning them with our standards and consolidating redundant workloads. You’ll set the technical and operational vision for platform onboarding, infrastructure automation, and reliability. You’ll also work with our global teams in Poland to keep the platform running smoothly 24/7. Team Leadership Lead, mentor, and develop a team of DevOps engineers, building a culture of excellence, collaboration, and continuous learning Provide leadership coverage during US evenings and weekends to respond quickly to critical incidents and maintain platform stability Lead recruitment efforts to build and scale the DevOps team as business needs evolve Develop and track key performance metrics for infrastructure reliability, onboarding timelines, deployment velocity, and team productivity Infrastructure & Automation Oversee the architecture and implementation of scalable AWS and hybrid cloud infrastructure using Terraform/Terragrunt and related Infrastructure as Code tools Guide the design, build, and optimization of highly available containerized and conventional environments across AWS Contribute to the automation strategy for CI/CD pipelines (TeamCity, GitHub Actions, ArgoCD, and similar) to deliver software quickly, securely, and reliably across environments Champion security by design by building guardrails, identity/access controls, and compliance-driven automation across infrastructure layers Platform Onboarding & Data Partnership Partner with the data engineering and data infrastructure teams to provide the infrastructure, automation, and operational support that data platforms rely on Partner with Security, Compliance, and other business functions to make sure newly onboarded platforms meet regulatory, audit, and access-control requirements Planning, Operations & Continuous Improvement Drive strategic planning and coordination of DevOps initiatives during US business hours with engineering, data, product, and business stakeholders Collaborate with global teams in Poland to improve handoffs, knowledge sharing, and round-the-clock operational coverage Plan capacity for high-volume events, using load data and forecasting to scale platforms ahead of demand Drive continuous improvement in deployment processes, system resilience, and cost optimization across multiple environments Job requirements What are we looking for? We’re looking for an experienced leader who enjoys solving complex, large-scale infrastructure problems while building and empowering high-performing teams. You should be comfortable owning both technical and people decisions, and you should enjoy the ambiguity of bringing new platforms and teams into an established environment. 8+ years of experience in DevOps, Site Reliability Engineering, or similar roles 3+ years of people management experience, including hiring, mentoring, performance management, and team development Proficiency in EKS, networking, Infrastructure as Code (Terraform/Terragrunt or similar), security, and compliance Experience supporting data platforms or working closely with data engineering teams Experience with platform integration or consolidation, such as onboarding diverse systems into a shared cloud environment Experience leading CI/CD initiatives and designing scalable delivery pipelines with GitHub Actions, ArgoCD, or comparable tools Flexibility to provide leadership coverage during US evenings and weekends as needed Skills & Competencies Strong communication skills, with the ability to explain technical concepts to technical and non-technical audiences Ability to mentor teams and influence stakeholders across engineering disciplines Comfortable owning both technical and people leadership decisions Strategic thinker who can set technical and operational vision while staying hands-on with execution Preferred Qualifications AWS Professional Certification (Solutions Architect, DevOps Engineer, or SysOps Administrator) strongly preferred Experience coordinating with geographically distributed teams across multiple time zones Experience in regulated industries such as sports betting, iGaming, or financial services What’s in it for you? We offer our employees more than just competitive compensation. Our team benefits include: Competitive pay and benefits Flexible vacation allowance Startup culture backed by a secure, global brand A pivotal role scaling our infrastructure, bringing new platforms into the fold, and building a world-class team The autonomy to shape our technology stack, team culture, and the experience of millions of players worldwide Roster of Uniques We care deeply about every interaction our customers have with us, and trust and empower our staff to own and drive their experience. Our vision for our business and customers is built on fostering a diverse and inclusive work environment where regardless of background or beliefs you feel able to be authentic and bring all your talent into play. We want to celebrate you being you (we are an equal opportunity employer). Apply or Apply with Indeed unavailable Update cookies",
+      "outcome": "live",
+      "evidence": "title \"Senior Manager - DevOps\" shown on the page"
+    },
+    {
+      "id": "lever-6955f35c-59f3-41f8-ae5b-d25df098ebe2",
+      "company": "Shield AI",
+      "title": "Staff DevOps Engineer",
+      "url": "https://jobs.lever.co/shieldai/6955f35c-59f3-41f8-ae5b-d25df098ebe2",
+      "checkedAt": "2026-11-18T16:49:11.946Z",
+      "captureText": true,
+      "finalUrl": "https://jobs.lever.co/shieldai/6955f35c-59f3-41f8-ae5b-d25df098ebe2",
+      "httpStatus": 404,
+      "pageTitle": "Not found – 404 error",
+      "jsonLd": null,
+      "pageText": "Sorry, we couldn't find anything here The job posting you're looking for might have closed, or it has been removed. (404 error). Jobs powered by",
+      "outcome": "gone",
+      "evidence": "HTTP 404 Not found – 404 error"
+    },
+    {
+      "id": "x-oracle-senior-site-reliability-engineer-349999",
+      "company": "Oracle",
+      "title": "Senior Site Reliability Engineer",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/349999/",
+      "checkedAt": "2026-11-18T16:49:31.259Z",
+      "captureText": true,
+      "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/349999/",
+      "httpStatus": 200,
+      "pageTitle": "Senior Site Reliability Engineer - Oracle Careers",
+      "jsonLd": {
+        "title": "Senior Site Reliability Engineer",
+        "datePosted": "2026-11-09T15:44:39.000Z",
+        "validThrough": null
+      },
+      "pageText": "Skip to main content. View More Jobs Senior Site Reliability Engineer Reston, VA, United States Austin, TX, United States Seattle, WA, United States Job Identification 349999 Job Category Product and Research Posting Date 11/09/2026, 03:44 PM Role Individual Contributor Job Type Regular Employee Does this position require a security clearance? Yes Years 3 to 5+ years Additional Info Visa / work permit sponsorship is not available for this position Applicants are required to read, write, and speak the following languages English Job Description Takes proactive steps to design and architect infrastructure and service to ensure reliability and functionality. Forecasts demands and responds to capacity needs. Collaborates with software development teams to develop reliable and scalable infrastructures. Performs data collection to maintain and optimize operations and reliability. Leverages knowledge to perform incident response and/or maintenance tasks. Provides health and performance reporting. Identifies opportunities for automation. Communicates about services and identifies and explains the potential impact of changes. Provides support for technology and documents incidents. Experiments with new tools and assesses potential impact and develops knowledge of site reliability trends. Responsibilities Key Responsibilities Location Requirement: Reston, VA, Austin TX, Seattle, WA U.S. Citizenship and possess and maintain TS/SCI w/Poly security clearance Capacity Ingestion and Management: -Takes proactive steps to design and architect infrastructure and/or service according to terms for reliability and functionality. -Forecasts demands for infrastructure and responds to capacity needs, ensuring systems have sufficient resources to handle current and future workloads. -Collaborates with the software development team to develop infrastructures and features that are reliable and scalable according to deployment requirements. -Independently identifies opportunities for and drives prototyping (e.g., testing new applications or infrastructures, assisting in onboarding). Incident and Service Lifecycle Management: -Performs data collection, triage, technical analysis, and redirection to maintain and optimize operations and infrastructure reliability. -Independently monitors services, maintains up-to-date knowledge of their performance, and documents their condition. -Leverages comprehensive knowledge to perform incident response, root cause analyses, and/or maintenance on assigned services (e.g., software installs, version upgrades, security updates, backup and recovery). -Provides health and performance reporting and takes appropriate actions based on trends in data. -May independently perform provisioning to support infrastructure, applications, and services. -May perform standard and non-standard decommissioning (e.g., shutting down servers, removing data from databases) to remove objects that are no longer needed. Automation: -Identifies opportunities for automation and assesses potential benefits. -Develops automation tools or scripts to provide solutions, gather metrics, monitor, analyze, mitigate, or remediate issues/defects within infrastructures. -Independently conducts testing to ensure automation performs the task correctly and produces expected results. Technical Communication and Guidance: -Communicates the scale, capacity, security, performance attributes, and requirements of services and technology within and sometimes beyond immediate team. -Identifies and explains the potential impact of infrastructure, feature, and tool changes, considering their impact on team operations. Troubleshooting and Resolution: -Provides operational support for technology, escalating incidents and other standard and non-standard issues arising within Oracle services. -Participates in on-call shifts to address issues. -Resolves technical issues spanning various services, investigating and debugging products in order to reach SLOs (service level objectives). -Documents incidents and performs root cause analyses according to standard reporting methods. -Independently performs post-mortem procedures to prevent incident reoccurrence. Innovation and Improvement: -Experiments with new tools and technologies to assess their potential impact on and improve infrastructure performance and reliability, ensuring adherence to security standards. -Independently identifies and executes improvements for performance bottlenecks and deployments to ensure efficient resource usage, speed, and scalability. -Develops knowledge of site reliability trends and shares new information with team members, management, and beyond to help others build, test, deploy and run services. -Performs standard and non-standard analyses and provides clear data on production to contribute to business development decisions (e.g., design changes). Core Responsibilities Planning & Execution: Independently manages work, monitoring timelines and deliverables to ensure projects or initiatives stay on track and meet requirements. Proactively prioritizes work and adapts to resource or timeline shifts, suggesting adjustments to maintain project efficiency. Collaboration & Partnership: Collaborates across teams to align on expectations and achieve shared objectives. Builds and maintains a comprehensive understanding of business, stakeholder, and/or customer needs to build and support effective partnerships. Actively listens to diverse perspectives and asks questions to ensure understanding of others. Problem Solving: Independently identifies and addresses standard and non-standard issues in accordance with standard practices, escalating more complex issues as appropriate. Analyzes data and/or information from multiple sources to troubleshoot standard and non-standard errors. Contributes to knowledge sharing and best practices. Continuous Learning: Embraces continuous learning by actively seeking to build knowledge and new skills and/or tools and staying current with industry trends and best practices. Seeks out and leverages feedback and training to improve skills. Contributes to a culture of continuous learning and knowledge sharing with team members. Continuous Improvement: Develops ideas and recommends updates to increase the efficiency and effectiveness of processes, protocols, and workflows within a team. Seeks input from team members on alternative approaches and methods for improving work. Qualifications Disclaimer: Certain U.S. based or U.S. customer or client-facing roles may be required to comply with applicable requirements, such as immunization/occupational health mandates, and/or drug testing requirements. Range and benefit information provided in this posting are specific to the stated locations only US: Hiring Range in USD from: $81,100 to $187,000 per annum. May be eligible for bonus and equity. Oracle maintains broad salary ranges for its roles in order to account for variations in knowledge, skills, experience, market conditions and locations, as well as reflect Oracle's differing products, industries and lines of business. Candidates are typically placed into the range based on the preceding factors as well as internal peer equity. Oracle US offers a comprehensive benefits package which includes the following: 1. Medical, dental, and vision insurance, including expert medical opinion 2. Short term disability and long term disability 3. Life insurance and AD&D 4. Supplemental life insurance (Employee/Spouse/Child) 5. Health care and dependent care Flexible Spending Accounts 6. Pre-tax commuter and parking benefits 7. 401(k) Savings and Investment Plan with company match 8. Paid time off: Flexible Vacation is provided to all eligible employees assigned to a salaried (non-overtime eligible) position. Accrued Vacation is provided to all other employees eligible for vacation benefits. For employees working at least 35 hours per week, the vacation accrual rate is 13 days annually for the first three years of em",
+      "outcome": "live",
+      "evidence": "title \"Senior Site Reliability Engineer\" shown on the page"
     }
   ],
   "boards": [
@@ -670,7 +676,7 @@
       "id": "board-burnsmcd-it",
       "company": "Burns & McDonnell",
       "url": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
-      "checkedAt": "2026-11-18T10:31:44.000Z",
+      "checkedAt": "2026-11-18T16:49:39.514Z",
       "finalUrl": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
       "httpStatus": 200,
       "pageTitle": "Information Technology Jobs | Burns & McDonnell",
@@ -678,26 +684,6 @@
       "evidence": "14 job links listed (see \"jobs\")",
       "count": 14,
       "jobs": [
-        {
-          "title": "Director, Enterprise Architecture - Corporate IT",
-          "url": "https://burnsmcd.jobs/houston-tx/director-enterprise-architecture-corporate-it/A4F8B49E686F4EEB80FD0F6E0DDD95C8/job/",
-          "text": "Director, Enterprise Architecture - Corporate IT Houston, TX"
-        },
-        {
-          "title": "Director, Enterprise Architecture - Corporate IT",
-          "url": "https://burnsmcd.jobs/dallas-tx/director-enterprise-architecture-corporate-it/8E3204DC66BC44E8BA20B08A16E47268/job/",
-          "text": "Director, Enterprise Architecture - Corporate IT Dallas, TX"
-        },
-        {
-          "title": "Director, Enterprise Architecture - Corporate IT",
-          "url": "https://burnsmcd.jobs/kansas-city-mo/director-enterprise-architecture-corporate-it/47FD94CCD2794F05A01E7573F48297F2/job/",
-          "text": "Director, Enterprise Architecture - Corporate IT Kansas City, MO"
-        },
-        {
-          "title": "Director, Enterprise Architecture - Corporate IT",
-          "url": "https://burnsmcd.jobs/chicago-il/director-enterprise-architecture-corporate-it/F7001FDB771A4881B3C1017A74AAB01F/job/",
-          "text": "Director, Enterprise Architecture - Corporate IT Chicago, IL"
-        },
         {
           "title": "Fullstack Developer Technical Lead (Bengaluru)",
           "url": "https://burnsmcd.jobs/bengaluru-ind/fullstack-developer-technical-lead-bengaluru/C0993EF6732D4282A36F265F44629CD0/job/",
@@ -747,6 +733,26 @@
           "title": "Power Generation Analyst",
           "url": "https://burnsmcd.jobs/mumbai-ind/power-generation-analyst/05AF23E7CD5E40A7BC5ACBE7BA9CD842/job/",
           "text": "Power Generation Analyst Mumbai, IND"
+        },
+        {
+          "title": "Lead QA",
+          "url": "https://burnsmcd.jobs/bengaluru-ind/lead-qa/7F535F3AC013441D93C29670102927D1/job/",
+          "text": "Lead QA Bengaluru, IND"
+        },
+        {
+          "title": "Head of Technical Solutions Group - Corporate Innovation",
+          "url": "https://burnsmcd.jobs/kansas-city-mo/head-of-technical-solutions-group-corporate-innovation/27CC13385BE743A9AF3B0BF64230E1CB/job/",
+          "text": "Head of Technical Solutions Group - Corporate Innovation Kansas City, MO"
+        },
+        {
+          "title": "Technology Services Business Partner - Information Technology (Kansas City)",
+          "url": "https://burnsmcd.jobs/kansas-city-mo/technology-services-business-partner-information-technology-kansas-city/C1B75CE39A9D419A874CF840DA498F65/job/",
+          "text": "Technology Services Business Partner - Information Technology (Kansas City) Kansas City, MO"
+        },
+        {
+          "title": "IT Service Desk Engineer",
+          "url": "https://burnsmcd.jobs/mumbai-ind/it-service-desk-engineer/AADB36F7D37F4BA3AD621B876AB26188/job/",
+          "text": "IT Service Desk Engineer Mumbai, IND"
         }
       ]
     },
@@ -754,7 +760,7 @@
       "id": "board-burnsmcd-programming",
       "company": "Burns & McDonnell",
       "url": "https://burnsmcd.jobs/job-function/programming/jobs/",
-      "checkedAt": "2026-11-18T10:31:49.410Z",
+      "checkedAt": "2026-11-18T16:49:45.287Z",
       "finalUrl": "https://burnsmcd.jobs/job-function/programming/jobs/",
       "httpStatus": 200,
       "pageTitle": "Programming Jobs | Burns & McDonnell",
@@ -803,7 +809,7 @@
       "id": "board-hntb-it",
       "company": "HNTB",
       "url": "https://hntb.jobs/job-category/information-technology-group/jobs/",
-      "checkedAt": "2026-11-18T10:31:54.504Z",
+      "checkedAt": "2026-11-18T16:49:50.514Z",
       "finalUrl": "https://hntb.jobs/job-category/information-technology-group/jobs/",
       "httpStatus": 200,
       "pageTitle": "Information Technology Group Job | HNTB",
@@ -822,7 +828,7 @@
       "id": "board-oracle-sre",
       "company": "Oracle (incl. Oracle Health, Kansas City)",
       "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
-      "checkedAt": "2026-11-18T10:31:59.880Z",
+      "checkedAt": "2026-11-18T16:49:56.249Z",
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Oracle Careers",
@@ -883,7 +889,7 @@
         {
           "title": "Senior Principal Site Reliability Engineer - US Top Secret Clearance",
           "url": "https://careers.oracle.com/en/sites/jobsearch/job/350817/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-          "text": "Senior Principal Site Reliability Engineer - US Top Secret Clearance Reston, VA, United States and 2 more HOT JOB Senior Principal Site Reliability Engineer Role (Reston, VA or Seattle WA or Austin TX"
+          "text": "Senior Principal Site Reliability Engineer - US Top Secret Clearance Reston, VA, United States and 2 more HOT JOB BE THE FIRST TO APPLY Senior Principal Site Reliability Engineer Role (Reston, VA or S"
         },
         {
           "title": "Senior Site Reliability Engineer",
@@ -906,7 +912,7 @@
       "id": "board-oracle-em",
       "company": "Oracle (incl. Oracle Health, Kansas City)",
       "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
-      "checkedAt": "2026-11-18T10:32:08.906Z",
+      "checkedAt": "2026-11-18T16:50:04.724Z",
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Oracle Careers",
@@ -990,7 +996,7 @@
       "id": "board-dell-sre",
       "company": "Dell Technologies",
       "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=site%20reliability&location=United%20States",
-      "checkedAt": "2026-11-18T10:32:17.069Z",
+      "checkedAt": "2026-11-18T16:50:13.124Z",
       "finalUrl": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=site%20reliability&location=United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Dell Careers",
@@ -1034,7 +1040,7 @@
       "id": "board-dell-em",
       "company": "Dell Technologies",
       "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=engineering%20manager&location=United%20States",
-      "checkedAt": "2026-11-18T10:32:25.442Z",
+      "checkedAt": "2026-11-18T16:50:21.037Z",
       "finalUrl": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=engineering%20manager&location=United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Dell Careers",
@@ -1053,14 +1059,14 @@
           "text": "Senior Systems Engineer, Data Management NC, United States"
         },
         {
-          "title": "Engineering Lab Technician",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/302591/?keyword=engineering+manager&location=United+States",
-          "text": "Engineering Lab Technician Austin, TX, United States"
-        },
-        {
           "title": "Senior Product Manager - AI Engineering",
           "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/297808/?keyword=engineering+manager&location=United+States",
           "text": "Senior Product Manager - AI Engineering Hopkinton, MA, United States and 1 more"
+        },
+        {
+          "title": "Engineering Lab Technician",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/302591/?keyword=engineering+manager&location=United+States",
+          "text": "Engineering Lab Technician Austin, TX, United States"
         },
         {
           "title": "Senior Advisor, Cybersecurity Engineering & Operations",
@@ -1173,7 +1179,7 @@
       "id": "board-dtcc-sre",
       "company": "DTCC",
       "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=site%20reliability&location=United%20States",
-      "checkedAt": "2026-11-18T10:32:33.192Z",
+      "checkedAt": "2026-11-18T16:50:28.916Z",
       "finalUrl": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=site%20reliability&location=United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - DTCC Candidate Experience Site Careers",
@@ -1194,7 +1200,7 @@
         {
           "title": "Application Support Engineering Director",
           "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/215239/?keyword=site+reliability&location=United+States",
-          "text": "Application Support Engineering Director Dallas, TX, United States Posting Date11/17/2026 BE THE FIRST TO APPLY"
+          "text": "Application Support Engineering Director Dallas, TX, United States Posting Date11/17/2026"
         },
         {
           "title": "Senior Application Support Engineer (SRE)",
@@ -1259,12 +1265,12 @@
         {
           "title": "Technical Security Associate",
           "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/215098/?keyword=site+reliability&location=United+States",
-          "text": "Technical Security Associate Jersey City, NJ, United States Posting Date10/27/2026 BE THE FIRST TO APPLY"
+          "text": "Technical Security Associate Jersey City, NJ, United States Posting Date10/27/2026"
         },
         {
           "title": "Release Management Senior Associate",
           "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214695/?keyword=site+reliability&location=United+States",
-          "text": "Release Management Senior Associate Boston, MA, United States and 1 more Posting Date09/18/2026 The Information Technology group delivers secure, reliable technology solutions that enable DTCC to be t"
+          "text": "Release Management Senior Associate Boston, MA, United States and 1 more Posting Date09/18/2026 BE THE FIRST TO APPLY The Information Technology group delivers secure, reliable technology solutions th"
         },
         {
           "title": "Platform Engineering Senior Associate",
@@ -2288,10 +2294,11 @@
     }
   ],
   "counts": {
-    "closed_text": 4,
-    "live": 34,
-    "gone": 1,
-    "blocked": 1
+    "live": 33,
+    "gone": 3,
+    "closed_text": 1,
+    "blocked": 1,
+    "unclear": 2
   },
-  "seconds": 318
+  "seconds": 404
 }
