@@ -1122,7 +1122,8 @@
   {
     "name": "TrueLayer",
     "platform": "greenhouse",
-    "slug": "truelayer"
+    "slug": "truelayer",
+    "region": "eu"
   },
   {
     "name": "Sezzle",
@@ -3570,5 +3571,10 @@
     "name": "Webflow (Ashby)",
     "platform": "ashby",
     "slug": "webflow"
+  },
+  {
+    "name": "Mark43",
+    "platform": "greenhouse",
+    "slug": "mark43"
   }
 ]

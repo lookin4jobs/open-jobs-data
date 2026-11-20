@@ -217,7 +217,9 @@ function baseJob(overrides) {
 const platforms = {
   async greenhouse(company) {
     const slug = company.slug;
-    const url = `https://boards-api.greenhouse.io/v1/boards/${encodeURIComponent(slug)}/jobs?content=false`;
+    // Optional region "eu" reads the EU-hosted board (job-boards.eu.greenhouse.io).
+    const host = company.region === 'eu' ? 'boards-api.eu.greenhouse.io' : 'boards-api.greenhouse.io';
+    const url = `https://${host}/v1/boards/${encodeURIComponent(slug)}/jobs?content=false`;
     const { data, notFound } = await getJson(url);
     if (notFound) return { jobs: [], notFound: true };
     return {
