@@ -382,7 +382,10 @@ const platforms = {
     if (WORKDAY_SITEMAP) {
       const viaSitemap = await workdaySitemapJobs(
         company, origin, site, Array.isArray(searchTexts) && searchTexts.length ? searchTexts : [''], reqOpts
-      ).catch(() => null);
+      ).catch((err) => {
+        console.log(`  ${company.name}: Workday sitemap failed (${err?.message ?? err}), using the search`);
+        return null;
+      });
       if (viaSitemap) return viaSitemap;
     }
     const PAGE_SIZE = 20;
