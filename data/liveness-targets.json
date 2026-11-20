@@ -1,6 +1,6 @@
 {
   "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-11-18",
+  "updated": "2026-11-20",
   "targets": [
     {
       "id": "icims-docusign-29787",
@@ -73,14 +73,6 @@
       "title": "Manager, Engineering, Managed Services",
       "url": "https://cdw.wd5.myworkdayjobs.com/careers/job/remote--usa/manager--engineering--managed-services---aix--unix---linux_r26_00002670",
       "why": "closure re-test sample 10/28: open role the job feed reports live, read in a browser to confirm the feed is not stale"
-    },
-    {
-      "id": "lever-1181d421-2adb-4586-ac11-853d865965bd",
-      "company": "PointClickCare",
-      "title": "Senior Site Reliability Engineer",
-      "url": "https://jobs.lever.co/pointclickcare/1181d421-2adb-4586-ac11-853d865965bd",
-      "why": "fetch tool could not read the Lever page",
-      "captureText": true
     },
     {
       "id": "ashby-880c222b-faa8-4e86-8fe9-989b5cd2bd46",
@@ -235,14 +227,6 @@
       "captureText": true
     },
     {
-      "id": "x-garmin-software-engineer-devops-18673",
-      "company": "Garmin",
-      "title": "Software Engineer - DevOps",
-      "url": "https://careers.garmin.com/jobs/18673?lang=en-us",
-      "why": "Garmin api/jobs read failed (client_error) on 11/16; job pages render only in a browser, need level and office expectation",
-      "captureText": true
-    },
-    {
       "id": "x-dtcc-systems-engineering-principal-213437",
       "company": "DTCC",
       "title": "Systems Engineering Principal",
@@ -267,30 +251,6 @@
       "captureText": true
     },
     {
-      "id": "wd-teladoc-health-jr21112",
-      "company": "Teladoc Health",
-      "title": "Manager, Release & Change Engineering",
-      "url": "https://teladoc.wd503.myworkdayjobs.com/teladochealth_is_hiring/job/USA---Any-Location-Remote/Manager--Release---Change-Engineering_JR21112",
-      "why": "11/18: Workday cxs client_error and the feed's Workday tenants read 429; endDate was 11/17, confirm closed or still live",
-      "captureText": true
-    },
-    {
-      "id": "wd-wellsky-jr5220",
-      "company": "WellSky",
-      "title": "Sr. Manager, Engineering",
-      "url": "https://wellsky.wd1.myworkdayjobs.com/WellSkyCareers/job/Overland-Park-KS/Sr-Manager--Engineering_JR5220",
-      "why": "11/18: Workday cxs client_error and feed Workday 429; KC employer, work setup unsettled",
-      "captureText": true
-    },
-    {
-      "id": "x-t-mobile-manager-product-engineering-req382219",
-      "company": "T-Mobile",
-      "title": "Manager, Product & Engineering",
-      "url": "https://careers.t-mobile.com/manager-product-engineering/job/46FDAD7478BBC564639D280029D4D71C",
-      "why": "new 11/18: careers.t-mobile.com client_error in chat; need liveness and the onsite cadence for Overland Park",
-      "captureText": true
-    },
-    {
       "id": "x-hard-rock-digital-senior-manager-devops",
       "company": "Hard Rock Digital",
       "title": "Senior Manager - DevOps",
@@ -299,19 +259,59 @@
       "captureText": true
     },
     {
-      "id": "lever-6955f35c-59f3-41f8-ae5b-d25df098ebe2",
-      "company": "Shield AI",
-      "title": "Staff DevOps Engineer",
-      "url": "https://jobs.lever.co/shieldai/6955f35c-59f3-41f8-ae5b-d25df098ebe2",
-      "why": "11/17-11/18: Lever API SERVER_ERROR; requirements, clearance and work setup unread",
+      "id": "workable-A2091F150C",
+      "company": "Hospitable.com",
+      "title": "Senior Platform Engineer",
+      "url": "https://apply.workable.com/hospitable/j/A2091F150C",
+      "why": "new 11/19: Workable API client_error to the fetch tool; need liveness, location and employment type (contractor or employee)",
       "captureText": true
     },
     {
-      "id": "x-oracle-senior-site-reliability-engineer-349999",
+      "id": "x-smartsuite-devops-engineer-remote",
+      "company": "SmartSuite",
+      "title": "DevOps Engineer (Remote)",
+      "url": "https://ats.rippling.com/smartsuite/jobs/6ea49061-d23c-4adb-95c3-9159c372e000",
+      "why": "new 11/19: Rippling single-job reads do not verify; need liveness and remote versus Overland Park office",
+      "captureText": true
+    },
+    {
+      "id": "x-oracle-senior-site-reliability-engineer-349930",
       "company": "Oracle",
       "title": "Senior Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/349999/",
-      "why": "Oracle board find 11/18; renders only in a browser, requirements unread",
+      "url": "https://careers.oracle.com/en/sites/jobsearch/job/349930/",
+      "why": "needs_check since 11/19; Oracle job pages render only in a browser, need liveness and pay",
+      "captureText": true
+    },
+    {
+      "id": "x-dtcc-senior-application-support-engineer-sre-213977",
+      "company": "DTCC",
+      "title": "Senior Application Support Engineer (SRE)",
+      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213977/",
+      "why": "DTCC board find 11/18; Oracle Recruiting Cloud renders only in a browser, requirements and work setup unread",
+      "captureText": true
+    },
+    {
+      "id": "x-dtcc-application-support-engineering-sre-214675",
+      "company": "DTCC",
+      "title": "Application Support Engineering - SRE",
+      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214675/",
+      "why": "DTCC board find 11/18; Oracle Recruiting Cloud renders only in a browser, requirements and work setup unread",
+      "captureText": true
+    },
+    {
+      "id": "wd-cvs-health-r1046107",
+      "company": "CVS Health",
+      "title": "Staff Cloud Automation Engineer",
+      "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Staff-Cloud-Engineer_R1046107",
+      "why": "needs_check since 11/14: Workday cxs client_error while other CVS reads answer; endDate was 11/14, confirm closed or live and the Hartford versus remote setup",
+      "captureText": true
+    },
+    {
+      "id": "wd-crowdstrike-r30063",
+      "company": "CrowdStrike",
+      "title": "Sr. Systems Engineer - AI Gateway Platform (Remote)",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/AI-Operations-Manager--Remote-_R30063",
+      "why": "needs_check since 11/17: Workday cxs client_error while other CrowdStrike reads answer; req retitled, the URL slug still reads AI Operations Manager",
       "captureText": true
     }
   ],
