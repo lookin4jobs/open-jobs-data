@@ -62,8 +62,8 @@ async function fetchWithRetryText(url, options = {}) {
   let lastErr;
   let lastStatus = null;
   let retryAfterMs = 0;
-  const { retry403, ...fetchOptions } = options;
-  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+  const { retry403, maxRetries = MAX_RETRIES, ...fetchOptions } = options;
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
     try {
@@ -101,7 +101,7 @@ async function fetchWithRetryText(url, options = {}) {
     } catch (err) {
       clearTimeout(timeout);
       lastErr = err;
-      if (attempt < MAX_RETRIES) {
+      if (attempt < maxRetries) {
         // Workday (retry403) gets the long backoff for 429 as well as 403: every
         // tenant shares Workday's rate limit, so a short retry only burns attempts.
         const slow = lastStatus === 403 || (options.retry403 && lastStatus === 429);
@@ -225,24 +225,34 @@ function baseJob(overrides) {
 // falls back to the cxs search below, so nothing the search did is lost.
 // Set WORKDAY_SITEMAP=0 to skip it.
 const WORKDAY_SITEMAP = process.env.WORKDAY_SITEMAP !== '0';
+// Pause (11/2026): Workday refused even single sitemap requests from the
+// runner on 11/20, so the feed leaves Workday alone until this UTC date to let
+// the block clear. Set WORKDAY_PAUSE_UNTIL to '' (env) to lift it early.
+const WORKDAY_PAUSE_UNTIL = process.env.WORKDAY_PAUSE_UNTIL ?? '2026-11-24';
+// Soft mode after the pause: sitemap only, no retries on a sitemap request,
+// a long pause between tenants, and the paged search only when a site has no
+// sitemap at all (404). Any 429 trips the breaker for the rest of the pass.
+const WORKDAY_SITEMAP_GAP_MS = 8000;
 function slugWords(s) {
   return decodeURIComponent(s).replace(/_[A-Za-z0-9-]+$/, '').replace(/-+/g, ' ').trim();
 }
 async function workdaySitemapJobs(company, origin, site, searches, reqOpts) {
   const headers = { ...reqOpts.headers, Accept: 'application/xml,text/xml,*/*' };
   const read = async (url) => {
-    const r = await fetchWithRetryText(url, { retry403: true, headers });
-    return r.notFound ? null : r.text;
+    const r = await fetchWithRetryText(url, { retry403: true, maxRetries: 0, headers });
+    if (r.notFound) return r.status === 404 ? { missing: true } : null;
+    return r.text;
   };
   const first = await read(`${origin}/${site}/siteMap.xml`);
-  if (!first || !/<(urlset|sitemapindex)/i.test(first)) return null;
+  if (first && first.missing) return null;
+  if (typeof first !== 'string' || !/<(urlset|sitemapindex)/i.test(first)) throw new Error('sitemap unreadable');
   let xmls = [first];
   if (/<sitemapindex/i.test(first)) {
     xmls = [];
     for (const m of first.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/gi)) {
       await sleep(WORKDAY_DELAY_MS);
       const part = await read(m[1].replace(/&amp;/g, '&'));
-      if (!part) return null;
+      if (typeof part !== 'string') throw new Error('sitemap part unreadable');
       xmls.push(part);
     }
   }
@@ -372,7 +382,10 @@ const platforms = {
     if (!tenant || !site || !shard) return { jobs: [], notFound: true, status: 'bad-config' };
     const release = await workdayGate();
     try {
+    if (WORKDAY_PAUSE_UNTIL && new Date().toISOString().slice(0, 10) < WORKDAY_PAUSE_UNTIL)
+      throw new Error(`paused until ${WORKDAY_PAUSE_UNTIL} (Workday rate limit cool-off)`);
     if (workday429Streak >= WORKDAY_429_TRIP) throw new Error('HTTP 429 (skipped: Workday rate limit breaker open)');
+    await sleep(WORKDAY_SITEMAP_GAP_MS);
     const origin = `https://${tenant}.${shard}.myworkdayjobs.com`;
     const reqOpts = {
       retry403: true,
@@ -383,10 +396,14 @@ const platforms = {
       const viaSitemap = await workdaySitemapJobs(
         company, origin, site, Array.isArray(searchTexts) && searchTexts.length ? searchTexts : [''], reqOpts
       ).catch((err) => {
-        console.log(`  ${company.name}: Workday sitemap failed (${err?.message ?? err}), using the search`);
-        return null;
+        // A refused or broken sitemap is reported as an error. Falling back to
+        // the paged search here would send far more requests to a site that is
+        // already refusing us.
+        if (/429/.test(String(err?.message))) workday429Streak = WORKDAY_429_TRIP;
+        throw new Error(`sitemap: ${err?.message ?? err}`);
       });
       if (viaSitemap) return viaSitemap;
+      console.log(`  ${company.name}: no Workday sitemap (404), using the search`);
     }
     const PAGE_SIZE = 20;
     const MAX_JOBS = 500;
