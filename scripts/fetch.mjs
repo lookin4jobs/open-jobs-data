@@ -214,6 +214,76 @@ function baseJob(overrides) {
 // Platform fetchers — each returns { jobs, notFound, error }
 // ---------------------------------------------------------------------------
 
+// Workday sitemap route (11/2026). Each Workday career site publishes
+// /<site>/siteMap.xml for machines: every open posting's URL in one request.
+// Paging the cxs search API (20 jobs a page, one search per searchTexts term)
+// sends hundreds of requests per large tenant, and Workday began answering
+// those bursts with HTTP 429 in 11/2026. The sitemap is tried first. Titles
+// and locations come from the URL slug (punctuation is lost), and when the
+// company has searchTexts only postings whose slug holds every word of one
+// term are kept, the same filter the search applied. Any sitemap failure
+// falls back to the cxs search below, so nothing the search did is lost.
+// Set WORKDAY_SITEMAP=0 to skip it.
+const WORKDAY_SITEMAP = process.env.WORKDAY_SITEMAP !== '0';
+function slugWords(s) {
+  return decodeURIComponent(s).replace(/_[A-Za-z0-9-]+$/, '').replace(/-+/g, ' ').trim();
+}
+async function workdaySitemapJobs(company, origin, site, searches, reqOpts) {
+  const headers = { ...reqOpts.headers, Accept: 'application/xml,text/xml,*/*' };
+  const read = async (url) => {
+    const r = await fetchWithRetryText(url, { retry403: true, headers });
+    return r.notFound ? null : r.text;
+  };
+  const first = await read(`${origin}/${site}/siteMap.xml`);
+  if (!first || !/<(urlset|sitemapindex)/i.test(first)) return null;
+  let xmls = [first];
+  if (/<sitemapindex/i.test(first)) {
+    xmls = [];
+    for (const m of first.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/gi)) {
+      await sleep(WORKDAY_DELAY_MS);
+      const part = await read(m[1].replace(/&amp;/g, '&'));
+      if (!part) return null;
+      xmls.push(part);
+    }
+  }
+  const terms = searches.filter(Boolean).map((t) => t.toLowerCase().split(/\s+/).filter(Boolean));
+  const jobs = new Map();
+  for (const xml of xmls) {
+    for (const m of xml.matchAll(/<url>([\s\S]*?)<\/url>/gi)) {
+      const loc = (m[1].match(/<loc>\s*([^<\s]+)\s*<\/loc>/i) || [])[1];
+      if (!loc) continue;
+      const path = new URL(loc.replace(/&amp;/g, '&')).pathname;
+      const at = path.indexOf('/job/');
+      if (at < 0) continue;
+      const externalPath = path.slice(at);
+      if (jobs.has(externalPath)) continue;
+      const parts = externalPath.split('/').filter(Boolean);
+      const title = slugWords(parts[parts.length - 1] || '');
+      const where = parts.length > 2 ? slugWords(parts[1]) : '';
+      if (terms.length) {
+        const words = new Set(title.toLowerCase().split(/\s+/));
+        const hay = title.toLowerCase();
+        if (!terms.some((t) => t.every((w) => words.has(w) || hay.includes(w)))) continue;
+      }
+      const lastmod = (m[1].match(/<lastmod>\s*([^<\s]+)\s*<\/lastmod>/i) || [])[1] ?? null;
+      const locations = where ? [where] : [];
+      jobs.set(externalPath, baseJob({
+        company: company.name,
+        platform: 'workday',
+        jobId: externalPath,
+        title,
+        department: null,
+        locations,
+        isRemote: detectRemote(locations, /remote/i.test(where) ? true : null),
+        employmentType: null,
+        applyUrl: `${origin}/${site}${externalPath}`,
+        postedAt: lastmod,
+      }));
+    }
+  }
+  return { jobs: [...jobs.values()], source: 'sitemap' };
+}
+
 const platforms = {
   async greenhouse(company) {
     const slug = company.slug;
@@ -309,6 +379,12 @@ const platforms = {
       headers: { Accept: 'application/json', 'Accept-Language': 'en-US', Origin: origin, Referer: `${origin}/${site}` },
     };
     const baseUrl = `https://${tenant}.${shard}.myworkdayjobs.com/wday/cxs/${tenant}/${site}`;
+    if (WORKDAY_SITEMAP) {
+      const viaSitemap = await workdaySitemapJobs(
+        company, origin, site, Array.isArray(searchTexts) && searchTexts.length ? searchTexts : [''], reqOpts
+      ).catch(() => null);
+      if (viaSitemap) return viaSitemap;
+    }
     const PAGE_SIZE = 20;
     const MAX_JOBS = 500;
     // Large tenants list thousands of jobs and the 500 cap cuts most of them off.
@@ -808,6 +884,14 @@ async function main() {
     return;
   }
 
+  // Workday tenants run one at a time in list order. Small full-list tenants go
+  // first and the tenants with the most search terms last (Intel, Salesforce
+  // and Adobe page through the most results), so a Workday rate limit late in
+  // the pass costs the least. Other platforms keep their order.
+  const WORKDAY_LAST = ['intel', 'salesforce', 'adobe'];
+  const wdWeight = (c) =>
+    c.platform !== 'workday' ? 0 : WORKDAY_LAST.includes(c.name.toLowerCase()) ? 100 : (c.workday?.searchTexts?.length ?? 0);
+  companies.sort((a, b) => wdWeight(a) - wdWeight(b));
   const firstPass = await mapWithConcurrency(companies, CONCURRENCY, (company) => runOne(company, 1));
   const outcome = new Map(companies.map((c, i) => [c, firstPass[i]]));
 
