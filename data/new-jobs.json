@@ -1,1060 +1,3851 @@
 [
   {
-    "company": "Cloudflare",
+    "company": "Stripe",
     "platform": "greenhouse",
-    "jobId": "8406944",
-    "title": "Senior Platform Engineer, Replicate",
+    "jobId": "8411021",
+    "title": "Account Executive, Velocity Scaled Grower",
     "department": null,
     "locations": [
-      "In-Office"
+      "Dublin"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8406944?gh_jid=8406944",
-    "postedAt": "2026-11-21T12:47:15-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.536Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://stripe.com/jobs/search?gh_jid=8411021",
+    "postedAt": "2026-11-23T05:29:30-05:00",
+    "scrapedAt": "2026-11-23T10:54:54.622Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Anthropic",
+    "company": "Stripe",
     "platform": "greenhouse",
-    "jobId": "5480986008",
-    "title": "Manager, Applied AI Architect",
+    "jobId": "8407180",
+    "title": "Engineering Manager - Developer Tooling",
     "department": null,
     "locations": [
-      "Seoul, South Korea"
+      "Dublin "
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5480986008",
-    "postedAt": "2026-11-21T07:24:21-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.948Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://stripe.com/jobs/search?gh_jid=8407180",
+    "postedAt": "2026-11-22T15:55:37-05:00",
+    "scrapedAt": "2026-11-23T10:54:54.622Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Anthropic",
+    "company": "Stripe",
     "platform": "greenhouse",
-    "jobId": "5489567008",
-    "title": "Research Engineer, Finetuning",
+    "jobId": "8203653",
+    "title": "Operations Program Manager",
     "department": null,
     "locations": [
-      "San Francisco, CA | New York City, NY | Seattle, WA"
+      "Bengaluru"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5489567008",
-    "postedAt": "2026-11-21T07:52:27-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.948Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://stripe.com/jobs/search?gh_jid=8203653",
+    "postedAt": "2026-09-18T02:08:55-04:00",
+    "scrapedAt": "2026-11-23T10:54:54.622Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Samsara",
+    "company": "Airbnb",
     "platform": "greenhouse",
-    "jobId": "8359124",
-    "title": "Account Executive - EMEA Specialist ",
+    "jobId": "8407159",
+    "title": "Senior Staff Data Scientist - Reputation (Inference)",
     "department": null,
     "locations": [
-      "Remote - UK"
+      "Remote - USA"
     ],
     "isRemote": true,
     "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8359124?gh_jid=8359124",
-    "postedAt": "2026-11-06T10:08:28-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://careers.airbnb.com/positions/8407159?gh_jid=8407159",
+    "postedAt": "2026-11-22T15:17:01-05:00",
+    "scrapedAt": "2026-11-23T10:54:54.613Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Cloudflare",
+    "platform": "greenhouse",
+    "jobId": "8354678",
+    "title": "HR Operations Specialist, Tokyo (12-months contract)",
+    "department": null,
+    "locations": [
+      "Hybrid"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8354678?gh_jid=8354678",
+    "postedAt": "2026-11-04T22:33:00-05:00",
+    "scrapedAt": "2026-11-23T10:54:54.848Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Datadog",
+    "platform": "greenhouse",
+    "jobId": "8383509",
+    "title": "Manager, Mid-market Sales Engineering",
+    "department": null,
+    "locations": [
+      "Chicago, Illinois, USA"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://careers.datadoghq.com/detail/8383509/?gh_jid=8383509",
+    "postedAt": "2026-11-23T04:28:40-05:00",
+    "scrapedAt": "2026-11-23T10:54:55.059Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Datadog",
+    "platform": "greenhouse",
+    "jobId": "8385561",
+    "title": "Mid-Market Sales Engineer",
+    "department": null,
+    "locations": [
+      "Chicago, Illinois, USA"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://careers.datadoghq.com/detail/8385561/?gh_jid=8385561",
+    "postedAt": "2026-11-23T04:21:02-05:00",
+    "scrapedAt": "2026-11-23T10:54:55.059Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Datadog",
+    "platform": "greenhouse",
+    "jobId": "8041182",
+    "title": "Recruiter II, Business Recruiting",
+    "department": null,
+    "locations": [
+      "Singapore, Singapore"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://careers.datadoghq.com/detail/8041182/?gh_jid=8041182",
+    "postedAt": "2026-07-06T01:54:36-04:00",
+    "scrapedAt": "2026-11-23T10:54:55.059Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Datadog",
+    "platform": "greenhouse",
+    "jobId": "8398414",
+    "title": "Sourcer II, Business Recruiting",
+    "department": null,
+    "locations": [
+      "Singapore, Singapore"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://careers.datadoghq.com/detail/8398414/?gh_jid=8398414",
+    "postedAt": "2026-11-22T21:36:07-05:00",
+    "scrapedAt": "2026-11-23T10:54:55.059Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Anthropic",
+    "platform": "greenhouse",
+    "jobId": "5491575008",
+    "title": "Campaign Manager",
+    "department": null,
+    "locations": [
+      "San Francisco, CA | New York City, NY"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5491575008",
+    "postedAt": "2026-11-22T14:37:34-05:00",
+    "scrapedAt": "2026-11-23T10:54:55.245Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Anthropic",
+    "platform": "greenhouse",
+    "jobId": "5491578008",
+    "title": "Head of Campaign Operations",
+    "department": null,
+    "locations": [
+      "San Francisco, CA | New York City, NY"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5491578008",
+    "postedAt": "2026-11-22T14:40:48-05:00",
+    "scrapedAt": "2026-11-23T10:54:55.246Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Anthropic",
+    "platform": "greenhouse",
+    "jobId": "5491573008",
+    "title": "Program Manager, Cloud Partners",
+    "department": null,
+    "locations": [
+      "San Francisco, CA | New York City, NY"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5491573008",
+    "postedAt": "2026-11-22T14:46:05-05:00",
+    "scrapedAt": "2026-11-23T10:54:55.246Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Databricks",
+    "platform": "greenhouse",
+    "jobId": "8907988002",
+    "title": "Associate Forward Deployed Engineer",
+    "department": null,
+    "locations": [
+      "New York City, New York"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8907988002",
+    "postedAt": "2026-10-22T09:31:19-04:00",
+    "scrapedAt": "2026-11-23T10:54:55.277Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Databricks",
+    "platform": "greenhouse",
+    "jobId": "8910846002",
+    "title": "Associate Forward Deployed Engineer",
+    "department": null,
+    "locations": [
+      "Mountain View, California"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
+    "postedAt": "2026-10-23T11:19:31-04:00",
+    "scrapedAt": "2026-11-23T10:54:55.277Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Samsara",
     "platform": "greenhouse",
-    "jobId": "8359068",
-    "title": "Accounts Payable Specialist",
+    "jobId": "8259091",
+    "title": "Digital Transformation Consultant (ISM/ESM)",
     "department": null,
     "locations": [
       "Remote - Mexico"
     ],
     "isRemote": true,
     "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8359068?gh_jid=8359068",
-    "postedAt": "2026-11-06T16:36:14-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.samsara.com/company/careers/roles/8259091?gh_jid=8259091",
+    "postedAt": "2026-10-08T20:00:07-04:00",
+    "scrapedAt": "2026-11-23T10:54:55.273Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Samsara",
     "platform": "greenhouse",
-    "jobId": "8358712",
-    "title": "Customer Success Manager - French Speaker",
+    "jobId": "8311584",
+    "title": "Senior Customer Success Manager",
     "department": null,
     "locations": [
-      "Remote - Canada"
+      "Remote - Mexico"
     ],
     "isRemote": true,
     "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8358712?gh_jid=8358712",
-    "postedAt": "2026-11-06T07:27:42-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Samsara",
-    "platform": "greenhouse",
-    "jobId": "8359070",
-    "title": "Enterprise Core Account Executive, UK",
-    "department": null,
-    "locations": [
-      "London - UK2; London, England, United Kingdom"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8359070?gh_jid=8359070",
-    "postedAt": "2026-11-06T09:47:38-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Samsara",
-    "platform": "greenhouse",
-    "jobId": "8236004",
-    "title": "Implementation Consultant",
-    "department": null,
-    "locations": [
-      "Remote - Calgary; Remote - Canada; Remote - Edmonton; Remote - Montreal; Remote - Toronto; Remote - Vancouver"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
-    "postedAt": "2026-10-07T20:23:27-04:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Samsara",
-    "platform": "greenhouse",
-    "jobId": "8359087",
-    "title": "Installation Manager",
-    "department": null,
-    "locations": [
-      "Remote - UK"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8359087?gh_jid=8359087",
-    "postedAt": "2026-11-06T09:57:20-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Samsara",
-    "platform": "greenhouse",
-    "jobId": "8359072",
-    "title": "Regional Sales Director, Strategic Enterprise - UK",
-    "department": null,
-    "locations": [
-      "Remote - UK"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8359072?gh_jid=8359072",
-    "postedAt": "2026-11-06T09:49:41-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Samsara",
-    "platform": "greenhouse",
-    "jobId": "8359088",
-    "title": "Sales Manager, Mid Market UKI",
-    "department": null,
-    "locations": [
-      "London, England, United Kingdom"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8359088?gh_jid=8359088",
-    "postedAt": "2026-11-06T10:00:42-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Samsara",
-    "platform": "greenhouse",
-    "jobId": "8355097",
-    "title": "Security Operations Engineer ",
-    "department": null,
-    "locations": [
-      "London, England, United Kingdom; Remote - London; Remote - UK"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8355097?gh_jid=8355097",
-    "postedAt": "2026-11-06T12:10:28-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Samsara",
-    "platform": "greenhouse",
-    "jobId": "8359153",
-    "title": "Select Major Account Executive, UK&I",
-    "department": null,
-    "locations": [
-      "Remote - UK"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8359153?gh_jid=8359153",
-    "postedAt": "2026-11-06T10:20:20-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Samsara",
-    "platform": "greenhouse",
-    "jobId": "8359154",
-    "title": "Senior Partner Account Manager ",
-    "department": null,
-    "locations": [
-      "London, England, United Kingdom"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8359154?gh_jid=8359154",
-    "postedAt": "2026-11-06T10:21:48-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Samsara",
-    "platform": "greenhouse",
-    "jobId": "8353130",
-    "title": "Senior Sales Recruiter",
-    "department": null,
-    "locations": [
-      "Remote - UK"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8353130?gh_jid=8353130",
-    "postedAt": "2026-11-06T10:39:25-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Samsara",
-    "platform": "greenhouse",
-    "jobId": "8358709",
-    "title": "Senior Software Engineer II",
-    "department": null,
-    "locations": [
-      "Remote - Canada"
-    ],
-    "isRemote": true,
-    "employmentType": null,
-    "applyUrl": "https://www.samsara.com/company/careers/roles/8358709?gh_jid=8358709",
-    "postedAt": "2026-11-06T07:23:04-05:00",
-    "scrapedAt": "2026-11-22T09:54:38.963Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.samsara.com/company/careers/roles/8311584?gh_jid=8311584",
+    "postedAt": "2026-10-23T13:32:02-04:00",
+    "scrapedAt": "2026-11-23T10:54:55.273Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Okta",
     "platform": "greenhouse",
-    "jobId": "8360107",
-    "title": "Senior Engineer, Core Service Interfaces (Auth0)",
+    "jobId": "8405177",
+    "title": "Manager, Engineering",
     "department": null,
     "locations": [
-      "Dublin"
+      "Bengaluru"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://www.okta.com/company/careers/opportunity/8360107?gh_jid=8360107",
-    "postedAt": "2026-11-22T03:57:24-05:00",
-    "scrapedAt": "2026-11-22T09:54:39.361Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.okta.com/company/careers/opportunity/8405177?gh_jid=8405177",
+    "postedAt": "2026-11-23T00:01:41-05:00",
+    "scrapedAt": "2026-11-23T10:54:55.664Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Okta",
     "platform": "greenhouse",
-    "jobId": "8382952",
-    "title": "Senior Software Engineer - Core Identity (Auth0)",
+    "jobId": "8406236",
+    "title": "Regional Marketing Manager",
     "department": null,
     "locations": [
-      "Dublin"
+      "Bengaluru"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://www.okta.com/company/careers/opportunity/8382952?gh_jid=8382952",
-    "postedAt": "2026-11-16T05:53:18-05:00",
-    "scrapedAt": "2026-11-22T09:54:39.361Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.okta.com/company/careers/opportunity/8406236?gh_jid=8406236",
+    "postedAt": "2026-11-22T21:55:12-05:00",
+    "scrapedAt": "2026-11-23T10:54:55.665Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Zscaler",
+    "company": "Okta",
     "platform": "greenhouse",
-    "jobId": "5177377007",
-    "title": "Sr. Staff Backend Engineer",
+    "jobId": "8407829",
+    "title": "Senior Manager, Order to Cash & Revenue - Finance Technology",
     "department": null,
     "locations": [
-      "Tel Aviv-Yafo Municipality, ISR"
+      "Bengaluru"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/zscaler/jobs/5177377007",
-    "postedAt": "2026-07-01T07:51:46-04:00",
-    "scrapedAt": "2026-11-22T09:54:39.417Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.okta.com/company/careers/opportunity/8407829?gh_jid=8407829",
+    "postedAt": "2026-11-22T21:03:36-05:00",
+    "scrapedAt": "2026-11-23T10:54:55.665Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Elastic",
+    "platform": "greenhouse",
+    "jobId": "8121463",
+    "title": "Sales Development Representative (German speaking)",
+    "department": null,
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://jobs.elastic.co/jobs?gh_jid=8121463&gh_jid=8121463",
+    "postedAt": "2026-09-29T11:35:02-04:00",
+    "scrapedAt": "2026-11-23T10:54:55.668Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Elastic",
+    "platform": "greenhouse",
+    "jobId": "8393157",
+    "title": "Sales Development Representative UKI (English speaking)",
+    "department": null,
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://jobs.elastic.co/jobs?gh_jid=8393157&gh_jid=8393157",
+    "postedAt": "2026-11-23T04:04:00-05:00",
+    "scrapedAt": "2026-11-23T10:54:55.668Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "MongoDB",
+    "platform": "greenhouse",
+    "jobId": "8395596",
+    "title": "Revenue Marketing Manager",
+    "department": null,
+    "locations": [
+      "Hong Kong"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8395596",
+    "postedAt": "2026-11-23T01:42:41-05:00",
+    "scrapedAt": "2026-11-23T10:54:55.702Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "MongoDB",
+    "platform": "greenhouse",
+    "jobId": "8401393",
+    "title": "Senior/ Enterprise Account Executive, Growth",
+    "department": null,
+    "locations": [
+      "Melbourne"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8401393",
+    "postedAt": "2026-11-23T00:35:38-05:00",
+    "scrapedAt": "2026-11-23T10:54:55.702Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Twilio",
+    "platform": "greenhouse",
+    "jobId": "8065032",
+    "title": "Software Engineer (L3)",
+    "department": null,
+    "locations": [
+      "Remote - India"
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8065032",
+    "postedAt": "2026-07-16T07:41:18-04:00",
+    "scrapedAt": "2026-11-23T10:54:55.684Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Scale AI",
+    "platform": "greenhouse",
+    "jobId": "4565836005",
+    "title": "Finance Fellow - Human Frontier Collective (US, UK, & Canada)",
+    "department": null,
+    "locations": [
+      "United States"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/scaleai/jobs/4565836005",
+    "postedAt": "2025-05-17T01:22:04-04:00",
+    "scrapedAt": "2026-11-23T10:54:56.110Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Gusto",
+    "platform": "greenhouse",
+    "jobId": "8394537",
+    "title": "Site Reliability Engineer ",
+    "department": null,
+    "locations": [
+      "Denver, CO - Hybrid; San Francisco, CA - Hybrid; Seattle, WA - Remote"
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8394537",
+    "postedAt": "2026-11-22T22:04:49-05:00",
+    "scrapedAt": "2026-11-23T10:54:56.325Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Gusto",
+    "platform": "greenhouse",
+    "jobId": "8247588",
+    "title": "Staff Software Engineer, Retirement Engineering",
+    "department": null,
+    "locations": [
+      "Denver, CO - Hybrid; New York, NY - Hybrid; San Francisco, CA - Hybrid"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8247588",
+    "postedAt": "2026-11-23T00:05:08-05:00",
+    "scrapedAt": "2026-11-23T10:54:56.325Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Toast",
+    "platform": "greenhouse",
+    "jobId": "8410699",
+    "title": "Senior Customer Care Tech Specialist",
+    "department": null,
+    "locations": [
+      "Bengaluru, Karnataka, India"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://careers.toasttab.com/jobs?gh_jid=8410699",
+    "postedAt": "2026-11-23T00:39:08-05:00",
+    "scrapedAt": "2026-11-23T10:54:56.484Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Toast",
+    "platform": "greenhouse",
+    "jobId": "8370624",
+    "title": "Software Engineer-I",
+    "department": null,
+    "locations": [
+      "Bengaluru,Karnataka,India"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://careers.toasttab.com/jobs?gh_jid=8370624",
+    "postedAt": "2026-11-23T05:11:25-05:00",
+    "scrapedAt": "2026-11-23T10:54:56.484Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Smartsheet",
+    "platform": "greenhouse",
+    "jobId": "8410747",
+    "title": "Recruiter",
+    "department": null,
+    "locations": [
+      "Bangalore, INDIA"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/smartsheet/jobs/8410747",
+    "postedAt": "2026-11-23T01:45:00-05:00",
+    "scrapedAt": "2026-11-23T10:54:56.531Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Smartsheet",
+    "platform": "greenhouse",
+    "jobId": "8410739",
+    "title": "SEO & AEO Strategist (Hybrid - Bangalore)",
+    "department": null,
+    "locations": [
+      "Bangalore, INDIA"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/smartsheet/jobs/8410739",
+    "postedAt": "2026-11-23T01:13:41-05:00",
+    "scrapedAt": "2026-11-23T10:54:56.531Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "N",
+    "platform": "greenhouse",
+    "jobId": "8203962",
+    "title": "Data Analyst - Investments",
+    "department": null,
+    "locations": [
+      "Barcelona "
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://n26.com/en-eu/careers/positions/8203962?gh_jid=8203962",
+    "postedAt": "2026-10-07T11:27:00-04:00",
+    "scrapedAt": "2026-11-23T10:54:56.726Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "GoCardless",
+    "platform": "greenhouse",
+    "jobId": "8258146",
+    "title": "Technical customer operations specialist I",
+    "department": null,
+    "locations": [
+      "Riga, Latvia"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/gocardless/jobs/8258146",
+    "postedAt": "2026-11-23T02:36:07-05:00",
+    "scrapedAt": "2026-11-23T10:54:56.734Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Anduril",
     "platform": "greenhouse",
-    "jobId": "5305163007",
-    "title": "Division Operations, AFS ",
+    "jobId": "5059054007",
+    "title": "Integration and Test Engineer (Software)",
     "department": null,
     "locations": [
-      "Costa Mesa, California, United States; Washington, District of Columbia, United States"
+      "Sydney, New South Wales, Australia"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5305163007?gh_jid=5305163007",
-    "postedAt": "2026-11-21T10:00:11-05:00",
-    "scrapedAt": "2026-11-22T09:54:40.739Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5059054007?gh_jid=5059054007",
+    "postedAt": "2026-04-24T01:26:26-04:00",
+    "scrapedAt": "2026-11-23T10:54:56.973Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Anduril",
     "platform": "greenhouse",
-    "jobId": "5306155007",
-    "title": "Staff/Lead, Business Development (EMEA)",
+    "jobId": "5306420007",
+    "title": "Technical Lead, Fire Control Unit",
     "department": null,
     "locations": [
-      "London, England, United Kingdom"
+      "Costa Mesa, California, United States"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5306155007?gh_jid=5306155007",
-    "postedAt": "2026-11-21T17:41:34-05:00",
-    "scrapedAt": "2026-11-22T09:54:40.740Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5306420007?gh_jid=5306420007",
+    "postedAt": "2026-11-22T22:25:51-05:00",
+    "scrapedAt": "2026-11-23T10:54:56.975Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Together AI",
+    "company": "Glean",
     "platform": "greenhouse",
-    "jobId": "5300653007",
-    "title": "Manager, Solutions Architect ",
+    "jobId": "4755669005",
+    "title": "General Accountant",
     "department": null,
     "locations": [
-      "San Francisco"
+      "Bangalore, India"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/togetherai/jobs/5300653007",
-    "postedAt": "2026-11-21T12:18:06-05:00",
-    "scrapedAt": "2026-11-22T09:54:41.179Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4755669005",
+    "postedAt": "2026-11-23T00:06:14-05:00",
+    "scrapedAt": "2026-11-23T10:54:57.491Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Together AI",
+    "company": "JFrog",
     "platform": "greenhouse",
-    "jobId": "5300712007",
-    "title": "Solutions Architect ",
+    "jobId": "8394767",
+    "title": "Partner Sales Manager",
+    "department": null,
+    "locations": [
+      "Beijing"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://join.jfrog.com/job/?job=8394767&gh_jid=8394767",
+    "postedAt": "2026-11-22T21:35:22-05:00",
+    "scrapedAt": "2026-11-23T10:54:57.953Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "JFrog",
+    "platform": "greenhouse",
+    "jobId": "8344440",
+    "title": "Software Engineer - Artifactory",
+    "department": null,
+    "locations": [
+      "Tel Aviv/ Netanya, Israel"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://join.jfrog.com/job/?job=8344440&gh_jid=8344440",
+    "postedAt": "2026-11-02T04:44:34-05:00",
+    "scrapedAt": "2026-11-23T10:54:57.953Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Verkada",
+    "platform": "greenhouse",
+    "jobId": "4763013007",
+    "title": "Account Executive, New Zealand ",
+    "department": null,
+    "locations": [
+      "New Zealand"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/4763013007",
+    "postedAt": "2025-06-22T20:11:06-04:00",
+    "scrapedAt": "2026-11-23T10:54:58.166Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Verkada",
+    "platform": "greenhouse",
+    "jobId": "5303026007",
+    "title": "Enterprise Account Executive, UK",
+    "department": null,
+    "locations": [
+      "United Kingdom"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5303026007",
+    "postedAt": "2026-11-23T04:09:59-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.167Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Rubrik",
+    "platform": "greenhouse",
+    "jobId": "8396001",
+    "title": "AE Sales Specialist (Cloud)",
+    "department": null,
+    "locations": [
+      "Amsterdam, North Holland, Netherlands"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8396001?gh_jid=8396001",
+    "postedAt": "2026-11-23T04:30:20-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.165Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Rubrik",
+    "platform": "greenhouse",
+    "jobId": "8403268",
+    "title": "Channel Sales Engineer ",
+    "department": null,
+    "locations": [
+      "Tokyo Japan"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8403268?gh_jid=8403268",
+    "postedAt": "2026-11-23T00:48:44-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.165Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Rubrik",
+    "platform": "greenhouse",
+    "jobId": "8394750",
+    "title": "Channel Sales Engineer ",
+    "department": null,
+    "locations": [
+      "Tokyo Japan"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8394750?gh_jid=8394750",
+    "postedAt": "2026-11-23T00:29:56-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.165Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Rubrik",
+    "platform": "greenhouse",
+    "jobId": "8370556",
+    "title": "Channels Development Manager, Japan",
+    "department": null,
+    "locations": [
+      "Tokyo, Japan"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8370556?gh_jid=8370556",
+    "postedAt": "2026-11-23T00:52:58-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.165Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Rubrik",
+    "platform": "greenhouse",
+    "jobId": "8370558",
+    "title": "GSI Alliances Business Development Manager, Japan",
+    "department": null,
+    "locations": [
+      "Tokyo, Japan"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8370558?gh_jid=8370558",
+    "postedAt": "2026-11-23T00:38:41-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.165Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Rubrik",
+    "platform": "greenhouse",
+    "jobId": "8401400",
+    "title": "GSI Business Development Manager",
+    "department": null,
+    "locations": [
+      "Sydney, Australia"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8401400?gh_jid=8401400",
+    "postedAt": "2026-11-23T05:13:26-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.165Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Rubrik",
+    "platform": "greenhouse",
+    "jobId": "8385224",
+    "title": "Senior Global Account Manager - GSI",
+    "department": null,
+    "locations": [
+      "Singapore"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8385224?gh_jid=8385224",
+    "postedAt": "2026-11-23T01:13:08-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.165Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Rubrik",
+    "platform": "greenhouse",
+    "jobId": "8403154",
+    "title": "Senior Sales Engineer, Sydney",
+    "department": null,
+    "locations": [
+      "Sydney"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8403154?gh_jid=8403154",
+    "postedAt": "2026-11-23T05:29:32-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.165Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Rubrik",
+    "platform": "greenhouse",
+    "jobId": "8407753",
+    "title": "Senior Talent Partner, APJ (6 months contract)",
+    "department": null,
+    "locations": [
+      "India "
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8407753?gh_jid=8407753",
+    "postedAt": "2026-11-23T04:35:13-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.165Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Rubrik",
+    "platform": "greenhouse",
+    "jobId": "8407738",
+    "title": "Senior Talent Partner, APJ (6 months contract)",
+    "department": null,
+    "locations": [
+      "Singapore"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8407738?gh_jid=8407738",
+    "postedAt": "2026-11-23T01:17:38-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.165Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Rubrik",
+    "platform": "greenhouse",
+    "jobId": "8407739",
+    "title": "Senior Talent Partner, APJ (6 months contract)",
+    "department": null,
+    "locations": [
+      "Tokyo, Japan"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8407739?gh_jid=8407739",
+    "postedAt": "2026-11-23T01:17:42-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.165Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "CoreWeave",
+    "platform": "greenhouse",
+    "jobId": "4730711006",
+    "title": "Senior Technical Program Manager, Assurance Engineering",
     "department": null,
     "locations": [
       "New York, NY"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/togetherai/jobs/5300712007",
-    "postedAt": "2026-11-21T12:17:18-05:00",
-    "scrapedAt": "2026-11-22T09:54:41.179Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://coreweave.com/careers/job?4730711006&board=coreweave&gh_jid=4730711006",
+    "postedAt": "2026-11-22T07:15:10-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.313Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Together AI",
+    "company": "CoreWeave",
     "platform": "greenhouse",
-    "jobId": "5302660007",
-    "title": "Technical Support Engineer (Inference)",
+    "jobId": "4730698006",
+    "title": "Senior Technical Program Manager, Production IAM",
     "department": null,
     "locations": [
-      "Pune or Bangalore, India"
+      "New York, NY"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/togetherai/jobs/5302660007",
-    "postedAt": "2026-11-21T12:16:44-05:00",
-    "scrapedAt": "2026-11-22T09:54:41.179Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://coreweave.com/careers/job?4730698006&board=coreweave&gh_jid=4730698006",
+    "postedAt": "2026-11-22T07:19:31-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.313Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Varda Space",
+    "company": "CoreWeave",
     "platform": "greenhouse",
-    "jobId": "8213805003",
-    "title": "Principal Avionics Hardware Development Engineer",
+    "jobId": "4730716006",
+    "title": "Senior Technical Program Manager, Product Security",
     "department": null,
     "locations": [
-      "El Segundo, California, United States"
+      "New York, NY"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/vardaspace/jobs/8213805003",
-    "postedAt": "2026-11-21T11:19:50-05:00",
-    "scrapedAt": "2026-11-22T09:54:42.239Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://coreweave.com/careers/job?4730716006&board=coreweave&gh_jid=4730716006",
+    "postedAt": "2026-11-22T07:21:00-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.313Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Varda Space",
+    "company": "CoreWeave",
     "platform": "greenhouse",
-    "jobId": "8213806003",
-    "title": "Principal Space GNC Engineer",
+    "jobId": "4730704006",
+    "title": "Senior Technical Program Manager, Security Program Operations",
     "department": null,
     "locations": [
-      "El Segundo, California, United States"
+      "New York, NY"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/vardaspace/jobs/8213806003",
-    "postedAt": "2026-11-21T11:34:13-05:00",
-    "scrapedAt": "2026-11-22T09:54:42.239Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://coreweave.com/careers/job?4730704006&board=coreweave&gh_jid=4730704006",
+    "postedAt": "2026-11-22T07:10:37-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.313Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Varda Space",
+    "company": "CoreWeave",
     "platform": "greenhouse",
-    "jobId": "8213798003",
-    "title": "Senior Automation and Controls Engineer",
+    "jobId": "4730726006",
+    "title": "Senior Technical Program Manager, Security Risk and M&A Security ",
     "department": null,
     "locations": [
-      "El Segundo, California, United States"
+      "New York, NY"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/vardaspace/jobs/8213798003",
-    "postedAt": "2026-11-21T10:27:05-05:00",
-    "scrapedAt": "2026-11-22T09:54:42.239Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://coreweave.com/careers/job?4730726006&board=coreweave&gh_jid=4730726006",
+    "postedAt": "2026-11-22T07:22:44-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.313Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Varda Space",
+    "company": "CoreWeave",
     "platform": "greenhouse",
-    "jobId": "8213797003",
-    "title": "Senior Mechanical Design Engineer, Ground Support Equipment",
+    "jobId": "4730695006",
+    "title": "Technical Program Manager, Cloud Security",
     "department": null,
     "locations": [
-      "El Segundo, California, United States"
+      "Sunnyvale, CA"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/vardaspace/jobs/8213797003",
-    "postedAt": "2026-11-21T10:21:17-05:00",
-    "scrapedAt": "2026-11-22T09:54:42.239Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://coreweave.com/careers/job?4730695006&board=coreweave&gh_jid=4730695006",
+    "postedAt": "2026-11-22T07:17:03-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.313Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Varda Space",
+    "company": "Rocket Lab",
     "platform": "greenhouse",
-    "jobId": "8213801003",
-    "title": "Senior Space Avionics Hardware Development Engineer",
+    "jobId": "8213823003",
+    "title": "Talent Acquisition Partner",
     "department": null,
     "locations": [
-      "El Segundo, California, United States"
+      "Auckland, NZ"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/vardaspace/jobs/8213801003",
-    "postedAt": "2026-11-21T10:48:28-05:00",
-    "scrapedAt": "2026-11-22T09:54:42.239Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://job-boards.greenhouse.io/rocketlab/jobs/8213823003",
+    "postedAt": "2026-11-22T21:44:20-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.380Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Varda Space",
+    "company": "TripActions",
     "platform": "greenhouse",
-    "jobId": "8213804003",
-    "title": "Senior Space Avionics Test Engineer",
+    "jobId": "8401198",
+    "title": "Manager, Sales Development ",
     "department": null,
     "locations": [
-      "El Segundo, California, United States"
+      "London, UK"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/vardaspace/jobs/8213804003",
-    "postedAt": "2026-11-21T11:17:13-05:00",
-    "scrapedAt": "2026-11-22T09:54:42.239Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://navan.com/careers/openings?gh_jid=8401198",
+    "postedAt": "2026-11-23T04:23:40-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.623Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Varda Space",
+    "company": "TripActions",
     "platform": "greenhouse",
-    "jobId": "8213800003",
-    "title": "Senior Space GNC Engineer",
+    "jobId": "8393199",
+    "title": "Manager, Travel Experience ",
     "department": null,
     "locations": [
-      "El Segundo, California, United States"
+      "Sydney, AUS"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/vardaspace/jobs/8213800003",
-    "postedAt": "2026-11-21T10:43:48-05:00",
-    "scrapedAt": "2026-11-22T09:54:42.239Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://navan.com/careers/openings?gh_jid=8393199",
+    "postedAt": "2026-11-23T05:48:38-05:00",
+    "scrapedAt": "2026-11-23T10:54:58.623Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Varda Space",
+    "company": "TripActions",
     "platform": "greenhouse",
-    "jobId": "8213799003",
-    "title": "Senior Space Mission Assurance Engineer, Build Reliability",
+    "jobId": "5037748",
+    "title": "Mid-Market Account Executive",
     "department": null,
     "locations": [
-      "El Segundo, California, United States"
+      "Paris, FR"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/vardaspace/jobs/8213799003",
-    "postedAt": "2026-11-21T10:37:56-05:00",
-    "scrapedAt": "2026-11-22T09:54:42.239Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://navan.com/careers/openings?gh_jid=5037748",
+    "postedAt": "2024-09-11T11:35:40-04:00",
+    "scrapedAt": "2026-11-23T10:54:58.623Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Varda Space",
+    "company": "Culture Amp",
     "platform": "greenhouse",
-    "jobId": "8213802003",
-    "title": "Senior Space Systems Engineer, Avionics",
+    "jobId": "8410546",
+    "title": "Engineer",
     "department": null,
     "locations": [
-      "El Segundo, California, United States"
+      "Richmond"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/vardaspace/jobs/8213802003",
-    "postedAt": "2026-11-21T11:13:40-05:00",
-    "scrapedAt": "2026-11-22T09:54:42.239Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Varda Space",
-    "platform": "greenhouse",
-    "jobId": "8213803003",
-    "title": "Space Avionics Test Engineer II",
-    "department": null,
-    "locations": [
-      "El Segundo, California, United States"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/vardaspace/jobs/8213803003",
-    "postedAt": "2026-11-21T11:16:27-05:00",
-    "scrapedAt": "2026-11-22T09:54:42.239Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://job-boards.greenhouse.io/cultureamp/jobs/8410546",
+    "postedAt": "2026-11-22T23:04:47-05:00",
+    "scrapedAt": "2026-11-23T10:54:59.206Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Cato Networks",
     "platform": "greenhouse",
-    "jobId": "5007077101",
-    "title": "Senior Video Creator & Producer",
+    "jobId": "5041073101",
+    "title": "Automation Engineer - Networking ",
     "department": null,
     "locations": [
       "Tel Aviv District, Israel"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://www.catonetworks.com/careers/careers-post/5007077101?gh_jid=5007077101",
-    "postedAt": "2026-11-22T02:29:06-05:00",
-    "scrapedAt": "2026-11-22T09:54:43.840Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.catonetworks.com/careers/careers-post/5041073101?gh_jid=5041073101",
+    "postedAt": "2026-11-22T05:25:50-05:00",
+    "scrapedAt": "2026-11-23T10:54:59.875Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Labelbox",
+    "company": "Cato Networks",
     "platform": "greenhouse",
-    "jobId": "5304432007",
-    "title": "Senior Technical Recruiter ",
+    "jobId": "5027197101",
+    "title": "Regional Sales Director",
     "department": null,
     "locations": [
-      "San Francisco Bay Area"
+      "Milano, Milan, Italy"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/labelbox/jobs/5304432007",
-    "postedAt": "2026-11-21T14:22:27-05:00",
-    "scrapedAt": "2026-11-22T09:54:44.245Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.catonetworks.com/careers/careers-post/5027197101?gh_jid=5027197101",
+    "postedAt": "2026-11-06T11:08:50-05:00",
+    "scrapedAt": "2026-11-23T10:54:59.875Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "One Medical",
+    "company": "Cato Networks",
     "platform": "greenhouse",
-    "jobId": "8408323",
-    "title": "Family Medicine Physician",
+    "jobId": "5041486101",
+    "title": "Software Engineering Team Lead",
     "department": null,
     "locations": [
-      "Chicago, IL"
+      "Tel Aviv District, Israel"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "http://www.onemedical.com/careers/all-departments/8408323?gh_jid=8408323",
-    "postedAt": "2026-11-21T06:12:08-05:00",
-    "scrapedAt": "2026-11-22T09:54:45.831Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.catonetworks.com/careers/careers-post/5041486101?gh_jid=5041486101",
+    "postedAt": "2026-11-23T04:47:12-05:00",
+    "scrapedAt": "2026-11-23T10:54:59.875Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "One Medical",
+    "company": "Riot Games",
     "platform": "greenhouse",
-    "jobId": "8408322",
-    "title": "Family Medicine Physician (Oak Brook Promenade) - Sign-On Bonus Available, 4 days in clinic, 1 day work from home",
+    "jobId": "8381955",
+    "title": "Security Engineer, Security Operations",
     "department": null,
     "locations": [
-      "Chicago, IL"
+      "Dublin, Ireland"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "http://www.onemedical.com/careers/all-departments/8408322?gh_jid=8408322",
-    "postedAt": "2026-11-21T06:12:11-05:00",
-    "scrapedAt": "2026-11-22T09:54:45.831Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.riotgames.com/en/work-with-us/job/8381955?gh_jid=8381955",
+    "postedAt": "2026-11-12T12:42:32-05:00",
+    "scrapedAt": "2026-11-23T10:55:00.617Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "One Medical",
+    "company": "Fireblocks",
     "platform": "greenhouse",
-    "jobId": "8408324",
-    "title": "Family Nurse Practitioner or Physician Assistant",
+    "jobId": "4713012006",
+    "title": "AI Security Engineer",
     "department": null,
     "locations": [
-      "Chicago, IL"
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "http://www.onemedical.com/careers/all-departments/8408324?gh_jid=8408324",
-    "postedAt": "2026-11-21T06:12:52-05:00",
-    "scrapedAt": "2026-11-22T09:54:45.831Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.fireblocks.com/careers/position?gh_jid=4713012006",
+    "postedAt": "2026-09-16T06:30:00-04:00",
+    "scrapedAt": "2026-11-23T10:55:00.664Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "One Medical",
+    "company": "Fireblocks",
     "platform": "greenhouse",
-    "jobId": "8397166",
-    "title": "Front Desk Receptionist (Chevy Chase)",
+    "jobId": "4713010006",
+    "title": "Director, Security Engineering",
     "department": null,
     "locations": [
-      "Chevy Chase, MD"
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "http://www.onemedical.com/careers/all-departments/8397166?gh_jid=8397166",
-    "postedAt": "2026-11-17T15:28:43-05:00",
-    "scrapedAt": "2026-11-22T09:54:45.831Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.fireblocks.com/careers/position?gh_jid=4713010006",
+    "postedAt": "2026-09-16T06:29:31-04:00",
+    "scrapedAt": "2026-11-23T10:55:00.664Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "One Medical",
+    "company": "Fireblocks",
     "platform": "greenhouse",
-    "jobId": "8408325",
-    "title": "Per Diem Family Medicine Physician (Casual Provider) - Chicago proper",
+    "jobId": "4620939006",
+    "title": "GRC Operations Specialist",
     "department": null,
     "locations": [
-      "Chicago, IL"
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "http://www.onemedical.com/careers/all-departments/8408325?gh_jid=8408325",
-    "postedAt": "2026-11-21T06:14:04-05:00",
-    "scrapedAt": "2026-11-22T09:54:45.831Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.fireblocks.com/careers/position?gh_jid=4620939006",
+    "postedAt": "2026-02-15T08:59:04-05:00",
+    "scrapedAt": "2026-11-23T10:55:00.664Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "One Medical",
+    "company": "Fireblocks",
     "platform": "greenhouse",
-    "jobId": "8408326",
-    "title": "Per Diem Family Medicine Physician (Casual Provider) - Chicago suburbs",
+    "jobId": "4701826006",
+    "title": "Information Security Engineer ",
     "department": null,
     "locations": [
-      "Chicago, IL"
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "http://www.onemedical.com/careers/all-departments/8408326?gh_jid=8408326",
-    "postedAt": "2026-11-21T06:14:07-05:00",
-    "scrapedAt": "2026-11-22T09:54:45.831Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.fireblocks.com/careers/position?gh_jid=4701826006",
+    "postedAt": "2026-08-03T08:43:51-04:00",
+    "scrapedAt": "2026-11-23T10:55:00.664Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "One Medical",
+    "company": "Fireblocks",
     "platform": "greenhouse",
-    "jobId": "8394667",
-    "title": "Phlebotomist / Administrative Assistant (Kennesaw)",
+    "jobId": "4352196006",
+    "title": "SecOps Expert",
     "department": null,
-    "locations": [
-      "Kennesaw, GA"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "http://www.onemedical.com/careers/all-departments/8394667?gh_jid=8394667",
-    "postedAt": "2026-11-16T20:30:04-05:00",
-    "scrapedAt": "2026-11-22T09:54:45.831Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Tempo Fit",
-    "platform": "greenhouse",
-    "jobId": "4517727009",
-    "title": "Project & Commissioning Engineer ",
-    "department": null,
-    "locations": [
-      "San Diego, CA"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://tempoenergy.com/careers/open-roles/?gh_jid=4517727009",
-    "postedAt": "2026-11-21T20:29:01-05:00",
-    "scrapedAt": "2026-11-22T09:54:46.046Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "OKX",
-    "platform": "greenhouse",
-    "jobId": "7883324003",
-    "title": "Manager, Customer Service (Escalation & Trading Services, Mandarin Support)",
-    "department": null,
-    "locations": [
-      "Kuala Lumpur, Malaysia"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/okx/jobs/7883324003",
-    "postedAt": "2026-08-16T21:51:47-04:00",
-    "scrapedAt": "2026-11-22T09:54:48.289Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "OKX",
-    "platform": "greenhouse",
-    "jobId": "8035255003",
-    "title": "Specialist, Legal Response",
-    "department": null,
-    "locations": [
-      "Kuala Lumpur, Malaysia"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/okx/jobs/8035255003",
-    "postedAt": "2026-10-16T06:41:18-04:00",
-    "scrapedAt": "2026-11-22T09:54:48.289Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "OKX",
-    "platform": "greenhouse",
-    "jobId": "8004528003",
-    "title": "Team Lead, Legal Response ",
-    "department": null,
-    "locations": [
-      "Kuala Lumpur, Malaysia"
-    ],
-    "isRemote": null,
-    "employmentType": null,
-    "applyUrl": "https://job-boards.greenhouse.io/okx/jobs/8004528003",
-    "postedAt": "2026-09-24T12:17:35-04:00",
-    "scrapedAt": "2026-11-22T09:54:48.289Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Harvey",
-    "platform": "ashby",
-    "jobId": "a42047fc-fbd1-4e14-bf10-15207ae2d060",
-    "title": "Creative AI Engineer",
-    "department": "Marketing",
     "locations": [
       "New York"
     ],
-    "isRemote": true,
-    "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/harvey/a42047fc-fbd1-4e14-bf10-15207ae2d060/application",
-    "postedAt": "2026-11-21T17:44:26.219+00:00",
-    "scrapedAt": "2026-11-22T09:54:51.199Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.fireblocks.com/careers/position?gh_jid=4352196006",
+    "postedAt": "2024-03-27T09:00:07-04:00",
+    "scrapedAt": "2026-11-23T10:55:00.664Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Harvey",
+    "company": "Fireblocks",
+    "platform": "greenhouse",
+    "jobId": "4681268006",
+    "title": "SecOps Expert",
+    "department": null,
+    "locations": [
+      "Singapore"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.fireblocks.com/careers/position?gh_jid=4681268006",
+    "postedAt": "2026-05-19T06:40:29-04:00",
+    "scrapedAt": "2026-11-23T10:55:00.664Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Fireblocks",
+    "platform": "greenhouse",
+    "jobId": "4655907006",
+    "title": "Security Operations Team Lead ",
+    "department": null,
+    "locations": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.fireblocks.com/careers/position?gh_jid=4655907006",
+    "postedAt": "2026-02-23T07:28:03-05:00",
+    "scrapedAt": "2026-11-23T10:55:00.664Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Figure Technologies",
+    "platform": "greenhouse",
+    "jobId": "8955918002",
+    "title": "Servicing Operations Specialist",
+    "department": null,
+    "locations": [
+      "Remote"
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/figure/jobs/8955918002",
+    "postedAt": "2026-11-22T23:39:56-05:00",
+    "scrapedAt": "2026-11-23T10:55:00.911Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Figure Technologies",
+    "platform": "greenhouse",
+    "jobId": "8951015002",
+    "title": "Team Manager",
+    "department": null,
+    "locations": [
+      "Reno, NV"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/figure/jobs/8951015002",
+    "postedAt": "2026-11-22T19:25:27-05:00",
+    "scrapedAt": "2026-11-23T10:55:00.911Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Alpaca",
+    "platform": "greenhouse",
+    "jobId": "6267351004",
+    "title": "Digital Assets Security Engineer",
+    "department": null,
+    "locations": [
+      "Remote - Americas"
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/alpaca/jobs/6267351004",
+    "postedAt": "2026-11-23T03:45:52-05:00",
+    "scrapedAt": "2026-11-23T10:55:01.223Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "One Medical",
+    "platform": "greenhouse",
+    "jobId": "8404155",
+    "title": "Medical Receptionist (Union Station)",
+    "department": null,
+    "locations": [
+      "Washington, DC"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "http://www.onemedical.com/careers/all-departments/8404155?gh_jid=8404155",
+    "postedAt": "2026-11-19T16:45:42-05:00",
+    "scrapedAt": "2026-11-23T10:55:01.748Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Future Fit",
+    "platform": "greenhouse",
+    "jobId": "4755626005",
+    "title": "Registered Dietitian",
+    "department": null,
+    "locations": [
+      "Remote "
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/future/jobs/4755626005",
+    "postedAt": "2026-11-22T14:00:38-05:00",
+    "scrapedAt": "2026-11-23T10:55:02.052Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Gympass",
+    "platform": "greenhouse",
+    "jobId": "8944451002",
+    "title": "Business Development Representative I (m/f/d)",
+    "department": null,
+    "locations": [
+      "Germany (Munich - Remote)"
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/gympass/jobs/8944451002",
+    "postedAt": "2026-11-23T05:31:41-05:00",
+    "scrapedAt": "2026-11-23T10:55:02.155Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Gympass",
+    "platform": "greenhouse",
+    "jobId": "8939365002",
+    "title": "Senior Backend Software Engineer | Identity Foundations",
+    "department": null,
+    "locations": [
+      "Brazil (Remote)"
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/gympass/jobs/8939365002",
+    "postedAt": "2026-11-23T04:50:10-05:00",
+    "scrapedAt": "2026-11-23T10:55:02.155Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Coursera",
+    "platform": "greenhouse",
+    "jobId": "6252450004",
+    "title": "Sales & Solutions Engineer",
+    "department": null,
+    "locations": [
+      "Dublin, Ireland"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/coursera/jobs/6252450004",
+    "postedAt": "2026-11-23T04:26:35-05:00",
+    "scrapedAt": "2026-11-23T10:55:02.157Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Qualtrics",
+    "platform": "greenhouse",
+    "jobId": "8393575",
+    "title": "Senior Solution Consultant - FSI",
+    "department": null,
+    "locations": [
+      "United States (Remote)"
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://www.qualtrics.com/careers/us/en/job/8393575?gh_jid=8393575",
+    "postedAt": "2026-11-22T22:19:46-05:00",
+    "scrapedAt": "2026-11-23T10:55:03.508Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "OKX",
+    "platform": "greenhouse",
+    "jobId": "7795506003",
+    "title": "Specialist, VIP Customer Relationship Management (Mandarin Speaker)",
+    "department": null,
+    "locations": [
+      "Kuala Lumpur, Malaysia"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/okx/jobs/7795506003",
+    "postedAt": "2026-07-21T22:43:02-04:00",
+    "scrapedAt": "2026-11-23T10:55:04.072Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "OKX",
+    "platform": "greenhouse",
+    "jobId": "8213863003",
+    "title": "Structured Products Trader",
+    "department": null,
+    "locations": [
+      "Hong Kong, Hong Kong SAR"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/okx/jobs/8213863003",
+    "postedAt": "2026-11-23T04:30:21-05:00",
+    "scrapedAt": "2026-11-23T10:55:04.072Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "OKX",
+    "platform": "greenhouse",
+    "jobId": "8200144003",
+    "title": "Team Lead, Financial Crime Compliance QA",
+    "department": null,
+    "locations": [
+      "Kuala Lumpur, Malaysia"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/okx/jobs/8200144003",
+    "postedAt": "2026-11-10T01:29:25-05:00",
+    "scrapedAt": "2026-11-23T10:55:04.072Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "HelloFresh",
+    "platform": "greenhouse",
+    "jobId": "8398742",
+    "title": "Learning Business Partner (all genders)",
+    "department": null,
+    "locations": [
+      "Barleben, Saxony-Anhalt, Germany"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://careers.hellofresh.com/global/en/job/8398742?gh_jid=8398742",
+    "postedAt": "2026-11-23T05:33:52-05:00",
+    "scrapedAt": "2026-11-23T10:55:04.844Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "HelloFresh",
+    "platform": "greenhouse",
+    "jobId": "8323714",
+    "title": "Senior Manager, Human Resources",
+    "department": null,
+    "locations": [
+      "Sydney, New South Wales, Australia"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://careers.hellofresh.com/global/en/job/8323714?gh_jid=8323714",
+    "postedAt": "2026-11-22T17:22:40-05:00",
+    "scrapedAt": "2026-11-23T10:55:04.844Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "HelloFresh",
+    "platform": "greenhouse",
+    "jobId": "8323716",
+    "title": "Senior Manager, Human Resources",
+    "department": null,
+    "locations": [
+      "Perth, Western Australia, Australia"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://careers.hellofresh.com/global/en/job/8323716?gh_jid=8323716",
+    "postedAt": "2026-11-22T17:36:13-05:00",
+    "scrapedAt": "2026-11-23T10:55:04.844Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "HelloFresh",
+    "platform": "greenhouse",
+    "jobId": "8399883",
+    "title": "[US-DC] Delivery Station Supervisor",
+    "department": null,
+    "locations": [
+      "Washington, District of Columbia, United States"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://careers.hellofresh.com/global/en/job/8399883?gh_jid=8399883",
+    "postedAt": "2026-11-23T05:38:37-05:00",
+    "scrapedAt": "2026-11-23T10:55:04.844Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "HelloFresh",
+    "platform": "greenhouse",
+    "jobId": "8385324",
+    "title": "Workplace Coordinator (all genders)",
+    "department": null,
+    "locations": [
+      "Berlin, Berlin, Germany"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://careers.hellofresh.com/global/en/job/8385324?gh_jid=8385324",
+    "postedAt": "2026-11-22T06:09:13-05:00",
+    "scrapedAt": "2026-11-23T10:55:04.844Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Outreach",
+    "platform": "lever",
+    "jobId": "15bdfc04-040b-43d8-914a-686d576518d5",
+    "title": "Senior QA Engineer (Job Location - Hyderabad)",
+    "department": "Engineering",
+    "locations": [
+      "Hyderabad"
+    ],
+    "isRemote": null,
+    "employmentType": "Full-Time",
+    "applyUrl": "https://jobs.lever.co/outreach/15bdfc04-040b-43d8-914a-686d576518d5/apply",
+    "postedAt": "2026-10-23T14:11:07.951Z",
+    "scrapedAt": "2026-11-23T10:55:06.013Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "OpenAI",
     "platform": "ashby",
-    "jobId": "e46d48b8-57c7-401c-be33-f56774dc072d",
-    "title": "Creative AI Engineer",
-    "department": "Marketing",
+    "jobId": "ce15d226-65db-43f1-98ec-078e96a3a281",
+    "title": "Research Engineer / Research Scientist, Post-Training — Collective Alignment (User Signals)",
+    "department": "Research",
     "locations": [
       "San Francisco"
     ],
-    "isRemote": true,
+    "isRemote": null,
     "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/harvey/e46d48b8-57c7-401c-be33-f56774dc072d/application",
-    "postedAt": "2026-11-21T17:44:35.163+00:00",
-    "scrapedAt": "2026-11-22T09:54:51.199Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://jobs.ashbyhq.com/openai/ce15d226-65db-43f1-98ec-078e96a3a281/application",
+    "postedAt": "2026-11-22T17:08:09.743+00:00",
+    "scrapedAt": "2026-11-23T10:55:06.781Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "OpenAI",
+    "platform": "ashby",
+    "jobId": "d1906ab2-b829-4a13-b1f2-f4af97d699fa",
+    "title": "Research Engineer/Research Scientist-Post Training, Proactivity",
+    "department": "Research",
+    "locations": [
+      "San Francisco"
+    ],
+    "isRemote": null,
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/d1906ab2-b829-4a13-b1f2-f4af97d699fa/application",
+    "postedAt": "2026-11-22T17:12:41.400+00:00",
+    "scrapedAt": "2026-11-23T10:55:06.781Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "OpenAI",
+    "platform": "ashby",
+    "jobId": "bc85c1a9-0f75-4c3a-807b-6d2bb26c8445",
+    "title": "Research Engineer/Research Scientist- Post Training, Model Experience",
+    "department": "Research",
+    "locations": [
+      "San Francisco"
+    ],
+    "isRemote": null,
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/bc85c1a9-0f75-4c3a-807b-6d2bb26c8445/application",
+    "postedAt": "2026-11-22T17:14:45.574+00:00",
+    "scrapedAt": "2026-11-23T10:55:06.781Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "OpenAI",
+    "platform": "ashby",
+    "jobId": "ecfe655c-1369-4bcd-aae0-4a3b75fdf61b",
+    "title": "Research Engineer / Research Scientist - Post Training, Memory",
+    "department": "Research",
+    "locations": [
+      "San Francisco"
+    ],
+    "isRemote": null,
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/ecfe655c-1369-4bcd-aae0-4a3b75fdf61b/application",
+    "postedAt": "2026-11-22T17:17:35.967+00:00",
+    "scrapedAt": "2026-11-23T10:55:06.781Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "OpenAI",
+    "platform": "ashby",
+    "jobId": "740b5d1b-f63d-49bb-962d-8e2778e925ef",
+    "title": "Research Engineer / Research Scientist, Human Flourishing",
+    "department": "Research",
+    "locations": [
+      "San Francisco"
+    ],
+    "isRemote": null,
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/740b5d1b-f63d-49bb-962d-8e2778e925ef/application",
+    "postedAt": "2026-11-22T17:19:07.642+00:00",
+    "scrapedAt": "2026-11-23T10:55:06.781Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "OpenAI",
+    "platform": "ashby",
+    "jobId": "6785d983-8831-46d0-9c81-443f83664948",
+    "title": "Research Engineer / Research Scientist, Health",
+    "department": "Research",
+    "locations": [
+      "San Francisco"
+    ],
+    "isRemote": null,
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/6785d983-8831-46d0-9c81-443f83664948/application",
+    "postedAt": "2026-11-22T17:20:10.700+00:00",
+    "scrapedAt": "2026-11-23T10:55:06.781Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "ElevenLabs",
     "platform": "ashby",
-    "jobId": "f2bf078d-d104-4a7b-96fd-5187a550f4a0",
-    "title": "Technical Customer Support Specialist",
-    "department": "Operations",
+    "jobId": "277de6ad-3db5-4b96-afb5-cec3d797e788",
+    "title": "Enterprise Account Executive - India",
+    "department": "Revenue",
     "locations": [
-      "Australia",
-      "New Zealand",
-      "Taiwan"
+      "India"
     ],
     "isRemote": true,
     "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/ElevenLabs/f2bf078d-d104-4a7b-96fd-5187a550f4a0/application",
-    "postedAt": "2026-11-22T08:33:38.823+00:00",
-    "scrapedAt": "2026-11-22T09:54:51.422Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://jobs.ashbyhq.com/ElevenLabs/277de6ad-3db5-4b96-afb5-cec3d797e788/application",
+    "postedAt": "2026-11-23T06:21:37.560+00:00",
+    "scrapedAt": "2026-11-23T10:55:07.752Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Secureframe",
+    "company": "ElevenLabs",
     "platform": "ashby",
-    "jobId": "ab69f040-9b87-4420-9150-edc6e4f54cfb",
-    "title": "Software Engineer, New Grad",
-    "department": "Engineering",
+    "jobId": "7758cdc5-b5c9-4a5c-8c80-11678f7cba9d",
+    "title": "Deployment Strategist, Public Sector (Federal & SLED) - North America",
+    "department": "Engineering & Product",
     "locations": [
-      "New York, NY"
+      "United States",
+      "Washington, D.C."
+    ],
+    "isRemote": true,
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/ElevenLabs/7758cdc5-b5c9-4a5c-8c80-11678f7cba9d/application",
+    "postedAt": "2026-11-22T20:50:48.868+00:00",
+    "scrapedAt": "2026-11-23T10:55:07.752Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Lovable",
+    "platform": "ashby",
+    "jobId": "6cda61dd-7c40-453e-9f75-7fd199c06f02",
+    "title": "Senior Security Engineer, Cloud",
+    "department": "EPD",
+    "locations": [
+      "Stockholm"
     ],
     "isRemote": false,
     "employmentType": "FullTime",
-    "applyUrl": "https://jobs.ashbyhq.com/secureframe/ab69f040-9b87-4420-9150-edc6e4f54cfb/application",
-    "postedAt": "2026-11-21T13:39:57.067+00:00",
-    "scrapedAt": "2026-11-22T09:54:52.415Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://jobs.ashbyhq.com/lovable/6cda61dd-7c40-453e-9f75-7fd199c06f02/application",
+    "postedAt": "2026-11-23T10:10:10.241+00:00",
+    "scrapedAt": "2026-11-23T10:55:07.864Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Equinox",
-    "platform": "smartrecruiters",
-    "jobId": "744000152424919",
-    "title": "Main Studio Instructors, San Ramon",
-    "department": "Club - Group Fitness",
+    "company": "Saronic",
+    "platform": "ashby",
+    "jobId": "a3312344-2cb9-40c0-b9a7-724de2fa97ee",
+    "title": "Director of Growth Innovation",
+    "department": "Business Development",
     "locations": [
-      "San Ramon, CA, United States"
+      "San Diego, CA"
     ],
     "isRemote": false,
-    "employmentType": "Part-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000152424919",
-    "postedAt": "2026-09-29T13:03:08.852Z",
-    "scrapedAt": "2026-11-22T09:54:56.679Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/saronic/a3312344-2cb9-40c0-b9a7-724de2fa97ee/application",
+    "postedAt": "2026-11-23T00:10:47.553+00:00",
+    "scrapedAt": "2026-11-23T10:55:12.447Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Equinox",
-    "platform": "smartrecruiters",
-    "jobId": "744000152424788",
-    "title": "Cycling Instructors, San Ramon",
-    "department": "Club - Group Fitness",
+    "company": "Snowflake",
+    "platform": "ashby",
+    "jobId": "dd539240-7018-4918-a9f3-f49963ab6b8e",
+    "title": "Commercial Account Executive - Acquisition",
+    "department": "Sales",
     "locations": [
-      "San Ramon, CA, United States"
+      "IL-Israel-Remote"
+    ],
+    "isRemote": true,
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/snowflake/dd539240-7018-4918-a9f3-f49963ab6b8e/application",
+    "postedAt": "2026-11-17T14:58:16.144+00:00",
+    "scrapedAt": "2026-11-23T10:55:09.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Snowflake",
+    "platform": "ashby",
+    "jobId": "233d6b4b-08f2-48f7-9e9f-8e9208e4dc38",
+    "title": "Global Account Manager, Insurance",
+    "department": "Sales",
+    "locations": [
+      "GB-London"
     ],
     "isRemote": false,
-    "employmentType": "Part-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000152424788",
-    "postedAt": "2026-09-29T13:03:06.483Z",
-    "scrapedAt": "2026-11-22T09:54:56.679Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/snowflake/233d6b4b-08f2-48f7-9e9f-8e9208e4dc38/application",
+    "postedAt": "2026-11-23T08:43:47.317+00:00",
+    "scrapedAt": "2026-11-23T10:55:09.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Preply",
+    "platform": "ashby",
+    "jobId": "dce6d834-df96-4b64-85b5-6ed7108f4ade",
+    "title": "Influencer Marketing Manager",
+    "department": "Marketing",
+    "locations": [
+      "Barcelona"
+    ],
+    "isRemote": true,
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/preply/dce6d834-df96-4b64-85b5-6ed7108f4ade/application",
+    "postedAt": "2026-11-23T10:35:14.936+00:00",
+    "scrapedAt": "2026-11-23T10:55:09.813Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Equinox",
     "platform": "smartrecruiters",
-    "jobId": "744000152423691",
-    "title": "Maintenance Associates, Orchard Street",
+    "jobId": "744000163103169",
+    "title": "Housekeeping Associates, Tysons Corner",
     "department": "Club - Staff",
     "locations": [
-      "New York, NY, United States"
+      "Tysons, VA, United States"
     ],
     "isRemote": false,
     "employmentType": "Part-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000152423691",
-    "postedAt": "2026-09-29T13:03:05.453Z",
-    "scrapedAt": "2026-11-22T09:54:56.679Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000163103169",
+    "postedAt": "2026-11-22T22:18:42.026Z",
+    "scrapedAt": "2026-11-23T10:55:12.769Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "The Wonderful Company",
+    "company": "Equinox",
     "platform": "smartrecruiters",
-    "jobId": "744000162965409",
-    "title": "Professional Civil Engineer",
-    "department": "Strategic Engineering",
+    "jobId": "744000152424590",
+    "title": "Male Locker Room Associates, San Mateo",
+    "department": "Club - Staff",
     "locations": [
-      "Lost Hills, CA, United States"
+      "San Mateo, CA, United States"
     ],
     "isRemote": false,
     "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/TheWonderfulCompany/744000162965409",
-    "postedAt": "2026-11-21T19:10:55.619Z",
-    "scrapedAt": "2026-11-22T09:54:55.801Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000152424590",
+    "postedAt": "2026-09-29T13:03:04.522Z",
+    "scrapedAt": "2026-11-23T10:55:12.769Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Equinox",
+    "platform": "smartrecruiters",
+    "jobId": "744000152424172",
+    "title": "Mat Pilates and Barre Instructors, San Mateo",
+    "department": "Club - Group Fitness",
+    "locations": [
+      "San Mateo, CA, United States"
+    ],
+    "isRemote": false,
+    "employmentType": "Part-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000152424172",
+    "postedAt": "2026-09-29T13:03:03.519Z",
+    "scrapedAt": "2026-11-23T10:55:12.769Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Equinox",
+    "platform": "smartrecruiters",
+    "jobId": "744000152413144",
+    "title": "Cycling  Instructors, Dallas & Plano ",
+    "department": "Club - Group Fitness",
+    "locations": [
+      "Dallas, TX, United States"
+    ],
+    "isRemote": false,
+    "employmentType": "Part-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000152413144",
+    "postedAt": "2026-09-29T13:03:02.151Z",
+    "scrapedAt": "2026-11-23T10:55:12.769Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Equinox",
+    "platform": "smartrecruiters",
+    "jobId": "744000152411570",
+    "title": "Cycling Instructors, Washington DC",
+    "department": "Club - Group Fitness",
+    "locations": [
+      "Washington, DC, United States"
+    ],
+    "isRemote": false,
+    "employmentType": "Part-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/Equinox/744000152411570",
+    "postedAt": "2026-09-29T13:03:01.758Z",
+    "scrapedAt": "2026-11-23T10:55:12.769Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Version 1",
+    "platform": "smartrecruiters",
+    "jobId": "744000163165049",
+    "title": "Senior Delivery Manager",
+    "department": "Digital, Data and Cloud",
+    "locations": [
+      "Edinburgh, Scotland, United Kingdom"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/Version1/744000163165049",
+    "postedAt": "2026-11-23T09:03:56.054Z",
+    "scrapedAt": "2026-11-23T10:55:11.180Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Version 1",
+    "platform": "smartrecruiters",
+    "jobId": "744000163159160",
+    "title": "Adaptive Planning Developer",
+    "department": "Business Support",
+    "locations": [
+      "Bengaluru, KA, India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/Version1/744000163159160",
+    "postedAt": "2026-11-23T08:37:47.224Z",
+    "scrapedAt": "2026-11-23T10:55:11.180Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Version 1",
+    "platform": "smartrecruiters",
+    "jobId": "744000163145739",
+    "title": "Talent Acquisition Consultant",
+    "department": "Business Support",
+    "locations": [
+      "Bengaluru, KA, India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/Version1/744000163145739",
+    "postedAt": "2026-11-23T06:38:41.774Z",
+    "scrapedAt": "2026-11-23T10:55:11.180Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Bosch Group",
     "platform": "smartrecruiters",
-    "jobId": "744000163090169",
-    "title": "IN_RBAI_Software Automation expert_IN",
+    "jobId": "744000163188394",
+    "title": "Component Engineer BTV Stator",
+    "department": "Engineering",
+    "locations": [
+      "bangalore, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163188394",
+    "postedAt": "2026-11-23T10:40:44.253Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163186790",
+    "title": "Reliability Engineer for Braking ECU_ME",
+    "department": "Engineering",
+    "locations": [
+      "Suzhou, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163186790",
+    "postedAt": "2026-11-23T10:34:13.906Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163187859",
+    "title": "Mechanical Design Engineer_ME",
+    "department": "Engineering",
+    "locations": [
+      "Suzhou, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163187859",
+    "postedAt": "2026-11-23T10:28:29.735Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163186354",
+    "title": "ServiceNow Architect – Hardware Asset Management (HAM)",
+    "department": "Information Technology",
+    "locations": [
+      "bengaluru, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163186354",
+    "postedAt": "2026-11-23T10:27:36.031Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163185561",
+    "title": "项目经理_ME",
+    "department": "Engineering",
+    "locations": [
+      "Suzhou, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163185561",
+    "postedAt": "2026-11-23T10:18:53.971Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163185125",
+    "title": "Pre-Master Programm - Entwicklung einer Python Bibliothek für Hardware-Prototypen",
+    "department": "Engineering",
+    "locations": [
+      "Abstatt, BW, Germany"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163185125",
+    "postedAt": "2026-11-23T10:17:35.515Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163185309",
+    "title": "Key Account Manager Schweiz - Power Tools Zubehör Fachhandel 100% (w/m/div.) REF285400K",
+    "department": "Sales",
+    "locations": [
+      "Zuchwil, SO, Switzerland"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163185309",
+    "postedAt": "2026-11-23T10:16:07.168Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163179588",
+    "title": "Werkstudent im Bereich Projektmanagement – Digitalisierung (w/m/div.)",
+    "department": "Project Management",
+    "locations": [
+      "Gunzenhausen, BY, Germany"
+    ],
+    "isRemote": false,
+    "employmentType": "Part-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163179588",
+    "postedAt": "2026-11-23T09:55:20.930Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163177363",
+    "title": "Distribution, Demand and Supply Planning Specialist",
+    "department": "Supply Chain",
+    "locations": [
+      "Goleniów, Województwo zachodniopomorskie, Poland"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163177363",
+    "postedAt": "2026-11-23T09:46:57.458Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163171320",
+    "title": "Werkstudent Agentic AI & Microsoft Copilot Studio (w/m/div.)",
+    "department": "Administrative",
+    "locations": [
+      "Waltenhofen, BY, Germany"
+    ],
+    "isRemote": false,
+    "employmentType": "Part-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163171320",
+    "postedAt": "2026-11-23T09:34:32.677Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163169856",
+    "title": "ServiceNow Lead Developer – Hardware Asset Management (HAM)",
+    "department": "Information Technology",
+    "locations": [
+      "bengaluru, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163169856",
+    "postedAt": "2026-11-23T09:26:30.945Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163170914",
+    "title": "汽车半导体大客户销售(MEMS/IC/SiC)_ME",
+    "department": "Engineering",
+    "locations": [
+      "Shanghai, Shanghai, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163170914",
+    "postedAt": "2026-11-23T09:25:49.020Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163170699",
+    "title": "Channel Sales",
+    "department": "Sales",
+    "locations": [
+      "Shanghai, Shanghai, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163170699",
+    "postedAt": "2026-11-23T09:22:17.968Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163168802",
+    "title": "Reporting Specialist",
+    "department": "Administrative",
+    "locations": [
+      "Timișoara, TM, Romania"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163168802",
+    "postedAt": "2026-11-23T09:20:29.042Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163168454",
+    "title": "Security Officer ",
+    "department": "Consulting",
+    "locations": [
+      "Timișoara, TM, Romania"
+    ],
+    "isRemote": true,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163168454",
+    "postedAt": "2026-11-23T09:18:43.027Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163168614",
+    "title": "Full Stack Developer Senior- Manufacturing Co-intelligence",
+    "department": "Information Technology",
+    "locations": [
+      "Timișoara, TM, Romania"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163168614",
+    "postedAt": "2026-11-23T09:15:51.428Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163168020",
+    "title": "SAP S4HANA Data Migration – Migration Manager",
+    "department": "Information Technology",
+    "locations": [
+      "coimbatore, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163168020",
+    "postedAt": "2026-11-23T09:14:26.719Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163165939",
+    "title": "Assistant Manager / Sr. Engineer: System Engineer for DNOx System",
     "department": "Engineering",
     "locations": [
       "Bengaluru, KA, India"
     ],
     "isRemote": false,
     "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163090169",
-    "postedAt": "2026-11-22T07:33:06.429Z",
-    "scrapedAt": "2026-11-22T09:54:57.235Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163165939",
+    "postedAt": "2026-11-23T09:07:10.357Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Bosch Group",
     "platform": "smartrecruiters",
-    "jobId": "744000163089999",
-    "title": "液压系统工程师_DCCC",
-    "department": "Engineering",
+    "jobId": "744000163165019",
+    "title": "IN_RBIN_Area Sales Manager_jamshedpur (Power Tools)",
+    "department": "Sales",
     "locations": [
-      "Changzhou, Jiangsu, China"
+      "Jamshedpur, JH, India"
+    ],
+    "isRemote": true,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163165019",
+    "postedAt": "2026-11-23T09:03:53.471Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163164759",
+    "title": "Customer Sales Lead – South Region",
+    "department": "Sales",
+    "locations": [
+      "Chennai, TN, India"
     ],
     "isRemote": false,
     "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163089999",
-    "postedAt": "2026-11-22T07:07:39.454Z",
-    "scrapedAt": "2026-11-22T09:54:57.235Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163164759",
+    "postedAt": "2026-11-23T09:01:55.455Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163164621",
+    "title": "Vendedor/a de Canal Moderno para Bosch Home Confort (m/h/d)",
+    "department": "Sales",
+    "locations": [
+      "Madrid, MD, Spain"
+    ],
+    "isRemote": true,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163164621",
+    "postedAt": "2026-11-23T09:01:54.058Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163163139",
+    "title": "Senior Software Developer – Agentic Coder (Java)",
+    "department": "Information Technology",
+    "locations": [
+      "Budapest, , Hungary"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163163139",
+    "postedAt": "2026-11-23T08:54:01.484Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163161624",
+    "title": "IN_RBIN_Manager / Deputy Manager - for Facility Management Real estate_IN-GanP",
+    "department": "Other",
+    "locations": [
+      "Tirunelveli, Tamil Nadu, India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163161624",
+    "postedAt": "2026-11-23T08:45:33.959Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163160304",
+    "title": "Praktikum oder Masterarbeit im Bereich NVH und Strukturdynamik-Simulation von Axialkolbenpumpen           ",
+    "department": "Engineering",
+    "locations": [
+      "Horb am Neckar, BW, Germany"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163160304",
+    "postedAt": "2026-11-23T08:41:43.491Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163158831",
+    "title": "Lehrausbildung Metalltechnik - Maschinenbau (w/m/div.) ab September 2027",
+    "department": "Engineering",
+    "locations": [
+      "Linz, Oberösterreich, Austria"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163158831",
+    "postedAt": "2026-11-23T08:39:16.673Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163159694",
+    "title": "[보쉬코리아] Electronic Control Unit Calibration Engineer",
+    "department": "Engineering",
+    "locations": [
+      "Yongin, , Korea, republic of"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163159694",
+    "postedAt": "2026-11-23T08:37:43.575Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163158794",
+    "title": "Lehrausbildung Metalltechnik - Maschinenbau (w/m/div.) ab September 2027",
+    "department": "Engineering",
+    "locations": [
+      "Pasching, Oberösterreich, Austria"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163158794",
+    "postedAt": "2026-11-23T08:37:11.763Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163158924",
+    "title": "Regional Product Manager – Residential Air Conditioning, Hot Water and Well Being products",
+    "department": "Sales",
+    "locations": [
+      "Budapest, , Hungary"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163158924",
+    "postedAt": "2026-11-23T08:35:49.236Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163159374",
+    "title": "Lehrausbildung Mechatronik ab September 2027 (w/m/div.)",
+    "department": "Engineering",
+    "locations": [
+      "Linz, Oberösterreich, Austria"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163159374",
+    "postedAt": "2026-11-23T08:33:46.277Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163151729",
+    "title": "Sales Promoter - Kalimantan (Balikpapan/Banjarmasin)",
+    "department": "Information Technology",
+    "locations": [
+      "Balikpapan/Banjarmasin, , Indonesia"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163151729",
+    "postedAt": "2026-11-23T07:40:00.183Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163150309",
+    "title": "Software_Architect_EBH_10+Years",
+    "department": "Engineering",
+    "locations": [
+      "hosur road bangalore, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163150309",
+    "postedAt": "2026-11-23T07:26:50.499Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163149749",
+    "title": "Software_Architect_EBH_10+Years",
+    "department": "Engineering",
+    "locations": [
+      "hosur road bangalore, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163149749",
+    "postedAt": "2026-11-23T07:22:56.941Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163149519",
+    "title": "Expert Qualitätsingenieur systematische Problemlösung (w/m/div.)",
+    "department": "Quality Assurance",
+    "locations": [
+      "Dresden, SN, Germany"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163149519",
+    "postedAt": "2026-11-23T07:20:53.112Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163149359",
+    "title": "Software_Architect_EBH_10+Years",
+    "department": "Engineering",
+    "locations": [
+      "hosur road bangalore, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163149359",
+    "postedAt": "2026-11-23T07:18:40.373Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163148709",
+    "title": "Senior Project Manager_EBH",
+    "department": "Engineering",
+    "locations": [
+      "bangalore, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163148709",
+    "postedAt": "2026-11-23T07:11:31.308Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163148609",
+    "title": "Software_Architect__ECU_EBH",
+    "department": "Engineering",
+    "locations": [
+      "hosur road bangalore, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163148609",
+    "postedAt": "2026-11-23T07:10:51.234Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163145558",
+    "title": "Senior Machine learning Engineer",
+    "department": "Engineering",
+    "locations": [
+      "bangalore, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163145558",
+    "postedAt": "2026-11-23T06:37:38.707Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163143559",
+    "title": "功率模块机械设计与热设计工程师_ME",
+    "department": "Engineering",
+    "locations": [
+      "Shanghai, Shanghai, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163143559",
+    "postedAt": "2026-11-23T06:13:29.575Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163141739",
+    "title": "High Voltage Battery Mechanical Engineer_PS_RBCW",
+    "department": "Engineering",
+    "locations": [
+      "Wuxi, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163141739",
+    "postedAt": "2026-11-23T05:31:09.931Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163141699",
+    "title": "SAP PDM Techno Functional Consultant",
+    "department": "Consulting",
+    "locations": [
+      "bangalore, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163141699",
+    "postedAt": "2026-11-23T05:30:53.434Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163141669",
+    "title": "High Voltage Battery System Engineer _PS_RBCW",
+    "department": "Engineering",
+    "locations": [
+      "Wuxi, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163141669",
+    "postedAt": "2026-11-23T05:29:45.501Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163141339",
+    "title": "Area Manager – Sales, Workshop Concepts & Services",
+    "department": "Sales",
+    "locations": [
+      "Bangalore, Karnataka, India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163141339",
+    "postedAt": "2026-11-23T05:25:30.245Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163138655",
+    "title": "IN_RBIN_Assistant Manager / Senior Engineer - Process Planner Template_IN",
+    "department": "Engineering",
+    "locations": [
+      "Nashik, Maharashtra, India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163138655",
+    "postedAt": "2026-11-23T04:41:00.179Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163135179",
+    "title": "换热器工程师_HC",
+    "department": "Engineering",
+    "locations": [
+      "Wuxi, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163135179",
+    "postedAt": "2026-11-23T03:03:30.137Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163134609",
+    "title": "制冷系统工程师_HC",
+    "department": "Engineering",
+    "locations": [
+      "Wuxi, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163134609",
+    "postedAt": "2026-11-23T02:51:32.550Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163132774",
+    "title": "Engineering Intern",
+    "department": "Engineering",
+    "locations": [
+      "Kings Park, NSW, Australia"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163132774",
+    "postedAt": "2026-11-23T02:23:34.301Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163133149",
+    "title": "PE Function Test Engineer_PS_RBCW",
+    "department": "Engineering",
+    "locations": [
+      "Wuxi, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163133149",
+    "postedAt": "2026-11-23T02:22:57.086Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163133109",
+    "title": "Commercial Buyer(Shunts)_ M",
+    "department": "Engineering",
+    "locations": [
+      "Shanghai, Shanghai, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163133109",
+    "postedAt": "2026-11-23T02:22:07.732Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163133069",
+    "title": "Refrigeration Cycle Simulation Engineer_HC",
+    "department": "Engineering",
+    "locations": [
+      "Wuxi, Jiangsu, China"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163133069",
+    "postedAt": "2026-11-23T02:21:20.323Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163129707",
+    "title": "Project Manager",
+    "department": "Other",
+    "locations": [
+      "Malaga, WA, Australia"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163129707",
+    "postedAt": "2026-11-23T01:38:40.762Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163101720",
+    "title": "Point Leader 2nd Shift",
+    "department": "Distribution",
+    "locations": [
+      "El Paso, TX, United States"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163101720",
+    "postedAt": "2026-11-22T20:20:21.518Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163101549",
+    "title": "Warehouse Supervisor",
+    "department": "Distribution",
+    "locations": [
+      "El Paso, TX, United States"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163101549",
+    "postedAt": "2026-11-22T20:04:23.379Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163099209",
+    "title": "Ferialpraktikum HTL Pasching (w/m/div.)",
+    "department": "Information Technology",
+    "locations": [
+      "Pasching, Oberösterreich, Austria"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163099209",
+    "postedAt": "2026-11-22T18:03:49.671Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163099119",
+    "title": "Ferialpraktikum Uni/FH Linz (w/m/div.)",
+    "department": "Information Technology",
+    "locations": [
+      "Linz, Oberösterreich, Austria"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163099119",
+    "postedAt": "2026-11-22T18:03:08.436Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163099079",
+    "title": "Ferialpraktikum HTL Wien (w/m/div.)",
+    "department": "Information Technology",
+    "locations": [
+      "Wien, Wien, Austria"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163099079",
+    "postedAt": "2026-11-22T18:02:15.567Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163099039",
+    "title": "Ferialpraktikum HTL Linz - BECL (w/m/div.)",
+    "department": "Information Technology",
+    "locations": [
+      "Linz, Oberösterreich, Austria"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163099039",
+    "postedAt": "2026-11-22T18:01:09.572Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Bosch Group",
+    "platform": "smartrecruiters",
+    "jobId": "744000163098999",
+    "title": "Ferialpraktikum HTL Linz - Rexroth (w/m/div.)",
+    "department": "Information Technology",
+    "locations": [
+      "Linz, Oberösterreich, Austria"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000163098999",
+    "postedAt": "2026-11-22T17:58:58.627Z",
+    "scrapedAt": "2026-11-23T10:55:13.453Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Delivery Hero",
     "platform": "smartrecruiters",
-    "jobId": "744000163091279",
-    "title": "Manager Core People Operations",
+    "jobId": "744000163194279",
+    "title": "Product Manager - (Logistics, Service Flows)",
+    "department": "Product Management",
+    "locations": [
+      "Berlin, , Germany"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163194279",
+    "postedAt": "2026-11-23T10:55:01.245Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163194058",
+    "title": "Talent Acquisition Operations",
+    "department": "Business Development",
+    "locations": [
+      "Dubai, Dubai, United Arab Emirates"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163194058",
+    "postedAt": "2026-11-23T10:53:45.860Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163191060",
+    "title": "Senior / Staff Product Analyst - (Logistics, Service)",
+    "department": "Information Technology",
+    "locations": [
+      "Berlin, , Germany"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163191060",
+    "postedAt": "2026-11-23T10:49:11.058Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163181071",
+    "title": "Manager, Salesforce",
+    "department": "Sales",
+    "locations": [
+      "Kuala Lumpur, , Malaysia"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163181071",
+    "postedAt": "2026-11-23T10:04:32.982Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163172308",
+    "title": "Senior Legal Counsel - Morocco",
+    "department": "Legal",
+    "locations": [
+      "Casablanca, , Morocco"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163172308",
+    "postedAt": "2026-11-23T09:29:02.364Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163167989",
+    "title": "Account Manager ",
+    "department": "Sales",
+    "locations": [
+      "Nur-Sultan, , Kazakhstan"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163167989",
+    "postedAt": "2026-11-23T09:12:22.273Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163164000",
+    "title": "Senior Specialist, TA Operations (Fixed-term - 1 year)",
     "department": "Human Resources",
+    "locations": [
+      "Berlin, , Germany"
+    ],
+    "isRemote": false,
+    "employmentType": "Contract",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163164000",
+    "postedAt": "2026-11-23T09:00:02.473Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163161108",
+    "title": "Team Lead Acquisition",
+    "department": "Sales",
     "locations": [
       "Maadi, , Egypt"
     ],
     "isRemote": false,
     "employmentType": "Contract",
-    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163091279",
-    "postedAt": "2026-11-22T08:59:33.674Z",
-    "scrapedAt": "2026-11-22T09:54:57.318Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163161108",
+    "postedAt": "2026-11-23T08:40:48.050Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Delivery Hero",
     "platform": "smartrecruiters",
-    "jobId": "744000163090249",
-    "title": "Sales Executive",
-    "department": "Sales",
+    "jobId": "744000163155229",
+    "title": "Sr. Specialist FinTech - Payment Acceptance",
+    "department": "Product Management",
     "locations": [
-      "Riyadh, , Saudi Arabia"
+      "Dubai, , United Arab Emirates"
     ],
     "isRemote": false,
     "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163090249",
-    "postedAt": "2026-11-22T07:38:07.306Z",
-    "scrapedAt": "2026-11-22T09:54:57.318Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163155229",
+    "postedAt": "2026-11-23T08:10:11.118Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Delivery Hero",
     "platform": "smartrecruiters",
-    "jobId": "744000163090149",
-    "title": "Training Manager",
+    "jobId": "744000163153909",
+    "title": "Manager, Controlling Free Cash Flow & Analytics",
+    "department": "Finance",
+    "locations": [
+      "Singapore, , Singapore"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163153909",
+    "postedAt": "2026-11-23T07:56:15.608Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163153429",
+    "title": "Manager, Controlling Free Cash Flow & Analytics",
+    "department": "Finance",
+    "locations": [
+      "Taguig, , Philippines"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163153429",
+    "postedAt": "2026-11-23T07:52:21.139Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163138549",
+    "title": "Specialist, Business Development - Local Shops",
+    "department": "Sales",
+    "locations": [
+      "Chattogram, Chittagong Division, Bangladesh"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163138549",
+    "postedAt": "2026-11-23T04:32:55.277Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163138114",
+    "title": "Specialist, Business Development - Local Shops",
+    "department": "Sales",
+    "locations": [
+      "Khulna, , Bangladesh"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163138114",
+    "postedAt": "2026-11-23T04:31:43.213Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163136859",
+    "title": "Senior Manager, Total Rewards (IC)",
+    "department": "Information Technology",
+    "locations": [
+      "Singapore, , Singapore"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163136859",
+    "postedAt": "2026-11-23T03:56:56.949Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163133291",
+    "title": "Strategy & Performance Manager (Logistics)",
+    "department": "Strategy/Planning",
+    "locations": [
+      "Singapore, , Singapore"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163133291",
+    "postedAt": "2026-11-23T02:45:01.257Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163102259",
+    "title": "Account Executive Assistant",
+    "department": "Sales",
+    "locations": [
+      "Santiago, , Chile"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163102259",
+    "postedAt": "2026-11-22T21:09:49.672Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163101570",
+    "title": "User Acquisition Specialist",
+    "department": "Marketing",
+    "locations": [
+      "Barcelona, , Spain"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163101570",
+    "postedAt": "2026-11-22T20:09:38.598Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163101679",
+    "title": "Senior Performance Marketing Specialist",
+    "department": "Marketing",
+    "locations": [
+      "Barcelona, , Spain"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163101679",
+    "postedAt": "2026-11-22T20:09:18.019Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163095869",
+    "title": "Sales Executive Regions Italy",
+    "department": "Sales",
+    "locations": [
+      "Roma, , Italy"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163095869",
+    "postedAt": "2026-11-22T14:56:01.435Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Delivery Hero",
+    "platform": "smartrecruiters",
+    "jobId": "744000163094959",
+    "title": "Customer Experience Manager",
     "department": "General Business",
     "locations": [
       "Riyadh, , Saudi Arabia"
     ],
     "isRemote": false,
     "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163090149",
-    "postedAt": "2026-11-22T07:32:39.277Z",
-    "scrapedAt": "2026-11-22T09:54:57.318Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000163094959",
+    "postedAt": "2026-11-22T14:01:39.582Z",
+    "scrapedAt": "2026-11-23T10:55:14.174Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Delivery Hero",
-    "platform": "smartrecruiters",
-    "jobId": "744000162965539",
-    "title": "WARSAW HIRING DAY - Account Manager SMB - Poland",
-    "department": "Sales",
+    "company": "ottonova",
+    "platform": "personio",
+    "jobId": "2900536",
+    "title": "(Junior) Underwriting Manager (m/w/d) - medizinische Risikoprüfung PKV",
+    "department": "Underwriting",
     "locations": [
-      "Warsaw, , Poland"
+      "München",
+      "Köln"
     ],
-    "isRemote": false,
-    "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000162965539",
-    "postedAt": "2026-11-21T19:20:06.488Z",
-    "scrapedAt": "2026-11-22T09:54:57.318Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
-  },
-  {
-    "company": "Delivery Hero",
-    "platform": "smartrecruiters",
-    "jobId": "744000162965489",
-    "title": "GET HIRED IN ONE DAY - Account Manager SMB - Poland",
-    "department": "Sales",
-    "locations": [
-      "Warsaw, , Poland"
-    ],
-    "isRemote": false,
-    "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/DeliveryHero/744000162965489",
-    "postedAt": "2026-11-21T19:16:28.160Z",
-    "scrapedAt": "2026-11-22T09:54:57.318Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "isRemote": null,
+    "employmentType": "permanent",
+    "applyUrl": "https://ottonova.jobs.personio.de/job/2900536",
+    "postedAt": "2026-11-23T10:48:52+00:00",
+    "scrapedAt": "2026-11-23T10:55:13.801Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "Datavant",
     "platform": "greenhouse",
-    "jobId": "5471750008",
-    "title": "Health Information Specialist I - Remote",
+    "jobId": "5465801008",
+    "title": "Area Lead Health Information Specialist",
     "department": null,
     "locations": [
-      "Macon, Georgia"
+      "Amarillo, Texas"
     ],
     "isRemote": null,
     "employmentType": null,
-    "applyUrl": "https://www.datavant.com/about/careers/open-roles/job?gh_jid=5471750008",
-    "postedAt": "2026-11-21T12:59:10-05:00",
-    "scrapedAt": "2026-11-22T09:54:58.611Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://www.datavant.com/about/careers/open-roles/job?gh_jid=5465801008",
+    "postedAt": "2026-11-23T01:53:46-05:00",
+    "scrapedAt": "2026-11-23T10:55:14.800Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
-    "company": "Sonatype",
-    "platform": "lever",
-    "jobId": "02e23bf6-8012-4784-aee8-c444ec8ad315",
-    "title": "Enterprise  Account Executive - (Great Lakes)",
-    "department": "Sales - NA",
+    "company": "Datavant",
+    "platform": "greenhouse",
+    "jobId": "5480061008",
+    "title": "CPC Processor Customer Support",
+    "department": null,
     "locations": [
-      "US - Central - Remote"
+      "Remote - United States"
     ],
     "isRemote": true,
-    "employmentType": "Full-Time",
-    "applyUrl": "https://jobs.lever.co/sonatype/02e23bf6-8012-4784-aee8-c444ec8ad315/apply",
-    "postedAt": "2026-11-21T10:23:48.604Z",
-    "scrapedAt": "2026-11-22T09:55:09.596Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "employmentType": null,
+    "applyUrl": "https://www.datavant.com/about/careers/open-roles/job?gh_jid=5480061008",
+    "postedAt": "2026-11-23T01:28:24-05:00",
+    "scrapedAt": "2026-11-23T10:55:14.800Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Datavant",
+    "platform": "greenhouse",
+    "jobId": "5468310008",
+    "title": "CPC Processor Customer Support- 8706",
+    "department": null,
+    "locations": [
+      "Remote - United States"
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://www.datavant.com/about/careers/open-roles/job?gh_jid=5468310008",
+    "postedAt": "2026-11-23T01:07:14-05:00",
+    "scrapedAt": "2026-11-23T10:55:14.800Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Datavant",
+    "platform": "greenhouse",
+    "jobId": "5480176008",
+    "title": "CPC Processor Customer Support - Afterhours",
+    "department": null,
+    "locations": [
+      " Remote - United States"
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://www.datavant.com/about/careers/open-roles/job?gh_jid=5480176008",
+    "postedAt": "2026-11-23T01:31:41-05:00",
+    "scrapedAt": "2026-11-23T10:55:14.800Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Datavant",
+    "platform": "greenhouse",
+    "jobId": "5470337008",
+    "title": "CPC Processor Customer Support I",
+    "department": null,
+    "locations": [
+      " Remote - United States"
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://www.datavant.com/about/careers/open-roles/job?gh_jid=5470337008",
+    "postedAt": "2026-11-23T01:13:27-05:00",
+    "scrapedAt": "2026-11-23T10:55:14.800Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Datavant",
+    "platform": "greenhouse",
+    "jobId": "5461160008",
+    "title": "Health Information Speacalist I-8571",
+    "department": null,
+    "locations": [
+      "Alabama"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.datavant.com/about/careers/open-roles/job?gh_jid=5461160008",
+    "postedAt": "2026-11-23T01:42:59-05:00",
+    "scrapedAt": "2026-11-23T10:55:14.800Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Datavant",
+    "platform": "greenhouse",
+    "jobId": "5461262008",
+    "title": "Health Information Specalist I-8574",
+    "department": null,
+    "locations": [
+      "Remote - United States"
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://www.datavant.com/about/careers/open-roles/job?gh_jid=5461262008",
+    "postedAt": "2026-11-23T01:48:56-05:00",
+    "scrapedAt": "2026-11-23T10:55:14.800Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Datavant",
+    "platform": "greenhouse",
+    "jobId": "5475784008",
+    "title": "Health Information Specialist",
+    "department": null,
+    "locations": [
+      "Columbia, Missouri"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.datavant.com/about/careers/open-roles/job?gh_jid=5475784008",
+    "postedAt": "2026-11-23T01:15:37-05:00",
+    "scrapedAt": "2026-11-23T10:55:14.800Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Datavant",
+    "platform": "greenhouse",
+    "jobId": "5285278008",
+    "title": "Senior UX Designer, Provider Experience",
+    "department": null,
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.datavant.com/about/careers/open-roles/job?gh_jid=5285278008",
+    "postedAt": "2026-07-08T07:24:05-04:00",
+    "scrapedAt": "2026-11-23T10:55:14.801Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Lyra Health",
+    "platform": "lever",
+    "jobId": "f83ee0d0-4799-4abd-9b39-554bbb6a1474",
+    "title": "Mental Health Therapist - 1099 Contractor - North Dakota",
+    "department": "Provider Network Development",
+    "locations": [
+      "North Dakota",
+      "Williston, North Dakota",
+      "Grand Forks, North Dakota",
+      "Jamestown, North Dakota",
+      "Devils Lake, North Dakota",
+      "Bottineau, North Dakota"
+    ],
+    "isRemote": null,
+    "employmentType": "Contract",
+    "applyUrl": "https://jobs.lever.co/lyrahealth/f83ee0d0-4799-4abd-9b39-554bbb6a1474/apply",
+    "postedAt": "2025-12-11T23:57:41.327Z",
+    "scrapedAt": "2026-11-23T10:55:15.941Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Zeta Global",
+    "platform": "greenhouse",
+    "jobId": "6261030004",
+    "title": "Principal Analyst, Email Deliverability",
+    "department": null,
+    "locations": [
+      "Hyderabad, India"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/zetaglobal/jobs/6261030004",
+    "postedAt": "2026-11-18T08:11:40-05:00",
+    "scrapedAt": "2026-11-23T10:55:15.201Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Kong",
+    "platform": "ashby",
+    "jobId": "9fc64b8f-9a6c-4d88-8d46-7edf90c8b7d4",
+    "title": "Senior Customer Success Manager (Nordics & Benelux)",
+    "department": "All Cost Center",
+    "locations": [
+      "Sweden"
+    ],
+    "isRemote": true,
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/kong/9fc64b8f-9a6c-4d88-8d46-7edf90c8b7d4/application",
+    "postedAt": "2026-11-23T10:41:31.016+00:00",
+    "scrapedAt": "2026-11-23T10:55:17.164Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Kong",
+    "platform": "ashby",
+    "jobId": "7bff13f0-87af-4a5b-98a5-24f4c027faad",
+    "title": "Analyst, International Accounting",
+    "department": "All Cost Center",
+    "locations": [
+      "Maharashtra, India",
+      "Pune, India"
+    ],
+    "isRemote": true,
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/kong/7bff13f0-87af-4a5b-98a5-24f4c027faad/application",
+    "postedAt": "2026-11-23T07:21:55.049+00:00",
+    "scrapedAt": "2026-11-23T10:55:17.164Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Kong",
+    "platform": "ashby",
+    "jobId": "b31f38e4-fe4d-4746-86b4-819e999a8c3d",
+    "title": "Regional Sales Director, India",
+    "department": "All Cost Center",
+    "locations": [
+      "Bangalore, India",
+      "New Delhi, India"
+    ],
+    "isRemote": true,
+    "employmentType": "FullTime",
+    "applyUrl": "https://jobs.ashbyhq.com/kong/b31f38e4-fe4d-4746-86b4-819e999a8c3d/application",
+    "postedAt": "2026-11-23T02:44:45.102+00:00",
+    "scrapedAt": "2026-11-23T10:55:17.164Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Arcadia",
+    "platform": "lever",
+    "jobId": "aa78369b-9316-4b22-9456-f2ae791f4e27",
+    "title": "Principal Software Engineer - Data Platform",
+    "department": "R&D",
+    "locations": [
+      "Remote (USA)"
+    ],
+    "isRemote": true,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.lever.co/arcadia/aa78369b-9316-4b22-9456-f2ae791f4e27/apply",
+    "postedAt": "2026-11-11T19:34:59.939Z",
+    "scrapedAt": "2026-11-23T10:55:17.801Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "ServiceNow",
     "platform": "smartrecruiters",
-    "jobId": "744000163090339",
-    "title": "Staff Software Engineer, AI Native Engineering, Integrations",
+    "jobId": "744000163188946",
+    "title": "Advisory Solution Consultant - Employee Experience",
+    "department": "Sales",
+    "locations": [
+      "Wien, , Austria"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163188946",
+    "postedAt": "2026-11-23T10:45:34.306Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163191979",
+    "title": "Sr Advisory Solution Consultant - Employee Experience",
+    "department": "Sales",
+    "locations": [
+      "Glattbrugg, , Switzerland"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163191979",
+    "postedAt": "2026-11-23T10:43:53.543Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163190938",
+    "title": "Senior Manager, Solution Consulting - Employee Experience",
+    "department": "Sales",
+    "locations": [
+      "Glattbrugg, , Switzerland"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163190938",
+    "postedAt": "2026-11-23T10:39:51.348Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163190219",
+    "title": "Sales Director - Employee Experience",
+    "department": "Sales",
+    "locations": [
+      "Wien, , Austria"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163190219",
+    "postedAt": "2026-11-23T10:37:04.827Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163189107",
+    "title": "Sr Sales Director, Central Europe, Employee Experience Operating System (EXOS)",
+    "department": "Sales",
+    "locations": [
+      "Frankfurt, , Germany"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163189107",
+    "postedAt": "2026-11-23T10:34:35.314Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163188650",
+    "title": "Sr Sales Director, EMEA North, Employee Experience Operating System (EXOS)",
+    "department": "Sales",
+    "locations": [
+      "Amsterdam, , Netherlands"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163188650",
+    "postedAt": "2026-11-23T10:33:29.198Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163181114",
+    "title": "Advisory Solution Consultant (Senior Pre-Sales) - CRM & Agentic AI",
+    "department": "Sales",
+    "locations": [
+      "Munich, , Germany"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163181114",
+    "postedAt": "2026-11-23T10:07:57.342Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163181540",
+    "title": "Advisory Solution Consultant - CRM & Agentic AI",
+    "department": "Sales",
+    "locations": [
+      "Munich, , Germany"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163181540",
+    "postedAt": "2026-11-23T10:05:41.486Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163173004",
+    "title": "Director, Partner Management - Nordics",
+    "department": "Sales",
+    "locations": [
+      "Stockholm, , Sweden"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163173004",
+    "postedAt": "2026-11-23T09:46:43.675Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163169070",
+    "title": "Sales Director - Data & Analytics",
+    "department": "Sales",
+    "locations": [
+      "Singapore, Singapore, Singapore"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163169070",
+    "postedAt": "2026-11-23T09:21:14.792Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163151029",
+    "title": "Software Engineer",
     "department": "Engineering, Infrastructure and Operations",
     "locations": [
       "Hyderabad, , India"
     ],
     "isRemote": false,
     "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163090339",
-    "postedAt": "2026-11-22T07:42:12.831Z",
-    "scrapedAt": "2026-11-22T09:55:28.123Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163151029",
+    "postedAt": "2026-11-23T07:32:15.778Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   },
   {
     "company": "ServiceNow",
     "platform": "smartrecruiters",
-    "jobId": "744000159458187",
-    "title": "Sr Enterprise Account Exec ( Armis / Veza ) ",
+    "jobId": "744000163146999",
+    "title": "Software Engineer (Go & Kubernetes)",
+    "department": "Engineering, Infrastructure and Operations",
+    "locations": [
+      "Hyderabad, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163146999",
+    "postedAt": "2026-11-23T06:52:12.027Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163146859",
+    "title": "Partner Sales Manager, VN+SG+MY",
     "department": "Sales",
     "locations": [
-      "Washington, District of Columbia, United States"
+      "Singapore, Singapore, Singapore"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163146859",
+    "postedAt": "2026-11-23T06:51:33.457Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163146819",
+    "title": "Enterprise Account Manager - GCC",
+    "department": "Sales",
+    "locations": [
+      "Mumbai, Maharashtra, India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163146819",
+    "postedAt": "2026-11-23T06:51:23.616Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163144959",
+    "title": "Sr Advisory Solution Consultant",
+    "department": "Sales",
+    "locations": [
+      "Sydney, , Australia"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163144959",
+    "postedAt": "2026-11-23T06:30:05.172Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163144939",
+    "title": "Advisory Solution Consultant",
+    "department": "Sales",
+    "locations": [
+      "Sydney, , Australia"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163144939",
+    "postedAt": "2026-11-23T06:29:09.761Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163143149",
+    "title": "Senior DevOps Engineer - Flow",
+    "department": "Engineering, Infrastructure and Operations",
+    "locations": [
+      "Bangalore, , India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163143149",
+    "postedAt": "2026-11-23T06:03:19.685Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163137519",
+    "title": "Senior Services Executive",
+    "department": "Customer Excellence Geo HQ",
+    "locations": [
+      "Sydney, NSW, Australia"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163137519",
+    "postedAt": "2026-11-23T04:09:28.937Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163136529",
+    "title": "Sr Staff Product Security Engineer, PSIRT",
+    "department": "Digital Technology",
+    "locations": [
+      "Hyderabad, Telangana, India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163136529",
+    "postedAt": "2026-11-23T03:50:57.891Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163092399",
+    "title": "Product Success Director",
+    "department": "Engineering, Infrastructure and Operations",
+    "locations": [
+      "Petah Tikva, , Israel"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163092399",
+    "postedAt": "2026-11-22T10:50:36.502Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163092289",
+    "title": "Senior Sales Manager – Cyber Security & Risk (CSR) ",
+    "department": "Sales",
+    "locations": [
+      "Madrid, , Spain"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163092289",
+    "postedAt": "2026-11-22T10:29:48.732Z",
+    "scrapedAt": "2026-11-23T10:55:42.725Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "ServiceNow",
+    "platform": "smartrecruiters",
+    "jobId": "744000163150904",
+    "title": "Sr. Advisory Solution Consultant - CRM & Industry Workflows (BFSI)",
+    "department": "Sales",
+    "locations": [
+      "Mumbai, Maharashtra, India"
+    ],
+    "isRemote": false,
+    "employmentType": "Full-time",
+    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000163150904",
+    "postedAt": "2026-11-23T07:41:31.636Z",
+    "scrapedAt": "2026-11-23T10:55:42.726Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "EquipmentShare",
+    "platform": "greenhouse",
+    "jobId": "8404095",
+    "title": "CDL Crane Truck Driver",
+    "department": null,
+    "locations": [
+      "Milwaukee, WI (Site Solutions)"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.equipmentshare.com/careers/openings/?gh_jid=8404095",
+    "postedAt": "2026-11-22T18:15:39-05:00",
+    "scrapedAt": "2026-11-23T10:55:20.023Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "EquipmentShare",
+    "platform": "greenhouse",
+    "jobId": "8381608",
+    "title": "Delivery Driver",
+    "department": null,
+    "locations": [
+      "Richmond, VA (Tooling Solutions)"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.equipmentshare.com/careers/openings/?gh_jid=8381608",
+    "postedAt": "2026-11-22T18:16:04-05:00",
+    "scrapedAt": "2026-11-23T10:55:20.023Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "EquipmentShare",
+    "platform": "greenhouse",
+    "jobId": "8404194",
+    "title": "Delivery Driver",
+    "department": null,
+    "locations": [
+      "Cincinnati, OH (Tooling Solutions)"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.equipmentshare.com/careers/openings/?gh_jid=8404194",
+    "postedAt": "2026-11-22T18:17:08-05:00",
+    "scrapedAt": "2026-11-23T10:55:20.023Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "EquipmentShare",
+    "platform": "greenhouse",
+    "jobId": "8331183",
+    "title": "District CDL Delivery Driver",
+    "department": null,
+    "locations": [
+      "Seattle, WA"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.equipmentshare.com/careers/openings/?gh_jid=8331183",
+    "postedAt": "2026-11-22T18:41:28-05:00",
+    "scrapedAt": "2026-11-23T10:55:20.023Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "EquipmentShare",
+    "platform": "greenhouse",
+    "jobId": "8403571",
+    "title": "Heavy Equipment CDL Driver",
+    "department": null,
+    "locations": [
+      "Phoenix, AZ (West)"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.equipmentshare.com/careers/openings/?gh_jid=8403571",
+    "postedAt": "2026-11-22T17:54:02-05:00",
+    "scrapedAt": "2026-11-23T10:55:20.024Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "EquipmentShare",
+    "platform": "greenhouse",
+    "jobId": "8397069",
+    "title": "Heavy Equipment Shop Technician (Mechanic)",
+    "department": null,
+    "locations": [
+      "Waterloo, IA"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.equipmentshare.com/careers/openings/?gh_jid=8397069",
+    "postedAt": "2026-11-22T18:22:21-05:00",
+    "scrapedAt": "2026-11-23T10:55:20.024Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "EquipmentShare",
+    "platform": "greenhouse",
+    "jobId": "8406618",
+    "title": "Heavy Equipment Shop Technician (Mechanic)",
+    "department": null,
+    "locations": [
+      "Jerome, ID"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.equipmentshare.com/careers/openings/?gh_jid=8406618",
+    "postedAt": "2026-11-22T18:02:41-05:00",
+    "scrapedAt": "2026-11-23T10:55:20.024Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "EquipmentShare",
+    "platform": "greenhouse",
+    "jobId": "8397114",
+    "title": "Heavy Equipment Technician (Mechanic) Apprentice",
+    "department": null,
+    "locations": [
+      "St. Louis, MO"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.equipmentshare.com/careers/openings/?gh_jid=8397114",
+    "postedAt": "2026-11-22T18:03:20-05:00",
+    "scrapedAt": "2026-11-23T10:55:20.024Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "EquipmentShare",
+    "platform": "greenhouse",
+    "jobId": "8346720",
+    "title": "Parts Manager",
+    "department": null,
+    "locations": [
+      "Las Vegas, NV (South)"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.equipmentshare.com/careers/openings/?gh_jid=8346720",
+    "postedAt": "2026-11-02T16:13:45-05:00",
+    "scrapedAt": "2026-11-23T10:55:20.024Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "EquipmentShare",
+    "platform": "greenhouse",
+    "jobId": "8332049",
+    "title": "Rental Coordinator",
+    "department": null,
+    "locations": [
+      "Stockton, CA"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.equipmentshare.com/careers/openings/?gh_jid=8332049",
+    "postedAt": "2026-11-22T18:14:08-05:00",
+    "scrapedAt": "2026-11-23T10:55:20.024Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "EquipmentShare",
+    "platform": "greenhouse",
+    "jobId": "8397099",
+    "title": "Yard Technician",
+    "department": null,
+    "locations": [
+      "Fontana, CA (Advanced Solutions)"
+    ],
+    "isRemote": null,
+    "employmentType": null,
+    "applyUrl": "https://www.equipmentshare.com/careers/openings/?gh_jid=8397099",
+    "postedAt": "2026-11-22T18:42:10-05:00",
+    "scrapedAt": "2026-11-23T10:55:20.024Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Counterpart Health",
+    "platform": "greenhouse",
+    "jobId": "8399154",
+    "title": "Senior Software Developer, Agentic AI - Canada",
+    "department": null,
+    "locations": [
+      "Remote - Canada"
     ],
     "isRemote": true,
-    "employmentType": "Full-time",
-    "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000159458187",
-    "postedAt": "2026-11-03T17:40:25.737Z",
-    "scrapedAt": "2026-11-22T09:55:28.125Z",
-    "firstSeenAt": "2026-11-22T09:56:33.111Z"
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/counterparthealth/jobs/8399154",
+    "postedAt": "2026-11-22T22:56:34-05:00",
+    "scrapedAt": "2026-11-23T10:55:21.036Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
+  },
+  {
+    "company": "Counterpart Health",
+    "platform": "greenhouse",
+    "jobId": "8395492",
+    "title": "Senior Software Engineer, Agentic AI",
+    "department": null,
+    "locations": [
+      "Remote - USA"
+    ],
+    "isRemote": true,
+    "employmentType": null,
+    "applyUrl": "https://job-boards.greenhouse.io/counterparthealth/jobs/8395492",
+    "postedAt": "2026-11-17T09:06:37-05:00",
+    "scrapedAt": "2026-11-23T10:55:21.036Z",
+    "firstSeenAt": "2026-11-23T10:56:47.715Z"
   }
 ]
