@@ -1,26 +1,13 @@
 {
-  "generatedAt": "2026-11-23T10:57:32.801Z",
+  "generatedAt": "2026-11-24T12:46:43.526Z",
   "runner": "github-actions",
   "results": [
-    {
-      "id": "icims-docusign-29787",
-      "company": "DocuSign",
-      "title": "Senior Manager, Site Reliability Engineering",
-      "url": "https://hubcareers-docusign.icims.com/jobs/29787/senior-manager%2c-site-reliability-engineering/job",
-      "checkedAt": "2026-11-23T10:57:33.246Z",
-      "finalUrl": "https://hubcareers-docusign.icims.com/jobs/search?ss=1&notFound=1&mobile=false&width=1140&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
-      "httpStatus": 410,
-      "pageTitle": "Docusign Careers",
-      "jsonLd": null,
-      "outcome": "gone",
-      "evidence": "HTTP 410 no longer open"
-    },
     {
       "id": "calib-icims-navitus-6474",
       "company": "Navitus Health Solutions",
       "title": "Manager, Platform Engineering and FinOps",
       "url": "https://careers-navitus.icims.com/jobs/6474/manager,-platform-engineering-and-finops/job",
-      "checkedAt": "2026-11-23T10:57:39.886Z",
+      "checkedAt": "2026-11-24T12:46:44.008Z",
       "finalUrl": "https://careers-navitus.icims.com/jobs/search?ss=1&notFound=1&mobile=false&width=1264&height=500&bga=true&needsRedirect=false&jan1offset=0&jun1offset=0",
       "httpStatus": 410,
       "pageTitle": "Job Listings at Navitus Health Solutions, LLC",
@@ -33,7 +20,7 @@
       "company": "Oracle",
       "title": "Senior Site Reliability Engineer",
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/337734/",
-      "checkedAt": "2026-11-23T10:57:45.645Z",
+      "checkedAt": "2026-11-24T12:46:49.331Z",
       "captureText": true,
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/337734/",
       "httpStatus": 200,
@@ -48,7 +35,7 @@
       "company": "Horizon3.ai",
       "title": "Staff Software Engineer, Image Build & Release",
       "url": "https://jobs.ashbyhq.com/horizon3ai/e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
-      "checkedAt": "2026-11-23T10:57:53.900Z",
+      "checkedAt": "2026-11-24T12:46:58.828Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/horizon3ai/e04b17c7-95f1-4c98-891b-e4e4b236aaf3",
       "httpStatus": 200,
@@ -67,7 +54,7 @@
       "company": "Metabase",
       "title": "Engineering Manager",
       "url": "https://jobs.lever.co/metabase/5bf3233d-a162-47b2-8d85-d3650b176c6e",
-      "checkedAt": "2026-11-23T10:57:58.844Z",
+      "checkedAt": "2026-11-24T12:47:03.852Z",
       "finalUrl": "https://jobs.lever.co/metabase/5bf3233d-a162-47b2-8d85-d3650b176c6e",
       "httpStatus": 200,
       "pageTitle": "Metabase - Engineering Manager",
@@ -84,7 +71,7 @@
       "company": "Canonical",
       "title": "Cloud Engineering Manager",
       "url": "https://job-boards.greenhouse.io/canonical/jobs/4676649",
-      "checkedAt": "2026-11-23T10:58:03.770Z",
+      "checkedAt": "2026-11-24T12:47:08.405Z",
       "finalUrl": "https://job-boards.greenhouse.io/canonical/jobs/4676649",
       "httpStatus": 200,
       "pageTitle": "Job Application for Cloud Engineering Manager at Canonical",
@@ -97,7 +84,7 @@
       "company": "Cresta",
       "title": "Senior Infrastructure Engineer",
       "url": "https://job-boards.greenhouse.io/cresta/jobs/5137153008",
-      "checkedAt": "2026-11-23T10:58:08.553Z",
+      "checkedAt": "2026-11-24T12:47:13.014Z",
       "finalUrl": "https://job-boards.greenhouse.io/cresta/jobs/5137153008",
       "httpStatus": 200,
       "pageTitle": "Job Application for Senior Infrastructure Engineer/SRE at Cresta",
@@ -110,7 +97,7 @@
       "company": "Sardine",
       "title": "Support Engineering Manager",
       "url": "https://jobs.ashbyhq.com/sardine/b9119961-806c-40d9-a38f-b9df69ecf684",
-      "checkedAt": "2026-11-23T10:58:12.894Z",
+      "checkedAt": "2026-11-24T12:47:17.389Z",
       "finalUrl": "https://jobs.ashbyhq.com/sardine/b9119961-806c-40d9-a38f-b9df69ecf684",
       "httpStatus": 200,
       "pageTitle": "Support Engineering Manager @ Sardine",
@@ -127,7 +114,7 @@
       "company": "Outside Inc.",
       "title": "Engineering Manager - Foundational Services",
       "url": "https://job-boards.greenhouse.io/outside/jobs/5324752008",
-      "checkedAt": "2026-11-23T10:58:17.753Z",
+      "checkedAt": "2026-11-24T12:47:22.989Z",
       "finalUrl": "https://www.outsideinc.com/openings/?gh_jid=5324752008",
       "httpStatus": 200,
       "pageTitle": "Outside Inc.",
@@ -136,28 +123,11 @@
       "evidence": "title \"Engineering Manager - Foundational Services\" shown on the page"
     },
     {
-      "id": "wd-cdw-r26-00002670",
-      "company": "CDW",
-      "title": "Manager, Engineering, Managed Services",
-      "url": "https://cdw.wd5.myworkdayjobs.com/careers/job/remote--usa/manager--engineering--managed-services---aix--unix---linux_r26_00002670",
-      "checkedAt": "2026-11-23T10:58:23.349Z",
-      "finalUrl": "https://cdw.wd5.myworkdayjobs.com/careers/job/remote--usa/manager--engineering--managed-services---aix--unix---linux_r26_00002670",
-      "httpStatus": 200,
-      "pageTitle": "Manager, Engineering, Managed Services – AIX, Unix & Linux",
-      "jsonLd": {
-        "title": "Manager, Engineering, Managed Services – AIX, Unix &amp; Linux",
-        "datePosted": "2026-10-03",
-        "validThrough": null
-      },
-      "outcome": "live",
-      "evidence": "title \"Manager, Engineering, Managed Services\" shown on the page"
-    },
-    {
       "id": "ashby-880c222b-faa8-4e86-8fe9-989b5cd2bd46",
       "company": "Harvey",
       "title": "Senior Infrastructure Engineer",
       "url": "https://jobs.ashbyhq.com/harvey/880c222b-faa8-4e86-8fe9-989b5cd2bd46",
-      "checkedAt": "2026-11-23T10:58:29.855Z",
+      "checkedAt": "2026-11-24T12:47:28.568Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/harvey/880c222b-faa8-4e86-8fe9-989b5cd2bd46",
       "httpStatus": 200,
@@ -176,7 +146,7 @@
       "company": "Nvidia",
       "title": "Senior Manager, AI and HPC Cluster Engineering Enablement",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--AI-and-HPC-Cluster-Engineering-Enablement_JR2028678-1",
-      "checkedAt": "2026-11-23T10:58:34.671Z",
+      "checkedAt": "2026-11-24T12:47:33.474Z",
       "captureText": true,
       "finalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Manager--AI-and-HPC-Cluster-Engineering-Enablement_JR2028678-1",
       "httpStatus": 200,
@@ -186,7 +156,7 @@
         "datePosted": "2026-11-19",
         "validThrough": null
       },
-      "pageText": "Skip to main content CAREERS AT NVIDIA Sign In Home Search for Jobs Senior Manager, AI and HPC Cluster Engineering Enablement page is loaded Senior Manager, AI and HPC Cluster Engineering Enablement Apply locations US, CA, Santa Clara US, NC, Remote US, TX, Remote US, CO, Remote US, WA, Remote View All 6 Locations time type Full time posted on Posted 4 Days Ago job requisition id JR2028678 NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It’s a unique legacy of innovation that’s fueled by great technology—and amazing people. Today, we’re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in an inclusive, supportive environment where everyone is inspired to do their best work. Come join the team and see how you can make a lasting impact on the world. NVIDIA is reshaping accelerated computing and AI infrastructure with advancements in GPUs, networking, software, and large-scale datacenter platforms. We seek a senior engineering manager to support our internal engineers in adopting next-generation AI/HPC clusters as they transition from initial setup to wider usage. Within Applied Systems Engineering, you will be responsible for cluster engineering support by growing the engineering community, creating hands-on training, and handling requests from engineering users and supporting teams. You will set up clear processes for intake, prioritization, ownership, and communication for requests. These will include onboarding, workload help, and access to experts for in-depth debugging. Your knowledge of large-scale infrastructure will enable you to identify needs, coordinate resources, and ensure progress on requests. You will partner with architecture, bringup, software, firmware, networking, storage, datacenter operations, performance, and program teams. The ideal candidate brings engineering leadership and operational experience in Linux-based HPC/AI environments. They excel at developing people, managing competing requests, and converting technical knowledge into effective training and support. What you'll be doing: Lead and grow a team dedicated to cluster engineering support, community involvement, training, and managing engineering requests. Develop a connected internal engineering community through onboarding, office hours, technical workshops, and knowledge sharing that help users work effectively on evolving AI/HPC platforms. Create practical training and documentation for cluster access, workload submission, GPU resource scheduling, shared storage, operational procedures, and submitting actionable support requests. Own the request intake and prioritization process: clarify the need, capture impact and priorities, identify dependencies, and maintain a transparent queue aligned with engineering achievements and available capacity. Coordinate requests that require specialist investigation, including deep-debug support. Connect requesters with the appropriate technical owners, agree on next steps, track progress, and bring up stalled requests. Partner with cluster operations and engineering teams on access, allocations, maintenance communications, and resource needs so users can plan and complete their work. Turn recurring questions, request patterns, and specialist findings into reusable guidance, training, and proposals for self-service tools or workflow improvements. Use request volume, response time, aging, completion trends, training participation, and user feedback to improve support quality and communicate priorities and capacity needs. What we need to see: BS, MS, or PhD in Computer Science, Computer Engineering, Electrical Engineering, Applied Science, or equivalent practical experience. 8+ years of experience in high-performance computing, AI infrastructure, datacenter systems, production engineering, or large-scale Linux environments. 5+ years of technical leadership or engineering management experience, including mentoring engineers, setting priorities, and delivering across organizational boundaries. Practical understanding of Linux clusters, GPU workload scheduling, cluster management, networking, servers, and large-scale shared storage, with the ability to understand technical requests and engage the right specialists. Experience coordinating engineering requests, support queues, or operational workflows, including prioritization, ownership, managing blocking issues, and communication through completion. Ability to translate complex infrastructure concepts into clear documentation, training, and guidance for engineers with different levels of experience. Strong collaboration and communication skills, with sound judgment when balancing user needs, engineering priorities, and resource constraints in an evolving hardware and software environment . Ways to stand out from the crowd: Experience designing or operating large HPC/AI clusters and supporting the engineers who depend on them, especially during early hardware, firmware, or software lifecycle phases. Experience with cluster management platforms and workload schedulers, GPU resource allocation, and large or petabyte-scale filesystems. Established success in forming engineering communities, induction programs, technical workshops, or peer learning activities that increase user self-sufficiency and performance. Experience improving request workflows across compute, networking, storage, and software teams, with clear handoffs, shared priorities, and measurable service improvements. Proven experience in developing inclusive teams that foster ownership, knowledge transfer, thoughtful decision-making, and career growth. NVIDIA is leading the way in groundbreaking developments in Artificial Intelligence, High-Performance Computing, and Visualization. Our invention serves as the visual cortex of modern computers and is at the heart of our products and services. Our work opens up new universes to explore, enables amazing creativity and discovery, and powers what were once science fiction inventions from artificial intelligence to autonomous cars. NVIDIA is seeking exceptional individuals like you to help us drive the next wave of artificial intelligence. NVIDIA is considered one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people on the planet working for us. If you are creative and autonomous, we want to hear from you! Your base salary will be determined based on your location, experience, and other objective job-related factors. The expected base salary ranges for this position are: 272,000 USD – 431,250 USD for Level 4; and 320,000 USD – 488,750 USD for Level 5. You will also be eligible for equity and benefits. Applications for this job will be accepted at least until November 23, 2026. This posting is for an existing vacancy. NVIDIA uses AI tools in its recruiting processes. NVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law. Similar Jobs (5) Senior Manager, Developer Tooling and QE locations US, CA, Santa Clara time type Full time posted on Posted 4 Days Ago Senior Manager, Network Automation and Intelligence Platforms locations US, CA, Santa Clara time type Full time posted on Posted 4 Days Ago Senior AI and HPC Observability Engineer locations 2 Locations time type Full time posted on Posted 4 Days Ago V",
+      "pageText": "Skip to main content CAREERS AT NVIDIA Sign In Home Search for Jobs Senior Manager, AI and HPC Cluster Engineering Enablement page is loaded Senior Manager, AI and HPC Cluster Engineering Enablement Apply locations US, CA, Santa Clara US, NC, Remote US, TX, Remote US, CO, Remote US, WA, Remote View All 6 Locations time type Full time posted on Posted 5 Days Ago job requisition id JR2028678 NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It’s a unique legacy of innovation that’s fueled by great technology—and amazing people. Today, we’re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in an inclusive, supportive environment where everyone is inspired to do their best work. Come join the team and see how you can make a lasting impact on the world. NVIDIA is reshaping accelerated computing and AI infrastructure with advancements in GPUs, networking, software, and large-scale datacenter platforms. We seek a senior engineering manager to support our internal engineers in adopting next-generation AI/HPC clusters as they transition from initial setup to wider usage. Within Applied Systems Engineering, you will be responsible for cluster engineering support by growing the engineering community, creating hands-on training, and handling requests from engineering users and supporting teams. You will set up clear processes for intake, prioritization, ownership, and communication for requests. These will include onboarding, workload help, and access to experts for in-depth debugging. Your knowledge of large-scale infrastructure will enable you to identify needs, coordinate resources, and ensure progress on requests. You will partner with architecture, bringup, software, firmware, networking, storage, datacenter operations, performance, and program teams. The ideal candidate brings engineering leadership and operational experience in Linux-based HPC/AI environments. They excel at developing people, managing competing requests, and converting technical knowledge into effective training and support. What you'll be doing: Lead and grow a team dedicated to cluster engineering support, community involvement, training, and managing engineering requests. Develop a connected internal engineering community through onboarding, office hours, technical workshops, and knowledge sharing that help users work effectively on evolving AI/HPC platforms. Create practical training and documentation for cluster access, workload submission, GPU resource scheduling, shared storage, operational procedures, and submitting actionable support requests. Own the request intake and prioritization process: clarify the need, capture impact and priorities, identify dependencies, and maintain a transparent queue aligned with engineering achievements and available capacity. Coordinate requests that require specialist investigation, including deep-debug support. Connect requesters with the appropriate technical owners, agree on next steps, track progress, and bring up stalled requests. Partner with cluster operations and engineering teams on access, allocations, maintenance communications, and resource needs so users can plan and complete their work. Turn recurring questions, request patterns, and specialist findings into reusable guidance, training, and proposals for self-service tools or workflow improvements. Use request volume, response time, aging, completion trends, training participation, and user feedback to improve support quality and communicate priorities and capacity needs. What we need to see: BS, MS, or PhD in Computer Science, Computer Engineering, Electrical Engineering, Applied Science, or equivalent practical experience. 8+ years of experience in high-performance computing, AI infrastructure, datacenter systems, production engineering, or large-scale Linux environments. 5+ years of technical leadership or engineering management experience, including mentoring engineers, setting priorities, and delivering across organizational boundaries. Practical understanding of Linux clusters, GPU workload scheduling, cluster management, networking, servers, and large-scale shared storage, with the ability to understand technical requests and engage the right specialists. Experience coordinating engineering requests, support queues, or operational workflows, including prioritization, ownership, managing blocking issues, and communication through completion. Ability to translate complex infrastructure concepts into clear documentation, training, and guidance for engineers with different levels of experience. Strong collaboration and communication skills, with sound judgment when balancing user needs, engineering priorities, and resource constraints in an evolving hardware and software environment . Ways to stand out from the crowd: Experience designing or operating large HPC/AI clusters and supporting the engineers who depend on them, especially during early hardware, firmware, or software lifecycle phases. Experience with cluster management platforms and workload schedulers, GPU resource allocation, and large or petabyte-scale filesystems. Established success in forming engineering communities, induction programs, technical workshops, or peer learning activities that increase user self-sufficiency and performance. Experience improving request workflows across compute, networking, storage, and software teams, with clear handoffs, shared priorities, and measurable service improvements. Proven experience in developing inclusive teams that foster ownership, knowledge transfer, thoughtful decision-making, and career growth. NVIDIA is leading the way in groundbreaking developments in Artificial Intelligence, High-Performance Computing, and Visualization. Our invention serves as the visual cortex of modern computers and is at the heart of our products and services. Our work opens up new universes to explore, enables amazing creativity and discovery, and powers what were once science fiction inventions from artificial intelligence to autonomous cars. NVIDIA is seeking exceptional individuals like you to help us drive the next wave of artificial intelligence. NVIDIA is considered one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people on the planet working for us. If you are creative and autonomous, we want to hear from you! Your base salary will be determined based on your location, experience, and other objective job-related factors. The expected base salary ranges for this position are: 272,000 USD – 431,250 USD for Level 4; and 320,000 USD – 488,750 USD for Level 5. You will also be eligible for equity and benefits. Applications for this job will be accepted at least until November 23, 2026. This posting is for an existing vacancy. NVIDIA uses AI tools in its recruiting processes. NVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law. Similar Jobs (5) Senior Manager, Developer Tooling and QE locations US, CA, Santa Clara time type Full time posted on Posted 5 Days Ago Senior Manager, Network Automation and Intelligence Platforms locations US, CA, Santa Clara time type Full time posted on Posted 5 Days Ago Senior AI and HPC Observability Engineer locations 2 Locations time type Full time posted on Posted 5 Days Ago V",
       "outcome": "live",
       "evidence": "title \"Senior Manager, AI and HPC Cluster Engineering Enablement\" shown on the page"
     },
@@ -195,7 +165,7 @@
       "company": "ai2io",
       "title": "Manager, Software Engineering, Engineering Tools",
       "url": "https://ats.rippling.com/ai2io/jobs/bd802924-69c3-41bd-98e7-f698f41dc4c8",
-      "checkedAt": "2026-11-23T10:58:42.279Z",
+      "checkedAt": "2026-11-24T12:47:40.011Z",
       "captureText": true,
       "finalUrl": "https://ats.rippling.com/ai2io/jobs/bd802924-69c3-41bd-98e7-f698f41dc4c8",
       "httpStatus": 200,
@@ -210,7 +180,7 @@
       "company": "Taivo",
       "title": "Senior Site Reliability Engineer",
       "url": "https://ats.rippling.com/mergeco/jobs/dd088c7a-21b5-4510-905f-ad13c90e207f",
-      "checkedAt": "2026-11-23T10:58:47.479Z",
+      "checkedAt": "2026-11-24T12:47:45.313Z",
       "captureText": true,
       "finalUrl": "https://ats.rippling.com/mergeco/jobs/dd088c7a-21b5-4510-905f-ad13c90e207f",
       "httpStatus": 200,
@@ -225,13 +195,13 @@
       "company": "Shippo",
       "title": "closed Rippling req (control)",
       "url": "https://ats.rippling.com/shippo/jobs/008fe5e9-5324-44b1-9fb6-35b2c0b56cd9",
-      "checkedAt": "2026-11-23T10:58:52.361Z",
+      "checkedAt": "2026-11-24T12:47:50.412Z",
       "captureText": true,
       "finalUrl": "https://ats.rippling.com/shippo/jobs",
       "httpStatus": 200,
       "pageTitle": "Shippo",
       "jsonLd": null,
-      "pageText": "Shippo 3 roles across all departments in all locations Engineering Software Engineer III, WebApp Engineering Remote (United States) View job Partnerships & Accounts Strategic Partnerships Manager, Ecommerce Platforms & Marketplaces Partnerships & Accounts Remote (United States) View job Product Staff Product Manager, Rating API Product Remote (United States) View job Terms of servicePrivacyCookiesPowered by Rippling Shippo This job post is no longer available",
+      "pageText": "Shippo 2 roles across all departments in all locations Partnerships & Accounts Strategic Partnerships Manager, Ecommerce Platforms & Marketplaces Partnerships & Accounts Remote (United States) View job Product Staff Product Manager, Rating API Product Remote (United States) View job Terms of servicePrivacyCookiesPowered by Rippling Shippo This job post is no longer available",
       "outcome": "closed_text",
       "evidence": "no longer available"
     },
@@ -240,7 +210,7 @@
       "company": "ClickHouse",
       "title": "Senior Site Reliability Engineer (US-Remote)",
       "url": "https://jobs.ashbyhq.com/clickhouse/6b2709a0-ee6b-481a-b72c-87a669acd055",
-      "checkedAt": "2026-11-23T10:58:57.970Z",
+      "checkedAt": "2026-11-24T12:47:56.193Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/clickhouse/6b2709a0-ee6b-481a-b72c-87a669acd055",
       "httpStatus": 200,
@@ -259,7 +229,7 @@
       "company": "Render",
       "title": "Cloud - Bare Metal Infrastructure Engineer",
       "url": "https://jobs.ashbyhq.com/render/a22230e6-803d-4e2e-82f8-ff5f500cdc3d",
-      "checkedAt": "2026-11-23T10:59:02.870Z",
+      "checkedAt": "2026-11-24T12:48:00.994Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/render/a22230e6-803d-4e2e-82f8-ff5f500cdc3d",
       "httpStatus": 200,
@@ -278,7 +248,7 @@
       "company": "1Password",
       "title": "Engineering Manager, Infrastructure (Device Trust)",
       "url": "https://jobs.ashbyhq.com/1password/f0100f8b-ca22-4cf3-abd8-fda500de8d9e",
-      "checkedAt": "2026-11-23T10:59:07.704Z",
+      "checkedAt": "2026-11-24T12:48:05.903Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/1password/f0100f8b-ca22-4cf3-abd8-fda500de8d9e",
       "httpStatus": 200,
@@ -297,7 +267,7 @@
       "company": "Oracle",
       "title": "Lead Principal Site Reliability Engineer",
       "url": "https://careers.oracle.com/en/sites/jobsearch/job/349270/",
-      "checkedAt": "2026-11-23T10:59:12.539Z",
+      "checkedAt": "2026-11-24T12:48:10.749Z",
       "captureText": true,
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/349270/",
       "httpStatus": 200,
@@ -312,7 +282,7 @@
       "company": "Quilter",
       "title": "Senior/Staff Platform Engineer, Enterprise Deployments",
       "url": "https://jobs.ashbyhq.com/quilter/057e613a-e6fa-4445-a6c6-132ddd091c65",
-      "checkedAt": "2026-11-23T10:59:19.989Z",
+      "checkedAt": "2026-11-24T12:48:19.454Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/quilter/057e613a-e6fa-4445-a6c6-132ddd091c65",
       "httpStatus": 200,
@@ -331,7 +301,7 @@
       "company": "Horizon3.ai",
       "title": "Senior/Staff Platform Engineer",
       "url": "https://jobs.ashbyhq.com/horizon3ai/079c71cc-2203-46da-97d2-e39a6e9eb8c9",
-      "checkedAt": "2026-11-23T10:59:24.691Z",
+      "checkedAt": "2026-11-24T12:48:24.289Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/horizon3ai/079c71cc-2203-46da-97d2-e39a6e9eb8c9",
       "httpStatus": 200,
@@ -350,7 +320,7 @@
       "company": "Code for America",
       "title": "Engineering Manager",
       "url": "https://boards.greenhouse.io/codeforamerica/jobs/8188432",
-      "checkedAt": "2026-11-23T10:59:29.393Z",
+      "checkedAt": "2026-11-24T12:48:29.200Z",
       "captureText": true,
       "finalUrl": "https://job-boards.greenhouse.io/codeforamerica/jobs/8188432",
       "httpStatus": 200,
@@ -365,7 +335,7 @@
       "company": "Murmuration",
       "title": "Senior Manager, Software Engineering",
       "url": "https://apply.workable.com/murmuration/j/FE8E2BAA25",
-      "checkedAt": "2026-11-23T10:59:34.056Z",
+      "checkedAt": "2026-11-24T12:48:33.884Z",
       "captureText": true,
       "finalUrl": "https://apply.workable.com/murmuration/j/FE8E2BAA25",
       "httpStatus": 200,
@@ -384,13 +354,13 @@
       "company": "Priority Technology Holdings",
       "title": "Manager, Engineering",
       "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=94f16522-9f0f-4a13-b72c-b0eaf60d119d&ccId=19000101_000001&jobId=613656",
-      "checkedAt": "2026-11-23T10:59:39.182Z",
+      "checkedAt": "2026-11-24T12:48:39.133Z",
       "captureText": true,
       "finalUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=94f16522-9f0f-4a13-b72c-b0eaf60d119d&ccId=19000101_000001&jobId=613656",
       "httpStatus": 200,
       "pageTitle": "Career Center | Recruitment",
       "jsonLd": null,
-      "pageText": "Join Our Talent Community If you are unable to complete this application due to a disability, contact this employer to ask for an accommodation or an alternative application process. Manager, Engineering Full Time Management Remote, US 17 days ago Requisition ID: 2146 Apply Job title: Manager, Engineering - Merchant Capabilities Reports to: Director, Engineering Department: Central Services Location: Waterloo, Ontario, Canada/United States About Priority: Priority Commerce is a leading financial technology company on a mission to deliver a personalized, easy-to-adopt financial toolset that accelerates cash flow and optimizes working capital for businesses. Our vision is to eliminate the barriers to unlocking revenue - empowering businesses to grow faster and operate smarter. We achieve this through the Priority Commerce Engine, an innovative platform that combines payables, acquiring, and banking and treasury solutions. This unified approach allows businesses to streamline financial operations, reduce unnecessary costs, and uncover new revenue opportunities. At Priority Commerce, we're driven by results. We expect our people to be known for results - bringing expertise, momentum, and relentless focus to every challenge, helping our clients and each other thrive. About the Role: What you'll own The Merchant Capabilities team owns MX Merchant, the product merchants use to run the money side of their business every day: payments, terminals, invoices, payment links, customers, card vaults, recurring billing, receipts, reporting, and the sign-in and account experience around it all. What you'll be building We’re modernizing MX Merchant from the front door. That means seamless sign-in with passkeys and trusted devices, PCI security, new self-serve account settings, and the next generation of payment links built on the embedded checkout widget. How we work Engineers own their work from pull requests through QA handover and release. QA engineers drive regression and risk, and an SDET owns the automation platform that checks our flows at scale. AI-assisted development is part of how we build. We share our own AI skills for things like release documentation, and we ship in two-week sprints with regular demos. Who you’ll work with Full-stack engineers working across the .NET and Node.js codebases. They’re led by an engineering manager who owns the domain, and supported by dedicated QA engineers, an SDET, and embedded product managers and design. You’ll also partner closely with the Commerce Engine, Core Platform, and Customer Care teams. The role One team (or a few) — its delivery, its people, its standards — performs because you own all of it, full time. You'll manage one to several teams as a full-time craft; the team's performance is your contribution, and the leverage flows through judgment, hiring, coaching, standards, and the conditions you create, not your own commits. You can still pick up the keyboard when the work genuinely calls for it — you just won't lean on it as your contribution. Responsibilities: Craft — Hiring, feedback, and performance management operate as a system, not events: the bar is consistent, the assessments are honest, and underperformance is addressed early and directly. Can interrogate a design and hold the technical bar in any conversation — and the team's senior engineer would say so. AI-native practice is a team standard with expectations, not an encouraged option. Impact — The team delivers predictably and sustainably; commitments to product, design, and business partners hold, and they're trusted because they keep holding. The team's outcomes — the metrics it exists to move — move on the manager's watch, in partnership with their Product and Design peers. The team is instrumented through the company's engineering management platform — the outcomes it exists to move, the paired delivery-and-quality signals beneath them (a speed signal only counts when its quality pair held), and the activity beneath those — and improves on what it measures, with the fix nameable. A metric that improved while its outcome didn't is a flag, not a win. Ownership — Owns the team's operational health: ensures SLO coverage exists for the team's services and is honored, deploy frequency and lead time improve, on-call stays humane, and the team never ships untested work downstream as someone else's problem. During high-pressure moments, orchestrates the response — outward communication, decision-making, protecting the team's ability to recover — owns the response and ensures it's led well. They actively identify the team's single points of failure — including themselves — and close them: named shadows, deliberate rotation, documented knowledge. Influence — Engineers grow into and beyond their levels. Some grow past the manager, into roles the manager championed. Measured on the team's outcomes alongside the team's senior engineer, each through their own lever: the manager owns delivery, people, and conditions; the senior engineer owns technical direction — respected and amplified, never overridden. Judgment — Knows when to protect the team and when to push it; when to pick up the keyboard and when doing so would steal the growth moment; which battles to escalate and which to absorb. Debt and platform work get real roadmap space because the manager makes the tradeoff explicit rather than silently mortgaging the future. What Success Looks Like: You'll be succeeding when commitments hold quarter after quarter, your hires raise the bar, an underperformance case was handled early and fairly, engineers you developed now operate a level up — and no part of the team's operation depends on a single head — including yours. Candidate Requirements: Experience managing engineers full time — hiring, performance, and delivery accountability. Sufficient technical depth to hold the bar in design reviews, incidents, and roadmap debates. Typically ~7+ years of experience including people leadership — a guide, never a gate. Strong technical background in .NET systems and Node.js/JavaScript applications, sufficient to evaluate designs and operational health (data-access performance, messaging, resilience). Experience managing legacy modernization as a delivery program (.NET Framework to modern .NET). Fluency in the operational side of the stack: API contracts, Kafka, observability, reliability patterns. Experience running hiring processes for .NET and Node.js engineers and maintaining a high technical bar. Experience partnering effectively with senior technical leaders (Staff+ engineer). Nice to Have Advanced degree (Master's or PhD) in Computer Science, Computer Engineering, or a related quantitative field; a specialization or applied experience in AI/ML is a plus. Prior individual-contributor experience as a Senior or Staff .NET engineer. What’s Preferred Experience in payments, banking, or another regulated financial-services domain — systems that move money, store cardholder data, or touch card network/ACH rails. Familiarity with PCI DSS (especially audit-trail, logging, and access-control requirements) or adjacent frameworks like SOC 2 Type II and SOX IT general controls (change management, access reviews, log retention). Experience with fraud detection, chargebacks/disputes, reconciliation, or AML/KYC systems. Work Environment & Culture: We believe that performance and experience go hand in hand - an exceptional employee experience is earned through contribution. We are a results-driven team, grounded in our core values: ownership, authenticity, service, trust, innovation, and camaraderie. Our culture is built for those who want to make an impact. We challenge each other to grow, celebrate progress, and support one another through shared goals and real connection. Whether you're building technology, serving clients, or supporting internal teams, you’ll be part of a company that empowers you to perform at your best and be known for results. Compensation and Benefits",
+      "pageText": "Join Our Talent Community If you are unable to complete this application due to a disability, contact this employer to ask for an accommodation or an alternative application process. Manager, Engineering Full Time Management Remote, US 18 days ago Requisition ID: 2146 Apply Job title: Manager, Engineering - Merchant Capabilities Reports to: Director, Engineering Department: Central Services Location: Waterloo, Ontario, Canada/United States About Priority: Priority Commerce is a leading financial technology company on a mission to deliver a personalized, easy-to-adopt financial toolset that accelerates cash flow and optimizes working capital for businesses. Our vision is to eliminate the barriers to unlocking revenue - empowering businesses to grow faster and operate smarter. We achieve this through the Priority Commerce Engine, an innovative platform that combines payables, acquiring, and banking and treasury solutions. This unified approach allows businesses to streamline financial operations, reduce unnecessary costs, and uncover new revenue opportunities. At Priority Commerce, we're driven by results. We expect our people to be known for results - bringing expertise, momentum, and relentless focus to every challenge, helping our clients and each other thrive. About the Role: What you'll own The Merchant Capabilities team owns MX Merchant, the product merchants use to run the money side of their business every day: payments, terminals, invoices, payment links, customers, card vaults, recurring billing, receipts, reporting, and the sign-in and account experience around it all. What you'll be building We’re modernizing MX Merchant from the front door. That means seamless sign-in with passkeys and trusted devices, PCI security, new self-serve account settings, and the next generation of payment links built on the embedded checkout widget. How we work Engineers own their work from pull requests through QA handover and release. QA engineers drive regression and risk, and an SDET owns the automation platform that checks our flows at scale. AI-assisted development is part of how we build. We share our own AI skills for things like release documentation, and we ship in two-week sprints with regular demos. Who you’ll work with Full-stack engineers working across the .NET and Node.js codebases. They’re led by an engineering manager who owns the domain, and supported by dedicated QA engineers, an SDET, and embedded product managers and design. You’ll also partner closely with the Commerce Engine, Core Platform, and Customer Care teams. The role One team (or a few) — its delivery, its people, its standards — performs because you own all of it, full time. You'll manage one to several teams as a full-time craft; the team's performance is your contribution, and the leverage flows through judgment, hiring, coaching, standards, and the conditions you create, not your own commits. You can still pick up the keyboard when the work genuinely calls for it — you just won't lean on it as your contribution. Responsibilities: Craft — Hiring, feedback, and performance management operate as a system, not events: the bar is consistent, the assessments are honest, and underperformance is addressed early and directly. Can interrogate a design and hold the technical bar in any conversation — and the team's senior engineer would say so. AI-native practice is a team standard with expectations, not an encouraged option. Impact — The team delivers predictably and sustainably; commitments to product, design, and business partners hold, and they're trusted because they keep holding. The team's outcomes — the metrics it exists to move — move on the manager's watch, in partnership with their Product and Design peers. The team is instrumented through the company's engineering management platform — the outcomes it exists to move, the paired delivery-and-quality signals beneath them (a speed signal only counts when its quality pair held), and the activity beneath those — and improves on what it measures, with the fix nameable. A metric that improved while its outcome didn't is a flag, not a win. Ownership — Owns the team's operational health: ensures SLO coverage exists for the team's services and is honored, deploy frequency and lead time improve, on-call stays humane, and the team never ships untested work downstream as someone else's problem. During high-pressure moments, orchestrates the response — outward communication, decision-making, protecting the team's ability to recover — owns the response and ensures it's led well. They actively identify the team's single points of failure — including themselves — and close them: named shadows, deliberate rotation, documented knowledge. Influence — Engineers grow into and beyond their levels. Some grow past the manager, into roles the manager championed. Measured on the team's outcomes alongside the team's senior engineer, each through their own lever: the manager owns delivery, people, and conditions; the senior engineer owns technical direction — respected and amplified, never overridden. Judgment — Knows when to protect the team and when to push it; when to pick up the keyboard and when doing so would steal the growth moment; which battles to escalate and which to absorb. Debt and platform work get real roadmap space because the manager makes the tradeoff explicit rather than silently mortgaging the future. What Success Looks Like: You'll be succeeding when commitments hold quarter after quarter, your hires raise the bar, an underperformance case was handled early and fairly, engineers you developed now operate a level up — and no part of the team's operation depends on a single head — including yours. Candidate Requirements: Experience managing engineers full time — hiring, performance, and delivery accountability. Sufficient technical depth to hold the bar in design reviews, incidents, and roadmap debates. Typically ~7+ years of experience including people leadership — a guide, never a gate. Strong technical background in .NET systems and Node.js/JavaScript applications, sufficient to evaluate designs and operational health (data-access performance, messaging, resilience). Experience managing legacy modernization as a delivery program (.NET Framework to modern .NET). Fluency in the operational side of the stack: API contracts, Kafka, observability, reliability patterns. Experience running hiring processes for .NET and Node.js engineers and maintaining a high technical bar. Experience partnering effectively with senior technical leaders (Staff+ engineer). Nice to Have Advanced degree (Master's or PhD) in Computer Science, Computer Engineering, or a related quantitative field; a specialization or applied experience in AI/ML is a plus. Prior individual-contributor experience as a Senior or Staff .NET engineer. What’s Preferred Experience in payments, banking, or another regulated financial-services domain — systems that move money, store cardholder data, or touch card network/ACH rails. Familiarity with PCI DSS (especially audit-trail, logging, and access-control requirements) or adjacent frameworks like SOC 2 Type II and SOX IT general controls (change management, access reviews, log retention). Experience with fraud detection, chargebacks/disputes, reconciliation, or AML/KYC systems. Work Environment & Culture: We believe that performance and experience go hand in hand - an exceptional employee experience is earned through contribution. We are a results-driven team, grounded in our core values: ownership, authenticity, service, trust, innovation, and camaraderie. Our culture is built for those who want to make an impact. We challenge each other to grow, celebrate progress, and support one another through shared goals and real connection. Whether you're building technology, serving clients, or supporting internal teams, you’ll be part of a company that empowers you to perform at your best and be known for results. Compensation and Benefits",
       "outcome": "live",
       "evidence": "title \"Manager, Engineering\" shown on the page"
     },
@@ -399,7 +369,7 @@
       "company": "Runpod",
       "title": "Site Reliability Engineer",
       "url": "https://jobs.ashbyhq.com/runpod/1d14340c-c9bd-4754-80f4-5c83980cd413",
-      "checkedAt": "2026-11-23T10:59:46.530Z",
+      "checkedAt": "2026-11-24T12:48:47.020Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/runpod/1d14340c-c9bd-4754-80f4-5c83980cd413",
       "httpStatus": 200,
@@ -418,7 +388,7 @@
       "company": "Honor",
       "title": "Staff Platform Engineer - Infra + DevOps",
       "url": "https://boards.greenhouse.io/honor/jobs/8936789002",
-      "checkedAt": "2026-11-23T10:59:51.338Z",
+      "checkedAt": "2026-11-24T12:48:51.884Z",
       "captureText": true,
       "finalUrl": "https://job-boards.greenhouse.io/honor/jobs/8936789002",
       "httpStatus": 200,
@@ -433,7 +403,7 @@
       "company": "1Password",
       "title": "Senior Manager, Infrastructure Security",
       "url": "https://jobs.ashbyhq.com/1password/21ed0b81-f2e7-47cf-8f8b-74d2fd2790c1",
-      "checkedAt": "2026-11-23T10:59:55.810Z",
+      "checkedAt": "2026-11-24T12:48:56.343Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/1password/21ed0b81-f2e7-47cf-8f8b-74d2fd2790c1",
       "httpStatus": 200,
@@ -452,7 +422,7 @@
       "company": "ServiceNow",
       "title": "Senior Staff DevOps Engineer - Flow",
       "url": "https://jobs.smartrecruiters.com/ServiceNow/744000160985589",
-      "checkedAt": "2026-11-23T11:00:00.664Z",
+      "checkedAt": "2026-11-24T12:49:01.074Z",
       "captureText": true,
       "finalUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000160985589",
       "httpStatus": 200,
@@ -467,7 +437,7 @@
       "company": "ClickHouse (Langfuse)",
       "title": "Langfuse - Senior Cloud Infra Engineer",
       "url": "https://jobs.ashbyhq.com/clickhouse/39e42a38-1cbf-40c7-b373-717b4cdddbac",
-      "checkedAt": "2026-11-23T11:00:05.540Z",
+      "checkedAt": "2026-11-24T12:49:05.980Z",
       "captureText": true,
       "finalUrl": "https://jobs.ashbyhq.com/clickhouse/39e42a38-1cbf-40c7-b373-717b4cdddbac",
       "httpStatus": 200,
@@ -486,7 +456,7 @@
       "company": "DTCC",
       "title": "Systems Engineering Principal",
       "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213437/",
-      "checkedAt": "2026-11-23T11:00:10.438Z",
+      "checkedAt": "2026-11-24T12:49:10.740Z",
       "captureText": true,
       "finalUrl": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213437/",
       "httpStatus": 200,
@@ -501,12 +471,16 @@
       "company": "DTCC",
       "title": "Platform Engineering Senior Associate",
       "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/215117/",
-      "checkedAt": "2026-11-23T11:00:17.649Z",
+      "checkedAt": "2026-11-24T12:49:17.965Z",
       "captureText": true,
       "finalUrl": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/215117/",
       "httpStatus": 200,
       "pageTitle": "Platform Engineering Senior Associate - DTCC Candidate Experience Site Careers",
-      "jsonLd": null,
+      "jsonLd": {
+        "title": "Platform Engineering Senior Associate",
+        "datePosted": "2026-10-27T17:42:18.000Z",
+        "validThrough": null
+      },
       "pageText": "Skip to main content. View More Jobs Platform Engineering Senior Associate Tampa, FL, United States and 2 more TRENDING APPLY NOW JOB INFO Job Identification 215117 Job Category Information Technology Posting Date 10/27/2026, 05:42 PM Locations 18301 Bermuda Green Dr, Tampa, FL, 33647, US 55 Thomson Place, Boston, MA, 02210, US 570 Washington Blvd, Jersey City, NJ, 07310, US 1315 S Belt Line Road, Coppell, TX, 75019, US Job Schedule Full time Salary Range Senior Associate-75,000-150,000-USD Featured Opportunities No FLSA Status Exempt JOB DESCRIPTION Are you ready to make an impact at DTCC? Do you want to work on innovative projects, collaborate with a dynamic and supportive team, and receive investment in your professional development? At DTCC, we are at the forefront of innovation in the financial markets. We are committed to helping our employees grow and succeed. We believe that you have the skills and drive to make a real impact. We foster a thriving internal community and are committed to creating a workplace that looks like the world that we serve. The Information Technology group delivers secure, reliable technology solutions that enable DTCC to be the trusted infrastructure of the global capital markets. The team delivers high-quality information through activities that include development of essential, building infrastructure capabilities to meet client needs and implementing data standards and governance. Pay and Benefits: Competitive compensation, including base pay and annual incentive Comprehensive health and life insurance and well-being benefits, based on location Pension / Retirement benefits Paid Time Off and Personal/Family Care, and other leaves of absence when needed to support your physical, financial, and emotional well-being. DTCC offers a flexible/hybrid model of 3 days onsite and 2 days remote (onsite Tuesdays, Wednesdays and a third day unique to each team or employee). Senior Associate - Container as a Service (CaaS) Governance & Security is a hands-on engineering and security role focused on helping application teams deploy and operate containerized workloads safely and reliably on DTCC's Kubernetes and OpenShift platforms. The ideal candidate brings a strong application development, application support, or application security background and uses that perspective to diagnose complex issues across application code, build pipelines, container images, platform controls, and runtime behavior. This role is well suited for a tenacious problem solver who is curious, methodical, and willing to dig beyond the first symptom. Success requires following issues through logs, configurations, dependencies, policies, and team boundaries until the root cause is understood and a durable solution is implemented. The Impact you will have in this role: You will serve as a technical bridge between application teams, Platform Engineering, Cybersecurity, and Risk. You will help teams resolve difficult onboarding and runtime problems, translate application requirements into secure platform patterns, and ensure governance controls are practical, automated, and consistently applied. Your work will improve developer experience, platform resilience, and security posture by reducing repeat incidents, accelerating root-cause analysis, and converting lessons learned into reusable standards, automation, documentation, and preventive controls. Your Primary Responsibilities: Apply secure software development lifecycle practices to containerized applications and delivery pipelines Guide teams in remediating vulnerabilities, insecure configurations, exposed secrets, weak access patterns, and dependency risks Establish controls for image scanning, signing, provenance, approved registries, and image immutability Provide practical guidance on API security, workload identity, RBAC, secrets management, network policy, and cloud-native threat models Integrate security checks into CI/CD and GitOps workflows with clear feedback and actionable remediation paths Define and enforce Kubernetes and OpenShift governance standards for configuration, access, workload isolation, and compliance Implement and maintain centralized policy controls using RHACM, RHACS, admission controllers, and policy-as-code patterns Test policies against representative application workloads to minimize unintended disruption while maintaining control objectives Translate recurring incidents and findings into automated guardrails, validated platform patterns, and reusable documentation Translate internal control and regulatory requirements into measurable technical controls and evidence Support audits, control validation, finding remediation, risk acceptance, and vulnerability-management activities Develop dashboards and metrics for policy compliance, vulnerabilities, exceptions, remediation aging, and platform risk Contribute to cluster lifecycle activities, configuration validation, patch readiness, and production support Create runbooks, troubleshooting guides, reference implementations, and knowledge-transfer material; mentor engineers and application teams Investigate complex application and platform issues involving container startup, networking, routes, services, storage, identity, certificates, secrets, resource constraints, and CI/CD integrations Use application logs, Kubernetes events, metrics, traces, deployment manifests, and platform audit data to isolate root causes and validate corrective actions Partner directly with application teams during onboarding, migrations, production incidents, and recurring failure analysis Distinguish application defects from platform, security-control, infrastructure, and dependency issues, then coordinate resolution across the appropriate teams Drive issues to durable closure by documenting root cause, corrective action, preventive controls, and follow-up ownership Qualifications: Minimum of 6 years of related experience Bachelor's degree preferred or equivalent experience Talents Needed for Success: 5+ years of experience in application development, application support, site reliability, DevSecOps, or application security Hands-on experience troubleshooting distributed applications in Linux and containerized environments 3+ years of experience with Kubernetes, OpenShift, or another cloud-native application platform Ability to read and troubleshoot application code or scripts in at least one language such as Java, Python, Go, JavaScript/TypeScript, or shell Working proficiency with YAML, Git, CI/CD pipelines, REST APIs, and infrastructure or policy as code Experience diagnosing issues using logs, metrics, traces, events, and deployment/configuration artifacts Strong understanding of container images, networking, IAM/RBAC, secrets, certificates, and vulnerability remediation Experience with Red Hat OpenShift, RHACS, RHACM, OpenShift GitOps, and Ansible Automation Platform Experience with Aqua Security, Wiz, StackRox/RHACS, HashiCorp Vault, or comparable security platforms Experience supporting application modernization or migration from virtual machines to containers Familiarity with service meshes, ingress/egress controls, observability platforms, and software supply-chain security Knowledge of CIS Kubernetes Benchmarks, NIST guidance, OWASP practices, and financial-services control environments Experience building reusable automation, diagnostic tooling, or self-service platform capabilities Clear written and verbal communication, including the ability to explain root cause and remediation to both engineers and risk stakeholders Tenacious problem solving: persists through ambiguity, tests hypotheses, and follows evidence until the underlying cause is found Application-first thinking: understands how code, dependencies, configuration, pipelines, and runtime platforms interact Intellectual curiosity: asks effective questions, learns unfamiliar technologies quickly, and challenges incomplete explanations Systems thinking: recognizes cross-layer failu",
       "outcome": "live",
       "evidence": "title \"Platform Engineering Senior Associate\" shown on the page"
@@ -516,17 +490,13 @@
       "company": "DTCC",
       "title": "Release Management Senior Associate",
       "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214695/",
-      "checkedAt": "2026-11-23T11:00:24.157Z",
+      "checkedAt": "2026-11-24T12:49:25.083Z",
       "captureText": true,
       "finalUrl": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214695/",
       "httpStatus": 200,
       "pageTitle": "Release Management Senior Associate - DTCC Candidate Experience Site Careers",
-      "jsonLd": {
-        "title": "Release Management Senior Associate",
-        "datePosted": "2026-09-18T15:35:33.000Z",
-        "validThrough": null
-      },
-      "pageText": "Skip to main content. View More Jobs Release Management Senior Associate Boston, MA, United States and 1 more BE THE FIRST TO APPLY APPLY NOW JOB INFO Job Identification 214695 Job Category Information Technology Posting Date 09/18/2026, 03:35 PM Locations 55 Thomson Place, Boston, MA, 02210, US 570 Washington Blvd, Jersey City, NJ, 07310, US 18301 Bermuda Green Dr, Tampa, FL, 33647, US 1315 S Belt Line Road, Coppell, TX, 75019, US Job Schedule Full time Salary Range Senior Associate-75,000-150,000-USD Featured Opportunities No FLSA Status Exempt JOB DESCRIPTION Are you ready to make an impact at DTCC? Do you want to work on innovative projects, collaborate with a dynamic and supportive team, and receive investment in your professional development? At DTCC, we are at the forefront of innovation in the financial markets. We are committed to helping our employees grow and succeed. We believe that you have the skills and drive to make a real impact. We foster a thriving internal community and are committed to creating a workplace that looks like the world that we serve. The Information Technology group delivers secure, reliable technology solutions that enable DTCC to be the trusted infrastructure of the global capital markets. The team delivers high-quality information through activities that include development of essential, building infrastructure capabilities to meet client needs and implementing data standards and governance. Pay and Benefits: Competitive compensation, including base pay and annual incentive Comprehensive health and life insurance and well-being benefits, based on location Pension / Retirement benefits Paid Time Off and Personal/Family Care, and other leaves of absence when needed to support your physical, financial, and emotional well-being. DTCC offers a flexible/hybrid model of 3 days onsite and 2 days remote (onsite Tuesdays, Wednesdays and a third day unique to each team or employee). The Impact you will have in this role: The Release Management Senior Associate is responsible for coordinating, controlling, and executing software deployments across Production and PSE environments while ensuring adherence to Change Management and Release Management policies, operational controls, and audit requirements. This role serves as a key member of the Release Management team, supporting both planned migrations and emergency implementation activities for critical business applications. The successful candidate will work closely with Application Development, Infrastructure, Change Management, Production Support, and Business stakeholders to ensure timely and accurate code migrations while maintaining platform stability and minimizing operational risk. Your Primary Responsibilities: Coordinate and execute software deployments across multiple environments in accordance with Change Management and Release Management procedures. Support Normal and Emergency implementations for Production and PSE distributed platforms. Validate implementation readiness, deployment plans, rollback procedures, approvals, and testing evidence. Monitor and document deployment activities to ensure successful execution and compliance with operational controls. Perform deployment rollback and recovery activities when required. Support incident response, Major Incident Management (MIM), and troubleshooting efforts during deployment-related issues. Maintain operational documentation, procedures, and audit evidence. Leverage Microsoft Copilot, Kiro, and approved AI technologies to improve deployment planning, troubleshooting, documentation, reporting, and operational efficiency. Assist with training and provide guidance to team members and new hires. Support post-implementation reviews, root cause analysis activities, and corrective action initiatives. Participate in audits, regulatory reviews, and operational risk assessments. Contribute to strategic Change & Release Management modernization initiatives. Qualifications: Minimum of 6 years of related experience Bachelor's degree preferred or equivalent experience Talents Needed for Success: 6+ years of experience in Release Management, Change Management, Production Support, DevOps, Site Reliability Engineering, or a related technology discipline. Strong understanding of software release management, deployment methodologies, and SDLC practices. Experience supporting mission-critical production environments. Strong troubleshooting, analytical, and problem-solving skills. Knowledge of operational risk controls, governance practices, and audit requirements. Excellent communication and stakeholder management skills. Ability to coordinate activities across multiple technical teams in a fast-paced operational environment. ServiceNow Linux/Unix administration and command-line operations. Shell scripting, Bash, PowerShell, Python, or similar scripting languages. Jenkins GitHub, Bitbucket, or Azure DevOps Ansible Kubernetes, OpenShift, Docker Jira and Confluence SonarQube Artifactory Microsoft Copilot and Microsoft 365 Copilot Kiro CI/CD concepts and deployment automation practices. Source code management and version control systems. Application, infrastructure, and deployment troubleshooting. Log analysis and operational diagnostics. Experience supporting financial services or other highly regulated industries. Experience with ServiceNow Change and Release Management processes. Familiarity with DevSecOps practices and secure software delivery pipelines. Experience supporting distributed and/or mainframe deployment environments. ITIL, DevOps, Agile, Cloud, or related industry certifications. Successful execution of deployments with minimal business or customer impact. Adherence to Change Management, Release Execution, audit, and risk controls. Reduction in deployment-related incidents and implementation failures. Increased adoption of automation and AI-enabled operational capabilities. Timely resolution of deployment issues and operational incidents. Positive audit outcomes and high-quality operational documentation. Demonstrated leadership, mentoring, and continuous improvement contributions. The salary range is indicative for roles at the same level within DTCC across all US locations. Actual salary is determined based on the role, location, individual experience, skills, and other considerations. We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, or disability status. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation. ABOUT US With over 50 years of experience, DTCC is the premier post-trade market infrastructure for the global financial services industry. From 20 locations around the world, DTCC, through its subsidiaries, automates, centralizes, and standardizes the processing of financial transactions, mitigating risk, increasing transparency, enhancing performance and driving efficiency for thousands of broker/dealers, custodian banks and asset managers. Industry owned and governed, the firm innovates purposefully, simplifying the complexities of clearing, settlement, asset servicing, transaction processing, trade reporting and data services across asset classes, bringing enhanced resilience and soundness to existing financial markets while advancing the digital asset ecosystem. In 2024, DTCC’s subsidiaries processed securities transactions valued at U.S. $3.7 quadrillion and its depository subsidiary provided custody and asset servicing for securities issues from over 150 countries and territories valued at U.S. $99 trillion. DTCC’s Global Trade Repository service, through locally registered, licensed, o",
+      "jsonLd": null,
+      "pageText": "Skip to main content. View More Jobs Release Management Senior Associate Boston, MA, United States and 1 more APPLY NOW JOB INFO Job Identification 214695 Job Category Information Technology Posting Date 09/18/2026, 03:35 PM Locations 55 Thomson Place, Boston, MA, 02210, US 570 Washington Blvd, Jersey City, NJ, 07310, US 18301 Bermuda Green Dr, Tampa, FL, 33647, US 1315 S Belt Line Road, Coppell, TX, 75019, US Job Schedule Full time Salary Range Senior Associate-75,000-150,000-USD Featured Opportunities No FLSA Status Exempt JOB DESCRIPTION Are you ready to make an impact at DTCC? Do you want to work on innovative projects, collaborate with a dynamic and supportive team, and receive investment in your professional development? At DTCC, we are at the forefront of innovation in the financial markets. We are committed to helping our employees grow and succeed. We believe that you have the skills and drive to make a real impact. We foster a thriving internal community and are committed to creating a workplace that looks like the world that we serve. The Information Technology group delivers secure, reliable technology solutions that enable DTCC to be the trusted infrastructure of the global capital markets. The team delivers high-quality information through activities that include development of essential, building infrastructure capabilities to meet client needs and implementing data standards and governance. Pay and Benefits: Competitive compensation, including base pay and annual incentive Comprehensive health and life insurance and well-being benefits, based on location Pension / Retirement benefits Paid Time Off and Personal/Family Care, and other leaves of absence when needed to support your physical, financial, and emotional well-being. DTCC offers a flexible/hybrid model of 3 days onsite and 2 days remote (onsite Tuesdays, Wednesdays and a third day unique to each team or employee). The Impact you will have in this role: The Release Management Senior Associate is responsible for coordinating, controlling, and executing software deployments across Production and PSE environments while ensuring adherence to Change Management and Release Management policies, operational controls, and audit requirements. This role serves as a key member of the Release Management team, supporting both planned migrations and emergency implementation activities for critical business applications. The successful candidate will work closely with Application Development, Infrastructure, Change Management, Production Support, and Business stakeholders to ensure timely and accurate code migrations while maintaining platform stability and minimizing operational risk. Your Primary Responsibilities: Coordinate and execute software deployments across multiple environments in accordance with Change Management and Release Management procedures. Support Normal and Emergency implementations for Production and PSE distributed platforms. Validate implementation readiness, deployment plans, rollback procedures, approvals, and testing evidence. Monitor and document deployment activities to ensure successful execution and compliance with operational controls. Perform deployment rollback and recovery activities when required. Support incident response, Major Incident Management (MIM), and troubleshooting efforts during deployment-related issues. Maintain operational documentation, procedures, and audit evidence. Leverage Microsoft Copilot, Kiro, and approved AI technologies to improve deployment planning, troubleshooting, documentation, reporting, and operational efficiency. Assist with training and provide guidance to team members and new hires. Support post-implementation reviews, root cause analysis activities, and corrective action initiatives. Participate in audits, regulatory reviews, and operational risk assessments. Contribute to strategic Change & Release Management modernization initiatives. Qualifications: Minimum of 6 years of related experience Bachelor's degree preferred or equivalent experience Talents Needed for Success: 6+ years of experience in Release Management, Change Management, Production Support, DevOps, Site Reliability Engineering, or a related technology discipline. Strong understanding of software release management, deployment methodologies, and SDLC practices. Experience supporting mission-critical production environments. Strong troubleshooting, analytical, and problem-solving skills. Knowledge of operational risk controls, governance practices, and audit requirements. Excellent communication and stakeholder management skills. Ability to coordinate activities across multiple technical teams in a fast-paced operational environment. ServiceNow Linux/Unix administration and command-line operations. Shell scripting, Bash, PowerShell, Python, or similar scripting languages. Jenkins GitHub, Bitbucket, or Azure DevOps Ansible Kubernetes, OpenShift, Docker Jira and Confluence SonarQube Artifactory Microsoft Copilot and Microsoft 365 Copilot Kiro CI/CD concepts and deployment automation practices. Source code management and version control systems. Application, infrastructure, and deployment troubleshooting. Log analysis and operational diagnostics. Experience supporting financial services or other highly regulated industries. Experience with ServiceNow Change and Release Management processes. Familiarity with DevSecOps practices and secure software delivery pipelines. Experience supporting distributed and/or mainframe deployment environments. ITIL, DevOps, Agile, Cloud, or related industry certifications. Successful execution of deployments with minimal business or customer impact. Adherence to Change Management, Release Execution, audit, and risk controls. Reduction in deployment-related incidents and implementation failures. Increased adoption of automation and AI-enabled operational capabilities. Timely resolution of deployment issues and operational incidents. Positive audit outcomes and high-quality operational documentation. Demonstrated leadership, mentoring, and continuous improvement contributions. The salary range is indicative for roles at the same level within DTCC across all US locations. Actual salary is determined based on the role, location, individual experience, skills, and other considerations. We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, or disability status. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation. ABOUT US With over 50 years of experience, DTCC is the premier post-trade market infrastructure for the global financial services industry. From 20 locations around the world, DTCC, through its subsidiaries, automates, centralizes, and standardizes the processing of financial transactions, mitigating risk, increasing transparency, enhancing performance and driving efficiency for thousands of broker/dealers, custodian banks and asset managers. Industry owned and governed, the firm innovates purposefully, simplifying the complexities of clearing, settlement, asset servicing, transaction processing, trade reporting and data services across asset classes, bringing enhanced resilience and soundness to existing financial markets while advancing the digital asset ecosystem. In 2024, DTCC’s subsidiaries processed securities transactions valued at U.S. $3.7 quadrillion and its depository subsidiary provided custody and asset servicing for securities issues from over 150 countries and territories valued at U.S. $99 trillion. DTCC’s Global Trade Repository service, through locally registered, licensed, or approved trade repos",
       "outcome": "live",
       "evidence": "title \"Release Management Senior Associate\" shown on the page"
     },
@@ -535,7 +505,7 @@
       "company": "Hard Rock Digital",
       "title": "Senior Manager - DevOps",
       "url": "https://hardrockdigital.recruitee.com/o/senior-manager-devops-1",
-      "checkedAt": "2026-11-23T11:00:31.089Z",
+      "checkedAt": "2026-11-24T12:49:31.935Z",
       "captureText": true,
       "finalUrl": "https://hardrockdigital.recruitee.com/o/senior-manager-devops-1",
       "httpStatus": 200,
@@ -550,7 +520,7 @@
       "company": "Hospitable.com",
       "title": "Senior Platform Engineer",
       "url": "https://apply.workable.com/hospitable/j/A2091F150C",
-      "checkedAt": "2026-11-23T11:00:35.958Z",
+      "checkedAt": "2026-11-24T12:49:36.835Z",
       "captureText": true,
       "finalUrl": "https://apply.workable.com/hospitable/j/A2091F150C",
       "httpStatus": 200,
@@ -569,7 +539,7 @@
       "company": "SmartSuite",
       "title": "DevOps Engineer (Remote)",
       "url": "https://ats.rippling.com/smartsuite/jobs/6ea49061-d23c-4adb-95c3-9159c372e000",
-      "checkedAt": "2026-11-23T11:00:41.814Z",
+      "checkedAt": "2026-11-24T12:49:41.951Z",
       "captureText": true,
       "finalUrl": "https://ats.rippling.com/smartsuite/jobs/6ea49061-d23c-4adb-95c3-9159c372e000",
       "httpStatus": 200,
@@ -580,87 +550,129 @@
       "evidence": "title \"DevOps Engineer (Remote)\" shown on the page"
     },
     {
-      "id": "x-oracle-senior-site-reliability-engineer-349930",
-      "company": "Oracle",
+      "id": "rippling-3aff98f3-abd4-498b-9faf-d0afbde6520b",
+      "company": "Upserve",
       "title": "Senior Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/349930/",
-      "checkedAt": "2026-11-23T11:00:46.799Z",
+      "url": "https://ats.rippling.com/upserve-careers/jobs/3aff98f3-abd4-498b-9faf-d0afbde6520b",
+      "checkedAt": "2026-11-24T12:49:47.024Z",
       "captureText": true,
-      "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/job/349930/",
+      "finalUrl": "https://ats.rippling.com/upserve-careers/jobs/3aff98f3-abd4-498b-9faf-d0afbde6520b",
       "httpStatus": 200,
-      "pageTitle": "Oracle Careers",
+      "pageTitle": "Senior Site Reliability Expert",
       "jsonLd": null,
-      "pageText": "Skip to main content. This job is no longer available. You may also SEARCH FOR JOBS. If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S. Oracle’s U.S. affirmative action plan for people with disabilities and military veterans is available by contacting +1 888 404 2494. Need Help? Contact us and include a detailed description of the issue. Oracle's Pre-employment Screening Process Oracle's Equal Employment Opportunity and Pay Transparency © 2026 Oracle Privacy / Do Not Sell My Info Ad Choices Careers Policy",
-      "outcome": "closed_text",
-      "evidence": "no longer available"
+      "pageText": "Careers Senior Site Reliability Expert Senior Site Reliability Expert About Upserve, Inc. Upserve is an established restaurant technology and payments platform entering a restart phase under private equity ownership. The company serves independent and multi-location full-service restaurants and operates across software, payments, and financial services. Role Summary Our SRE team is responsible for the design, operation and reliability of Upserve’s product infrastructure. We collaborate with teams across the company to make this happen: Developers, QA, PMs, etc. Key Responsibilities ● Initiate and contribute to continuous improvement of our software delivery processes and practices in a multi-location, multidisciplinary team to empower and accelerate product development ● Use automation extensively to design, configure, manage, and monitor systems in support of our product development teams ● Design and architect operational solutions with the specific goal of increasing the standardization, automation, repeatability, cost-efficiency and consistency of operational tasks ● Working with developers and other SREs to design and build scalable, reliable and cost-efficient Cloud infrastructure ● Adhere to and advocate for best practices, including Infrastructure as Code, monitoring, high availability, disaster recovery, security, and SRE/DevOps methodologies ● Provide timely assistance and remediation solutions during critical situations and production incidents to help resolve service problems (You will be on call for periods of time) Required Qualifications ● Strong knowledge of Amazon Web Services ● Strong experience with Docker, Kubernetes & Linux Systems ● Experience with configuration management tools such as Chef, Puppet, Ansible, Salt ● Experience with Infrastructure as code practices: we use Terraform & OpenTofu ● Ability to read & write complex scripts using Shell ● Ability to read & understand programming languages: Python, Ruby, Go, etc. ● Good understanding of Agile development and continuous delivery best practices, software engineering tools, processes, methods and testing ● Ability to collaborate effectively with other teams ● Ability to plan, organize, prioritize and stay focused ● Good experience provisioning and managing infrastructures with high availability constraints ● Good experience with cloud cost optimization First 90 Days: Success Outcomes ● You are a problem solver who does not shy away from tackling complexity and critical thinking ● You have a strong will to learn, grow and get out of your comfort zone ● You have great energy and passion for technology ● You are able to express yourself flawlessly in English ● You have strong interpersonal skills Opportunity ● Lots of autonomy, flexible work culture and possibility of remote work ● Development of high traffic products, used at the global scale ● Exposure to modern and proven technology ● Opportunity to learn and expand your skill set ● Tons of growth opportunities into technical or people management roles ● Opportunity to join a fast-paced, high-growth company Apply now Engineering Remote - U.S. Share on: Apply now Terms of servicePrivacyCookiesPowered by Rippling",
+      "outcome": "blocked",
+      "evidence": "HTTP 200 Senior Site Reliability Expert Careers Senior Site Reliability Expert Senior Site Reliability Expert About Upserve, Inc. Upserve is an established"
     },
     {
-      "id": "x-dtcc-senior-application-support-engineer-sre-213977",
-      "company": "DTCC",
-      "title": "Senior Application Support Engineer (SRE)",
-      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213977/",
-      "checkedAt": "2026-11-23T11:00:54.015Z",
+      "id": "x-akamai-senior-site-reliability-engineer-4552",
+      "company": "Akamai",
+      "title": "Senior Site Reliability Engineer",
+      "url": "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4552",
+      "checkedAt": "2026-11-24T12:50:07.163Z",
       "captureText": true,
-      "finalUrl": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213977/",
+      "finalUrl": "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4552",
       "httpStatus": 200,
-      "pageTitle": "Senior Application Support Engineer (SRE) - DTCC Candidate Experience Site Careers",
+      "pageTitle": "Senior II Site Reliability Engineer - Akamai Career Site Careers",
       "jsonLd": {
-        "title": "Senior Application Support Engineer (SRE)",
-        "datePosted": "2026-11-10T17:32:06.000Z",
-        "validThrough": "2026-12-01T17:32:00.000Z"
-      },
-      "pageText": "Skip to main content. View More Jobs Senior Application Support Engineer (SRE) Tampa, FL, United States APPLY NOW JOB INFO Job Identification 213977 Job Category Information Technology Posting Date 11/10/2026, 05:32 PM Locations 18301 Bermuda Green Dr, Tampa, FL, 33647, US 1315 S Belt Line Road, Coppell, TX, 75019, US Apply Before 12/01/2026, 05:32 PM Job Schedule Full time Salary Range Senior Associate-75,000-150,000-USD Featured Opportunities No FLSA Status Exempt JOB DESCRIPTION Are you ready to make an impact at DTCC? Do you want to work on innovative projects, collaborate with a dynamic and supportive team, and receive investment in your professional development? At DTCC, we are at the forefront of innovation in the financial markets. We are committed to helping our employees grow and succeed. We believe that you have the skills and drive to make a real impact. We foster a thriving internal community and are committed to creating a workplace that looks like the world that we serve. The Information Technology group delivers secure, reliable technology solutions that enable DTCC to be the trusted infrastructure of the global capital markets. The team delivers high-quality information through activities that include development of essential, building infrastructure capabilities to meet client needs and implementing data standards and governance. Pay and Benefits: Competitive compensation, including base pay and annual incentive Comprehensive health and life insurance and well-being benefits, based on location Pension / Retirement benefits Paid Time Off and Personal/Family Care, and other leaves of absence when needed to support your physical, financial, and emotional well-being. DTCC offers a flexible/hybrid model of 3 days onsite and 2 days remote (onsite Tuesdays, Wednesdays and a third day unique to each team or employee). The Impact You Will Have in This Role As a Senior Application Support Engineer, you will help power DTCC's global financial markets infrastructure by ensuring the reliability, availability, and performance of platforms that support wealth management and master reference data. Leveraging Site Reliability Engineering (SRE) principles, you will support a portfolio of 40+ mission-critical applications across a modern ecosystem of both on prem and cloud based systems, OpenShift Container Platform (OCP), Kafka, IBM MQ, and distributed systems. You will play a key role in driving operational excellence, improving resiliency, reducing operational risk, and advancing automation across critical trade processing platforms. Working closely with globally distributed teams across Application Development, Infrastructure, Cloud, Network, and Operations, you will help deliver stable, scalable, and highly available services that support DTCC's mission-critical business functions. Your Primary Responsibilities: Production Reliability & Incident Management Ensure the availability, stability, and performance of mission-critical applications. Lead incident response, troubleshooting, and root cause analysis (RCA) activities. Drive preventative solutions that improve resiliency and reduce recurring issues. Operational Excellence & Resiliency Support application recovery, failover, disaster recovery (DR), and business continuity activities Maintain operational readiness across a portfolio of enterprise applications Support critical processing schedules and service-level commitments Partner with Development, Infrastructure, Cloud, Database, Network, Security, and Product teams to ensure platform reliability. Support audit, risk, compliance, and operational control requirements. Build strong partnerships across globally distributed teams to drive continuous improvement. distributed teams to drive continuous improvement. Qualifications Bachelor’s degree preferred or equivalent practical experience 6–8 years of experience supporting enterprise applications in complex production environments Talents Needed for Success: Core Technologies Java/J2EE Oracle, SQL, DB2 IBM MQ, Kafka Redis OCP/Kubernetes Splunk, Grafana, Dynatrace AutoSys ServiceNow and ITIL Linux/Unix AWS/AZURE Required Experience Strong understanding of Site Reliability Engineering (SRE) principles, including reliability, observability, automation, and incident prevention. Experience supporting enterprise-scale, distributed applications in production environments. Experience with cloud technologies and modern infrastructure platforms. Understanding of messaging systems, middleware, and integration technologies (IBM MQ, Kafka, IIB, or similar). Exposure to container platforms such as OpenShift, Kubernetes, or Docker. Strong troubleshooting, analytical, and problem-solving skills Preferred skills Kafka and event-driven architecture experience. Mainframe exposure (JCL, batch processing, job monitoring). Python or other scripting languages. Financial Services, Capital Markets, or Securities Processing experience. AI-driven automation or operational efficiency initiatives. Enterprise integration and distributed processing platforms. The salary range is indicative for roles at the same level within DTCC across all US locations. Actual salary is determined based on the role, location, individual experience, skills, and other considerations. We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, or disability status. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation. ABOUT US With over 50 years of experience, DTCC is the premier post-trade market infrastructure for the global financial services industry. From 20 locations around the world, DTCC, through its subsidiaries, automates, centralizes, and standardizes the processing of financial transactions, mitigating risk, increasing transparency, enhancing performance and driving efficiency for thousands of broker/dealers, custodian banks and asset managers. Industry owned and governed, the firm innovates purposefully, simplifying the complexities of clearing, settlement, asset servicing, transaction processing, trade reporting and data services across asset classes, bringing enhanced resilience and soundness to existing financial markets while advancing the digital asset ecosystem. In 2024, DTCC’s subsidiaries processed securities transactions valued at U.S. $3.7 quadrillion and its depository subsidiary provided custody and asset servicing for securities issues from over 150 countries and territories valued at U.S. $99 trillion. DTCC’s Global Trade Repository service, through locally registered, licensed, or approved trade repositories, processes more than 25 billion messages annually. To learn more, please visit us at www.dtcc.com or connect with us on LinkedIn, X, YouTube, Facebook and Instagram. DTCC proudly supports Flexible Work Arrangements favoring openness and gives people freedom to do their jobs well, by encouraging diverse opinions and emphasizing teamwork. When you join our team, you’ll have an opportunity to make meaningful contributions at a company that is recognized as a thought leader in both the financial services and technology industries. A DTCC career is more than a good way to earn a living. It’s the chance to make a difference at a company that’s truly one of a kind. Learn more about Clearance and Settlement by clicking here. ABOUT THE TEAM Serves as a dedicated technology resource for advancing DTCC’s business opportunities and providing industry thought leadership for leveraging new technology. The goal of this new department is to partner internally with IT, our business and regulatory divisions and externally ",
-      "outcome": "live",
-      "evidence": "title \"Senior Application Support Engineer (SRE)\" shown on the page"
-    },
-    {
-      "id": "x-dtcc-application-support-engineering-sre-214675",
-      "company": "DTCC",
-      "title": "Application Support Engineering - SRE",
-      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214675/",
-      "checkedAt": "2026-11-23T11:01:01.086Z",
-      "captureText": true,
-      "finalUrl": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214675/",
-      "httpStatus": 200,
-      "pageTitle": "Application Support Engineering - SRE - DTCC Candidate Experience Site Careers",
-      "jsonLd": null,
-      "pageText": "Skip to main content. View More Jobs Application Support Engineering - SRE TX, United States and 1 more APPLY NOW JOB INFO Job Identification 214675 Job Category Information Technology Posting Date 11/02/2026, 06:49 PM Locations 1315 S Belt Line Road, Coppell, TX, 75019, US 18301 Bermuda Green Dr, Tampa, FL, 33647, US 570 Washington Blvd, Jersey City, NJ, 07310, US Job Schedule Full time Salary Range Associate-60,000-115,000-USD Featured Opportunities No FLSA Status Exempt JOB DESCRIPTION Are you ready to make an impact at DTCC? Do you want to work on innovative projects, collaborate with a dynamic and supportive team, and receive investment in your professional development? At DTCC, we are at the forefront of innovation in the financial markets. We are committed to helping our employees grow and succeed. We believe that you have the skills and drive to make a real impact. We foster a thriving internal community and are committed to creating a workplace that looks like the world that we serve. The Information Technology group delivers secure, reliable technology solutions that enable DTCC to be the trusted infrastructure of the global capital markets. The team delivers high-quality information through activities that include development of essential, building infrastructure capabilities to meet client needs and implementing data standards and governance. Pay and Benefits: Competitive compensation, including base pay and annual incentive Comprehensive health and life insurance and well-being benefits, based on location Pension / Retirement benefits Paid Time Off and Personal/Family Care, and other leaves of absence when needed to support your physical, financial, and emotional well-being. DTCC offers a flexible/hybrid model of 3 days onsite and 2 days remote (onsite Tuesdays, Wednesdays and a third day unique to each team or employee). The Impact You Will Have in This Role As an Application Support Engineer (SRE), you will help ensure the availability, reliability, and performance of mission-critical applications supporting DTCC’s Common Data Transfer Services (CDTS) platform. This role combines hands-on application production support with Site Reliability Engineering principles. You will troubleshoot complex production issues, strengthen monitoring and observability, automate recurring operational tasks, and support the modernization of applications across cloud and container platforms. Working closely with Application Development, Infrastructure, and global Operations teams, you will help reduce operational risk and deliver stable, resilient services. Your Primary Responsibilities: Support mission-critical applications in production, ensuring availability, stability, performance, and operational readiness. Monitor application and platform health, analyze alerts, and proactively identify reliability risks. Troubleshoot production issues across Java applications, SQL databases, Linux/Unix environments, messaging platforms, and distributed systems. Participate in incident response, root-cause analysis, and problem management, helping implement corrective actions that prevent recurrence. Serve as a liaison among Application Development, Infrastructure, and Production Support teams to coordinate issue resolution and service improvements. Support application releases, deployments, upgrades, change activities, and production validation. Improve monitoring, alerting, dashboards, and observability using tools such as Splunk, Grafana, or Datadog. Automate recurring operational processes to reduce manual effort, improve recovery, and minimize operational toil. Develop and maintain runbooks, support procedures, knowledge articles, and troubleshooting documentation. Support disaster recovery exercises, resiliency testing, operational controls, and audit-readiness activities. Support applications and services across AWS, OpenShift, and containerized environments. Collaborate with globally distributed teams and participate in a rotating shift and 24x7 support model. Note: The Primary Responsibilities of this role are not limited to the details above. Qualifications Bachelor's Degree or equivalent experience. Minimum 4+ years of experience in Application Support, Production Support, Site Reliability Engineering, DevOps, or related disciplines. Talent Needed for Success Hands-on experience supporting enterprise applications in complex, business-critical production environments. Strong troubleshooting and log-analysis skills across Java applications, Linux/Unix operating systems, and distributed platforms. Working knowledge of SQL for data analysis, production investigation, and issue resolution. Experience with monitoring and observability tools such as Splunk, Grafana, Datadog, or similar platforms. Experience supporting AWS-based applications and cloud services. Familiarity with OpenShift, Kubernetes, Docker, or other container and orchestration technologies. Exposure to messaging and event-streaming technologies such as Kafka. Experience using ServiceNow or similar IT service management tools for Incident, Problem, and Change Management. Understanding of SRE principles, including reliability, observability, automation, incident prevention, and continuous improvement. Exposure to scripting or automation using Python, Shell, Bash, or a similar language. Strong analytical, communication, ownership, and problem-solving skills. Ability to collaborate effectively across Application Development, Infrastructure, Operations, and geographically distributed teams. Ability to work effectively in high-pressure production environments and manage multiple priorities. Preferred Qualifications Experience supporting high-volume transaction-processing applications or distributed systems. Familiarity with AutoSys or other enterprise job-scheduling platforms. Exposure to CI/CD pipelines, DevOps practices, and automated deployment processes. Experience supporting Kafka-based applications or event-driven architectures. Exposure to mainframe environments or application-modernization initiatives. Understanding of security fundamentals, including certificates, credentials, access management, and operational controls. Experience within Financial Services, Capital Markets, FinTech, or another highly regulated industry. The salary range is indicative for roles at the same level within DTCC across all US locations. Actual salary is determined based on the role, location, individual experience, skills, and other considerations. We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, or disability status. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation. ABOUT US With over 50 years of experience, DTCC is the premier post-trade market infrastructure for the global financial services industry. From 20 locations around the world, DTCC, through its subsidiaries, automates, centralizes, and standardizes the processing of financial transactions, mitigating risk, increasing transparency, enhancing performance and driving efficiency for thousands of broker/dealers, custodian banks and asset managers. Industry owned and governed, the firm innovates purposefully, simplifying the complexities of clearing, settlement, asset servicing, transaction processing, trade reporting and data services across asset classes, bringing enhanced resilience and soundness to existing financial markets while advancing the digital asset ecosystem. In 2024, DTCC’s subsidiaries processed securities transactions valued at U.S. $3.7 quadrillion and its depository subsidiary provided custody and asset servicing f",
-      "outcome": "live",
-      "evidence": "title \"Application Support Engineering - SRE\" shown on the page"
-    },
-    {
-      "id": "wd-cvs-health-r1046107",
-      "company": "CVS Health",
-      "title": "Staff Cloud Automation Engineer",
-      "url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Staff-Cloud-Engineer_R1046107",
-      "checkedAt": "2026-11-23T11:01:07.775Z",
-      "captureText": true,
-      "finalUrl": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Staff-Cloud-Engineer_R1046107",
-      "httpStatus": 200,
-      "pageTitle": "Careers",
-      "jsonLd": {
-        "title": "",
-        "datePosted": null,
+        "title": "Senior II Site Reliability Engineer",
+        "datePosted": "2026-11-17T15:46:40.000Z",
         "validThrough": null
       },
-      "pageText": "Skip to main content Sign In CVS Health Home Search for Jobs The page you are looking for doesn't exist. Search for Jobs Follow Us Privacy Policy © 2026 Workday, Inc. All rights reserved.",
+      "pageText": "Skip to main content. COOKIE PREFERENCE I'M AN EMPLOYEE MANAGE / VIEW PROFILE View More Jobs Senior II Site Reliability Engineer United States (Remote) JOB DESCRIPTION Do you want to shape reliability practices for a new AI inference platform? Are you a senior technical leader who drives solutions across teams? Join the Akamai Inference Cloud Team! The Akamai Inference Cloud team is part of Akamai's Cloud Technology Group. We design, implement, deploy and operate AI platforms that enable customers to run inference models and developers to create AI applications. Partner with the best In this role, you'll lead reliability workstreams for Akamai's serverless inference platform, design SRE tooling and automation, and drive technical decisions. Opportunities exist to mentor other SREs, influence architecture decisions with product engineering teams, and shape SRE practices for AI inference workloads and GPU infrastructure at scale. As a Senior II Site Reliability Engineer, you will be responsible for: Taking ownership of observability strategy for the serverless inference platform, designing telemetry, dashboards, and alerts, defining SLO/SLI frameworks, and driving improvements when targets are missed Building production-grade automation and tooling that reduces operational toil, improves incident response, and sets patterns that other SREs adopt Owning incident management integration for inference workloads, designing frameworks, leading incident response during on-call rotations, and driving systemic improvements from post-mortems Defining and implementing deployment safety practices including progressive rollouts, canary analysis, and rollback automation, establishing standards for the team Partnering with product engineering teams to influence architecture decisions, ensure operational readiness, and represent the SRE perspective in design reviews Mentoring Senior and mid-level SREs through code reviews, design discussions, and hands-on problem-solving Do what you love To be successful in this role you will: 8+ years of experience in SRE, infrastructure engineering, or platform engineering, working with large-scale distributed systems Possess a proven track record of defining SLO/SLI frameworks, building observability platforms, and running incident management processes at scale Have extensive Kubernetes and containerization experience at scale, including autoscaling, resource scheduling, and container orchestration for compute-intensive workloads Have experience building automation and tooling in Python or Go, with familiarity in CI/CD pipelines, deployment safety, and infrastructure-as-code Possess the ability to lead technical initiatives across teams, mentor other engineers, and drive complex reliability problems to resolution independently Have experience with or exposure to AI/ML infrastructure, model serving, or GPU workloads About us At Akamai, we make life better for billions of people, trillions of times a day. Whether you're streaming live events, scrolling social media, watching your favorite series, or managing your savings, we're the engine behind the scenes. We provide the world's most distributed platform from Cloud to Edge to help the giants of the digital world work faster and stay more secure, making the internet a better experience for everyone. Our focus is simple: Cloud and Edge: Running apps closer to users for instant performance. Security: Neutralizing threats before they ever reach your data. Content Delivery: Scaling the world's biggest moments without a glitch. AI: Enabling our customers to build, secure, and scale AI apps on the world's most distributed cloud platform. At Akamai, we don't just support the internet; we power and protect it, because behind every great digital experience is a massive hidden challenge. And we're the ones who solve it. When millions of people hit play or pay, Akamai ensures it just works. Benefits at Akamai: We support your health, well-being, finances, and life beyond work. See our benefits. FlexBase adapts to your job's needs Akamai's FlexBase program is yet another way we show our commitment to providing employees with an exceptional workplace experience. It's not about telling employees where to work; it's about supporting employees to do their best work. We trust our incredible employees to work in ways that suit them best: at home, in an office, or a combination of both. Connect with us on social and see what life at Akamai is like! Compensation Akamai is committed to fair and equitable compensation practices. For US based candidates only - the base salary for this position ranges from $146,400 - $263,600/year; a candidate’s salary is determined by various factors including, but not limited to, relevant work experience, skills, certifications and location. Compensation for candidates outside the US will vary. The compensation package may also include incentive compensation opportunities in the form of annual bonus or incentives, equity awards and an Employee Stock Purchase Plan (ESPP). Akamai provides industry-leading benefits including healthcare, 401K savings plan, company holidays, vacation (in the form of PTO), sick time, family friendly benefits including parental leave and an employee assistance program including a focus on mental and financial wellness; Eligibility requirements apply. APPLY NOW JOB INFO Job Identification 4552 Posting Date 11/17/2026, 03:46 PM Locations 145 Broadway, Cambridge, MA, 02142, US (Remote) Similar Jobs Site Reliability Engineer II United States (Remote) Posted on 11/02/2026 In this role, you will own day-to-day reliability of our private networking, firewall, and IPSec Gateway services. You'll work with software engineering, product, and operations teams to ship dataplane and control-plane changes safely across a global fleet. You will run release rollouts, automate operational toil, build monitoring, and troubleshoot customer-impacting networking issues down to the packet. You will use open-source tools alongside internal Akamai tooling. Senior II Site Reliability Engineer United States (Remote) Posted on 11/02/2026 In this role, you will be at the forefront of Akamai Cloud hypervisor host technologies. HIVE is responsible for all of Akamai’s bare-metal and VM hardware and software infrastructure platforms. CLP focuses on Compute’s Linux kernels, operating systems, KVM/QEMU virtualization layer, guest images, and working closely with HIVE’s HW teams to ensure new hardware programs succeed in our datacenters. Senior II Site Reliability Engineer United States (Remote) Posted on 11/10/2026 In this role, you will apply statistical data analysis, machine learning, and network protocol knowledge to diagnose and solve complex content delivery challenges, partnering with cross-functional teams to turn telemetry into platform improvements. Senior II Site Reliability Engineer - Network United States (Remote) Posted on 10/01/2026 In this role, you will collaborate across software development, operations teams and network infrastructure teams. You’ll be instrumental in developing organizational standards and tooling to ensure the growth and stability of our global platform. You will be responsible for: SEE MORE JOBS COMPANY About us Leadership History CAREERS Careers Working at Akamai Workplace Diversity NEWSROOM Newsroom Press Releases Culture Blog In the News LEGAL & COMPLIANCE Legal Privacy Trust Center Information Security Compliance Privacy Statement © 2024 Akamai Technologies | All right reserved. Your Cookie Choices. We use cookies to ensure the fast, reliable and secure operation of this website, to improve your website experience and to manage your cookie choices. Some cookies process personal data. By agreeing to the placement of the cookies you also agree to the related personal data processing activities, where applicable. Click “Manage Preferences” to make individual choices and get details on the cookies in use, click “Accept” to agree to the stor",
       "outcome": "unclear",
-      "evidence": "title not found; page starts: Skip to main content Sign In CVS Health Home Search for Jobs The page you are looking for doesn't exist. Search for Jobs"
+      "evidence": "title not found; page starts: Skip to main content. COOKIE PREFERENCE I'M AN EMPLOYEE MANAGE / VIEW PROFILE View More Jobs Senior II Site Reliability"
     },
     {
-      "id": "wd-crowdstrike-r30063",
-      "company": "CrowdStrike",
-      "title": "Sr. Systems Engineer - AI Gateway Platform (Remote)",
-      "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/AI-Operations-Manager--Remote-_R30063",
-      "checkedAt": "2026-11-23T11:01:27.511Z",
+      "id": "ashby-2a92b848-b7de-44b3-a979-6fbcdc559652",
+      "company": "1upHealth",
+      "title": "Staff DevOps Engineer (Platform)",
+      "url": "https://jobs.ashbyhq.com/1uphealth/2a92b848-b7de-44b3-a979-6fbcdc559652",
+      "checkedAt": "2026-11-24T12:50:28.418Z",
       "captureText": true,
-      "finalUrl": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/AI-Operations-Manager--Remote-_R30063",
+      "finalUrl": "https://jobs.ashbyhq.com/1uphealth/2a92b848-b7de-44b3-a979-6fbcdc559652",
       "httpStatus": 200,
-      "pageTitle": "Careers",
+      "pageTitle": "Staff DevOps Engineer (Platform) @ 1upHealth",
+      "jsonLd": {
+        "title": "Staff DevOps Engineer (Platform)",
+        "datePosted": "2026-10-30",
+        "validThrough": null
+      },
+      "pageText": "Staff DevOps Engineer (Platform) Location Remote Employment Type Full time Location Type Remote Department Engineering Overview Application About 1upHealth At 1upHealth, we’re on a mission to unlock health data and empower the future of healthcare through modern, cloud-native data infrastructure and interoperability. We build a platform that enables payers, providers, and digital health companies to ingest, normalize, and exchange clinical and claims data at scale; securely, reliably, and with strong compliance foundations. We are a remote-first U.S. company with a culture focused on collaboration, transparency, and meaningful impact. About the role We are seeking a Staff DevOps Engineer to build and run the CI/CD pipelines, automation and test infrastructure that let our engineers ship safely and often. You’ll join a central platform team supporting the entire Product & Engineering organization. The team provides engineering teams with the testing frameworks, pipelines, and infrastructure they rely on daily, partners with Product and other stakeholders on cross-team initiatives, and continuously improves the platform through its own roadmap. You’ll help shape and deliver improvements across testing, infrastructure, and developer experience to make the platform more reliable and easier to build on. What you'll do Work across a multi-account AWS environment running Kubernetes, with infrastructure managed through Terraform and Terragrunt and deployments handled through GitOps. Work cross-functionally across all engineering teams to understand their delivery and testing needs to turn shared pain points into platform improvements. Partner with developers to build and maintain shared test frameworks and fixtures, including synthetic test data that contains no real PHI. Collaborate with Product and Engineering leadership to plan, prioritize and deliver initiatives across the Product & Engineering organization. Build automated quality gates into CI/CD: integration, contract and end-to-end tests run on every change, with clear pass/fail signals. Automate operational toil with scripts, runbooks and internal tools. Test infrastructure as code with tools such as Terratest, terraform validate/plan checks, policy-as-code (OPA, Checkov, tfsec) and Helm chart tests. Create ephemeral test environments so engineers can validate changes against production-like infrastructure before merging. Design, build and maintain AWS infrastructure across many accounts (EKS, EC2, VPC, IAM, S3, Route 53, Transit Gateway) using Terraform and Terragrunt. Add post-deploy validation: smoke tests, synthetic monitors and automated rollback when health checks fail. Create and grow new and existing integration and end-to-end test suites to eliminate gaps in coverage. Run performance, load and resilience testing (including failure injection) on critical services and data pipelines. Track test reliability and pipeline speed; find and fix flaky tests and slow stages. Run and improve our Kubernetes platform, including Helm charts, ArgoCD-based GitOps delivery, autoscaling and cluster upgrades. Build and maintain CI/CD pipelines that take code from commit to production with minimal manual steps. Own observability: metrics, logs, traces, dashboards and alerting in Datadog, with SLOs for the services you support. Take part in an on-call rotation, lead incident response, and write blameless postmortems that lead to long term fixes. Keep the platform secure and HIPAA-compliant: least-privilege IAM, encryption, audit logging, and remediating findings from cloud security tooling. Relevant Experience 8+ years in DevOps, platform, SRE or infrastructure engineering, with production AWS experience. Track record of driving cross-team initiatives: building alignment with engineering, product and business stakeholders, and influencing without direct authority. Built and maintained CI/CD pipelines (GitHub Actions, GitLab CI, Jenkins or similar) that include automated testing stages. Experience writing automated tests, not just running them: at least one test framework such as pytest, Go's testing package, Jest, or Terratest. Proficiency in at least one general-purpose language (Python or Go preferred) plus common scripting languages ie. Bash/SH. Strong Terraform skills; Terragrunt or another multi-environment pattern is a plus. Hands-on Kubernetes experience, including Helm and a GitOps tool such as ArgoCD. Working knowledge of observability tools (Datadog, Prometheus/Grafana or similar) and how to alert on what matters. Comfort with on-call, incident response, converting incidents into automated prevention. Clear written communication: design docs, runbooks and postmortems others can act on. Nice to have Experience in healthcare or another regulated industry (HIPAA, SOC 2, HITRUST). Background in SDET or QA automation role. Familiarity with FHIR R4 or other healthcare data standards. Policy-as-code and compliance automation (OPA/Gatekeeper, AWS Config rules). Contract testing (Pact) or API testing tools. Load and chaos testing tools such as k6, Locust, Gatling, AWS Fault Injection Service or LitmusChaos. Experience testing data pipelines or streaming systems (Kafka or compatible platforms). Don't meet every requirement? Studies have shown that women, communities of color and historically underrepresented talent are less likely to apply to jobs unless they meet every single qualification. At 1upHealth we are dedicated to building a diverse, inclusive and authentic workplace. We encourage folks to apply if they meet at least 50% of the qualifications above. Benefits 100% Paid BCBS Medical and Dental Insurance for Employees Vision Insurance Flexible PTO Equity for All Employees 401(k) Home Office Stipend Lifestyle Spending Account Parental Leave (6 weeks bonding leave for all new parents + 10 weeks for birthing parents) Security Alert: 1upHealth only uses email domains of First Name. Last Name@1up.health or no-reply@1up.health to communicate with prospects. You will never receive an email from a third-party email service such as gmail. In addition, we will never ask a candidate for employment to share personal information (such as banking information, social security numbers, passport, etc), purchase their own equipment, or pay to apply to an open position. Apply for this Job Powered by Privacy PolicySecurityVulnerability Disclosure",
+      "outcome": "live",
+      "evidence": "title \"Staff DevOps Engineer (Platform)\" shown on the page"
+    },
+    {
+      "id": "ashby-ccad2727-6c05-4c68-9675-bf9c4ef51852",
+      "company": "Overstory",
+      "title": "Staff Site Reliability Engineer",
+      "url": "https://jobs.ashbyhq.com/overstory/ccad2727-6c05-4c68-9675-bf9c4ef51852",
+      "checkedAt": "2026-11-24T12:50:33.314Z",
+      "captureText": true,
+      "finalUrl": "https://jobs.ashbyhq.com/overstory/ccad2727-6c05-4c68-9675-bf9c4ef51852",
+      "httpStatus": 200,
+      "pageTitle": "Staff Site Relability Engineer @ Overstory",
+      "jsonLd": {
+        "title": "Staff Site Relability Engineer",
+        "datePosted": "2026-11-23",
+        "validThrough": null
+      },
+      "pageText": "Staff Site Relability Engineer Location United States; Canada; Denmark; France; Ireland; Netherlands; Portugal; Sweden; Switzerland; United Kingdom Employment Type Full time Location Type Remote Department Engineering Overview Application The climate crisis is the defining challenge of our time—but it’s also the greatest opportunity for innovation, and a challenge we’re proud to take on. At Overstory, we’re harnessing cutting-edge technology to enable a resilient electrical grid that keeps communities thriving as our world changes. The grid is the backbone of life as we know it. It powers hospitals, keeps food fresh, and ensures communities stay connected. But extreme weather, aging infrastructure, and growing wildfire risks are putting this critical system under pressure. All of this combined makes the electric utility industry the greatest opportunity for tackling climate change. One of the leading causes of catastrophic wildfires and power outages? Trees and brush coming into contact with power lines. That’s where we help. At Overstory, we use AI and advanced satellite imagery to pinpoint and prioritize vegetation risks before they materialize. By giving utilities critical analysis on those risks, we’re helping prevent outages, reduce wildfire risks, and accelerate the transition to a safer, more resilient grid. Our team spans the Americas and Europe, and we work with utility partners across the Americas and beyond. We’re outdoor enthusiasts, musicians, artists, athletes, parents, and adventurers. What unites us is a passion for solving complex problems, a commitment to climate action, and the belief that technology should be a force for good. Join us to help us build a more resilient world together. Role & Team As a Staff Site Reliability Engineer at Overstory, you will lead the technical direction of the cloud platform behind our products, data pipelines, and engineering workflows. Our AI and satellite-imagery analysis helps utilities find vegetation risk before it causes outages or wildfires, and that depends on infrastructure that is reliable, secure, and cost-aware at scale. We run on Google Cloud, with GKE, Cloud Run, Terraform with Atlantis, Argo CD, and GitHub Actions, plus the orchestration and CPU/GPU compute behind our imagery and ML pipelines, including Dagster. You don't need experience with every one of these tools; we care more about how you design and run platforms than which tools you've used. Reporting to our Director of Platform Engineering, you will be the team technical anchor. This is an individual contributor role: as a senior technical leader, you'll find the problems worth solving, drive architectural decisions, set the standards the team builds to, and mentor other engineers. Time zone requirement: Europe (GMT/WET, CET,) and Eastern North America (NT, AT, ET) What you'll do Set the technical direction for our cloud platform, including how we expand into new regions to meet customer data-residency requirements. Help build our internal AI platform, which gives engineers a safe, cost-controlled way to run AI agents and deploy internal tools. Build paved roads: self-service paths, reusable infrastructure modules, and shared delivery pipelines that let engineering teams ship safely through self service Lead our reliability practice. Define SLOs and error budgets for the services and pipelines utilities depend on, shape incident response and on-call, and make sure every alert has an owner. Make observability useful to the teams that rely on it: metrics, logs, and traces that help people find problems quickly, and fewer alerts that people act on. Keep cloud and compute costs, including GPU, visible and under control, and help teams make cost-aware decisions. Build security into the platform: least-privilege access, secrets management, and software supply-chain hygiene, in support of the security reviews our utility customers require. Set production-readiness standards for new services, mentor engineers through design reviews, code reviews, and pairing, and partner with Product, Engineering, and Security leaders on what the platform should do next. What success looks like in your first year Our utility-facing services and key pipelines have SLOs, and the team uses them to decide where to invest. We have a repeatable, documented pattern for standing up a new region. Development, staging, and production are cleanly separated, with alerts routed by environment and severity. Common requests such as access, storage, and new services are self-service, and the team spends less of its week on tickets. Cloud and GPU spend is visible to every team and broken down by service, so budgets are easy to track and audit. Skills & Experience Motivated by the chance to make the infrastructure behind wildfire and outage prevention reliable, secure, and efficient. Extensive experience in SRE, platform, or infrastructure engineering, including time as the technical lead on systems other teams depend on. Experience owning production infrastructure on a major cloud provider end to end, from design through operation, upgrades, and the trade-offs behind them. Google Cloud is a strong preference; deep experience on AWS is a reasonable substitute if you're ready to go deep on GCP. Deep experience operating container platforms in production, ideally Kubernetes, including upgrades, autoscaling, workload isolation, and capacity planning. Strong infrastructure-as-code and delivery practice: you've designed modules, pipelines, and deployment workflows that many teams share and trust. Experience building reliability practices: SLOs and error budgets, alerting that people act on, incident response, and blameless postmortems. Strong software engineering fundamentals. You write production-quality automation and tooling. A track record of leading technical work across teams without formal authority: writing designs, building consensus, and setting standards that others adopt. Clear written communication. We work remotely across time zones, so much of our work happens in writing. Nice to have Operating data orchestration or ML pipeline platforms, and running GPU workloads. Multi-region architecture and data-residency requirements. Security and compliance work for enterprise customers or in regulated industries. Building internal platforms with AI tools or large language models, or using AI to change how your team works. Geospatial or imagery data. This isn't required; you'll learn it here. How we work Remote first. The team is spread across North America and Europe. We need several hours of daily overlap with U.S. Eastern and Central European time. Support and on-call. SRE shares a weekly support rotation during business hours across ET and CET. Written by default. We plan in Linear, document in Notion, and talk in Slack. Designs and decisions get written down. AI-assisted engineering. We use AI coding tools every day, with guardrails, and we're building the platform that lets the rest of the company do the same. If you meet most of these and the work excites you, please apply. We'd rather hear from you than have you rule yourself out. What We Offer Competitive, location-specific compensation and benefits. Flexible, autonomous and collaborative working environment rooted in trust - we build our work days around our lives, not the other way around Home office stipend, coworking and ongoing education budgets A company culture that genuinely embodies each of our core values To be part of truly mission-driven work that reduces wildfires, protects earth’s natural resources and helps solve our climate crisis About Our Team We are a fast-growing team of over 100 people from all over the world. Fifteen nationalities are represented and at last count we speak fourteen languages: English, Dutch, French, Spanish, German, Italian, Portuguese, Russian, Luxembourgish, Lithuanian, Bulgarian, Finnish, Estonian, and Afrikaans. We work remotely from eleven countries and are looking f",
+      "outcome": "live",
+      "evidence": "title \"Staff Site Reliability Engineer\" shown on the page"
+    },
+    {
+      "id": "ashby-a91ee3c2-0379-4c2c-8fd8-a42b9dbbf312",
+      "company": "Playlab",
+      "title": "Staff Platform Engineer",
+      "url": "https://jobs.ashbyhq.com/playlab/a91ee3c2-0379-4c2c-8fd8-a42b9dbbf312",
+      "checkedAt": "2026-11-24T12:50:37.999Z",
+      "captureText": true,
+      "finalUrl": "https://jobs.ashbyhq.com/playlab/a91ee3c2-0379-4c2c-8fd8-a42b9dbbf312",
+      "httpStatus": 200,
+      "pageTitle": "Staff Platform Engineer @ Playlab",
+      "jsonLd": {
+        "title": "Staff Platform Engineer",
+        "datePosted": "2026-11-21",
+        "validThrough": null
+      },
+      "pageText": "Staff Platform Engineer Location Remote Employment Type Full time Location Type Remote Department Engineering & Product Compensation $180K – $230K Overview Application About Playlab Playlab is a tech non-profit dedicated to helping educators and students become critical consumers and creators of AI. We believe that an open-source, community-driven approach is key to harnessing the potential of AI in education. We equip educators & students to build custom AI apps for their unique context. Over 100,000 educators have published apps on Playlab. At Playlab, we believe that AI is a new design material, one that should be shaped by many to bring their ideas about learning to life. If you're passionate about building creative, equitable futures for students and teachers, we hope you'll join us. About the role Playlab is looking for a Staff Platform Engineer to build the infrastructure and APIs that let anyone deploy edtech apps that are good and safe for students by default. Every new AI capability, from image generation to agent memory, arrives built for adults and businesses. On Playlab, students and teachers use these capabilities to build their own apps and agents, so each one has to work differently: web search with safety controls a district can tune, memory that doesn't harden into assumptions about a student, storage APIs that understand relationships between people in the school. We're adding capabilities Playlab doesn't have yet and breaking the app we grew up as into composable, reusable building blocks for building the next generation of edtech. Our own engineers build on them first, then teammates who don't write code, then educators and students making apps tailored to their own classrooms. You'll join the platform team we're building to shape what those blocks are and lead the design and implementation of key pieces. We're committed to open sourcing our infrastructure over time, so your design decisions will be used well beyond Playlab. This is a staff level individual contributor role reporting to engineering leadership. You'll stay close to schools and users and work with product, privacy and security, trust and safety, learning engineering, and machine learning to build products and agents on top of your work. What you'll do Build the building blocks Make powerful capabilities right for education. Build capabilities like agent memory, image generation, and data storage with the shape it needs before it reaches a classroom. You'll design these with product, privacy and security, and trust and safety experts, grounded in what we learn in schools, then build them in so every app and agent gets them by default. Design blocks others can build. You'll play a pivotal role in the team deciding how new core infrastructure works - designing APIs and leading builds, so new features and experiences can be scaffolded on solid foundations. Turn our data into something schools can learn from. Grow our warehouse and data vault into the place where schools and their research partners can answer questions about AI in their classrooms. Ship early and learn. You can expect to ship major new infrastructure in production within your first month, and evolve it as new usage patterns emerge. Own where agents run Give educators' agents a powerful place to run. A runtime where the agents and apps educators build can use tools, run code and work for hours on a teacher's behalf, safe enough for classrooms by default. Build the infrastructure for educational evaluations. Make it easy to run, store and compare evaluations at scale that help teachers and students understand where the things they build are performing or not, and help the field learn from what they build. Set the standards and open them up Write the conventions others follow. Create designs and conventions the next several systems are built to and raise the bar for architecture reviews across the team. Build for the commons. Design core infrastructure with a mind towards open sourcing it. How you'll work Start from the classroom. Spend time with teachers, students and our learning engineers to see how a capability will actually be used before you design it. Design with the experts. Work each capability through with product, privacy and security, and trust and safety, and write designs that name the options you rejected, so people can push back early. Prototype, then harden. Get a rough version into real hands quickly, learn from it, and decide which experiments earn a permanent place in the platform. Make the team stronger. Project leadership rotates here. Sometimes you'll lead; often you'll make a teammate's project succeed through design, review and pairing. What the job is really like Mostly building, some operations. Most of your time goes to designing and building blocks, but a real share goes to Terraform, monitoring, alerts and incidents. You won't be shielded from operations. A platform team that's still forming. You'll join a few engineers already on it, plus a devsecops partner and a new security team. It's still small, so you'll do hands-on work a larger company would spread across several teams. Students are on the other end. These systems serve everything from K-12 classrooms to higher ed to ministries of education during the school day. Outages and data mistakes land on teachers and students, so the bar on isolation, privacy and reliability is higher than our size would suggest. You might be a fit if you You're a systems designer who starts from the people using what you build and still loves to ship. You'd rather make ten engineers faster than be the fastest one yourself, and building for students makes a problem more interesting to you, not less. Have designed several systems that worked together as a platform: shared conventions, consistent APIs, and other teams building on them as usage and requirements changed. Have worked with privacy, safety or policy experts to make their requirements part of the product. Have led a few engineers through building new infrastructure: shaped the design with them, broke it into work, got it to production, and left conventions the team kept using. Are hands-on enough with AWS, Kubernetes and Terraform to take what you design to production yourself. Have built systems behind LLM or agent products, and have opinions about what agents need from infrastructure (state, memory, tool access, long-running work). Have built APIs or SDKs that product engineers loved using: clear abstractions, good docs, and a short path from idea to a first working feature. Have changed a design because of what you saw real users do, not just what they asked for. If you meet most of these and the work excites you, we'd love to hear from you. Bonus points for... Building safety or fairness controls into an AI product. Maintaining an open source project other people depend on. Building MCP servers, agent runtimes, sandboxes for untrusted code or LLM gateways, including model routing and cost optimization (we use LiteLLM). Building identity and auth that other products rely on (SSO, OAuth, \"sign in with\" flows). Building data warehouses or research data pipelines that protect personal data. Working with student or children's data, or in education. Technologies TypeScript, Node, Python, PostgreSQL, AWS (EKS, Bedrock, AgentCore), Docker, Kubernetes, Terraform, LiteLLM, NewRelic Why join us? Real impact: Your work shapes how 100,000+ educators around the world use AI with their students, and much of what we build is headed toward the public domain. Real ownership: You'll help decide how the foundations of Playlab's product work, from how agents run to how educators evaluate them, and help lead their release as open source. Room to grow: As Playlab and our platform grow, so does this role, with significant opportunities for learning and growth. Real closeness to users: We're in schools every week (deep-dive 1:1s, group experimentation sessions, strategic planning with entire districts)",
+      "outcome": "live",
+      "evidence": "title \"Staff Platform Engineer\" shown on the page"
+    },
+    {
+      "id": "ashby-3bf39f8d-09c0-4291-8596-2490a0394faa",
+      "company": "EverOps",
+      "title": "Senior DevOps Engineer, AI-Enabled Platform Engineering",
+      "url": "https://jobs.ashbyhq.com/everops/3bf39f8d-09c0-4291-8596-2490a0394faa",
+      "checkedAt": "2026-11-24T12:50:42.733Z",
+      "captureText": true,
+      "finalUrl": "https://jobs.ashbyhq.com/everops/3bf39f8d-09c0-4291-8596-2490a0394faa",
+      "httpStatus": 200,
+      "pageTitle": "Senior DevOps Engineer (AI-Enabled Platform Engineering) @ EverOps",
+      "jsonLd": {
+        "title": "Senior DevOps Engineer (AI-Enabled Platform Engineering)",
+        "datePosted": "2026-11-17",
+        "validThrough": null
+      },
+      "pageText": "Senior DevOps Engineer (AI-Enabled Platform Engineering) Location Remote Employment Type Full time Location Type Remote Department DevOps Overview Application Senior DevOps Engineer AI-Enabled Platform Engineering Focus About EverOps EverOps is the partner engineering teams wish they had but didn't know existed. We embed elite operators directly in our customers' teams to help them ship faster, reduce risk, and optimize cloud spend. We call them TechPods: forward-deployed, outcome-driven, backed by proven playbooks and AI-native workflows. We sit in the sweet spot between strategy-only firms and staff-aug vendors. Not Big 4. Not bodies for hire. Operators who think big and deliver fast. Since 2012, companies like Coinbase, Snowflake, and Peloton have trusted us to scale platforms, cut waste, and modernize delivery. We are an AWS Advanced Tier co-sell partner, and our go-to-market is increasingly AWS-led. Our thesis is sharp: make AI actually run in production on AWS, not in a slide deck. That is the work this role delivers. EverOps has always been 100% remote. Our culture was built for a distributed team to thrive, and this role can be based anywhere in the United States. The Challenge EverOps is looking for a Senior DevOps Engineer who brings deep platform engineering expertise and an AI-native mindset to enterprise cloud infrastructure. This role lives at the intersection of traditional DevOps and the emerging AI platform layer—you’ll build and operate cloud-native platforms where AI/ML workloads are first-class citizens, integrate agentic tooling into delivery workflows, and help our clients operationalize AI capabilities within their existing infrastructure. You’ll manage projects autonomously, leverage strong communication and collaboration, and focus on client satisfaction and high availability. The Mission As a Senior DevOps Engineer at EverOps you will join our U.S.-Based Virtual Operating Center (your home office), working with a team of dynamic engineers to manage and evolve multiple customers’ production cloud environments. You’ll bring AI-native thinking to infrastructure automation—using AI-assisted development tools as standard delivery accelerators, designing platform patterns that support AI workloads alongside traditional services, and contributing to EverOps’ growing AI practice. Our existing team of engineers has a deep understanding of our customer environments and are eager to empower, ramp up, and mentor each new hire so that success is achieved. What You’ll Do Develop and use automation tools effectively to operate, manage, and scale production and development environments quickly Design and operate platform infrastructure that supports both traditional and AI/ML workloads—model serving endpoints, inference scaling, GPU-aware scheduling, and managed AI service integration Build AI-augmented operational tooling including agentic runbook execution, AI-assisted incident triage, and intelligent alerting pipelines Use AI coding tools (Claude Code, GitHub Copilot) as standard delivery accelerators across infrastructure and automation work Integrate managed AI services (AWS Bedrock, SageMaker, or equivalent) into client platform architectures, including vector store infrastructure and RAG-supporting patterns Automate toil reduction using LLM-powered automation—generating IaC, synthesizing operational insights, and accelerating documentation workflows Implement new tools and technologies as customer requirements evolve, with a focus on AI-readiness across the platform stack Monitor environments while focusing on constant improvement, including observability for AI workloads (inference latency, model endpoint health, token throughput) Support production workload migrations using blue-green and progressive delivery patterns Contribute to multi-tenant Kubernetes platform operations and maintenance Participate in regular customer and internal EverOps scrums Contribute to internal AI practice development, client AI readiness assessments, and the evolution of EverOps’ agentic engineering methodology You Have 5+ years of professional experience as a DevOps, CloudOps, Platform, or Site Reliability Engineer Hands-on experience and deep understanding of Linux Strong hands-on professional experience with either Golang, Python, Ruby, Bash, Typescript, or Rust Strong hands-on experience with Amazon Web Services, Google Cloud, or Azure designing, building, and running highly-available cloud-native environments Production experience with Amazon EKS including multi-tenant cluster architecture, namespace isolation, and RBAC models Experience deploying or operating AI/ML infrastructure—model serving endpoints, inference APIs, GPU instances, or managed AI services (Bedrock, SageMaker, or equivalent) Familiarity with AI-assisted development workflows and agentic tooling (Claude Code, Copilot, or similar) as applied to infrastructure and automation work Understanding of vector databases, retrieval-augmented generation (RAG) patterns, or LLM integration at the infrastructure level Experience with ArgoCD for GitOps-driven deployments; federated ArgoCD experience a plus Experience with HashiCorp Vault for secrets management, including integration with Kubernetes (External Secrets Operator or similar) Understanding of GitOps workflows, repository structures, and governance patterns Understanding of current best practices and principles related to Infrastructure as Code (Terraform + Atlantis and/or CloudFormation) Experience with CI/CD tools like Jenkins, GitHub Actions, ArgoCD, Spinnaker, etc. Familiarity and/or experience with containerization using Docker and Kubernetes (K8s) Experience with monitoring tools such as Datadog, Splunk, ELK, Prometheus/Grafana Experience with automation tools like Ansible, Chef, Packer, etc. Extra Awesome Experience with AWS Bedrock, AgentCore, or Strands Agents SDK for building agentic AI workloads Experience building agentic workflows or AI-powered internal tooling (automated triage, intelligent escalation, self-healing infrastructure) AI safety and governance awareness—guardrails, content filtering, prompt injection mitigation, or responsible AI operationalization Platform engineering for multi-tenant AI workloads including isolation, cost attribution, and inference resource management Argo Rollouts or similar progressive delivery tooling (canary, blue-green deployments) FinOps experience including cost allocation, tagging strategies, and compute optimization for AI/GPU workloads Gaming infrastructure or high-MAU consumer platform experience Atmos (Terraform wrapper) experience Platform consolidation or migration program experience NoSQL experience with Cassandra, MongoDB, or DynamoDB Relational database experience with MySQL or Postgres Industry certifications (AWS AIF-C01, AWS Solutions Architect, Red Hat, HashiCorp, Google Cloud, etc.) Strong desire to learn new technologies Experience in SaaS companies and startup environments Benefits 100% remote workplace – We’ve been remote since Day 1! Unlimited Paid Time Off Equity – If you display ownership of the work you’re doing you’ll become a true owner of the company 401K with company contribution Company sponsored healthcare Competitive compensation Opportunities to accelerate professional growth with access to training and certification programs Apply for this Job Powered by Privacy PolicySecurityVulnerability Disclosure",
+      "outcome": "live",
+      "evidence": "title \"Senior DevOps Engineer, AI-Enabled Platform Engineering\" shown on the page"
+    },
+    {
+      "id": "x-garmin-software-engineer-devops-18673",
+      "company": "Garmin",
+      "title": "Software Engineer - DevOps",
+      "url": "https://careers.garmin.com/jobs/18673?lang=en-us",
+      "checkedAt": "2026-11-24T12:50:47.569Z",
+      "captureText": true,
+      "finalUrl": "https://careers.garmin.com/jobs/18673?lang=en-us",
+      "httpStatus": 403,
+      "pageTitle": "403 Forbidden",
       "jsonLd": null,
-      "pageText": "Skip to main content The CrowdStrike Careers portal uses cookies to optimize the portal functionality and provide you relevant content. To learn more or to change your cookie preferences, please visit the Workday Cookie Notice. Decline Accept Cookies English Sign In Search for Jobs Introduce Yourself The page you are looking for doesn't exist. Search for Jobs Follow Us CrowdStrike Candidate Privacy Notice © 2026 Workday, Inc. All rights reserved.",
-      "outcome": "unclear",
-      "evidence": "title not found; page starts: Skip to main content The CrowdStrike Careers portal uses cookies to optimize the portal functionality and provide you re"
+      "pageText": "403 Forbidden",
+      "outcome": "blocked",
+      "evidence": "HTTP 403 403 Forbidden 403 Forbidden"
     }
   ],
   "boards": [
@@ -668,7 +680,7 @@
       "id": "board-burnsmcd-it",
       "company": "Burns & McDonnell",
       "url": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
-      "checkedAt": "2026-11-23T11:01:47.343Z",
+      "checkedAt": "2026-11-24T12:51:07.039Z",
       "finalUrl": "https://burnsmcd.jobs/job-function/information-technology/jobs/",
       "httpStatus": 200,
       "pageTitle": "Information Technology Jobs | Burns & McDonnell",
@@ -685,11 +697,6 @@
           "title": "Lead Software Developer – Python React/Svelte (Mumbai)",
           "url": "https://burnsmcd.jobs/mumbai-ind/lead-software-developer-python-reactsvelte-mumbai/2F83BE78E4A94E30A7FEC20BDD9854FA/job/",
           "text": "Lead Software Developer – Python React/Svelte (Mumbai) Mumbai, IND"
-        },
-        {
-          "title": "Event Streaming Developer",
-          "url": "https://burnsmcd.jobs/bengaluru-ind/event-streaming-developer/09A64B6641064A1BB823B1AF2F746A8A/job/",
-          "text": "Event Streaming Developer Bengaluru, IND"
         },
         {
           "title": "Environmental Services Technology & Innovation Manager (Kansas City)",
@@ -745,6 +752,11 @@
           "title": "AI Engineer TSG",
           "url": "https://burnsmcd.jobs/bengaluru-ind/ai-engineer-tsg/97A9ED1B4E08412EADB5369727B3D3C6/job/",
           "text": "AI Engineer TSG Bengaluru, IND"
+        },
+        {
+          "title": "Senior Full Stack Developer (Tech Solutions - MBI)",
+          "url": "https://burnsmcd.jobs/mumbai-ind/senior-full-stack-developer-tech-solutions-mbi/174D1988C211446FA7E120D0C8EA1752/job/",
+          "text": "Senior Full Stack Developer (Tech Solutions - MBI) Mumbai, IND"
         }
       ]
     },
@@ -752,7 +764,7 @@
       "id": "board-burnsmcd-programming",
       "company": "Burns & McDonnell",
       "url": "https://burnsmcd.jobs/job-function/programming/jobs/",
-      "checkedAt": "2026-11-23T11:01:53.720Z",
+      "checkedAt": "2026-11-24T12:51:13.291Z",
       "finalUrl": "https://burnsmcd.jobs/job-function/programming/jobs/",
       "httpStatus": 200,
       "pageTitle": "Programming Jobs | Burns & McDonnell",
@@ -801,7 +813,7 @@
       "id": "board-hntb-it",
       "company": "HNTB",
       "url": "https://hntb.jobs/job-category/information-technology-group/jobs/",
-      "checkedAt": "2026-11-23T11:01:59.675Z",
+      "checkedAt": "2026-11-24T12:51:19.273Z",
       "finalUrl": "https://hntb.jobs/job-category/information-technology-group/jobs/",
       "httpStatus": 200,
       "pageTitle": "Information Technology Group Jobs | HNTB",
@@ -825,7 +837,7 @@
       "id": "board-oracle-sre",
       "company": "Oracle (incl. Oracle Health, Kansas City)",
       "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
-      "checkedAt": "2026-11-23T11:02:05.389Z",
+      "checkedAt": "2026-11-24T12:51:26.249Z",
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=site%20reliability&location=United%20States&locationId=300000000149325",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Oracle Careers",
@@ -839,14 +851,19 @@
           "text": "Site Reliability Engineer 2 Nashville, TN, United States and 1 more HOT JOB TRENDING Contributes to the design and architecture of infrastructure and service to ensure reliability and functionality."
         },
         {
-          "title": "Site Reliability Engineer 2",
-          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340135/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-          "text": "Site Reliability Engineer 2 Nashville, TN, United States TRENDING This role combines systems administration, production support, cloud operations, cybersecurity remediation, and site reliability engin"
+          "title": "Principal Site Reliability Engineer",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/350843/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Principal Site Reliability Engineer United States HOT JOB Oracle Health is seeking an experienced Site Reliability Engineer to support the reliability, availability, security, and performance of the C"
         },
         {
           "title": "Principal Site Reliability Engineer",
           "url": "https://careers.oracle.com/en/sites/jobsearch/job/340128/?keyword=site+reliability&location=United+States&locationId=300000000149325",
           "text": "Principal Site Reliability Engineer Nashville, TN, United States Oracle is seeking an experienced, hands-on Principal Site Reliability Engineer to lead the design, reliability, security, and operation"
+        },
+        {
+          "title": "Site Reliability Engineer 2",
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/340135/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Site Reliability Engineer 2 Nashville, TN, United States TRENDING This role combines systems administration, production support, cloud operations, cybersecurity remediation, and site reliability engin"
         },
         {
           "title": "Senior Site Reliability Engineer",
@@ -870,8 +887,8 @@
         },
         {
           "title": "Senior Site Reliability Engineer",
-          "url": "https://careers.oracle.com/en/sites/jobsearch/job/349999/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-          "text": "Senior Site Reliability Engineer Reston, VA, United States and 2 more BE THE FIRST TO APPLY Takes proactive steps to design and architect infrastructure and service to ensure reliability and functiona"
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/348474/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Senior Site Reliability Engineer Nashville, TN, United States TRENDING Takes proactive steps to design and architect infrastructure and service to ensure reliability and functionality."
         },
         {
           "title": "Senior Principal Site Reliability Engineer - US Top Secret Clearance",
@@ -880,8 +897,8 @@
         },
         {
           "title": "Senior Site Reliability Engineer",
-          "url": "https://careers.oracle.com/en/sites/jobsearch/job/348474/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-          "text": "Senior Site Reliability Engineer Nashville, TN, United States TRENDING Takes proactive steps to design and architect infrastructure and service to ensure reliability and functionality."
+          "url": "https://careers.oracle.com/en/sites/jobsearch/job/349999/?keyword=site+reliability&location=United+States&locationId=300000000149325",
+          "text": "Senior Site Reliability Engineer Reston, VA, United States and 2 more BE THE FIRST TO APPLY Takes proactive steps to design and architect infrastructure and service to ensure reliability and functiona"
         },
         {
           "title": "Lead Principal Site Reliability Engineer",
@@ -897,11 +914,6 @@
           "title": "Lead Principal Reliability Engineer - Electrical (Nashville, TN on-site)",
           "url": "https://careers.oracle.com/en/sites/jobsearch/job/349443/?keyword=site+reliability&location=United+States&locationId=300000000149325",
           "text": "Lead Principal Reliability Engineer - Electrical (Nashville, TN on-site) Nashville, TN, United States You will serve as a senior individual contributor and trusted advisor to Site Operations, Design E"
-        },
-        {
-          "title": "Lead Principal Reliability Engineer - Electrical (Nashville, TN on-site)",
-          "url": "https://careers.oracle.com/en/sites/jobsearch/job/339626/?keyword=site+reliability&location=United+States&locationId=300000000149325",
-          "text": "Lead Principal Reliability Engineer - Electrical (Nashville, TN on-site) Nashville, TN, United States and 1 more As a Lead Principal Reliability Engineer – Electrical, you will lead electrical reliabi"
         }
       ]
     },
@@ -909,7 +921,7 @@
       "id": "board-oracle-em",
       "company": "Oracle (incl. Oracle Health, Kansas City)",
       "url": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
-      "checkedAt": "2026-11-23T11:02:13.746Z",
+      "checkedAt": "2026-11-24T12:51:36.182Z",
       "finalUrl": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=software%20development%20manager&location=Kansas%20City%2C%20MO%2C%20United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Oracle Careers",
@@ -993,7 +1005,7 @@
       "id": "board-dell-sre",
       "company": "Dell Technologies",
       "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=site%20reliability&location=United%20States",
-      "checkedAt": "2026-11-23T11:02:22.623Z",
+      "checkedAt": "2026-11-24T12:51:46.315Z",
       "finalUrl": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=site%20reliability&location=United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Dell Careers",
@@ -1002,9 +1014,9 @@
       "count": 6,
       "jobs": [
         {
-          "title": "Principal Systems Development Engineer",
+          "title": "Principal Systems Software Development Engineer",
           "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/301681/?keyword=site+reliability&location=United+States",
-          "text": "Principal Systems Development Engineer TX, United States"
+          "text": "Principal Systems Software Development Engineer TX, United States"
         },
         {
           "title": "Hardware, Mechanical Power Engineer - Federal Customer",
@@ -1037,7 +1049,7 @@
       "id": "board-dell-em",
       "company": "Dell Technologies",
       "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=engineering%20manager&location=United%20States",
-      "checkedAt": "2026-11-23T11:02:32.085Z",
+      "checkedAt": "2026-11-24T12:51:54.564Z",
       "finalUrl": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=engineering%20manager&location=United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - Dell Careers",
@@ -1051,9 +1063,9 @@
           "text": "Senior Systems Engineer, Data Management NC, United States"
         },
         {
-          "title": "Cable & Optics Senior Principal Electrical Engineer",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/301836/?keyword=engineering+manager&location=United+States",
-          "text": "Cable & Optics Senior Principal Electrical Engineer Santa Clara, CA, United States"
+          "title": "Product Manager - Security Planning",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/301313/?keyword=engineering+manager&location=United+States",
+          "text": "Product Manager - Security Planning Round Rock, TX, United States"
         },
         {
           "title": "Mechanical Principal Engineer",
@@ -1066,24 +1078,29 @@
           "text": "Senior Product Manager - AI Engineering Hopkinton, MA, United States and 1 more"
         },
         {
+          "title": "Senior Product Manager – Core Portfolio and Power Commodity Planner",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/301348/?keyword=engineering+manager&location=United+States",
+          "text": "Senior Product Manager – Core Portfolio and Power Commodity Planner Round Rock, TX, United States"
+        },
+        {
+          "title": "Cable & Optics Senior Principal Electrical Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/301836/?keyword=engineering+manager&location=United+States",
+          "text": "Cable & Optics Senior Principal Electrical Engineer Santa Clara, CA, United States"
+        },
+        {
           "title": "Hardware Senior Principal Engineer",
           "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300658/?keyword=engineering+manager&location=United+States",
           "text": "Hardware Senior Principal Engineer Austin, TX, United States"
         },
         {
+          "title": "Product Management – Memory Commodity Planning",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/295153/?keyword=engineering+manager&location=United+States",
+          "text": "Product Management – Memory Commodity Planning Round Rock, TX, United States"
+        },
+        {
           "title": "Engineering Lab Technician 2",
           "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/302591/?keyword=engineering+manager&location=United+States",
           "text": "Engineering Lab Technician 2 Austin, TX, United States"
-        },
-        {
-          "title": "Agent Ops, Technical Product Management (Forward Deployed Engineer)",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/301242/?keyword=engineering+manager&location=United+States",
-          "text": "Agent Ops, Technical Product Management (Forward Deployed Engineer) Round Rock, TX, United States"
-        },
-        {
-          "title": "Agent Ops, Technical Product Management (Forward Deployed Engineer)",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/301239/?keyword=engineering+manager&location=United+States",
-          "text": "Agent Ops, Technical Product Management (Forward Deployed Engineer) Round Rock, TX, United States"
         },
         {
           "title": "Senior Advisor, Cybersecurity Engineering & Operations",
@@ -1094,6 +1111,21 @@
           "title": "Senior Principal Systems Development Engineer",
           "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/295843/?keyword=engineering+manager&location=United+States",
           "text": "Senior Principal Systems Development Engineer Round Rock, TX, United States"
+        },
+        {
+          "title": "GenAI & High Performance Computing (HPC) Delivery Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300167/?keyword=engineering+manager&location=United+States",
+          "text": "GenAI & High Performance Computing (HPC) Delivery Engineer Chicago, IL, United States"
+        },
+        {
+          "title": "Agent Ops, Technical Product Management (Forward Deployed Engineer)",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/301242/?keyword=engineering+manager&location=United+States",
+          "text": "Agent Ops, Technical Product Management (Forward Deployed Engineer) Round Rock, TX, United States"
+        },
+        {
+          "title": "Agent Ops, Technical Product Management (Forward Deployed Engineer)",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/301239/?keyword=engineering+manager&location=United+States",
+          "text": "Agent Ops, Technical Product Management (Forward Deployed Engineer) Round Rock, TX, United States"
         },
         {
           "title": "Firmware Principal Engineer – System Development",
@@ -1111,11 +1143,6 @@
           "text": "Product Management, Third Party Parts Round Rock, TX, United States"
         },
         {
-          "title": "Cable & Optics Senior Principal Electrical Engineer",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/301844/?keyword=engineering+manager&location=United+States",
-          "text": "Cable & Optics Senior Principal Electrical Engineer Santa Clara, CA, United States"
-        },
-        {
           "title": "Hardware Senior Principal Engineer – System Development",
           "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/295832/?keyword=engineering+manager&location=United+States",
           "text": "Hardware Senior Principal Engineer – System Development Santa Clara, CA, United States and 1 more"
@@ -1126,9 +1153,24 @@
           "text": "Senior Principal Mechanical Engineer (Modular Data Center Architecture) Hopkinton, MA, United States and 1 more"
         },
         {
-          "title": "Consultant, Cryptography Security Architect",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/291956/?keyword=engineering+manager&location=United+States",
-          "text": "Consultant, Cryptography Security Architect Round Rock, TX, United States and 1 more"
+          "title": "Senior GenAI & High Performance Computing (HPC) Delivery Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300173/?keyword=engineering+manager&location=United+States",
+          "text": "Senior GenAI & High Performance Computing (HPC) Delivery Engineer New York, NY, United States"
+        },
+        {
+          "title": "Senior GenAI & High Performance Computing (HPC) Delivery Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300171/?keyword=engineering+manager&location=United+States",
+          "text": "Senior GenAI & High Performance Computing (HPC) Delivery Engineer AZ, United States"
+        },
+        {
+          "title": "Senior GenAI & High Performance Computing (HPC) Delivery Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300168/?keyword=engineering+manager&location=United+States",
+          "text": "Senior GenAI & High Performance Computing (HPC) Delivery Engineer Atlanta, GA, United States"
+        },
+        {
+          "title": "Senior GenAI & High Performance Computing (HPC) Delivery Engineer",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300169/?keyword=engineering+manager&location=United+States",
+          "text": "Senior GenAI & High Performance Computing (HPC) Delivery Engineer Denver, CO, United States"
         },
         {
           "title": "Technical Staff, Hardware Engineering - AI Server Systems",
@@ -1136,39 +1178,9 @@
           "text": "Technical Staff, Hardware Engineering - AI Server Systems Round Rock, TX, United States"
         },
         {
-          "title": "Senior Systems Development Engineer",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/302047/?keyword=engineering+manager&location=United+States",
-          "text": "Senior Systems Development Engineer TX, United States"
-        },
-        {
-          "title": "Principal Systems Development Engineer",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/302039/?keyword=engineering+manager&location=United+States",
-          "text": "Principal Systems Development Engineer TX, United States"
-        },
-        {
-          "title": "Technical Product Manager, Agentic AI Security",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/298743/?keyword=engineering+manager&location=United+States",
-          "text": "Technical Product Manager, Agentic AI Security Round Rock, TX, United States"
-        },
-        {
-          "title": "Principal Systems Development Engineer",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/301681/?keyword=engineering+manager&location=United+States",
-          "text": "Principal Systems Development Engineer TX, United States"
-        },
-        {
-          "title": "Senior Principal Engineer, Solutions Architecture",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300111/?keyword=engineering+manager&location=United+States",
-          "text": "Senior Principal Engineer, Solutions Architecture TX, United States"
-        },
-        {
-          "title": "PCB Librarian / eCAD Library Engineer",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/299171/?keyword=engineering+manager&location=United+States",
-          "text": "PCB Librarian / eCAD Library Engineer TX, United States"
-        },
-        {
-          "title": "Firmware Senior Principal Engineer – System Development",
-          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/292008/?keyword=engineering+manager&location=United+States",
-          "text": "Firmware Senior Principal Engineer – System Development Round Rock, TX, United States and 2 more"
+          "title": "Consultant, Cryptography Security Architect",
+          "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/291956/?keyword=engineering+manager&location=United+States",
+          "text": "Consultant, Cryptography Security Architect Round Rock, TX, United States and 1 more"
         }
       ]
     },
@@ -1176,7 +1188,7 @@
       "id": "board-dtcc-sre",
       "company": "DTCC",
       "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=site%20reliability&location=United%20States",
-      "checkedAt": "2026-11-23T11:02:39.651Z",
+      "checkedAt": "2026-11-24T12:52:02.433Z",
       "finalUrl": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=site%20reliability&location=United%20States",
       "httpStatus": 200,
       "pageTitle": "Search Jobs - DTCC Candidate Experience Site Careers",
@@ -1267,7 +1279,7 @@
         {
           "title": "Release Management Senior Associate",
           "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214695/?keyword=site+reliability&location=United+States",
-          "text": "Release Management Senior Associate Boston, MA, United States and 1 more Posting Date09/18/2026 BE THE FIRST TO APPLY The Information Technology group delivers secure, reliable technology solutions th"
+          "text": "Release Management Senior Associate Boston, MA, United States and 1 more Posting Date09/18/2026 The Information Technology group delivers secure, reliable technology solutions that enable DTCC to be t"
         },
         {
           "title": "Platform Engineering Senior Associate",
@@ -1955,72 +1967,72 @@
         "/viewjob?jk=1"
       ],
       "why": "job pages refused the fetch tool from 10/22 to 10/24",
-      "status": 429,
+      "status": 200,
       "finalUrl": "https://www.indeed.com/robots.txt",
-      "text": "",
+      "text": "# Default rules for all unspecified bots. Note that these apply to Bingbot too. User-agent: * Allow: / Allow: /*&start=0& Allow: /*&start=10& Allow: /*&start=20& Allow: /*&start=30& Allow: /*&start=40& Allow: /*&start=50& Allow: /*&start=60& Allow: /*&start=70& Allow: /*&start=80& Allow: /*&start=90& Disallow: /*rt=nc Disallow: /*&alid= Disallow: /*&calert= Disallow: /*&iafilter= Disallow: /*&mna= Disallow: /*?rss Disallow: /*&serpstart= Disallow: /*/vaclk Disallow: /addlLoc/ Disallow: /ads/ Disallow: /advanced_search Disallow: /alert Disallow: /api/fetch/mc-anon Disallow: /api/getrecjobs Disallow: /applystart Disallow: /cmp/_/ Disallow: /cmp/_c/claim/* Disallow: /cmp/_rpc/ Disallow: /cmp/addlink Disallow: /cmp/addvideo Disallow: /cmp/Login* Disallow: /cmp/*/analytics Disallow: /cmp/*/company-questions Disallow: /cmp/*/people Disallow: /cmp/*/write-review Disallow: /community/ Disallow: /company/* Disallow: /conversion/ Disallow: /cookiemigrator/ Disallow: /create-resume/lp/ Disallow: /cdn-cgi/ Disallow: /%E4%BB%95%E4%BA%8B? Disallow: /%E5%B7%A5%E4%BD%9C/ Disallow: /%E6%B1%82%E4%BA%BA/JP/ Disallow: /%E6%B1%82%E4%BA%BA/title/ Disallow: /%E8%81%8C%E4%BD%8D%E6%98%BE%E7%A4%BA? Disallow: /%EC%B7%A8%EC%97%85/KR/ Disallow: /%EC%B7%A8%EC%97%85/title/ Disallow: /empleo/ Disallow: /emploi/ Disallow: /emplois/FR/ Disallow: /emplois/title/ Disallow: /emprego/ Disallow: /empregos/BR/ Disallow: /empregos/title Disallow: /forum/profile Disallow: /g/ Disallow: /generate-question Disallow: /graphql Disallow: /imgping Disallow: /ita? Disallow: /ita/v1/publisher Disallow: /ja/clk? Disallow: /ja/imp.gif Disallow: /job/ Disallow: /Job/ Disallow: /jobb/ Disallow: /jobroll Disallow: /jobs/AE/ Disallow: /jobs/AQ/ Disallow: /Jobs/AT/ Disallow: /jobs/AU/ Disallow: /jobs/BE/ Disallow: /jobs/BH/ Disallow: /jobs/CA/ Disallow: /jobs/CZ/ Disallow: /jobs/DE/ Disallow: /Jobs/DE/ Disallow: /jobs/DK/ Disallow: /jobs/FI/ Disallow: /jobs/GB/ Disallow: /jobs/GR/ Disallow: /jobs/HK/ Disallow: /jobs/HU/ Disallow: /jobs/ID/ Disallow: /jobs/IE/ Disallow: /jobs/IL/ Disallow: /jobs/IN/ Disallow: /jobs/KW/ Disallow: /jobs/LU/ Disallow: /jobs/MY/ Disallow: /jobs/NO/ Disallow: /jobs/NZ/ Disallow: /jobs/OM/ Disallow: /jobs/PE/ Disallow: /jobs/PH/ Disallow: /jobs/PK/ Disallow: /jobs/PT/ Disallow: /jobs/QA/ Disallow: /jobs/RO/ Disallow: /jobs/RU/ Disallow: /jobs/SA/ Disallow: /jobs/SG/ Disallow: /jobs/title Disallow: /Jobs/title Disallow: /jobs/TR/ Disallow: /jobs/TW/ Disallow: /jobs/US/ Disallow: /jobs/VE/ Disallow: /jobs/ZA/ Disallow: /jobtrends/trends/log/* Disallow: /jwidget.js* Disallow: /me/*/pdf Disallow: /m/basecamp/analytics.js Disallow: /m/jobalerts? Disallow: /m/moreLoc Disallow: /m/newjobs Disallow: /m/recommended Disallow: /m/rpc/ Disallow: /m/viewjob Disallow: /my/ Disallow: /*oc=1 Disallow: /ofertas/ES/ Disallow: /ofertas/title/ Disallow: /offerta-lavoro Disallow: /offerte-lavoro/IT/ Disallow: /offerte-lavoro/title Disallow: /pagead/ Disallow: /poka%C5%BCprac%C4%99? Disallow: /praca/ Disallow: /preferences Disallow: /promo/ Disallow: /*radius= Disallow: /rc/ Disallow: /rdr/ Disallow: /recommendedjobs Disallow: /record-page-tags Disallow: /resumes/account Disallow: /resumes/advanced? Disallow: /resumes/alert Disallow: /resumes*radius= Disallow: /resumes*rb= Disallow: /resumes*res= Disallow: /resumes/rpc/ Disallow: /resumes*sort= Disallow: /resumes*start= Disallow: /rpc/ Disallow: /r/*/pdf Disallow: /rss Disallow: /setprefs Disallow: /*sid= Disallow: /*sp=0 Disallow: /*&start= Disallow: /stc Disallow: /Stellen/CH/ Disallow: /Stellen/title Disallow: /tellafriend Disallow: /tmn/ccs/ Disallow: /tos/banner.js Disallow: /trabajo/ Disallow: /uie/clk Disallow: /url Disallow: /v1/alerts Disallow: /v1/impressions Disallow: /vacature/ Disallow: /vacature-bekijken Disallow: /vacatures/NL/ Disallow: /vacatures/title/ Disallow: /ver-empleo Disallow: /ver-emprego Disallow: /ver-oferta Disallow: /viewjob Disallow: /visajobb Disallow: /voir-emploi Disallow: /Zeige-Job Disallow: //applystart Disallow: /hire/o/ats-partners Disallow: /hire/ats-partners Disallow: /offers # Rules for traditional search engines and for retrieval/grounding bots. User-agent: Googlebot User-agent: Google-Extended User-agent: ChatGPT-User User-agent: Slurp User-agent: DuckDuckBot User-agent: YahooJP User-agent: PetalBot User-agent: PerplexityBot User-agent: DuckAssistBot User-agent: Perplexity-User User-agent: YouBot User-agent: Claude-User User-agent: Gemini-Deep-Research User-agent: Claude-SearchBot User-agent: OAI-SearchBot User-agent: Google-Agent User-agent: Google-CloudVertexBot User-agent: Meta-WebIndexer User-agent: Meta-ExternalFetcher User-agent: xAI-Grok User-agent: Grok-DeepSearch Allow: / Allow: /*&start=0& Allow: /*&start=10& Allow: /*&start=20& Allow: /*&start=30& Allow: /*&start=40& Allow: /*&start=50& Allow: /*&start=60& Allow: /*&start=70& Allow: /*&start=80& Allow: /*&start=90& Disallow: /*rt=nc Disallow: /*&alid= Disallow: /*&calert= Disallow: /*&iafilter= Disallow: /*&mna= Disallow: /*?rss Disallow: /*&serpstart= Disallow: /*/vaclk Disallow: /addlLoc/ Disallow: /ads/ Disallow: /advanced_search Disallow: /alert Disallow: /api/fetch/mc-anon Disallow: /api/getrecjobs Disallow: /applystart Disallow: /cmp/_/ Disallow: /cmp/_c/claim/* Disallow: /cmp/_rpc/ Disallow: /cmp/addlink Disallow: /cmp/addvideo Disallow: /cmp/Login* Disallow: /cmp/*/analytics Disallow: /cmp/*/company-questions Disallow: /cmp/*/people Disallow: /cmp/*/write-review Disallow: /community/ Disallow: /company/* Disallow: /conversion/ Disallow: /cookiemigrator/ Disallow: /create-resume/lp/ Disallow: /cdn-cgi/ Disallow: /%E4%BB%95%E4%BA%8B? Disallow: /%E5%B7%A5%E4%BD%9C/ Disallow: /%E6%B1%82%E4%BA%BA/JP/ Disallow: /%E6%B1%82%E4%BA%BA/title/ Disallow: /%E8%81%8C%E4%BD%8D%E6%98%BE%E7%A4%BA? Disallow: /%EC%B7%A8%EC%97%85/KR/ Disallow: /%EC%B7%A8%EC%97%85/title/ Disallow: /empleo/ Disallow: /emploi/ Disallow: /emplois/FR/ Disallow: /emplois/title/ Disallow: /emprego/ Disallow: /empregos/BR",
       "verdicts": {
         "/jobs?q=x": {
           "open-jobs-data-liveness": {
             "allowed": true,
-            "rule": null,
-            "group": "none"
+            "rule": "Allow: /",
+            "group": "*"
           },
           "*": {
             "allowed": true,
-            "rule": null,
-            "group": "none"
+            "rule": "Allow: /",
+            "group": "*"
           },
           "Claude-User": {
             "allowed": true,
-            "rule": null,
-            "group": "none"
+            "rule": "Allow: /",
+            "group": "named"
           },
           "ClaudeBot": {
-            "allowed": true,
-            "rule": null,
-            "group": "none"
+            "allowed": false,
+            "rule": "Disallow: /jobs",
+            "group": "named"
           },
           "anthropic-ai": {
-            "allowed": true,
-            "rule": null,
-            "group": "none"
+            "allowed": false,
+            "rule": "Disallow: /jobs",
+            "group": "named"
           },
           "Googlebot": {
             "allowed": true,
-            "rule": null,
-            "group": "none"
+            "rule": "Allow: /",
+            "group": "named"
           }
         },
         "/viewjob?jk=1": {
           "open-jobs-data-liveness": {
-            "allowed": true,
-            "rule": null,
-            "group": "none"
+            "allowed": false,
+            "rule": "Disallow: /viewjob",
+            "group": "*"
           },
           "*": {
-            "allowed": true,
-            "rule": null,
-            "group": "none"
+            "allowed": false,
+            "rule": "Disallow: /viewjob",
+            "group": "*"
           },
           "Claude-User": {
             "allowed": true,
-            "rule": null,
-            "group": "none"
+            "rule": "Allow: /",
+            "group": "named"
           },
           "ClaudeBot": {
-            "allowed": true,
-            "rule": null,
-            "group": "none"
+            "allowed": false,
+            "rule": "Disallow: /viewjob",
+            "group": "named"
           },
           "anthropic-ai": {
-            "allowed": true,
-            "rule": null,
-            "group": "none"
+            "allowed": false,
+            "rule": "Disallow: /viewjob",
+            "group": "named"
           },
           "Googlebot": {
             "allowed": true,
-            "rule": null,
-            "group": "none"
+            "rule": "Allow: /",
+            "group": "named"
           }
         }
       }
@@ -2291,10 +2303,11 @@
     }
   ],
   "counts": {
-    "gone": 2,
-    "live": 34,
-    "closed_text": 2,
-    "unclear": 2
+    "gone": 1,
+    "live": 35,
+    "closed_text": 1,
+    "blocked": 2,
+    "unclear": 1
   },
-  "seconds": 327
+  "seconds": 339
 }
