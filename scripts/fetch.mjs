@@ -228,7 +228,8 @@ const WORKDAY_SITEMAP = process.env.WORKDAY_SITEMAP !== '0';
 // Pause (11/2026): Workday refused even single sitemap requests from the
 // runner on 11/20, so the feed leaves Workday alone until this UTC date to let
 // the block clear. Set WORKDAY_PAUSE_UNTIL to '' (env) to lift it early.
-const WORKDAY_PAUSE_UNTIL = process.env.WORKDAY_PAUSE_UNTIL ?? '2026-11-24';
+// 11/24: the first sitemap-mode night got HTTP 429 on its first read (Alteryx), so the pause runs to 12/08.
+const WORKDAY_PAUSE_UNTIL = process.env.WORKDAY_PAUSE_UNTIL ?? '2026-12-08';
 // Soft mode after the pause: sitemap only, no retries on a sitemap request,
 // a long pause between tenants, and the paged search only when a site has no
 // sitemap at all (404). Any 429 trips the breaker for the rest of the pass.
