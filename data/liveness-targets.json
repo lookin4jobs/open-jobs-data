@@ -1,6 +1,6 @@
 {
   "about": "Employer job postings for the nightly browser liveness check (scripts/liveness.mjs). Maintained from the repo owner's job tracker: postings whose employer page cannot be read without a browser. Targets whose id starts with calib- are known-closed controls: if one ever reads live, that night's live results are not trustworthy. Boards are employer careers pages that only list their jobs in a browser; the check records the job links they show, for discovery only.",
-  "updated": "2026-11-24",
+  "updated": "2026-11-26",
   "targets": [
     {
       "id": "calib-icims-navitus-6474",
@@ -111,14 +111,6 @@
       "captureText": true
     },
     {
-      "id": "x-oracle-lead-principal-site-reliability-engineer-349270",
-      "company": "Oracle",
-      "title": "Lead Principal Site Reliability Engineer",
-      "url": "https://careers.oracle.com/en/sites/jobsearch/job/349270/",
-      "why": "new 11/06 from the Oracle SRE board (United States and 1 more); Oracle job pages render only in a browser, location and requirements unread",
-      "captureText": true
-    },
-    {
       "id": "ashby-057e613a-e6fa-4445-a6c6-132ddd091c65",
       "company": "Quilter",
       "title": "Senior/Staff Platform Engineer, Enterprise Deployments",
@@ -199,30 +191,6 @@
       "captureText": true
     },
     {
-      "id": "x-dtcc-systems-engineering-principal-213437",
-      "company": "DTCC",
-      "title": "Systems Engineering Principal",
-      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/213437/",
-      "why": "DTCC board find 11/16; Oracle Recruiting Cloud renders only in a browser, requirements and work setup unread",
-      "captureText": true
-    },
-    {
-      "id": "x-dtcc-platform-engineering-senior-associate-215117",
-      "company": "DTCC",
-      "title": "Platform Engineering Senior Associate",
-      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/215117/",
-      "why": "DTCC board find 11/16; Oracle Recruiting Cloud renders only in a browser, requirements and work setup unread",
-      "captureText": true
-    },
-    {
-      "id": "x-dtcc-release-management-senior-associate-214695",
-      "company": "DTCC",
-      "title": "Release Management Senior Associate",
-      "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214695/",
-      "why": "DTCC board find 11/16; Oracle Recruiting Cloud renders only in a browser, requirements and work setup unread",
-      "captureText": true
-    },
-    {
       "id": "x-hard-rock-digital-senior-manager-devops",
       "company": "Hard Rock Digital",
       "title": "Senior Manager - DevOps",
@@ -263,14 +231,6 @@
       "captureText": true
     },
     {
-      "id": "ashby-2a92b848-b7de-44b3-a979-6fbcdc559652",
-      "company": "1upHealth",
-      "title": "Staff DevOps Engineer (Platform)",
-      "url": "https://jobs.ashbyhq.com/1uphealth/2a92b848-b7de-44b3-a979-6fbcdc559652",
-      "why": "Ashby body renders only in a browser; requirements read only from an aggregator",
-      "captureText": true
-    },
-    {
       "id": "ashby-ccad2727-6c05-4c68-9675-bf9c4ef51852",
       "company": "Overstory",
       "title": "Staff Site Reliability Engineer",
@@ -295,14 +255,6 @@
       "captureText": true
     },
     {
-      "id": "x-garmin-software-engineer-devops-18673",
-      "company": "Garmin",
-      "title": "Software Engineer - DevOps",
-      "url": "https://careers.garmin.com/jobs/18673?lang=en-us",
-      "why": "requirements and office days unread (api/jobs lists the title only); the browser got 403 here before",
-      "captureText": true
-    },
-    {
       "id": "wd-fortna-r9655",
       "company": "FORTNA",
       "title": "Manager, Software Sustainability (R9655)",
@@ -316,6 +268,54 @@
       "title": "Staff Cloud Engineer, ML Ops (R5143)",
       "url": "https://modmed.wd501.myworkdayjobs.com/ModMed12/job/Boca-Raton-FL/Staff-Cloud-Engineer--ML-Ops_R5143",
       "why": "new 11/24; remoteType Remote US but location Boca Raton, capture the work setup text",
+      "captureText": true
+    },
+    {
+      "id": "gh-5291153007",
+      "company": "Clarity Innovations",
+      "title": "Principal Platform Engineer",
+      "url": "https://boards.greenhouse.io/clarityinnovates/jobs/5291153007",
+      "why": "needs_check since 11/26; Greenhouse API client_error with no status",
+      "captureText": true
+    },
+    {
+      "id": "x-murmuration-manager-software-engineering",
+      "company": "Murmuration",
+      "title": "Manager, Software Engineering",
+      "url": "https://apply.workable.com/murmuration/j/95CB314289",
+      "why": "needs_check since 11/26; Workable API client_error, requirements unread",
+      "captureText": true
+    },
+    {
+      "id": "gh-4509147009",
+      "company": "NinjaOne",
+      "title": "Engineering Manager, DevOps",
+      "url": "https://boards.greenhouse.io/ninjaone/jobs/4509147009",
+      "why": "new needs_check 11/26; Greenhouse API rate limited, state list (Missouri) unread",
+      "captureText": true
+    },
+    {
+      "id": "gh-5002189101",
+      "company": "Nscale",
+      "title": "Principal Observability Platform Engineer",
+      "url": "https://boards.greenhouse.io/nscaleoperationsukltd/jobs/5002189101",
+      "why": "new needs_check 11/26; Greenhouse API rate limited, requirements read only from an aggregator",
+      "captureText": true
+    },
+    {
+      "id": "wd-cdw-r26-00002670",
+      "company": "CDW",
+      "title": "Manager, Engineering, Managed Services - AIX, Unix & Linux (R26_00002670)",
+      "url": "https://cdw.wd5.myworkdayjobs.com/careers/job/remote--usa/manager--engineering--managed-services---aix--unix---linux_r26_00002670",
+      "why": "needs_check since 11/25; Workday cxs client_error",
+      "captureText": true
+    },
+    {
+      "id": "ashby-7b5c041d-f92b-45c7-88d4-5b3e6a3de5db",
+      "company": "Thyme Care",
+      "title": "Senior Platform Engineer",
+      "url": "https://jobs.ashbyhq.com/thyme-care/7b5c041d-f92b-45c7-88d4-5b3e6a3de5db",
+      "why": "new 11/26; Ashby serves only the title, requirements and state limits read from an aggregator",
       "captureText": true
     }
   ],
